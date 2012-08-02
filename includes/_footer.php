@@ -62,7 +62,7 @@
                 <li><a href="#">e</a></li>
                 <li><a href="#">o</a></li>
                 <li><a href="#">d</a></li>
-            </ul>	
+            </ul>  
         </div>
     </div>
     <div class="row">
