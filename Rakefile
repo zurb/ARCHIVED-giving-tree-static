@@ -11,7 +11,8 @@ task :deploy => [
 
 task :test => [
   :replace_tabs_with_2_spaces, 
-  :check_for_non_sass_urls
+  :check_for_non_sass_urls,
+  :create_site_manifest
 ]
 
 task :replace_tabs_with_2_spaces do
@@ -100,5 +101,6 @@ task :create_site_manifest do
   open("MANIFEST","w") do |f|
     f.write urls.join("\n").to_s
   end
-  `git add MANIFEST`
+  res = `git add MANIFEST`
+  raise "MANIFEST CHANGED, PLEASE COMMIT" unless res.empty?
 end
