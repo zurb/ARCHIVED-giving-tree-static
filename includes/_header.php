@@ -53,9 +53,9 @@
         </div>
         <nav class="nine columns">
             <ul class="link-list">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="#">Who We Help</a></li>
-                <li><a href="#">Lead a Drive</a></li>
+                <li><a href="lead-a-drive.php">Lead a Drive</a></li>
                 <li><a href="#">Sponsors</a></li>
                 <li><a href="#">Join Our Community</a></li>
                 <li><a href="#">About</a></li>

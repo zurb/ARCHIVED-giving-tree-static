@@ -95,7 +95,6 @@ task :export_to_site do
 end
 
 task :create_site_manifest do
-  # Dir.glob("http://staging.familygivingtree.org/")
   files = Dir.glob("**/*.php").reject {|f| f.match(/includes\//)}
   urls = files.map {|f| "http://staging.familygivingtree.org/#{f}" }
   open("MANIFEST","w") do |f|
