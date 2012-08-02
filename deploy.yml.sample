@@ -1,0 +1,4 @@
+deploy_to: /wired
+username: secret
+password: secret
+host: secret

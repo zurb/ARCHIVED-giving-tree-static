@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8" />
-
+  <? date_default_timezone_set('UTC'); ?>
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
   <!-- For third-generation iPad with high-resolution Retina display: -->
@@ -23,7 +23,7 @@
   <meta name="keywords" content="keywords" />
   <meta name="description" content="description" />
   <meta name="author" content="family giving tree" />
-  <meta name="copyright" content="Family Giving Tree, inc. Copyright (c) 2012" />
+  <meta name="copyright" content="Family Giving Tree, inc. Copyright (c) <? date("Y") ?>" />
 
   <title>Family Giving Tree: <?= $page_title ?></title>
 
@@ -38,4 +38,29 @@
   <![endif]-->
 
 </head>
-<body>
+<body class="<?= $page_template ?>">
+
+<header>
+    <div class="row">
+        <div class="twelve columns">
+            <a href="#" class="medium button right">Donate</a>
+        </div>
+    </div>
+    <!-- end .row -->
+    <div class="row">
+        <div class="three columns">
+            <a href="index.php"><img src="http://placehold.it/200x130" alt="Family Giving Tree"></a>
+        </div>
+        <nav class="nine columns">
+            <ul class="nav-bar">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Kickoff a Drive</a></li>
+                <li><a href="#">Join Our Community</a></li>
+                <li><a href="#">Who We Help</a></li>
+                <li><a href="#">Sponsors</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- end .row -->
+</header>
