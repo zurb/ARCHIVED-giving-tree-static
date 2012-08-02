@@ -67,11 +67,12 @@
   <div class="row">
     <div class="twelve columns">
       <h4>Why Sponsor Family Giving Tree</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis erat arcu, vitae dignissim lectus. Donec enim nunc, vestibulum nec volutpat eget, lobortis sed odio. Donec hendrerit, velit id faucibus ultricies, turpis eros suscipit leo, sed consequat libero elit eu tellus. Phasellus fringilla nunc nisl. Vestibulum feugiat pharetra turpis quis euismod. Morbi vitae nunc et diam laoreet gravida varius a magna. Duis quam velit, ultricies et varius quis, rutrum ac dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus sit amet nunc vel lacus gravida luctus et eget lectus. Duis eu magna vitae augue placerat consequat. Nam molestie luctus mauris, non sollicitudin urna lacinia at. Aliquam ultricies mollis nibh in pulvinar. Nam a eros id turpis varius ornare vitae nec erat. Duis eget risus enim, a porttitor lectus. Nullam tortor libero, venenatis sed mattis a, fringilla a orci.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis erat arcu, vitae dignissim lectus. Donec enim nunc, vestibulum nec volutpat eget, lobortis sed odio. Donec hendrerit, velit id faucibus ultricies, turpis eros suscipit leo, sed consequat libero elit eu tellus. Phasellus fringilla nunc nisl. Vestibulum feugiat pharetra turpis quis euismod. Morbi vitae nunc et diam laoreet gravida varius a magna.</p>
 
       <p>Nulla at ligula ligula, nec varius felis. Vestibulum diam erat, commodo sit amet tristique a, varius ut est. Nunc id felis orci, eu eleifend libero. Nam id turpis mauris. Suspendisse potenti. Sed viverra pellentesque erat ut aliquet. Duis at dui enim, tristique ultricies lorem. In fermentum lorem viverra massa auctor id lobortis metus malesuada. Aliquam dui arcu, rhoncus nec dignissim quis, feugiat ac est. Vestibulum sollicitudin nulla nec nisl tincidunt gravida. Nulla facilisi.</p>
-
-      <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam euismod suscipit ante nec congue. Mauris diam tellus, malesuada nec consequat vitae, ullamcorper sit amet justo. Sed vitae nulla vitae quam laoreet ultrices ac ac nisl. Aliquam eu tortor nec est consequat vehicula et non quam. Mauris nulla quam, porta eu sagittis nec, interdum a augue. Suspendisse interdum cursus sollicitudin. Nullam sed sem id est porta dapibus. Suspendisse bibendum, magna vel gravida interdum, sem justo mollis felis, vitae mollis tortor libero id est. Donec quis dignissim turpis. Aliquam vestibulum sollicitudin elit, sit amet posuere urna laoreet lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis eget mi metus, quis aliquam lacus. Mauris cursus mattis mauris ut accumsan. Mauris non risus enim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      
+      <a href="#" class="medium button">Become a Sponsor</a>
+      
     </div>
   </div>
   
@@ -85,3 +86,11 @@
        $('#featured').orbit();
    });
 </script>
+
+
+<div id="sponsorModal" class="reveal-modal">
+  <h2>Awesome. I have it.</h2>
+  <p class="lead">Your couch.  I it's mine.</p>
+  <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
