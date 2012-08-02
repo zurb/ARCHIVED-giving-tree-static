@@ -13,7 +13,7 @@
 
 <div class="row">
   <div class="twelve columns">
-    <hr
+    <hr>
   </div>
 </div>
 

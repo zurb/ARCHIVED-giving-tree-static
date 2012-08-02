@@ -10,10 +10,15 @@ task :deploy => [
 ]
 
 task :test => [
+  :fetch_recent_code,
   :replace_tabs_with_2_spaces, 
   :check_for_non_sass_urls,
   :create_site_manifest
 ]
+
+task :fetch_recent_code do
+  `git pull origin master`
+end
 
 task :replace_tabs_with_2_spaces do
   js_files = Dir.glob("#{root}/javascripts/**/*.js")
@@ -63,6 +68,7 @@ task :check_for_broken_links do
 end
 
 task :export_to_site do
+  puts "[EXPORT_TO_SITE TIMESTAMP] #{Time.now.to_s}"
   ftp = BetterFTP.open(deploy["host"], deploy["username"], deploy["password"])
   files = `git ls-files`.split("\n").map {|f| "#{root}/#{f}"}
   `compass compile`
