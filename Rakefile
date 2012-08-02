@@ -4,25 +4,58 @@ root = File.dirname(__FILE__)
 deploy = YAML::load_file(File.join(root, "deploy.yml"))
 deploy_to = deploy["deploy_to"]
 
-task :default => [:export_to_site]
+task :default => [
+  :replace_tabs_with_2_spaces, 
+  :check_for_non_sass_urls, 
+  :export_to_site
+]
 
 task :test => [:replace_tabs_with_2_spaces, :check_for_non_sass_urls, :run_s3_validations]
 
 task :replace_tabs_with_2_spaces do
-  true
+  js_files = Dir.glob("#{root}/javascripts/**/*.js")
+  scss_files = Dir.glob("#{root}/sass/**/*.scss")
+  php_files = Dir.glob("#{root}/**/*.php")
+  files = js_files + scss_files + php_files
+  update_count = 0
+  files.each do |file|
+    has_tabs = false
+    new_content = ""
+    open(file,"r") do |f|
+      if !f.grep(/\t/).count.zero?
+        has_tabs = true
+        f.rewind
+        new_content = f.read.gsub(/\t/,"  ")
+      end
+    end
+    if has_tabs
+      open(file,"w") {|f| f.write new_content}
+      puts "REPLACED WITH SPACES: #{file}"
+      update_count = update_count + 1
+    end
+  end
+  raise "PENDING TAB CONVERSIONS" unless update_count.zero?
 end
 
 task :run_w3c_validations do
   true
 end
 
-task :check_for_non_sass_urls do
-  # scss_files = Dir.glob("#{root}/sass/**/*.scss")
-  # 
-  # scss_files.each do |scss|
-  #   open(scss) { |f| f.grep(/url/) }
-  # end
-  true
+task :check_for_non_sass_urls do  
+  scss_files = Dir.glob("#{root}/sass/**/*.scss")
+  
+  scss_files.each do |scss|
+    open(scss) do |f| 
+      if !f.grep(/[^-]url\(/).count.zero?
+        puts "CONTAINS NON-SASS URLS: #{scss}"
+        raise "NON_SASS_URLS_FOUND"
+      end
+    end
+  end
+end
+
+task :check_for_broken_links do
+  
 end
 
 task :export_to_site do
