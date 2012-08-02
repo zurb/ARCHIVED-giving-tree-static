@@ -46,3 +46,40 @@
 
 
 // TESTING COMPASS WATCH, PUT CSS BELOW
+
+/*Fonts*/
+@font-face {
+  font-family: 'FoundationIconsGeneral';
+  src: url('../fonts/icons/foundation-icons-general.eot');
+  src: url('../fonts/icons/foundation-icons-general.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/icons/foundation-icons-general.woff') format('woff'),
+       url('../fonts/icons/foundation-icons-general.ttf') format('truetype'),
+       url('../fonts/icons/foundation-icons-general.svg#FoundationIconsGeneral') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'FoundationIconsSocial';
+    src: url('../fonts/icons/foundation-icons-social.eot');
+    src: url('../fonts/icons/foundation-icons-social.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/icons/foundation-icons-social.woff') format('woff'),
+         url('../fonts/icons/foundation-icons-social.ttf') format('truetype'),
+         url('../fonts/icons/foundation-icons-social.svg#FoundationIconsSocial') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.glyph {
+	font-family: 'FoundationIconsGeneral';
+	.social {
+		font-family: 'FoundationIconsSocial';
+	}
+}
+
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}

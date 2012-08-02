@@ -1,3 +1,18 @@
+<footer>
+    <div class="row">
+        <div class="four columns">
+            <a href="index.php"><img src="http://placehold.it/200x130" alt="Family Giving Tree"></a>
+            
+        </div>
+        <div class="four columns">
+        </div>
+        <div class="four columns">
+        </div>
+    </div>
+</footer>
+
+
+
   <!-- Included JS Files (Uncompressed) -->
   <!--
   <script src="jquery.js"></script>
