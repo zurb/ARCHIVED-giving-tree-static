@@ -18,4 +18,10 @@
     // $('.block-grid.five-up>li:nth-child(5n+1)').css({clear: 'left'});
   });
   
+  $(window).load(function () {
+    $('body').raptorize({
+      "enterOn" : "konami-code"
+    });
+  });
+  
 })(jQuery);

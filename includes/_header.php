@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8" />
-
+  <? date_default_timezone_set('UTC'); ?>
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
   <!-- For third-generation iPad with high-resolution Retina display: -->
@@ -23,7 +23,7 @@
   <meta name="keywords" content="keywords" />
   <meta name="description" content="description" />
   <meta name="author" content="family giving tree" />
-  <meta name="copyright" content="Family Giving Tree, inc. Copyright (c) 2012" />
+  <meta name="copyright" content="Family Giving Tree, inc. Copyright (c) <? date("Y") ?>" />
 
   <title>Family Giving Tree: <?= $page_title ?></title>
 
