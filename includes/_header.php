@@ -49,7 +49,7 @@
     <!-- end .row -->
     <div class="row">
         <div class="three columns">
-            <a href="index.php"><img src="http://placehold.it/200x130" alt="Family Giving Tree"></a>
+            <a href="index.php"><img src="http://placehold.it/200x61" alt="Family Giving Tree"></a>
         </div>
         <nav class="nine columns">
             <ul class="link-list">
