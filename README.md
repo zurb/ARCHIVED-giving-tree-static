@@ -23,8 +23,8 @@ All fonts should be placed in `fonts/`.  In your stylesheets use `font-url` to r
 
 ```css
 /* in sass/app.scss */
-@font-face { font-family: 'OpenSans'; src: font-url("fonts/OpenSans-Bold-webfont.eot"); }
+@font-face { font-family: 'OpenSans'; src: font-url("OpenSans-Bold-webfont.eot"); }
 
 /* in sass/examples/app.scss (code is the same) */
-@font-face { font-family: 'OpenSans'; src: font-url("fonts/OpenSans-Bold-webfont.eot"); }
+@font-face { font-family: 'OpenSans'; src: font-url("OpenSans-Bold-webfont.eot"); }
 ```
