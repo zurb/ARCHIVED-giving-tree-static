@@ -8,15 +8,15 @@
 <div id="mainContent">
 
   <div class="row">
-  	<div class="twelve columns">
-  	 <div class="orbit-wrapper"style="height:350px;">
-    	 <div id="featured" >
-      	 <img src="http://www.placehold.it/1000x350"/>
-      	 <img src="http://www.placehold.it/1000x350"/>
-      	 <img src="http://www.placehold.it/1000x350"/>
+    <div class="twelve columns">
+     <div class="orbit-wrapper"style="height:350px;">
+       <div id="featured" >
+         <img src="http://www.placehold.it/1000x350"/>
+         <img src="http://www.placehold.it/1000x350"/>
+         <img src="http://www.placehold.it/1000x350"/>
        </div>
-  	 </div>
-  	</div>
+     </div>
+    </div>
   </div>
   
   <div class="row">
@@ -75,7 +75,7 @@
       
     </div>
   </div>
-	
+  
 </div>
 <br>
 <br>

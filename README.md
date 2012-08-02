@@ -35,3 +35,10 @@ All fonts should be placed in `fonts/`.  In your stylesheets use `font-url` to r
 /* in sass/examples/app.scss (code is the same) */
 @font-face { font-family: 'OpenSans'; src: font-url("OpenSans-Bold-webfont.eot"); }
 ```
+
+Deploying
+=========
+
+To deploy run `bundle exec rake deploy`.
+
+If you just want to test to see that everything is orderly, run `bundle exec rake test`
