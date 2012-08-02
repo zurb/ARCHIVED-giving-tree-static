@@ -1,3 +1,26 @@
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  <script src="jquery.js"></script>
+  <script src="javascripts/foundation/modernizr.foundation.js"></script>
+  <script src="javascripts/foundation/jquery.placeholder.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.alerts.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.accordion.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.buttons.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.tooltips.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.forms.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.tabs.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.navigation.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.reveal.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.orbit.js"></script>
+  -->
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="javascripts/jquery.min.js"></script>
+  <script src="javascripts/foundation.min.js"></script>
+  
+  <!-- Application Javascript, safe to override -->
+  <script src="javascripts/app.js"></script>
+
   <script>
     var _gaq = _gaq || [];
   	_gaq.push(
