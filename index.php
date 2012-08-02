@@ -1,4 +1,4 @@
-<? $page_title = "The Most Advanced Responsive Front-end Framework from ZURB" ?>
+<? $page_title = "Volunteer or Host" ?>
 <?php include("includes/_header.php"); ?>
 
 <!-- HOMEPAGE CONTENT -->
