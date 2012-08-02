@@ -72,33 +72,33 @@
 
 /*Events*/
 .date {
-	border: 1px solid #ddd;
-	li {
-		list-style:none;
-		text-align:center;
-	}
-	.month {
-		background: #4D4D4D;
-		text-transform: uppercase;
-		color: #fff;
-		font-size: ms(-1);
-	}
-	.day {
-		font-size: ms(3);
-	}
+  border: 1px solid #ddd;
+  li {
+    list-style:none;
+    text-align:center;
+  }
+  .month {
+    background: #4D4D4D;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: ms(-1);
+  }
+  .day {
+    font-size: ms(3);
+  }
 }
 
 /*General Styles*/
 .glyph {
-	font-family: 'FoundationIconsGeneral';
-	.social {
-		font-family: 'FoundationIconsSocial';
-	}
+  font-family: 'FoundationIconsGeneral';
+  .social {
+    font-family: 'FoundationIconsSocial';
+  }
 }
 
 .right {
-	float: right;
+  float: right;
 }
 .left {
-	float: left;
+  float: left;
 }
