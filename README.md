@@ -1,3 +1,10 @@
+Getting Started
+===============
+
+Clone this repository.  Then run `bundle install` to get all the dependencies installed.
+
+To work on the project just run `bundle exec compass watch` and the css files will be compiled as they chage.
+
 Tabs
 ====
 
