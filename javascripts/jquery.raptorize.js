@@ -19,90 +19,90 @@
         
         //Extend those options
         var options = $.extend(defaults, options); 
-	
+  
         return this.each(function() {
 
-			var _this = $(this);
-			var audioSupported = false;
-			//Stupid Browser Checking which should be in jQuery Support
-			if ($.browser.mozilla && $.browser.version.substr(0, 5) >= "1.9.2" || $.browser.webkit) { 
-				audioSupported = true;
-			}
-			
-			//Raptor Vars
-			var raptorImageMarkup = '<img id="elRaptor" style="display: none" src="images/elf.jpeg" />'
-			var raptorAudioMarkup = '<audio id="elRaptorShriek" preload="auto"><source src="sounds/crazypills.mp3" /><source src="sounds/crazypills.ogg" /></audio>';	
-			var locked = false;
-			
-			//Append Raptor and Style
-			$('body').append(raptorImageMarkup);
- 			if(audioSupported) { $('body').append(raptorAudioMarkup); }
-			var raptor = $('#elRaptor');
-			
-			raptor.css({
-				"position":"fixed",
-				"bottom": "-850px",
-				"right" : "0",
-				"display" : "block"
-			});
-			
-			// Animating Code
-			function init() {
-				locked = true;
-			
-				//Sound Hilarity
-				if(audioSupported) { 
-					function playSound() {
-						document.getElementById('elRaptorShriek').play();
-					}
-					playSound();
-				}
-								
-				// Movement Hilarity	
-				raptor.animate({
-					"bottom" : "0"
-				}, function() { 			
-					$(this).animate({
-						"bottom" : "-130px"
-					}, 100, function() {
-						var offset = (($(this).position().left)+400);
-						$(this).delay(300).animate({
-							"right" : offset
-						}, 2200, function() {
-							raptor = $('#elRaptor').css({
-								"bottom": "-850px",
-								"right" : "0"
-							})
-							locked = false;
-						})
-					});
-				});
-			}
-			
-			
-			//Determine Entrance
-			if(options.enterOn == 'timer') {
-				setTimeout(init, options.delayTime);
-			} else if(options.enterOn == 'click') {
-				_this.bind('click', function(e) {
-					e.preventDefault();
-					if(!locked) {
-						init();
-					}
-				})
-			} else if(options.enterOn == 'konami-code'){
-			    var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
-			    $(document).bind("keydown.raptorz", function(e){
-			        kkeys.push( e.keyCode );
-			        if ( kkeys.toString().indexOf( konami ) >= 0 ) {
-			        	init();
-			        	kkeys = [];
+      var _this = $(this);
+      var audioSupported = false;
+      //Stupid Browser Checking which should be in jQuery Support
+      if ($.browser.mozilla && $.browser.version.substr(0, 5) >= "1.9.2" || $.browser.webkit) { 
+        audioSupported = true;
+      }
+      
+      //Raptor Vars
+			var raptorImageMarkup = '<img id="elRaptor" style="display: none" src="images/elf.jpeg" />';
+			var raptorAudioMarkup = '<audio id="elRaptorShriek" preload="auto"><source src="sounds/crazypills.mp3" /><source src="sounds/crazypills.ogg" /></audio>';
+      var locked = false;
+      
+      //Append Raptor and Style
+      $('body').append(raptorImageMarkup);
+       if(audioSupported) { $('body').append(raptorAudioMarkup); }
+      var raptor = $('#elRaptor');
+      
+      raptor.css({
+        "position":"fixed",
+        "bottom": "-850px",
+        "right" : "0",
+        "display" : "block"
+      });
+      
+      // Animating Code
+      function init() {
+        locked = true;
+      
+        //Sound Hilarity
+        if(audioSupported) { 
+          function playSound() {
+            document.getElementById('elRaptorShriek').play();
+          }
+          playSound();
+        }
+                
+        // Movement Hilarity  
+        raptor.animate({
+          "bottom" : "0"
+        }, function() {       
+          $(this).animate({
+            "bottom" : "-130px"
+          }, 100, function() {
+            var offset = (($(this).position().left)+400);
+            $(this).delay(300).animate({
+              "right" : offset
+            }, 2200, function() {
+              raptor = $('#elRaptor').css({
+                "bottom": "-850px",
+                "right" : "0"
+              })
+              locked = false;
+            })
+          });
+        });
+      }
+      
+      
+      //Determine Entrance
+      if(options.enterOn == 'timer') {
+        setTimeout(init, options.delayTime);
+      } else if(options.enterOn == 'click') {
+        _this.bind('click', function(e) {
+          e.preventDefault();
+          if(!locked) {
+            init();
+          }
+        })
+      } else if(options.enterOn == 'konami-code'){
+          var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
+          $(document).bind("keydown.raptorz", function(e){
+              kkeys.push( e.keyCode );
+              if ( kkeys.toString().indexOf( konami ) >= 0 ) {
+                init();
+                kkeys = [];
                 // $(document).unbind('keydown.raptorz');
-			        }
-			    });
-	
-			}
-			
+              }
+          });
+  
+      }
+      
         });//each call
     }//orbit plugin call
 })(jQuery);
