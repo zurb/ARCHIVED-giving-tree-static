@@ -30,8 +30,8 @@
       }
       
       //Raptor Vars
-			var raptorImageMarkup = '<img id="elRaptor" style="display: none" src="images/elf.jpeg" />';
-			var raptorAudioMarkup = '<audio id="elRaptorShriek" preload="auto"><source src="sounds/crazypills.mp3" /><source src="sounds/crazypills.ogg" /></audio>';
+      var raptorImageMarkup = '<img id="elRaptor" style="display: none" src="images/elf.jpeg" />';
+      var raptorAudioMarkup = '<audio id="elRaptorShriek" preload="auto"><source src="sounds/crazypills.mp3" /><source src="sounds/crazypills.ogg" /></audio>';
       var locked = false;
       
       //Append Raptor and Style

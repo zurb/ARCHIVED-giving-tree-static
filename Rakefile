@@ -4,13 +4,16 @@ root = File.dirname(__FILE__)
 deploy = YAML::load_file(File.join(root, "deploy.yml"))
 deploy_to = deploy["deploy_to"]
 
-task :default => [
-  :replace_tabs_with_2_spaces, 
-  :check_for_non_sass_urls, 
+task :deploy => [
+  :test, 
   :export_to_site
 ]
 
-task :test => [:replace_tabs_with_2_spaces, :check_for_non_sass_urls, :run_s3_validations]
+task :test => [
+  :replace_tabs_with_2_spaces, 
+  :check_for_non_sass_urls,
+  :create_site_manifest
+]
 
 task :replace_tabs_with_2_spaces do
   js_files = Dir.glob("#{root}/javascripts/**/*.js")
@@ -31,6 +34,7 @@ task :replace_tabs_with_2_spaces do
     if has_tabs
       open(file,"w") {|f| f.write new_content}
       puts "REPLACED WITH SPACES: #{file}"
+      `git add #{file.gsub(root + "/","")}`
       update_count = update_count + 1
     end
   end
@@ -88,4 +92,15 @@ task :export_to_site do
     f.close
   end
   ftp.quit
+end
+
+task :create_site_manifest do
+  # Dir.glob("http://staging.familygivingtree.org/")
+  files = Dir.glob("**/*.php").reject {|f| f.match(/includes\//)}
+  urls = files.map {|f| "http://staging.familygivingtree.org/#{f}" }
+  open("MANIFEST","w") do |f|
+    f.write urls.join("\n").to_s
+  end
+  res = `git add MANIFEST`
+  raise "MANIFEST CHANGED, PLEASE COMMIT" unless res.empty?
 end

@@ -91,7 +91,7 @@
 /*General Styles*/
 .glyph {
   font-family: 'FoundationIconsGeneral';
-  .social {
+  &.social {
     font-family: 'FoundationIconsSocial';
   }
 }
