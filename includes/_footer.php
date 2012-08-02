@@ -23,12 +23,12 @@
 
   <script>
     var _gaq = _gaq || [];
-  	_gaq.push(
-  	  ['_setAccount', 'ACCOUNT_ID'],
-  	  ['_trackPageview'],
-  	  ['b._setAccount', 'ACCOUNT_ID'],
-  	  ['b._trackPageview']
-  	);
+    _gaq.push(
+      ['_setAccount', 'ACCOUNT_ID'],
+      ['_trackPageview'],
+      ['b._setAccount', 'ACCOUNT_ID'],
+      ['b._trackPageview']
+    );
 
     (function() {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;

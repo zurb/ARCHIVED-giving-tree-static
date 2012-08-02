@@ -4,10 +4,10 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8" />
+  <meta charset="utf-8" />
 
-	<!-- Set the viewport width to device width for mobile -->
-	<meta name="viewport" content="width=device-width" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
   <!-- For third-generation iPad with high-resolution Retina display: -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/favicons/apple-touch-icon-144x144-precomposed.png">
   <!-- For iPhone with high-resolution Retina display: -->
@@ -25,9 +25,9 @@
   <meta name="author" content="family giving tree" />
   <meta name="copyright" content="Family Giving Tree, inc. Copyright (c) 2012" />
 
-	<title>Family Giving Tree: <?= $page_title ?></title>
+  <title>Family Giving Tree: <?= $page_title ?></title>
 
-	<!-- Included CSS Files -->
+  <!-- Included CSS Files -->
   <link rel="stylesheet" href="stylesheets/app.css">
 
   <script src="javascripts/foundation/modernizr.foundation.js"></script>
