@@ -8,15 +8,15 @@
 <div id="mainContent">
 
   <div class="row">
-  	<div class="twelve columns">
-  	 <div class="orbit-wrapper"style="height:350px;">
-    	 <div id="featured" >
-      	 <img src="http://www.placehold.it/1000x350"/>
-      	 <img src="http://www.placehold.it/1000x350"/>
-      	 <img src="http://www.placehold.it/1000x350"/>
+    <div class="twelve columns">
+     <div class="orbit-wrapper"style="height:350px;">
+       <div id="featured" >
+         <img src="http://www.placehold.it/1000x350"/>
+         <img src="http://www.placehold.it/1000x350"/>
+         <img src="http://www.placehold.it/1000x350"/>
        </div>
-  	 </div>
-  	</div>
+     </div>
+    </div>
   </div>
   
   <div class="row">
@@ -74,7 +74,7 @@
       <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam euismod suscipit ante nec congue. Mauris diam tellus, malesuada nec consequat vitae, ullamcorper sit amet justo. Sed vitae nulla vitae quam laoreet ultrices ac ac nisl. Aliquam eu tortor nec est consequat vehicula et non quam. Mauris nulla quam, porta eu sagittis nec, interdum a augue. Suspendisse interdum cursus sollicitudin. Nullam sed sem id est porta dapibus. Suspendisse bibendum, magna vel gravida interdum, sem justo mollis felis, vitae mollis tortor libero id est. Donec quis dignissim turpis. Aliquam vestibulum sollicitudin elit, sit amet posuere urna laoreet lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis eget mi metus, quis aliquam lacus. Mauris cursus mattis mauris ut accumsan. Mauris non risus enim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
     </div>
   </div>
-	
+  
 </div>
 <br>
 <br>
