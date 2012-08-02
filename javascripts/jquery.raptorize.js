@@ -30,8 +30,8 @@
       }
       
       //Raptor Vars
-      var raptorImageMarkup = '<img id="elRaptor" style="display: none" src="images/elf.jpeg" />'
-      var raptorAudioMarkup = '<audio id="elRaptorShriek" preload="auto"><source src="raptor-sound.mp3" /><source src="raptor-sound.ogg" /></audio>';  
+			var raptorImageMarkup = '<img id="elRaptor" style="display: none" src="images/elf.jpeg" />';
+			var raptorAudioMarkup = '<audio id="elRaptorShriek" preload="auto"><source src="sounds/crazypills.mp3" /><source src="sounds/crazypills.ogg" /></audio>';
       var locked = false;
       
       //Append Raptor and Style
@@ -41,7 +41,7 @@
       
       raptor.css({
         "position":"fixed",
-        "bottom": "-" + raptor.height() + "px",
+        "bottom": "-850px",
         "right" : "0",
         "display" : "block"
       });
@@ -70,7 +70,7 @@
               "right" : offset
             }, 2200, function() {
               raptor = $('#elRaptor').css({
-                "bottom": "-" + raptor.height() + "px",
+                "bottom": "-850px",
                 "right" : "0"
               })
               locked = false;

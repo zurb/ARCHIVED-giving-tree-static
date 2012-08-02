@@ -52,12 +52,12 @@
             <a href="index.php"><img src="http://placehold.it/200x130" alt="Family Giving Tree"></a>
         </div>
         <nav class="nine columns">
-            <ul class="nav-bar">
+            <ul class="link-list">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Kickoff a Drive</a></li>
-                <li><a href="#">Join Our Community</a></li>
                 <li><a href="#">Who We Help</a></li>
+                <li><a href="#">Lead a Drive</a></li>
                 <li><a href="#">Sponsors</a></li>
+                <li><a href="#">Join Our Community</a></li>
                 <li><a href="#">About</a></li>
             </ul>
         </nav>
