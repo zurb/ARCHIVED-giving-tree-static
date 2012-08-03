@@ -246,7 +246,6 @@ header {
         background: image-url("buttons/donate.png") no-repeat;
         border:0;
         box-shadow: 0 0 0;
-        
     }
     .link-list {
         margin-top: 25px;
@@ -263,7 +262,7 @@ header {
     }
 }
 .footer-columns {
-    background: image-url("footer-bg.png") repeat-x;
+    background: image-url("bg/bg-footer.png") repeat;
     padding-bottom: 15px;
     .elf img {
         margin-top:-80px;

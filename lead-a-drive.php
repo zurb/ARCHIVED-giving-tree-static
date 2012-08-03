@@ -138,7 +138,7 @@
                     </div>
                 </div>
                 <!-- end .row -->
-                <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=201967506944688961163.0004c655b86f1e09e3351&amp;ie=UTF8&amp;t=h&amp;ll=37.442155,-122.156982&amp;spn=0.436139,0.95993&amp;z=10&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=201967506944688961163.0004c655b86f1e09e3351&amp;ie=UTF8&amp;t=h&amp;ll=37.442155,-122.156982&amp;spn=0.436139,0.95993&amp;z=10&amp;source=embed" style="color:#0000FF;text-align:left">Family Giving Tree Drive Locations</a> in a larger map</small>
+                <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=201967506944688961163.0004c655b86f1e09e3351&amp;ie=UTF8&amp;t=m&amp;ll=37.588119,-122.159729&amp;spn=0.870571,1.919861&amp;z=9&amp;output=embed"></iframe><br />
                 <div class="row">
                     <div class="six columns">
                         <h5>Register Now</h5>
