@@ -164,21 +164,9 @@ h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
 
 /*Events*/
 .date {
-  border: 1px solid $darkPurple;
-  li {
-    list-style:none;
-    text-align:center;
-  }
-  .month {
-    background: $darkPurple;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: ms(-1);
-  }
-  .day {
-    font-size: ms(3);
-    color: $darkPurple;
-  }
+  background-color: $beige;
+  text-transform: uppercase;
+  padding: 4px 10px;
 }
 .upcoming-events {
     a {
@@ -212,6 +200,8 @@ footer {
         overflow: visible;
     }
 }
+a, a:link, a:visited { color: $darkPurple; }
+a:hover, a:active, a.selected { color: darken($darkPurple, 10%); }
 .footer-nav {
     ul.link-list a, p {
         color: #E2D8D0;
@@ -269,7 +259,6 @@ h1, h2, h3 {
     font-weight: normal;
 }
 .side-nav a {
-    color: $pink;
     font-weight: bold;
 }
 .glyph {
