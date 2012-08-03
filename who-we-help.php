@@ -14,7 +14,7 @@
         </div>
     
         <div class="five columns">
-          <img src="http://www.placehold.it/500x350">
+          <img src="images/people/c-photo12.png" alt="Who We Help">
         </div>
     </div>
   </div>
