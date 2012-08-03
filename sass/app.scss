@@ -148,10 +148,15 @@
   p.lead { font-size: ms(1) - 2; }
 }
 ul.orbit-bullets { bottom: 20px; }
+.stats { text-align: center; }
 
+.orange { color: $orange; }
+.green { color: $green; }
+.pink { color: $pink; }
 
 /*Lead a Drive*/
 h1 { color: $darkPurple; }
+h2 { color: #555555; font-size: 27px; font-size: 2.7rem; }
 
 /*Events*/
 .date {
