@@ -5,13 +5,13 @@
 <?php include("includes/_virtual-header.php"); ?>
 
 <div class="container header">
-	<div class="row">
-	<h1 class="purple">Back to School Drive</h1>
-	</div>
+  <div class="row">
+  <h1 class="purple">Back to School Drive</h1>
+  </div>
 </div>
 
 <div class="row">
-	<div class="three columns">
+  <div class="three columns">
     <div class="panel">
       <h5><a href="virtual-about-fgt.php">About Family Giving Tree</a></h5>
       <p>Donate to support the drive.</p>
@@ -19,13 +19,13 @@
       <h5>Live Stats</h5>
       <ol>
         <li>Provide Full Backpacks:<br>
-	        <span>$20100.00</span>
+          <span>$20100.00</span>
         </li>
         <li>Provide Supplies <br>
-	        <span>$495.00</span>
+          <span>$495.00</span>
         </li>
         <li>Support the Drive<br>
-	        <span>$3154.41</span>
+          <span>$3154.41</span>
         </li>
       </ol>
     </div>
