@@ -15,118 +15,120 @@ if($_POST)
 
 {
 
-	$Name = makesafestr(trim($_POST['name']));
 
-	$Email = trim($_POST['email']);
+  $Name = makesafestr(trim($_POST['name']));
 
-	$Email_ver = trim($_POST['email_ver']);
+  $Email = trim($_POST['email']);
 
-	$phoneNo = trim($_POST['phoneNo']);
+  $Email_ver = trim($_POST['email_ver']);
 
-	$companyName = makesafestr(trim($_POST['companyName']));
+  $phoneNo = trim($_POST['phoneNo']);
 
-	$noofvolunteers = trim($_POST['noofvolunteers']);
+  $companyName = makesafestr(trim($_POST['companyName']));
 
-	$slot = trim($_POST['slot']);
+  $noofvolunteers = trim($_POST['noofvolunteers']);
 
-	$arrslot = explode('-',$slot);
+  $slot = trim($_POST['slot']);
 
-	$SlotId = $arrslot[0];
+  $arrslot = explode('-',$slot);
 
-	$TaskId = $_REQUEST['taskId'];
+  $SlotId = $arrslot[0];
 
-	if(!$SlotId){
+  $TaskId = $_REQUEST['taskId'];
 
-		$msg.= "Please Select Timeslot<br>";
+  if(!$SlotId){
 
-	}
-	if(!$Name){
+    $msg.= "Please Select Timeslot<br>";
 
-		$msg.= "Please Enter  Name<br>";
+  }
+  if(!$Name){
 
-	}elseif(!eregi("^[a-zA-Z'.\ ]+$",$Name)){
+    $msg.= "Please Enter  Name<br>";
 
-		$msg.="Please Enter only characters for Name<br>";
+  }elseif(!eregi("^[a-zA-Z'.\ ]+$",$Name)){
 
-	}
+    $msg.="Please Enter only characters for Name<br>";
 
-	if(!$Email){
+  }
 
-		$msg.= "Please Enter  Email<br>";
+  if(!$Email){
 
-	}elseif(!is_valid_email($Email)){
+    $msg.= "Please Enter  Email<br>";
 
-		$msg.="Please Enter Valid Email<br>";
+  }elseif(!is_valid_email($Email)){
 
-	}
+    $msg.="Please Enter Valid Email<br>";
 
-	if(!$Email_ver){
+  }
 
-		$msg.= "Please Enter  Email for Verification<br>";
+  if(!$Email_ver){
 
-	}elseif($Email != $Email_ver){	
+    $msg.= "Please Enter  Email for Verification<br>";
 
-		$msg .="Both Emails are not Same.<br>";	
+  }elseif($Email != $Email_ver){  
 
-	}
+    $msg .="Both Emails are not Same.<br>";  
 
-	if(!check_phoneno($phoneNo)){
+  }
 
-		$msg.="Please Enter valid Phone No<br>";
+  if(!check_phoneno($phoneNo)){
 
-	}
+    $msg.="Please Enter valid Phone No<br>";
 
-	if($companyName){
+  }
 
-		if(!eregi("^[a-zA-Z'.\ ]+$",$companyName)){
+  if($companyName){
 
-			$msg.="Please Enter only characters for Company Name<br>";
+    if(!eregi("^[a-zA-Z'.\ ]+$",$companyName)){
 
-		}
+      $msg.="Please Enter only characters for Company Name<br>";
 
-	}
+    }
 
-	if(!$noofvolunteers){
+  }
 
-		$msg.= "Please Enter  No. Of Volunteers<br>";
+  if(!$noofvolunteers){
 
-	}elseif(!eregi("^[0-9]+$",$noofvolunteers)){
+    $msg.= "Please Enter  No. Of Volunteers<br>";
 
-		$msg.="Please Enter only numerics for No. Of Volunteers<br>";
+  }elseif(!eregi("^[0-9]+$",$noofvolunteers)){
 
-	}
+    $msg.="Please Enter only numerics for No. Of Volunteers<br>";
 
-	if(!$msg){
+  }
 
-		if($noofvolunteers > $arrslot[1]){
+  if(!$msg){
 
-			$msg = "No. of Volunteers doesn't exceed available Volunteers<br>";
+    if($noofvolunteers > $arrslot[1]){
 
-		}else{
+      $msg = "No. of Volunteers doesn't exceed available Volunteers<br>";
 
-			$sqlinsert_reserve = "INSERT INTO volunteers(Name,Email,phoneNo,companyName,noofvolunteers,SlotId,Register_date) VALUES ('".$Name."', '".$Email."', '".$phoneNo."', '".$companyName."', $noofvolunteers, $SlotId, now())";
+    }else{
 
-			$res = $mysql->query($sqlinsert_reserve);
+      $sqlinsert_reserve = "INSERT INTO volunteers(Name,Email,phoneNo,companyName,noofvolunteers,SlotId,Register_date) VALUES ('".$Name."', '".$Email."', '".$phoneNo."', '".$companyName."', $noofvolunteers, $SlotId, now())";
 
-			
+      $res = $mysql->query($sqlinsert_reserve);
 
-			$sql_max1 = "select max(VolunteerId) as maxid from volunteers";
+      
 
-			$rs = $mysql->fetch_array($sql_max1,MYSQL_ASSOC);
+      $sql_max1 = "select max(VolunteerId) as maxid from volunteers";
 
-			$VolunteerId = $rs[0][maxid];
+      $rs = $mysql->fetch_array($sql_max1,MYSQL_ASSOC);
 
-			sendmailnew($VolunteerId,1);
+      $VolunteerId = $rs[0][maxid];
 
-			header("location:sent-volunteer-email.php");
+      sendmailnew($VolunteerId,1);
 
-			exit;
 
-		}
+      header("location:sent-volunteer-email.php");
 
-	}
+      exit;
 
-	
+    }
+
+  }
+
+  
 
 }
 
@@ -158,24 +160,24 @@ $date1 = explode("-",$rec[0][Date]);
 
   for($i=0;$i<count($rec);$i++){
 
-  	$noofvolunteer = 0;
+    $noofvolunteer = 0;
 
-  	$sqlavailable = "select *  from slotdetails sd, volunteers vo where sd.SlotId=vo.SlotId and vo.SlotId = '".$rec[$i][SlotId]."'"; 
+    $sqlavailable = "select *  from slotdetails sd, volunteers vo where sd.SlotId=vo.SlotId and vo.SlotId = '".$rec[$i][SlotId]."'"; 
 
-  	$res = $mysql->fetch_array($sqlavailable,MYSQL_ASSOC);
+    $res = $mysql->fetch_array($sqlavailable,MYSQL_ASSOC);
 
-  	for($k=0;$k<count($res);$k++){
+    for($k=0;$k<count($res);$k++){
 
-  		$noofvolunteer += $res[$k]['noofvolunteers'];
+      $noofvolunteer += $res[$k]['noofvolunteers'];
 
-  	}
+    }
 
-  	$availble = $rec[$i][NoofVolunteersReq] - $noofvolunteer;
+    $availble = $rec[$i][NoofVolunteersReq] - $noofvolunteer;
 
 
 
-  	?>
-  	<br />
+    ?>
+    <br />
 
     <input type="radio"  name="slot" value="<?php echo $rec[$i][SlotId].'-'.$availble;?>" <?php if($SlotId == $rec[$i][SlotId]) echo 'checked';?>>
     <?php $arrStarttime=explode(':', $rec[$i][Starttime]);  $arrEndtime=explode(':', $rec[$i][Endtime]);  echo $arrStarttime[0].':'.$arrStarttime[1].' '.$rec[$i][SAMPM].' - '.$arrEndtime[0].':'.$arrEndtime[1].' '.$rec[$i][EAMPM].' ( '.$availble.' Available ) ';?>

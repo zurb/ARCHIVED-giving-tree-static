@@ -10,7 +10,7 @@
             <div id="sliderOne">
                 <div class="content">
                     <h1>You Can Help Our Millionth Child</h1>
-                    <p class="lead">This year, we’ll reach our goal of helping one million children locally. You could be the person who fulfils the unique holiday wish of our millionth child.</p>
+                    <p>This year, we’ll reach our goal of helping one million children locally. You could be the person who fulfils the unique holiday wish of our millionth child.</p>
                     <a href="donate.php" class="button banner purple">Donate Today &raquo;</a>
                 </div>
             </div>
@@ -69,7 +69,7 @@
         <div class="row">
             <div class="nine columns">
                 <h2>One Fulfilled Wish, One Backpack at a Time</h2>
-                <p>Since 1990, Family Giving Tree has been fulfilling the holiday wishes of children in low-income neighborhoods and providing backpacks stuffed with school supplies so they’re prepared to learn. It’s more than just gifts or rulers or pencils. It’s giving kids precious, happy memories. It’s amazing to know that we’ve put smiles on the faces of a million kids. <a href="#">Learn more about our roots &raquo;</a></p>
+                <p>Since 1990, Family Giving Tree has been fulfilling the holiday wishes of children in low-income neighborhoods and providing backpacks stuffed with school supplies so they’re prepared to learn. It’s more than just gifts or rulers or pencils. It’s giving kids precious, happy memories. It’s amazing to know that we’ve put smiles on the faces of a million kids. <a href="donate.php">Learn more about donating &raquo;</a></p>
             </div>
             <div class="three columns">
                 <img src="images/people/home-kid.png">
@@ -133,7 +133,7 @@
       if ($(window).width() > 1000) {
         orbitRatio = "1430x508";
       } else {
-        orbitRatio = "1x1";
+        orbitRatio = "2x1";
       }
        $('#featured').orbit({ pauseOnHover: true, startClockOnMouseOut: true, advanceSpeed: 5000, fluid: orbitRatio, bullets: true });
        $(".row.featured").spin(false);

@@ -8,22 +8,22 @@
 <div id="mainContent">
     <div class="feature_wrapper">
         <div class="row">
-            <div class="seven columns">
+            <div class="nine columns">
                 <h1>Send Children to School Prepared</h1>
                 <p>Leading a Back to School Drive is an incredible way to help local kids in need just in time for the new school year. This drive focuses on the children as individuals; pairing a backpack and school supply wish list with a name. By leading a Back to School Drive drive, you’re not only providing the wealth of education, you’re also joining the Family Giving Tree community.</p>
                 <a href="http://familygivingtree.force.com/hosts" class="button banner purple">Register &raquo;</a>
             </div>
-            <div class="five columns">
+            <div class="three columns">
                 <img src="images/people/home-kid.png" alt="Back to School" height="235" width="231">
             </div>
         </div>
         <div class="row next-season">
             <div class="seven columns">
                 <h1>Help Holidays Shine Brighter</h1>
-                <p>Leading a Holiday Wish Drive is an exciting way to fulfill the wishes local kids in need. This drive focuses on the children as individuals; pairing their gift wish with their name. When leading a Holiday Wish Drive you?re not only spreading the joy of the holiday season, you're also joining the Family Giving Tree community.</p>
+                <p>Leading a Holiday Wish Drive is an exciting way to fulfill the wishes local kids in need. This drive focuses on the children as individuals; pairing their gift wish with their name. When leading a Holiday Wish Drive you're not only spreading the joy of the holiday season, you're also joining the Family Giving Tree community.</p>
             </div>
             <div class="five columns">
-                <img src="http://placehold.it/310x310" alt="Lead a Drive">
+                <img src="images/people/home-kid.png" alt="Lead a Drive">
             </div>
         </div>
         <!-- end .row -->
@@ -51,11 +51,10 @@
                     <div class="four columns">
                         <h2>Participants</h2>
                         <ul class="block-grid">
-                            <li>
-                                <img src="images/icons/companies.png" height="30" width="30" alt="Companies"> Companies</li>
-                            <li><img src="images/icons/civic-groups.png" height="30" width="30" alt="Companies"> Civic Groups</li>
-                            <li><img src="images/icons/families.png" height="30" width="30" alt="Companies"> Families</li>
-                            <li><img src="images/icons/youth.png" height="30" width="30" alt="Companies"> Youth</li>
+                            <li class="has-icon"><img src="images/icons/companies.png" height="30" width="30" alt="Companies"> Companies</li>
+                            <li class="has-icon"><img src="images/icons/civic-groups.png" height="30" width="30" alt="Companies"> Civic Groups</li>
+                            <li class="has-icon"><img src="images/icons/families.png" height="30" width="30" alt="Companies"> Families</li>
+                            <li class="has-icon"><img src="images/icons/youth.png" height="30" width="30" alt="Companies"> Youth</li>
 
                         </ul>
                     </div>
