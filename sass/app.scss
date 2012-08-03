@@ -147,7 +147,7 @@
   h1 { color: $darkPurple; font-size: ms(4); }
   p.lead { font-size: ms(1) - 2; }
 }
-ul.orbit-bullets { bottom: 20px; }
+ul.orbit-bullets { bottom: 20px;  }
 .stats { text-align: center; }
 
 .orange { color: $orange; }
@@ -214,9 +214,11 @@ footer {
     }
 }
 header {
-    background: image-url("puple-bg.png");
-    height: 90px;
+    background: image-url("bg/bg-header.png") bottom center repeat-x;
+    height: 110px;
     overflow: visible;
+    position: relative;
+    z-index: 10;
     .link-list {
          a {
             font-weight: bold;
