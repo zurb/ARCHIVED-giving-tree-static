@@ -1,6 +1,6 @@
 <?
   $page_title = "Volunteer or Host";
-    $page_template = "main";  ?>
+    $page_template = "volunteer";  ?>
 <?php include("includes/_header.php"); ?>
 
 <!-- WHO-WE-HELP-PAGE CONTENT -->
@@ -27,7 +27,6 @@
         <li><a href="#impact">Making an Impact</a></li>
         <li><a href="#terms">Terms &amp; Cond.</a></li>
         <li><a href="#collect">Collecting Wishes</a></li>
-        <li><a href="#apply">Apply</a></li>
       </ul>
     </div>
     

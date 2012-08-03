@@ -10,7 +10,6 @@
 <script src="javascripts/jquery.min.js"></script>
 <script src="javascripts/foundation.min.js"></script>
 <script src="javascripts/spin.min.js"></script>
-<script src="javascripts/jquery.raptorize.js"></script>
 
 <!-- Application Javascript, safe to override -->
 <script src="javascripts/app.js"></script>

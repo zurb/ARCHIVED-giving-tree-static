@@ -21,7 +21,7 @@
   };
   GivingTree.updateStickyNav = function(event){
     var windowTopOffset = $(event.currentTarget).scrollTop();
-    $("[data-sticky]").each(function(idx,el){
+    $(".no-touch [data-sticky]").each(function(idx,el){
       var $el = $(el),
           $footer = $("footer");
       
@@ -68,9 +68,6 @@
   });
   
   $(window).load(function() {
-    $("body").raptorize({
-      "enterOn" : "konami-code"
-    });
     $("[data-sticky]").each(GivingTree.setInitialStickyNavOffset);
   });
   // Uncomment to support sticky nav updates on page resize
