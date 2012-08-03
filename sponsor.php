@@ -135,7 +135,94 @@
         </div>
       </div>
     </div>
-  </div>  
+  </div>
+  
+  <div class="row">
+    <div class="twelve columns">
+      <img src="images/horizontal-rule1.png">
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="three columns">
+      <h4>Sponsorship Levels</h4>
+      <p>We work with companies to customize a sponsorship package that meets our mutual goals.  Opportunities include:</p>
+    </div>
+    <div class="nine columns">
+      <ul class="top-circles block-grid five-up">
+        <li><img src="/images/icons/bg-orange.png"><br/><span>1</span>Financial Sponsorship —  $2,500 to $100,000</li>
+        <li>Public Service Announcements — $2,500 to $8,000 through a variety of media outlets</li>
+        <li>Web banner package —  TBD</li>
+        <li>To discuss sponsorship opportunities, contact:</li>
+        <li>Recognition as a major funder at our annual Celebration Luncheon in September.</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="twelve columns"> 
+      <h6>Teacher Sponsor</h6> 
+      <ul class="block-grid three-up">
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /><img src="http://placehold.it/300x80" /></li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="twelve columns"> 
+      <h6>Teacher Sponsor</h6> 
+      <ul class="block-grid six-up">
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+      </ul>
+    </div>
+  </div>
+  
+   <div class="row">
+    <div class="twelve columns">  
+      <h6>Student Sponsor</h6>
+      <ul class="block-grid five-up">
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="twelve columns">  
+      <h6>Public Service Announcement</h6>
+      <ul class="block-grid four-up">
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="twelve columns">  
+      <h6>Official Media Announcement</h6>
+      <ul class="block-grid four-up">
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="http://placehold.it/300x80" /></li>
+      </ul>
+    </div>
+  </div>
   
 </div>
 

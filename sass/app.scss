@@ -177,15 +177,12 @@ p { color: #555; line-height: 1.5; }
 .down { margin-top: 13px; }
 .full { width: 100%; }
 h1 { color: $darkPurple; }
-h2, h3, h4 { margin-bottom: 8px; }
-h2 { color: $gray; font-size: 30px; font-size: 3.0rem; }
-h3 { color: $gray; font-size: 27px; font-size: 2.7rem; }
-h4 { color: $gray; font-size: 24px; font-size: 2.4rem; }
+h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
 .Main h4 { font-size: 18px; font-size: 1.8rem; }
 .full.rule { background: image-url('seamless-rule.png'); height: 18px; position: relative; top: -10px; z-index: 9; }
 .full.stats { background: #f0f0d9; margin-top: -30px; padding-top: 60px; padding-bottom: 30px; margin-bottom: 60px; border-bottom: solid 1px darken(#f0f0d9, 20%); }
 
-.button.banner { box-shadow: none !important; border: none !important; padding: 19px 28px 19px 44px !important; position: relative; border: none; @include box-shadow(0 0 0 rgba(0,0,0,0) inset); color: $white; font-family: "HandOfSeanRegular"; text-align: center; background: image-url('buttons/bg-purple.png') 0 0 repeat-x; 
+.button.banner { box-shadow: none !important; border: none !important; padding: 19px 28px 19px 57px !important; position: relative; border: none; @include box-shadow(0 0 0 rgba(0,0,0,0) inset); color: $white; font-family: "HandOfSeanRegular"; text-align: center; background: image-url('buttons/bg-purple.png') 0 0 repeat-x; 
   &:after { content: ""; display: block; width: 24px; height: 55px; position: absolute; top: 50%; margin-top: -28px; right: -24px; background: image-url('buttons/right-purple.png') 0 0 no-repeat; }
   &.green { background: image-url('buttons/bg-green.png');
     &:after { background: image-url('buttons/right-green.png'); }
@@ -201,7 +198,6 @@ blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; 
   cite { font-family: "Helvetica", Arial, sans-serif; color: $white; }
   &.secondary { background: #eee; font-family: "Helvetica", Arial, sans-serif; color: #333; padding-bottom: 14px; padding-top: 14px; margin-bottom: 20px; }
 }
-
 
 /*Lead a Drive*/
 .featured p { font-size: 18px; }
@@ -242,8 +238,10 @@ ul.numbered-list li { padding: 0px 0px 15px 60px;  height: 60px; }
 .yellow-circle { background: image-url("icons/bg-yellow.png")  center no-repeat; background-size:50px 50px;  height: 50px; width: 50px; display: inline-block; padding: 20px;line-height: 12px;}
 .pink-circle { background: image-url("icons/bg-pink.png")  center no-repeat; background-size:50px 50px;  height: 50px; width: 50px; display: inline-block; padding: 20px;line-height: 12px;}
 
+.block-grid.six-up li { width:16.6%; }
 
-
+ul.top-circles li span { margin-top: -30px; text-align: center;  }
+ul.top-circles li img { margin:0 auto; }
 
 
 
@@ -344,7 +342,7 @@ footer {
         }
     }
 }
-h1, h2, h3, h4, h5 {
+h1, h2, h3 {
     font-family: 'Museo300Regular';
     font-weight: normal;
 }
@@ -393,8 +391,6 @@ h1, h2, h3, h4, h5 {
 .next-season {
   display: none; 
 }
-
-.row.dotted { border-bottom: 1px #ccc dotted; padding-bottom: 20px; }
 
 /* Donate Page */
 .choose-donation { margin-top: 60px; margin-bottom: 40px; }
@@ -478,61 +474,4 @@ img.right {
         width:100%;
         float:none;
     }
-}
-
-/*Volunteer Page*/
-.inputrow {
-  margin: 0 0 12px;
-  label,
-  input[type="text"],
-  input[type="password"],
-  input[type="date"],
-  input[type="datetime"],
-  input[type="email"],
-  input[type="number"],
-  input[type="search"],
-  input[type="tel"],
-  input[type="time"],
-  input[type="url"],
-  textarea,
-  select {
-    display: inline;
-  width: auto;
-  }
-}
-#tasklist {
-  list-style-type: none;
-  margin-left: 0;
-  li {
-    display: inline-block;
-  *display: inline;
-  zoom: 1;
-  padding: 0 15px 0 0;
-  }
-}
-.helpicon,
-.helpicon:link,
-.helpicon:visited {
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-  width: 14px;
-  height: 14px;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 14px;
-  background-color: $darkPurple;
-  border-radius: 7px;
-  color: #fff;
-  text-align: center;
-  margin: 4px 0 0;
-  vertical-align: top;
-}
-.calendar {
-  td, th, p {
-    font-size: 12px;
-  }
-  td, th {
-    width: 14%;
-  }
 }

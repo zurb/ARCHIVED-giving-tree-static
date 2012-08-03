@@ -32,10 +32,10 @@
     <div class="row">
         <div class="three columns">
             <ul class="side-nav" data-sticky>
-                <li><a href="#aboutDrive">About</a></li>
-                <li><a href="#timeline">Timeline</a></li>
-                <li><a href="#hallOfFame">Hall of Fame</a></li>
+                <li><a href="#aboutDrive">About Our Drives</a></li>
+                <li><a href="#importantDates">Important Dates</a></li>
                 <li><a href="#tipsSuccessfulDrive">Tips For a Successful Drive</a></li>
+                <li><a href="#currentDrives">Current Drives</a></li>
                 <li class="divider"></li>
                 <li><a href="#"><span class="glyph">9</span> Download resources</a></li>
             </ul>
@@ -70,7 +70,7 @@
               </div>
             </div>
 
-            <section id="timeline">
+            <section id="importantDates">
                 <div class="row">
                     <div class="four columns">
                         <h2>Important Dates</h2>
@@ -79,23 +79,12 @@
                     <div class="eight columns">
                         <div class="row">
                             <div class="three columns">
-                                <p class="date">Aug 2</p>
+                                <p class="date">Sep 20</p>
                             </div>
                             <div class="nine columns">
                                 <h5 class="event-title">
-                                    <a href="#">Holiday Wish Kickoff </a>
-                                </h5>
-                                <p>11:30am-1pm<br>Mountain View, CA</p>
-                                <p>All Drive Leaders are invited to join the Family Giving Tree Elves for a community get together before the Holiday Wish Drive. This is a chance to pick up materials, ask questions, meet other local Elves, and celebrate the season of making wishes become reality.</p>
-                            </div> 
-                        </div>
-                        <div class="row">
-                            <div class="three columns">
-                                <p class="date">Aug 2</p>
-                            </div>
-                            <div class="nine columns">
-                                <h5 class="event-title">
-                                    <a href="#">Back-to-School Kickoff </a>
+                                    Back to School Appreciation Luncheon
+                                    <!-- <a href="#">Back-to-School Appreciation Luncheon</a> -->
                                 </h5>
                                 <p>11:30am-1pm<br>Mountain View, CA</p>
                                 <p>All Drive Leaders are invited to join the Family Giving Tree Elves for a community get together before the Back to School Drive. This is a chance to pick up materials, ask questions, meet other local Elves, and dive right into the school year.</p>
@@ -104,7 +93,7 @@
                     </div>
                 </div>
             </section>
-            <!-- end #timeline -->
+            <!-- end #importantDates -->
 
             <div class="row">
               <div class="twelve columns">
@@ -154,7 +143,7 @@
               </div>
             </div>
 
-            <section id="hallOfFame">
+            <section id="currentDrives">
                 <div class="row">
                     <div class="twelve columns">
                         <h2>Current Drives</h2>
@@ -164,34 +153,8 @@
                 <!-- end .row -->
                 <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=201967506944688961163.0004c655b86f1e09e3351&amp;ie=UTF8&amp;t=m&amp;ll=37.588119,-122.159729&amp;spn=0.870571,1.919861&amp;z=9&amp;output=embed"></iframe><br />
             </section>
-            <!-- end #hallOfFame -->
+            <!-- end #currentDrives -->
         </div>
     </div>
 </div>
-<!-- end #mainContent -->
-        <!-- <div id="register" class="reveal-modal medium">
-            <h2>Lead a Drive</h2>
-            <p class="lead">Host a drive in your community.</p>
-            <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
-            <form>
-                <input type="text" placeholder="Your Name">
-                <input type="text" placeholder="Your Email Address">
-                <label>Address</label>
-                <input type="text" class="twelve" placeholder="Street">
-                <div class="row">
-                    <div class="six columns">
-                        <input type="text" placeholder="City">
-                    </div>
-                    <div class="three columns">
-                        <input type="text" placeholder="State">
-                    </div>
-                    <div class="three columns">
-                        <input type="text" placeholder="ZIP">
-                    </div>
-                </div>
-                <br>
-                <a href="#" class="medium button">Register</a>  
-            </form>
-          <a class="close-reveal-modal">&#215;</a>
-        </div> -->
 <?php include("includes/_footer.php");  ?>
