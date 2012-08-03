@@ -79,41 +79,26 @@
                             </div>
                             <div class="nine columns">
                                 <h5 class="event-title">
-                                    <a href="#">Family Giving Tree Back-to-School Kickoff </a>
+                                    <a href="#">Holiday Wish Kickoff </a>
+                                </h5>
+                                <p>11:30am-1pm<br>Mountain View, CA.</p>
+                                <p>All Drive Leaders are invited to join the Family Giving Tree Elves for a community get together before the Holiday Wish Drive. This is a chance to pick up materials, ask questions, meet other local Elves, and celebrate the season of making wishes become reality.</p>
+                            </div> 
+                        </div>
+                        <div class="row">
+                            <div class="three columns">
+                                <p class="date">Aug 2</p>
+                            </div>
+                            <div class="nine columns">
+                                <h5 class="event-title">
+                                    <a href="#">Back-to-School Kickoff </a>
                                 </h5>
                                 <p>11:30am-1pm<br>Mountain View, CA.</p>
                                 <p>All Drive Leaders are invited to join the Family Giving Tree Elves for a community get together before the Back to School Drive. This is a chance to pick up materials, ask questions, meet other local Elves, and dive right into the school year.</p>
                             </div> 
                         </div>
-
                     </div>
                 </div>
-                <div class="row">
-                    <div class="four columns">
-                    <h4>February</h4>
-                </div>
-                    <div class="four columns">
-                        <div class="row">
-                            <div class="four columns">
-                                <img src="http://placehold.it/45x45" alt="">
-                            </div>
-                            <div class="eight columns">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus lacus.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="four columns">
-                        <div class="row">
-                            <div class="four columns">
-                                <img src="http://placehold.it/45x45" alt="">
-                            </div>
-                            <div class="eight columns">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus lacus.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end .row -->
             </section>
             <!-- end #timeline -->
             <section id="tipsSuccessfulDrive">
@@ -130,6 +115,14 @@
                 </div>
             </section>
 
+            <div class="row">
+                <div class="six columns">
+                    <h5>Register Now</h5>
+                    <p>Ready to get lead your own drive? Let’s go!</p>
+                    <a href="http://familygivingtree.force.com/hosts" class="large primary button">Register &raquo;</a>
+                </div>
+            </div>
+
             <section id="hallOfFame">
                 <h2>Current Drive Locations</h2>
                 <div class="row">
@@ -139,47 +132,6 @@
                 </div>
                 <!-- end .row -->
                 <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=201967506944688961163.0004c655b86f1e09e3351&amp;ie=UTF8&amp;t=m&amp;ll=37.588119,-122.159729&amp;spn=0.870571,1.919861&amp;z=9&amp;output=embed"></iframe><br />
-                <div class="row">
-                    <div class="six columns">
-                        <h5>Register Now</h5>
-                        <p>Ready to get lead your own drive? Let’s go!</p>
-                        <a href="http://familygivingtree.force.com/hosts" class="large primary button">Register &raquo;</a>
-                    </div>
-                </div>
-                <!-- end .row -->
-                <div class="row">
-                    <div class="four columns">
-                        <h4>Upcoming Events</h4>
-                    </div>
-                    <div class="eight columns">
-                        <div class="row">
-                            <div class="two columns">
-                                <p class="date">Aug 2</p>
-                            </div>
-                            <div class="ten columns">
-                                <h5 class="event-title">
-                                    <a href="#">Family Giving Tree Holiday Wish Kickoff</a>
-                                </h5>
-                                <p>All Drive Leaders are invited to join the Family Giving Tree Elves for a community get together before the Holiday Wish Drive. This is a chance to pick up materials, ask questions, meet other local Elves, and celebrate the season of making wishes become reality. </p>
-                            </div>
-                        </div>
-                        <!-- end .row -->
-                        <div class="row">
-                            <div class="two columns">
-                                <p class="date">Aug 2</p>
-                            </div>
-                            <div class="ten columns">
-                                <h5 class="event-title">
-                                    <a href="#">FGT Open House</a>
-                                </h5>
-                                <p>This is a description of the event.</p>
-                            </div>
-                        </div>
-                        <!-- end .row -->
-                    </div>
-                </div>
-                
-                        
             </section>
             <!-- end #hallOfFame -->
         </div>
