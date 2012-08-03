@@ -248,38 +248,7 @@
 <div class="reveal-modal" id="imgModal"> <img src="http://placehold.it/300x300" id="largeimage"> <a class="close-reveal-modal">&#215;</a> </div>
 <!--Database-driven volunteer registration-->
 <div id="registerModal" class="reveal-modal">
-  <h2>Register to Volunteer</h2>
-  <p><strong>Day/Task:</strong> <span id="daytask"></span> </p>
-  <form action="" id="warehouseform">
-    <!--Hidden input with taskId value is added with script-->
-    <p>
-      <label for="name">Name</label>
-      <input type="text" id="name">
-    </p>
-    <p>
-      <label for="email">Email</label>
-      <input type="text" id="email">
-    </p>
-    <p>
-      <label for="emailconfirm">Confirm Email</label>
-      <input type="text" id="emailconfirm">
-    </p>
-    <p>
-      <label for="phone">Phone Number</label>
-      <input type="text" id="phone">
-    </p>
-    <p>
-      <label for="phone">Group/Company Name</label>
-      <input type="text" id="group">
-    </p>
-    <p>
-      <label for="phone">Number of Volunteers</label>
-      <input type="text" id="number">
-    </p>
-    <p class="text-center"> <a href="#">Cancel</a> &nbsp;
-      <input type="submit" value="Submit" class="button">
-    </p>
-  </form>
+  <div id="registerModalContent"></div>
   <a class="close-reveal-modal">&#215;</a> </div>
 <!--Task description modals-->
 <div id="task1Modal" class="reveal-modal">
@@ -628,6 +597,7 @@ function registerSelect(){
     var desc = $(this).find('option:selected').text();
   if(taskId!==''){
       $('#registerlink').show();
+      $('#registerModalContent').load('vol_register.php?taskId='+taskId);
       $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
       $('#daytask').text(desc);
   }
