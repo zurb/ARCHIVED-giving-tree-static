@@ -1,6 +1,6 @@
 <?
     $page_title = "Home";
-    $page_template = "Main";
+    $page_template = "main";
 ?>
 <?php include("includes/_header.php"); ?>
 
@@ -127,7 +127,7 @@
 
 <?php content_for('footer', function() { ?>
   <script type="text/javascript"> 
-    $(".row.featured").spin({lines:9, width:4})
+    // $(".row.featured").spin({lines:9, width:4})
    $(window).load(function() {
        $('#featured').orbit({ pauseOnHover: true, startClockOnMouseOut: true, advanceSpeed: 5000, fluid: "1430x550", bullets: true });
        $(".row.featured").spin(false);
