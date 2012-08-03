@@ -43,30 +43,29 @@
     </div>
 </div>
 
-<div class="row">
+<div class="row stats">
     <div class="four columns">
-        <h3>970,516 Children</h3>
+        <h3 class="orange">970,516 Children</h3>
         <p>Have received holiday gifts or back-to-school supplies through
             Family Giving Tree since 1990</p>
     </div>
     <div class="four columns">
-        <h3>1,123,228 Gifts</h3>
+        <h3 class="green">1,123,228 Gifts</h3>
         <p>Delivered to needy children. We provide gifts during the holidays, 
             and back-to-school supplies during the school year.</p>
     </div>
     <div class="four columns">
-        <h3>89%</h3>
+        <h3 class="pink">89%</h3>
         <p>of every donation we raise goes straight to participating charities</p>
     </div>
 </div>
 
 <div class="row">
     <div class="twelve columns">
-        <h2>One Fulfilled Wish, One Backpack at a Time</h2>
         <div class="row">
             <div class="nine columns">
-                <p>Since 1990, Family Giving Tree has been fulfilling the holiday wishes of children in low-income neighborhoods and providing backpacks stuffed with school supplies so they’re prepared to learn. It’s more than just gifts or rulers or pencils. It’s giving kids precious, happy memories. It’s amazing to know that we’ve put smiles on the faces of a million kids.</p>
-                <a href="" class="small white button">Learn more about our roots &raquo;</a>
+                <h2>One Fulfilled Wish, One Backpack at a Time</h2>
+                <p>Since 1990, Family Giving Tree has been fulfilling the holiday wishes of children in low-income neighborhoods and providing backpacks stuffed with school supplies so they’re prepared to learn. It’s more than just gifts or rulers or pencils. It’s giving kids precious, happy memories. It’s amazing to know that we’ve put smiles on the faces of a million kids. <a href="#">Learn more about our roots &raquo;</a></p>
             </div>
             <div class="three columns">
                 <img src="http://placehold.it/200x200">

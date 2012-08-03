@@ -148,10 +148,15 @@
   p.lead { font-size: ms(1) - 2; }
 }
 ul.orbit-bullets { bottom: 20px; }
+.stats { text-align: center; }
 
+.orange { color: $orange; }
+.green { color: $green; }
+.pink { color: $pink; }
 
 /*Lead a Drive*/
 h1 { color: $darkPurple; }
+h2 { color: #555555; font-size: 27px; font-size: 2.7rem; }
 
 /*Events*/
 .date {
@@ -172,6 +177,9 @@ h1 { color: $darkPurple; }
   }
 }
 .upcoming-events {
+    a {
+        font-weight: bold;
+    }
     p {
         font-size: 14px;
     }
@@ -185,6 +193,7 @@ footer {
     dt {
         font-weight: bold;
         margin-bottom:10px;
+        margin-top: 15px;
     }
     dd {
         line-height: 21px;
@@ -204,8 +213,25 @@ footer {
         color: #E2D8D0;
     }
 }
+header {
+    background: image-url("puple-bg.png");
+    height: 90px;
+    overflow: visible;
+    .link-list {
+         a {
+            font-weight: bold;
+            font-size: 14px;
+            color: $white;
+         }
+    }
+    img {
+        position: absolute;
+        top: -60px;
+        z-index: 10;
+    }
+}
 .footer-columns {
-    background: url(../images/footer-bg.png) repeat-x;
+    background: image-url("footer-bg.png") repeat-x;
     .elf img {
         margin-top:-80px;
     }
@@ -234,6 +260,7 @@ h1, h2, h3 {
 }
 .handwritten {
     font-family: 'HandOfSeanRegular';
+    font-weight: normal;
 }
 .side-nav a {
     color: $pink;
@@ -248,7 +275,7 @@ h1, h2, h3 {
         border-radius: 20px;
         color: $darkPurple;
         background: $white;
-        width:40px;
+        width:30px;
     }
   }
 }
