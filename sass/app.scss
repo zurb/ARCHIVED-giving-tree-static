@@ -399,6 +399,7 @@ img.right {
 }
 #tasklist {
   list-style-type: none;
+  margin: 0;
   li {
     display: inline-block;
   *display: inline;
@@ -423,4 +424,12 @@ img.right {
   text-align: center;
   margin: 4px 0 0;
   vertical-align: top;
+}
+.calendar {
+  td, th, p {
+    font-size: 12px;
+  }
+  td, th {
+    width: 14%;
+  }
 }
