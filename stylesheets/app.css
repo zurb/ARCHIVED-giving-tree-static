@@ -4329,7 +4329,7 @@ p.vevent abbr {
 /* line 75, ../sass/app.scss */
 .featured ul {
   position: absolute;
-  bottom: 0;
+  top: 340px;
   left: 280px;
   z-index: 1000;
 }
@@ -4337,9 +4337,16 @@ p.vevent abbr {
 /* line 76, ../sass/app.scss */
 .featured .orbit-wrapper .content {
   position: absolute;
-  top: 60px;
+  top: 80px;
   left: 80px;
   width: 200px;
+}
+
+/* line 77, ../sass/app.scss */
+#featured {
+  background: #f4f4f4;
+  height: 364px;
+  margin-bottom: 20px;
 }
 
 /* line 78, ../sass/app.scss */
@@ -4396,17 +4403,44 @@ footer {
   font-size: 24px;
 }
 
-/* line 113, ../sass/app.scss */
+/* line 112, ../sass/app.scss */
+.reveal-modal .row {
+  width: auto !important;
+  max-width: 106% !important;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 118, ../sass/app.scss */
 .right {
   float: right;
 }
 
-/* line 116, ../sass/app.scss */
+/* line 121, ../sass/app.scss */
 .left {
   float: left;
 }
 
-/* line 120, ../sass/app.scss */
+/* line 125, ../sass/app.scss */
+.next-season {
+  display: none;
+}
+
+/* Progress Bar */
+/* line 130, ../sass/app.scss */
+.progress-bar {
+  width: 100%;
+  height: 30px;
+  border: solid 1px #888;
+}
+/* line 134, ../sass/app.scss */
+.progress-bar .progress-status {
+  width: 40%;
+  height: 100%;
+  background: #ddd;
+}
+
+/* line 140, ../sass/app.scss */
 .sticky {
   position: fixed;
   top: 10px;

@@ -6,7 +6,7 @@
 
 <div class="row featured">
     <div class="twelve columns">
-        <div class="orbit-wrapper" style="width: 950px; height: 367px" id="featured">
+        <div class="orbit-wrapper" id="featured">
             <div>
                 <div class="content">
                     <h1>Donate</h1>
@@ -113,9 +113,6 @@
     </div>
 </div>
 
-<div class="row">
-    <div style="height: 40px"></div>
-</div>
 
 <?php include("includes/_footer.php");  ?>
 
