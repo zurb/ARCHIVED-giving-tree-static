@@ -20,17 +20,15 @@
 <div class="row">
   <div class="three column">
     <ul class="side-nav" data-sticky>
-      <!--<li><a href="#joinus">Join Us</a></li>-->
       <li><a href="#register">Join Us</a></li>
       <li><a href="#warehouse">The Warehouse</a></li>
-      <!--<li><a href="#events">Events</a>-->
       <li><a href="#angelelf">Angel Elves</a></li>
-      <li><a href="#celebrating">Celebrating Volunteers</a></li>
       <li><a href="#photos">Photos</a></li>
     </ul>
   </div>
   <div class="nine column">
     <section id="joinus">
+      <br><br>
       <h3> Year-Round Volunteer Opportunities</h3>
       <div class="row">
       <div class="three columns">
@@ -55,12 +53,12 @@
         </p>
       </div></div>
       <h3> Backpack pick-up and delivery (August)</h3>
-      <ul>
+      <ul class="disc">
         <li> BTS Warehouse Duties (August): Help us set-up the warehouse, receive backpacks, sort, quality check, clean-up warehouse and prepare backpacks for distribution to low-income children.</li>
         <li> Backpack distributions (August)</li>
       </ul>
       <h3> Holiday Wish Drive</h3>
-      <ul>
+      <ul class="disc">
         <li> Wish Card sorting (October)</li>
         <li> Gift pickup and delivery (December)</li>
         <li> HWD warehouse duties (December): Help us set-up warehouse, receive gifts, sort, wrap, quality check, clean-up warehouse and distribute gifts to low-income children.</li>
@@ -98,7 +96,7 @@
           <li class="august"><a href="#" class="warehousetask">Back to School Warehouse</a> &nbsp;<a href="#" data-reveal-id="task4Modal" class="helpicon">?</a></li>
           <li class="january december"><a href="#" class="warehousetask">Holiday Wish Drive Warehouse</a> &nbsp;<a href="#" data-reveal-id="task5Modal" class="helpicon">?</a></li>
           <li class="august december"><a href="#" data-reveal-id="volEmailModal">Donation Pick-ups</a> &nbsp;<a href="#" data-reveal-id="task6Modal" class="helpicon">?</a></li>
-          <li class="february march april may june july september november"><a href="#" data-reveal-id="volEmailModal">Agency Interviews</a> &nbsp;<a href="#" data-reveal-id="task7Modal" class="helpicon">?</a></li>
+          <li class="january february march april may june july august september october november december"><a href="#" data-reveal-id="volEmailModal">Agency Interviews</a> &nbsp;<a href="#" data-reveal-id="task7Modal" class="helpicon">?</a></li>
           <li class="october november"><a href="#" data-reveal-id="volEmailModal">Wish Editing</a> &nbsp;<a href="#" data-reveal-id="task8Modal" class="helpicon">?</a></li>
         </ul>
         <div id="warehousetaskform">
@@ -142,6 +140,13 @@
         </div>
       </div>
     </section>
+ 
+    <div class="row">
+      <div class="twelve columns">
+        <img src="images/horizontal-rule1.png">
+      </div>
+    </div>
+
     <section id="warehouse">
       <h2>The Warehouse</h2>
       <div class="row">
@@ -181,6 +186,13 @@
         </tr>
       </table>
     </section>-->
+
+    <div class="row">
+      <div class="twelve columns">
+        <img src="images/horizontal-rule1.png">
+      </div>
+    </div>
+
     <section id="angelelf">
       <h2>Angel Elves</h2>
       <p>Do you want to help the Family Giving Tree in a special way? Angel Elves are experienced volunteers willing to donate their time and skill set to help our programs run smoothly. Some Angel Elves supervise other volunteers at the warehouse on multiple days. Some help with special events and other activities such as the Executive Elf Challenge and Wish Card sorting. In the warehouse during Back to School and Holiday Drive, tasks may involve general set up, greeting other volunteers, store supervision and supervision of gift shipping/receiving.  Angel Elf responsibilities depend on the person's experience and comfort level with specific tasks.</p>
@@ -206,6 +218,13 @@
         </div>
       </div>
     </section>
+
+    <div class="row">
+      <div class="twelve columns">
+        <img src="images/horizontal-rule1.png">
+      </div>
+    </div>
+
     <section id="photos">
       <h2>Photos</h2>
       <div class="row">
