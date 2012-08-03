@@ -8,6 +8,11 @@
 /* Feature */
 .featured { position: relative; margin-bottom: 20px; }
 .featured ul { position: absolute; bottom: 0; left: 280px; z-index: 1000; }
+.featured .orbit-wrapper .content { position: absolute; top: 80px; left: 80px; width: 200px }
+#featured { background: url(spinner.gif) center center #f4f4f4; height: 300px; }
+#featured div { display: none; }
+#featured.orbit { background: none; }
+#featured.orbit div { display: block; }
 /* Stats / News */
 .stats { border: 2px solid #ccc; padding: 10px; margin-top: 10px }
 .stats h3 { margin: 0; padding: 0; text-align: right; }
@@ -19,11 +24,42 @@
 <div class="row featured">
     <div class="twelve columns">
         <!-- Four spots on the slider, Donate, Lead a Drive, Volunteer, Marketing Blurb -->
-        <div class="orbit-wrapper" style="width: 950px; height: 350px" id="featured">
-            <img src="http://placehold.it/980x350">
-            <img src="http://placehold.it/980x350">
-            <img src="http://placehold.it/980x350">
-            <img src="http://placehold.it/980x350">
+        <div class="orbit-wrapper" style="width: 950px; height: 367px" id="featured">
+            <div>
+                <div class="content">
+                    <h1>Donate</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Integer malesuada dapibus fermentum.</p>
+                    <a href="#" class="button radius">Donate &raquo;</a>
+                </div>
+                <img src="http://placehold.it/980x367">
+            </div>
+            <div>
+                <div class="content">
+                    <h1>Organize</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Integer malesuada dapibus fermentum.</p>
+                    <a href="#" class="button radius">Lead a Drive &raquo;</a>
+                </div>
+                <img src="http://placehold.it/980x367">
+            </div>
+            <div>
+                <div class="content">
+                    <h1>Volunteer</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Integer malesuada dapibus fermentum.</p>
+                    <a href="#" class="button radius">Volunteer &raquo;</a>
+                </div>
+                <img src="http://placehold.it/980x367">
+            </div>
+            <div>
+                <div class="content">
+                    <h1>Featured</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Integer malesuada dapibus fermentum.</p>
+                </div>
+                <img src="http://placehold.it/980x367">
+            </div>
         </div>
         <ul class="button-group radius">
             <li><a href="#" class="button radius">Donate</a></li>
@@ -41,7 +77,7 @@
             Family Giving Tree since 1990</p>
     </div>
     <div class="four columns">
-        <h3>123,228 Gifts</h3>
+        <h3>1,123,228 Gifts</h3>
         <p>Delivered to needy children. We provide gifts during the holidays, 
             and back-to-school supplies during the school year.</p>
     </div>
@@ -121,8 +157,8 @@
 
 <?php include("includes/_footer.php");  ?>
 
-<script type="text/javascript">
+<script type="text/javascript"> 
    $(window).load(function() {
-       $('#featured').orbit();
+       $('#featured').orbit({ fluid: '16x6' });
    });
 </script>
