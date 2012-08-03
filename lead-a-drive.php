@@ -37,7 +37,7 @@
                 <li><a href="#tipsSuccessfulDrive">Tips For a Successful Drive</a></li>
                 <li><a href="#currentDrives">Current Drive Locations</a></li>
                 <li class="divider"></li>
-                <li><a href="#"><span class="glyph">9</span> Download resources</a></li>
+                <li><a href="donate.php#tax_links"><span class="glyph">9</span> Download resources</a></li>
             </ul>
             <!-- duplicate nav -->
             <ul class="side-nav show-for-small">

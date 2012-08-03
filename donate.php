@@ -129,7 +129,7 @@
   </div>
   <div class="three columns">
     <div class="panel">
-      <h5>Tax Links</h5>
+      <h5 id="tax_links">Tax Links</h5>
       <ul class="disc">
         <li><a href="#">Tax Link</a></li>
         <li><a href="#">Tax Link</a></li>
