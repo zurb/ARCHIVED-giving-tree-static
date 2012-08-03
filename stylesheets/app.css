@@ -4337,15 +4337,9 @@ p.vevent abbr {
 /* line 76, ../sass/app.scss */
 .featured .orbit-wrapper .content {
   position: absolute;
-  top: 80px;
+  top: 60px;
   left: 80px;
   width: 200px;
-}
-
-/* line 77, ../sass/app.scss */
-#featured {
-  background: url(spinner.gif) center center #f4f4f4;
-  height: 300px;
 }
 
 /* line 78, ../sass/app.scss */
@@ -4410,4 +4404,10 @@ footer {
 /* line 116, ../sass/app.scss */
 .left {
   float: left;
+}
+
+/* line 120, ../sass/app.scss */
+.sticky {
+  position: fixed;
+  top: 10px;
 }
