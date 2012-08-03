@@ -78,7 +78,7 @@
       <div class="nine columns">
         <h4>Does My Company Match?</h4>
         <p>Several companies support the charitable donations of employees by matching their financial contributions to eligible organizations. Use the search function to see if your company has previously provided a matching gift to Family Giving Tree.</p>
-        <a href="#volunteer" class="purple tiny button">Learn More &raquo;</a>
+        <a href="http://www.familygivingtree.org/donations/matching_gifts.html" class="purple tiny button">Learn More &raquo;</a>
       </div>
     </div>
     <br>
@@ -104,26 +104,26 @@
         408-946-3111 x225</blockquote>
       </div>
     </div>
-    <div class="row dotted">
+    <!-- <div class="row dotted">
       <div class="twelve columns">
         <h4>Donation Deadline?</h4>
         <p>Monetary donations are received throughout the year.  For information about deadlines for gifts according to the drive, visit the  warehouse page.</p>
         <a href="#volunteer" class="tiny purple button">Learn More &raquo;</a>
       </div>
-    </div>
+    </div> -->
     
     <div class="row dotted">
       <div class="twelve columns">
         <h4>Product Donations</h4>
         <p>Do you have overruns of a product? Ordered too much? You can help us fulfill the wishes of more children.</p>
-        <a href="#volunteer" class="tiny purple button">Learn More &raquo;</a>
+        <a href="#wishlist" class="tiny purple button">Learn More &raquo;</a>
       </div>
     </div>
     <div class="row">
       <div class="twelve columns">
         <h4>Our Rewards</h4>
         <p>Do your shopping online and support Family Giving Tree at the same time.</p>
-        <a href="#volunteer" class="tiny purple button">Learn More &raquo;</a>
+        <a href="http://vgt.familygivingtree.org/fgt/" class="tiny purple button">Learn More &raquo;</a>
       </div>
     </div>
   </div>
