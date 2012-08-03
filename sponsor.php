@@ -28,7 +28,7 @@
       
       <div class="row">
         <div class="twelve columns">
-          <h4>Back to School Drives</h4>
+          <h2>Back to School Drives</h2>
           <p class="lead">For our Back to School Drives, the students who receive backpacks from our drive usually begin school with few or no supplies. We believe they deserve an equal start, with the supplies they need to learn. When it comes to our Holiday Wish Drive, you’ll be ensuring that a child doesn’t have to go without a gift during the holidays.</p>
         </div>
       </div>
@@ -109,7 +109,7 @@
  
   <div class="row sponsor-levels">
     <div class="three columns">
-      <h4>Sponsorship Levels</h4>
+      <h2>Sponsorship Levels</h2>
       <p>We work with companies to customize a sponsorship package that meets our mutual goals.  Opportunities include:</p>
     </div>
     <div class="nine columns">
