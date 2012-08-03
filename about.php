@@ -4,19 +4,12 @@
 ?>
 <?php include("includes/_header.php"); ?>
 
-<div class="row">
-  <div class="twelve columns">
-    <div class="bg-fill-4" style="background:#efe98d; width: 1000px; height: 200px;">
-<!--         <img src="http://placehold.it/1000x200" alt="About Us">   -->
+<div class="feature_wrapper">
+    <div class="row">
+      <div class="twelve columns">
+        <h1>About Us</h1>
+      </div>
     </div>
-    <h1>About Us</h1>
-  </div>
-</div>
-
-<div class="row">
-  <div class="twelve columns">
-    <hr>
-  </div>
 </div>
 
 <div class="row">
