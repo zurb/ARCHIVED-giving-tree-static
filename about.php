@@ -19,7 +19,7 @@
 
 <div class="row">
   <div class="three columns">
-    <ul class="side-nav">
+    <ul class="side-nav" data-sticky>
       <li><a href="#">Staff</a></li>
       <li><a href="#">Board</a></li>
       <li><a href="#">Stats</a></li>
