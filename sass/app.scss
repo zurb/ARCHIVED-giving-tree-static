@@ -238,12 +238,17 @@ header {
 }
 .footer-columns {
     background: image-url("footer-bg.png") repeat-x;
+    padding-bottom: 15px;
     .elf img {
         margin-top:-80px;
+    }
+    p {
+        font-size: 14px;
     }
 }
 .footer-nav {
     background: #523219;
+    padding-top: 15px;
     .link-list a {
         font-size:15px;
     }
@@ -278,10 +283,16 @@ h1, h2, h3 {
     font-family: 'FoundationIconsSocial';
     font-size: 24px;
     li a {
-        border-radius: 20px;
+        border-radius: 50%;
         color: $darkPurple;
         background: $white;
-        width:30px;
+        width:25px;
+        height:25px;
+        text-align: center;
+        opacity: .5;
+        &:hover {
+            opacity:1;
+        }
     }
   }
 }
