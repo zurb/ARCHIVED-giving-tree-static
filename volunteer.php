@@ -5,19 +5,17 @@
 <?php include("includes/_header.php"); ?>
 
 <!-- VOLUNTEER PAGE CONTENT -->
-<<<<<<< HEAD
 <div class="feature_wrapper">
     <div class="row hide-for-small">
         <div class="twelve columns">
             <h1>Volunteer</h1>
         </div>
     </div>
-=======
+</div>
 <div class="row">
   <div class="twelve column"> <img src="http://placehold.it/1000x350">
     <h1>Volunteer</h1>
   </div>
->>>>>>> 54ed22899f559412722f757f5f2c26e00e858f5e
 </div>
 <div class="row">
   <div class="three column">
@@ -606,22 +604,10 @@
 </div>
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+<?php include("includes/_footer.php");  ?>
+<script src="javascripts/jquery.form.js"></script>
+<script src="javascripts/jquery.validate.min.js"></script>
 
-<?php include("includes/_footer.php");  ?>
-<script src="javascripts/jquery.form.js"></script>
-<script src="javascripts/jquery.validate.min.js"></script>
-=======
-<?php include("../../../wamp/www/giving-tree-static/includes/_footer.php");  ?>
-<script src="../../../wamp/www/giving-tree-static/javascripts/jquery.form.js"></script>
-<script src="../../../wamp/www/giving-tree-static/javascripts/jquery.validate.min.js"></script>
->>>>>>> 54ed22899f559412722f757f5f2c26e00e858f5e
-=======
-<?php include("includes/_footer.php");  ?>
-<script src="javascripts/jquery.form.js"></script>
-<script src="javascripts/jquery.validate.min.js"></script>
->>>>>>> 546d2d8ec198ff2f3b93e8b8a998c5ac1f6720c3
 <script>
 $(document).ready(function(){
   registerSelect();
