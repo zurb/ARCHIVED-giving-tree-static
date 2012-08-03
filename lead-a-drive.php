@@ -145,7 +145,7 @@
                 <div class="row">
                     <div class="twelve columns">
                         <h2>Current Drive Locations</h2>
-                        <p>See the who, what and where of the Family Giving Tree community and Elves. </p>
+                        <p>The locations below have made wish cards available for individuals looking to provide a supply-filled backpack. </p>
                     </div>
                 </div>
                 <!-- end .row -->
