@@ -207,38 +207,38 @@
       <h2>Photos</h2>
       <div class="row">
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol1.jpg"></a></p>
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol1.jpg" class="imgthumb"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol2.jpg"></a></p>
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol2.jpg" class="imgthumb"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol3.jpg"></a></p>
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol3.jpg" class="imgthumb"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol4.jpg"></a></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol5.jpg"></a></p>
-        </div>
-        <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol6.jpg"></a></p>
-        </div>
-        <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol7.jpg"></a></p>
-        </div>
-        <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol8.jpg"></a></p>
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol4.jpg" class="imgthumb"></a></p>
         </div>
       </div>
       <div class="row">
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol9.jpg"></a></p>
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol5.jpg" class="imgthumb"></a></p>
+        </div>
+        <div class="three columns">
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol6.jpg" class="imgthumb"></a></p>
+        </div>
+        <div class="three columns">
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol7.jpg" class="imgthumb"></a></p>
+        </div>
+        <div class="three columns">
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol8.jpg" class="imgthumb"></a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="three columns">
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol9.jpg" class="imgthumb"></a></p>
         </div>
         <div class="three columns end">
-          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol10.jpg"></a></p>
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol10.jpg" class="imgthumb"></a></p>
         </div>
       </div>
     </section>
@@ -626,11 +626,11 @@ function registerSelect(){
     $('#registerlink').hide();
     var taskId = $(this).val();
     var desc = $(this).find('option:selected').text();
-  if(taskId!==''){
+	if(taskId!==''){
       $('#registerlink').show();
       $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
       $('#daytask').text(desc);
-  }
+	}
   });
 }
 <!--Image popup-->
