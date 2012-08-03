@@ -170,6 +170,7 @@ ul.orbit-bullets { bottom: 20px;
 }
 
 /*Global*/
+a, img { border: none; }
 p { color: #555; line-height: 1.5; }
 .orange { color: $orange; }
 .green { color: $green; }
@@ -500,6 +501,7 @@ img.right {
 
 @media screen and (max-width: 1050px) {
   .featured h1 { font-size: 34px; font-size: 3.4rem; }
+  .featured p { font-size: 14px; font-size: 1.4rem; }
   .featured .content { position: relative; left: 60px; }
 }
 @media screen and (max-width: 767px) {
