@@ -246,6 +246,9 @@ header {
     p {
         font-size: 14px;
     }
+    .upcoming-events li a {
+        color: $green;
+    }
 }
 .footer-nav {
     background: #523219;
@@ -259,9 +262,9 @@ footer {
     h5 {
         margin-top: 25px;
         a {
-            color: #E2D8D0;
+            color: #E2D8D0 !important;
             &:hover {
-                color: $white;
+                color: $white !important;
             }
         }
     }
