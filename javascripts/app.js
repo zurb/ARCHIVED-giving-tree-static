@@ -25,7 +25,7 @@
     $(document).foundationTabs({callback:$.foundation.customForms.appendCustomMarkup});
     
     $(document).tooltips();
-    $('input, textarea').placeholder();
+    $("input, textarea").placeholder();
     
     // UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE8 SUPPORT AND ARE USING .block-grids
     // $('.block-grid.two-up>li:nth-child(2n+1)').css({clear: 'left'});
@@ -35,11 +35,13 @@
   });
   
   $(window).load(function () {
-    $('body').raptorize({
+    $("body").raptorize({
       "enterOn" : "konami-code"
     });
     $("[data-sticky]").each(GivingTree.setInitialStickyNavOffset);
   });
+  
+  $(window).scroll(GivingTree.updateStickyNav);
   $("[data-sticky]").each(GivingTree.setInitialStickyNavOffset);
   $(window).on("scroll.sticky-nav",GivingTree.updateStickyNav);
   

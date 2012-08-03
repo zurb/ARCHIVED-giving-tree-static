@@ -72,9 +72,9 @@
 
 /*Hompepage*/
 .featured { position: relative; margin-bottom: 20px; }
-.featured ul { position: absolute; bottom: 0; left: 280px; z-index: 1000; }
-.featured .orbit-wrapper .content { position: absolute; top: 80px; left: 80px; width: 200px }
-#featured { background: image-url("spinner.gif") center center #f4f4f4; height: 300px; }
+.featured ul { position: absolute; top: 340px; left: 280px; z-index: 1000; }
+.featured .orbit-wrapper .content { position: absolute; top: 50px; left: 80px; width: 425px }
+#featured { background: #f4f4f4; height: 364px; margin-bottom: 20px; }
 #featured div { display: none; }
 #featured.orbit { background: none; }
 #featured.orbit div { display: block; }
@@ -115,6 +115,9 @@ footer {
     margin-left:-($columnGutter / 2);
     margin-right:-($columnGutter / 2);
 }
+.side-nav {
+    background:$white;
+}
 .right {
   float: right;
 }
@@ -138,3 +141,20 @@ footer {
   }
 }
 .sticky {position:fixed; top:10px;}
+
+/*Holiday Slider*/
+#holidaySlider {
+    min-height:450px !important;
+}
+img.right {
+    width:200px;
+    margin-left:$columnGutter;
+}
+#holidaySlider .columns {
+    background:$white;
+    box-shadow: 0px 3px 20px rgba(0,0,0,.1);
+    width:90%;
+    padding:15px !important;
+    border: 1px solid #ddd;
+    margin-left: 50px;
+}
