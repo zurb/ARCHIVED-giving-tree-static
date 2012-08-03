@@ -7,24 +7,14 @@
 <!-- SPONSORPAGE CONTENT -->
 <div id="mainContent">
 
-  <div class="row featured">
-    <div class="twelve columns">
-     <div class="orbit-wrapper"style="height:350px;">
-       <div id="featured" >
-         <img src="http://www.placehold.it/1000x350"/>
-         <img src="http://www.placehold.it/1000x350"/>
-         <img src="http://www.placehold.it/1000x350"/>
-       </div>
-     </div>
+    <div class="feature_wrapper">
+      <div class="row">
+        <div class="twelve columns">
+          <h1>Sponsors</h1>
+        </div>
+      </div>
     </div>
-  </div>
-  
-  <div class="row">
-    <div class="twelve columns">
-      <h3>Current Sponsors</h3>
-    </div>
-  </div>
-  
+
   <div class="row">
     <div class="seven columns">
       <ul class="block-grid four-up">
@@ -60,7 +50,7 @@
   
   <div class="row">
     <div class="twelve columns">
-      <hr>
+      <img src="images/horizontal-rule1.png">
     </div>
   </div>
   
@@ -135,19 +125,6 @@
 <br>
 
 <?php content_for('footer', function() { ?>
-  <script type="text/javascript">
-    $(".row.featured").spin({lines:9, width:4})
-     $(window).load(function() {
-         $('#featured').orbit();
-         $(".row.featured").spin(false);
-     });
-  </script>
-  <div id="sponsorModal" class="reveal-modal">
-    <h2>Awesome. I have it.</h2>
-    <p class="lead">Your couch.  I it's mine.</p>
-    <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
-    <a class="close-reveal-modal">&#215;</a>
-  </div>
 <?php })?>
 
 <?php include("includes/_footer.php");  ?>

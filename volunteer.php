@@ -5,14 +5,17 @@
 <?php include("includes/_header.php"); ?>
 
 <!-- VOLUNTEER PAGE CONTENT -->
-<div class="row hide-for-small">
+<div class="feature_wrapper">
+    <div class="row hide-for-small">
+        <div class="twelve columns">
+            <h1>Volunteer</h1>
+        </div>
+    </div>
+</div>
+<div class="row">
   <div class="twelve column"> <img src="http://placehold.it/1000x350">
     <h1>Volunteer</h1>
   </div>
-</div>
-<div class="row intro show-for-small">
-    <h1>Volunteer</h1>
-    <p class="lead">Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled</p>
 </div>
 <div class="row">
   <div class="three column">
@@ -53,8 +56,8 @@
       </ul>
       <p> To learn about our needs as soon as they're posted, Sign up for our newsletter <a href="https://www.facebook.com/familygivingtree" target="_blank">become a friend on Facebook</a></p>
       <div class="panel" id="register">
-        <h4>When can you volunteer?</h4>
-        <p>
+        <h3>When can you volunteer?</h3>
+        <div class="inputrow">
           <label for="volunteermonth">Month:</label>
           <select id="volunteermonth">
             <!--
@@ -78,19 +81,19 @@
             <option value="november">November</option>
             <option value="december">December</option>
           </select>
-        </p>
+        </div>
         <ul id="tasklist">
-          <li class="january february march april may june july august september october november december"><a href="#" data-reveal-id="volEmailModal">General Office Duties</a> &nbsp; <a href="#" data-reveal-id="task1Modal">?</a></li>
-          <li class="may june"><a href="#" data-reveal-id="volEmailModal">Back to School Drive Prep</a> &nbsp; <a href="#" data-reveal-id="task2Modal">?</a></li>
-          <li class="september october november december"><a href="#" data-reveal-id="volEmailModal">Holiday Wish Drive Prep</a> &nbsp; <a href="#" data-reveal-id="task3Modal">?</a></li>
-          <li class="august"><a href="#" class="warehousetask">Back to School Warehouse</a> &nbsp; <a href="#" data-reveal-id="task4Modal">?</a></li>
-          <li class="january december"><a href="#" class="warehousetask">Holiday Wish Drive Warehouse</a> &nbsp; <a href="#" data-reveal-id="task5Modal">?</a></li>
-          <li class="august december"><a href="#" data-reveal-id="volEmailModal">Donation Pick-ups</a> &nbsp; <a href="#" data-reveal-id="task6Modal">?</a></li>
-          <li class="february march april may june july september november"><a href="#" data-reveal-id="volEmailModal">Agency Interviews</a> &nbsp; <a href="#" data-reveal-id="task7Modal">?</a></li>
-          <li class="october november"><a href="#" data-reveal-id="volEmailModal">Wish Editing</a> &nbsp; <a href="#" data-reveal-id="task8Modal">?</a></li>
+          <li class="january february march april may june july august september october november december"><a href="#" data-reveal-id="volEmailModal">General Office Duties</a> &nbsp;<a href="#" data-reveal-id="task1Modal" class="helpicon">?</a></li>
+          <li class="may june"><a href="#" data-reveal-id="volEmailModal">Back to School Drive Prep</a> &nbsp;<a href="#" data-reveal-id="task2Modal" class="helpicon">?</a></li>
+          <li class="september october november december"><a href="#" data-reveal-id="volEmailModal">Holiday Wish Drive Prep</a> &nbsp;<a href="#" data-reveal-id="task3Modal" class="helpicon">?</a></li>
+          <li class="august"><a href="#" class="warehousetask">Back to School Warehouse</a> &nbsp;<a href="#" data-reveal-id="task4Modal" class="helpicon">?</a></li>
+          <li class="january december"><a href="#" class="warehousetask">Holiday Wish Drive Warehouse</a> &nbsp;<a href="#" data-reveal-id="task5Modal" class="helpicon">?</a></li>
+          <li class="august december"><a href="#" data-reveal-id="volEmailModal">Donation Pick-ups</a> &nbsp;<a href="#" data-reveal-id="task6Modal" class="helpicon">?</a></li>
+          <li class="february march april may june july september november"><a href="#" data-reveal-id="volEmailModal">Agency Interviews</a> &nbsp;<a href="#" data-reveal-id="task7Modal" class="helpicon">?</a></li>
+          <li class="october november"><a href="#" data-reveal-id="volEmailModal">Wish Editing</a> &nbsp;<a href="#" data-reveal-id="task8Modal" class="helpicon">?</a></li>
         </ul>
         <div id="warehousetaskform">
-          <p>
+          <div class="inputrow">
             <label>Day/Task:</label>
             <select class="volunteerday january">
               <!--
@@ -131,7 +134,7 @@
               <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
               <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
             </select>
-          </p>
+          </div>
           <p> <a href="#" class="button" data-reveal-id="registerModal" id="registerlink">Go</a></p>
         </div>
       </div>
@@ -147,7 +150,9 @@
         </div>
         <div class="six column">
           <h3> BTS Warehouse</h3>
-          <img src="http://placehold.it/500x350">
+          
+          <iframe width="338" height="236" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=560+Cottonwood+Drive+,+Milpitas,+CA&amp;ie=UTF8&amp;hq=&amp;hnear=560+Cottonwood+Dr,+Milpitas,+California+95035&amp;gl=us&amp;t=m&amp;ll=37.403778,-121.913395&amp;spn=0.016091,0.028925&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=560+Cottonwood+Drive+,+Milpitas,+CA&amp;ie=UTF8&amp;hq=&amp;hnear=560+Cottonwood+Dr,+Milpitas,+California+95035&amp;gl=us&amp;t=m&amp;ll=37.403778,-121.913395&amp;spn=0.016091,0.028925&amp;z=14&amp;iwloc=A&amp;source=embed">View Larger Map</a></small>
+          
           <p>Thank you iStar Financial!</p>
           <p> 560 Cottonwood Drive <br>
             Milpitas, CA 95035 <br>
@@ -336,8 +341,11 @@
   <a class="close-reveal-modal">&#215;</a> </div>
 <div id="volEmailModal" class="reveal-modal">
   <div class="preconfirm">
+  <p class="right">
+    *Required Fields 
+    </p>
   <h2>Register to Volunteer</h2>
-  <form id="volunteerform" method="post" action="volunteer-post-email.php">
+  <form id="volunteerform" method="post" action="../../../wamp/www/giving-tree-static/volunteer-post-email.php">
     <label for="name">*Name</label>
     <input type="text" id="name" name="name" class="required" />
     <label for="email">Email Address</label>
@@ -347,37 +355,44 @@
     <label for="org">Company or School Name</label>
     <input type="text" id="org" name="org" />
     <label for="under18">*Are you under 18?</label>
+    <div class="inputrow">
     <label>
       <input type="radio" name="under18" id="under18yes" value="Yes" class="required" />
-      Yes</label>
+      Yes &nbsp;</label>
     <label>
       <input type="radio" name="under18" id="under18no" value="No" class="required" />
-      No</label>
+      No &nbsp;</label>
     <label for="grade">If so, grade level</label>
     <input type="text" id="grade" name="grade" />
+    </div>
+    <div class="inputrow">
     <label for="weekday">*Availability (check all that apply)</label>
+    </div>
+    <div class="inputrow">
     <label for="weekday">Days</label>
     <label>
       <input type="checkbox" name="weekday[]" id="weekdaym" value="M" class="required" />
-      M</label>
+      M &nbsp;</label>
     <label>
       <input type="checkbox" name="weekday[]" id="weekdaytu" value="Tu" class="required" />
-      Tu</label>
+      Tu &nbsp;</label>
     <label>
       <input type="checkbox" name="weekday[]" id="weekdayw" value="W" class="required" />
-      W</label>
+      W &nbsp;</label>
     <label>
       <input type="checkbox" name="weekday[]" id="weekdayth" value="Th" class="required" />
-      Th</label>
+      Th &nbsp;</label>
     <label>
       <input type="checkbox" name="weekday[]" id="weekdaym" value="F" class="required" />
-      F</label>
+      F &nbsp;</label>
     <label>
       <input type="checkbox" name="weekday[]" id="weekdaysat" value="Sat" class="required" />
-      Sat</label>
+      Sat &nbsp;</label>
     <label>
       <input type="checkbox" name="weekday[]" id="weekdaysun" value="Sun" class="required" />
-      Sun</label>
+      Sun &nbsp;</label>
+      </div>
+    <div class="inputrow">
     <label for="time">Times</label>
     <label>
       <input type="checkbox" name="time[]" id="timemornings" value="Mornings" />
@@ -391,41 +406,49 @@
     <label>
       <input type="checkbox" name="time[]" id="timeanytime" value="Anytime" />
       Anytime</label>
+      </div>
     <label for="purpose">*I am volunteering:</label>
     <label>
+    <div class="inputrow">
       <input type="radio" name="purpose" id="purpose_school" value="school" class="required" />
-      School requirement</label>
-    (# of hours
-    <input type="text" id="schoolhrs" name="schoolhrs" />
-    )
+      School requirement &nbsp; (# of hours) <input type="text" id="schoolhrs" name="schoolhrs" /></label>
+      </div>
+    <div class="inputrow">
     <label>
       <input type="radio" name="purpose" id="purpose_company" value="company" class="required" />
       Company volunteer opportunity</label>
+    </div>
+    <div class="inputrow">
     (Matching program?
     <label>
       <input type="radio" name="matching" id="matchingyes" value="yes" />
       Yes</label>
     <label>
       <input type="radio" name="matching" id="matchingno" value="no" />
-      No</label>
-    )
+      No</label>)
+    </div>
+    <div class="inputrow">
     <label>
       <input type="radio" name="purpose" id="purpose_fun" value="fun" class="required" />
       For fun</label>
+    </div>
+    <div class="inputrow">
     <label>
       <input type="radio" name="purpose" id="purpose_court" value="court" class="required" />
       Court Order</label>
+      </div>
+    <div class="inputrow">
     <label>
       <input type="radio" name="purpose" id="purpose_other" value="other" class="required" />
       Other</label>
     <input type="text" id="purpose_other" name="purpose_other" />
+    </div>
     <label for="skills">Special Skills (i.e. Computer systems, programs, programming, event coordination, etc.)</label>
     <textarea id="skills" name="skills"></textarea>
     <label for="info">Any additional information?</label>
     <textarea id="info" name="info"></textarea>
-    *Required Fields 
     <!--Submit sends email to volunteer@familygivingtree.org-->
-    <input type="submit" value="Submit" class="button">
+    <p class="text-center"><a href="#">Cancel</a> &nbsp; <input type="submit" value="Submit" class="button">
   </form>
   </div>
   <!--Confirmation below-->
@@ -441,9 +464,9 @@
   <p>In interdum luctus magna ac tincidunt. Nullam tortor ligula, venenatis ut aliquet in, lobortis eget nisl. </p>
   <p>Ut quis elit mauris, et congue ligula. Mauris vitae tellus non mauris rutrum ultricies a pulvinar nisi. Morbi facilisis dignissim turpis, non aliquet nibh scelerisque ut. Donec quis lacus lectus, in venenatis tellus.</p>
   <a class="close-reveal-modal">&#215;</a> </div>
-<div id="hoursCalendar" class="reveal-modal"> <a class="close-reveal-modal">&#215;</a>
+<div id="hoursCalendar" class="reveal-modal large"> <a class="close-reveal-modal">&#215;</a>
   <h4>Warehouse Hours: August</h4>
-<table id="month">
+<table class="calendar">
   <thead>
     <tr>
       <th class="weekend">Sunday</th>
@@ -584,6 +607,7 @@
 <?php include("includes/_footer.php");  ?>
 <script src="javascripts/jquery.form.js"></script>
 <script src="javascripts/jquery.validate.min.js"></script>
+
 <script>
 $(document).ready(function(){
   registerSelect();
@@ -611,11 +635,15 @@ function registerSelect(){
     $('.'+month).show();
   });
   $('.volunteerday').change(function(){
+    $('#registerlink').hide();
     var taskId = $(this).val();
-  var desc = $(this).find('option:selected').text();
-    $('#registerlink').show();
-  $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
-    $('#daytask').text(desc);
+	  alert(taskId);
+    var desc = $(this).find('option:selected').text();
+	if(taskId!==''){
+      $('#registerlink').show();
+      $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
+      $('#daytask').text(desc);
+	}
   });
 }
 <!--FOR THE READ MORE TOGGLE-->

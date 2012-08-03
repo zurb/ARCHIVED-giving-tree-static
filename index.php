@@ -7,37 +7,33 @@
 <div class="row featured hide-for-small">
     <div class="twelve columns">
         <div class="orbit-wrapper" id="featured">
-            <div>
+            <div id="sliderOne">
                 <div class="content">
                     <h1>You Can Help Our Millionth Child</h1>
                     <p class="lead">This year, we’ll reach our goal of helping one million children locally. You could be the person who fulfils the unique holiday wish of our millionth child.</p>
                     <a href="who-we-help.php" class="button banner purple">Donate Today &raquo;</a>
                 </div>
-                <img src="http://placehold.it/2000x800">
             </div>
-            <div>
+            <div id="sliderTwo">
                 <div class="content">
                     <h1>Plant a Seed </h1>
                     <p>Putting a smile on a kid’s face doesn’t just happen. It takes the kindness of those who become part of our community of Elves. People plant seeds by donating their time, a backpack or even a few dollars to fulfill the needs of children in low-income communities.</p>
                     <a href="donate.php" class="button banner purple">Donate Today &raquo;</a>
                 </div>
-                <img src="http://placehold.it/2000x800">
             </div>
-            <div>
+            <div id="sliderThree">
                 <div class="content">
                     <h1>Lead a Holiday Wish Drive</h1>
                     <p>As the holidays get closer, your company or organization can help lead a drive by displaying wish cards for fellow workers, customers, members or friends. </p>
                     <a href="lead-a-drive.php" class="button banner purple">Lead a Drive &raquo;</a>
                 </div>
-                <img src="http://placehold.it/2000x800">
             </div>
-            <div>
+            <div id="sliderFour">
                 <div class="content">
                     <h1>Volunteer for Your Community</h1>
                     <p>Our roots in the communities we serve go deep thanks to our volunteers. Without them, we wouldn’t be able to put smiles on the faces of the kids we help. </p>
                     <a href="volunteer.php" class="button banner purple">Volunteer &raquo;</a>
                 </div>
-                <img src="http://placehold.it/2000x800">
             </div>
         </div>
     </div>
@@ -46,20 +42,23 @@
 <div class="full rule">
 </div>
 
-<div class="full">
-    <div class="row stats">
+<div class="full stats">
+    <div class="row">
         <div class="four columns">
+            <img src="images/icons/person.png" alt="person">
             <h3 class="orange">970,516 Children</h3>
             <p>Have received holiday gifts or back-to-school supplies through
                 Family Giving Tree since 1990</p>
         </div>
         <div class="four columns">
+            <img src="images/icons/gift.png" alt="gift">
             <h3 class="green">1,123,228 Gifts</h3>
             <p>Delivered to needy children. We provide gifts during the holidays, 
                 and back-to-school supplies during the school year.</p>
         </div>
         <div class="four columns">
-            <h3 class="pink">89%</h3>
+            <img src="images/icons/money.png" alt="money">
+            <h3 class="pink">89 Percent</h3>
             <p>of every donation we raise goes straight to participating charities</p>
         </div>
     </div>
@@ -79,13 +78,17 @@
     </div>
 </div>
 
+<br><br>
+
 <div class="row">
     <div class="twelve columns">
         <img src="images/horizontal-rule1.png">
     </div>
 </div>
-    
-<div class="row">
+
+<br><br>
+
+<div class="row news">
     <div class="twelve columns">
         <h2>News</h2>
         <div class="row">
@@ -111,11 +114,17 @@
     </div>
 </div>
 
+<div class="row">
+    <div class="five columns">
+        <img src=""
+    </div>
+</div>
+
 <?php content_for('footer', function() { ?>
   <script type="text/javascript"> 
     $(".row.featured").spin({lines:9, width:4})
    $(window).load(function() {
-       $('#featured').orbit({ pauseOnHover: true, startClockOnMouseOut: true, advanceSpeed: 5000, fluid: true, bullets: true });
+       $('#featured').orbit({ pauseOnHover: true, startClockOnMouseOut: true, advanceSpeed: 5000, fluid: "1430x550", bullets: true });
        $(".row.featured").spin(false);
    });
   </script>

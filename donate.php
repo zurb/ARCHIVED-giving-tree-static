@@ -15,14 +15,14 @@
     <div class="panel">
       <h3>Give Gifts</h3>
       <p>The most popular way to help the Elves and the children we serve is through gift donation.</p>
-      <a class="button" href="#donateGifts">Donate Today</a>
+      <a class="button" href="http://vgt.familygivingtree.org/fgt/">Donate Today</a>
     </div>
   </div>
   <div class="four columns">
     <div class="panel">
       <h3>Give Money</h3>
       <p>Give a one time or monthly monetary donation to provide a new, supply-filled backpack or meet a specific holiday gift wish.</p>
-      <a class="button" href="#donateGifts">Donate Today</a>
+      <a class="button" href="https://npo.networkforgood.org/Donate/Donate.aspx?npoSubscriptionId=4257">Donate Today</a>
     </div>
   </div>
 </div>
