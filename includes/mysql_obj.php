@@ -44,7 +44,7 @@ class mysql_obj
 
    var $row_num = 0;
 
-	 
+   
 
    function connect()
 
@@ -52,45 +52,45 @@ class mysql_obj
 
        if($this->local)
 
-	  {
+    {
 
          $this->host = "mysql";
 
       }
 
-	  
+    
 
       if( true )
 
-	  {	
+    {  
 
-	     if( $this->debug ){ echo "<b>Debug: </b>Connecting to $this->db...<br>\n"; };
+       if( $this->debug ){ echo "<b>Debug: </b>Connecting to $this->db...<br>\n"; };
 
          if( $this->persistent )
 
-		 { 	
+     {   
 
             $this->conn=mysql_pconnect( $this->host, $this->user, $this->pass );
 
-			
+      
 
          }
 
-		else
+    else
 
-		 {	
+     {  
 
             $this->conn=@mysql_connect( $this->host, $this->user, $this->pass );
 
          };
 
-		 
+     
 
          if( !$this->conn )
 
-		 {
+     {
 
-		 	$this->send_error_report(mysql_errno(),mysql_error(),"CONNECTION ERROR");
+       $this->send_error_report(mysql_errno(),mysql_error(),"CONNECTION ERROR");
 
             if( $this->debug )
 
@@ -98,15 +98,15 @@ class mysql_obj
 
             exit();
 
-	      }
+        }
 
-		else
+    else
 
-		 {
+     {
 
-		    if( $this->debug )
+        if( $this->debug )
 
-			{
+      {
 
                echo "<b>Debug:OK:</b> $this->conn=mysql_connect():".mysql_errno($this->conn).": ".mysql_error($this->conn)."<br>\n";
 
@@ -114,7 +114,7 @@ class mysql_obj
 
             if( mysql_select_db( $this->db, $this->conn ) )
 
-			{
+      {
 
                if( $this->debug )
 
@@ -122,11 +122,11 @@ class mysql_obj
 
             }
 
-			else
+      else
 
-			{
+      {
 
-			   $this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),"DATABASE SELECTION ERROR");
+         $this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),"DATABASE SELECTION ERROR");
 
                if( $this->debug )
 
@@ -136,45 +136,45 @@ class mysql_obj
 
             }
 
-	      }
+        }
 
       }
 
-	 	
+     
 
    }
 
 
 
-	 // ER_05-May-2002
+   // ER_05-May-2002
 
    function get_field_names($query)
 
    { 
 
-	 	  $field_names = array();
+       $field_names = array();
 
       $this->connect();
 
       $res = mysql_query($query);
 
-			for ($f=0; $f<mysql_num_fields($res); $f++) {
+      for ($f=0; $f<mysql_num_fields($res); $f++) {
 
-					$field_names[] = mysql_field_name($res, $f);
+          $field_names[] = mysql_field_name($res, $f);
 
-			}
+      }
 
-			return $field_names;
+      return $field_names;
 
-	 }
+   }
 
-	 
+   
 
    function query( $query, $aid = "" )
 
    { // result <none>
 
-  	//echo  $query.'<br>';
+    //echo  $query.'<br>';
 
       $this->connect();
 
@@ -182,7 +182,7 @@ class mysql_obj
 
       if( $this->stmt )
 
-	  {
+    {
 
          if( $this->debug )
 
@@ -190,19 +190,19 @@ class mysql_obj
 
          $aid = mysql_insert_id(); //$this->conn
 
-		 $this->aid=$aid;
+     $this->aid=$aid;
 
       }
 
-	else
+  else
 
-	  {
+    {
 
-	  	 if(mysql_errno($this->conn))
+       if(mysql_errno($this->conn))
 
-			 $this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),$query);
+       $this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),$query);
 
-			 
+       
 
          if( $this->debug )
 
@@ -216,7 +216,7 @@ class mysql_obj
 
       return $this->stmt;
 
-	 //return $aid; 
+   //return $aid; 
 
    }
 
@@ -232,13 +232,13 @@ class mysql_obj
 
       if( $this->query($query) )
 
-	  {
+    {
 
          $retr = mysql_fetch_row( $this->stmt );
 
          if( $retr )
 
-		 {
+     {
 
             if( $this->debug )
 
@@ -246,13 +246,13 @@ class mysql_obj
 
          }
 
-		else
+    else
 
-		{
+    {
 
- 		    if(mysql_errno($this->conn))
+         if(mysql_errno($this->conn))
 
-				$this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),$query);
+        $this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),$query);
 
 
 
@@ -284,15 +284,15 @@ class mysql_obj
 
       if( $this->query($query) )
 
-	  {
+    {
 
          $retr=mysql_fetch_array($this->stmt, $ar_type);
 
-	 //$retr=mysql_fetch_row($this->stmt);
+   //$retr=mysql_fetch_row($this->stmt);
 
          if( $retr )
 
-		 {
+     {
 
             if( $this->debug )
 
@@ -300,13 +300,13 @@ class mysql_obj
 
          }
 
-		else
+    else
 
-		 {
+     {
 
- 		    if(mysql_errno($this->conn))
+         if(mysql_errno($this->conn))
 
-				$this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),$query);
+        $this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),$query);
 
 
 
@@ -334,7 +334,7 @@ class mysql_obj
 
          $retr=mysql_fetch_array($this->stmt, $ar_type);
 
-	 //$retr=mysql_fetch_row($this->stmt);
+   //$retr=mysql_fetch_row($this->stmt);
 
          if( $retr ){
 
@@ -376,27 +376,27 @@ class mysql_obj
 
       if( $this->query($query) )
 
-	  {
+    {
 
          while( $this->tmp=mysql_fetch_array($this->stmt, $ar_type) ) 
 
-		 {
+     {
 
             $this->retr[]=$this->tmp; // creating indexed array containing hashes
 
-			   if( $this->debug )
+         if( $this->debug )
 
-			   {
+         {
 
-               	var_dump($this->tmp); 
+                 var_dump($this->tmp); 
 
                }
 
-	      }
+        }
 
          if( $this->retr )
 
-		 {
+     {
 
             $this->row_num = mysql_num_rows($this->stmt);
 
@@ -406,27 +406,27 @@ class mysql_obj
 
          }
 
-		else
+    else
 
-		{
+    {
 
- 		    if(mysql_errno($this->conn))
+         if(mysql_errno($this->conn))
 
-				$this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),$query);
+        $this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),$query);
 
 
 
-			$this->retr = array();
+      $this->retr = array();
 
             if( $this->debug )
 
-			{
+      {
 
                echo "<b>Debug:ERR:</b>mysql_fetch_array($this->stmt, $this->conn):".mysql_errno($this->conn).": ".mysql_error($this->conn)."<br>\n";
 
                var_dump($this->retr);
 
- 		    }
+         }
 
          }
 
@@ -460,13 +460,13 @@ class mysql_obj
 
             $this->retr[$this->tmp[0]]=$this->tmp[1]; // creating indexed array containing hashes
 
-			   if( $this->debug ){
+         if( $this->debug ){
 
-               	var_dump($this->tmp); 
+                 var_dump($this->tmp); 
 
                }
 
-	     }
+       }
 
          if( $this->retr ){
 
@@ -480,15 +480,15 @@ class mysql_obj
 
       }
 
-	  else
+    else
 
-	  {
+    {
 
-		if(mysql_errno($this->conn))
+    if(mysql_errno($this->conn))
 
-			$this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),$query);
+      $this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),$query);
 
-	  }
+    }
 
       if($this->auto_off)
 
@@ -500,7 +500,7 @@ class mysql_obj
 
      // if(!is_array($this->retr)) $this->retr = array();
 
-	  if(!is_array($this->retr)) $this->retr = '0';
+    if(!is_array($this->retr)) $this->retr = '0';
 
       return $this->retr;
 
@@ -512,7 +512,7 @@ class mysql_obj
 
    { // result <none>
 
-//   	  $this->debug=true;
+//       $this->debug=true;
 
       $this->retr=array();
 
@@ -522,37 +522,37 @@ class mysql_obj
 
       if( $this->query($query))
 
-	  {
+    {
 
-	  	 @mysql_data_seek($this->stmt,$start);
+       @mysql_data_seek($this->stmt,$start);
 
-		 for ($i=0;(($i<$this->step) and ($i<mysql_num_rows($this->stmt)-$start));$i++)
+     for ($i=0;(($i<$this->step) and ($i<mysql_num_rows($this->stmt)-$start));$i++)
 
-		 {
+     {
 
-		 	$this->tmp=mysql_fetch_array($this->stmt, $ar_type);
+       $this->tmp=mysql_fetch_array($this->stmt, $ar_type);
 
             $this->retr[]=$this->tmp; // creating indexed array containing hashes
 
-			   if( $this->debug )
+         if( $this->debug )
 
-			   {
+         {
 
-               	var_dump($this->tmp); 
+                 var_dump($this->tmp); 
 
                }
 
-		 }
+     }
 
          if( $this->retr )
 
-		 {
+     {
 
             $this->row_num = mysql_num_rows($this->stmt);
 
-			if ($this->row_num>($start+$this->step)) {$this->next=true;}
+      if ($this->row_num>($start+$this->step)) {$this->next=true;}
 
-			if (($start-$this->step)>=0) {$this->prev=true;}
+      if (($start-$this->step)>=0) {$this->prev=true;}
 
             if( $this->debug )
 
@@ -560,35 +560,35 @@ class mysql_obj
 
          }
 
-		else
+    else
 
-		{
+    {
 
-			$this->retr = array();
+      $this->retr = array();
 
             if( $this->debug )
 
-			{
+      {
 
                echo "<b>Debug:ERR:</b>mysql_fetch_array($this->stmt, $this->conn):".mysql_errno($this->conn).": ".mysql_error($this->conn)."<br>\n";
 
                var_dump($this->retr);
 
- 		    }
+         }
 
          }
 
       }
 
-	  else
+    else
 
-	  {
+    {
 
- 		    if(mysql_errno($this->conn))
+         if(mysql_errno($this->conn))
 
-				$this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),$query);
+        $this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),$query);
 
-	  }
+    }
 
       @mysql_free_result ($this->stmt);
 
@@ -618,27 +618,27 @@ class mysql_obj
 
       if( $this->query($query) )
 
-	  {
+    {
 
          while( $this->tmp=mysql_fetch_array($this->stmt, $ar_type) ) 
 
-		 {
+     {
 
             $this->retr[]=$this->tmp["$column"]; // creating indexed array containing hashes
 
-			   if( $this->debug )
+         if( $this->debug )
 
-			   {
+         {
 
-               	var_dump($this->tmp); 
+                 var_dump($this->tmp); 
 
                }
 
-	      }
+        }
 
          if( $this->retr )
 
-		 {
+     {
 
             $this->row_num = mysql_num_rows($this->stmt);
 
@@ -648,9 +648,9 @@ class mysql_obj
 
          }
 
-		else
+    else
 
-		{
+    {
 
             if( $this->debug )
 
@@ -662,15 +662,15 @@ class mysql_obj
 
       }
 
-	  else
+    else
 
-	  {
+    {
 
- 		    if(mysql_errno($this->conn))
+         if(mysql_errno($this->conn))
 
-				$this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),$query);
+        $this->send_error_report(mysql_errno($this->conn),mysql_error($this->conn),$query);
 
-	  }
+    }
 
       $this->logoff();
 
@@ -713,37 +713,37 @@ class mysql_obj
 
 
 
-	//uncommented as the new functionality is under development and generating un-necessary email messages.   	
+  //uncommented as the new functionality is under development and generating un-necessary email messages.     
 
-//	global $CORP, $usr;
+//  global $CORP, $usr;
 
-		//mail to owner of the page
+    //mail to owner of the page
 
-//		$to = "prabhakarp@navayuga.co.in";
+//    $to = "prabhakarp@navayuga.co.in";
 
-//		$subject = "MySQL ERROR " . $myerrorno . " - " . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'] . " (" . date("d M Y  H:i") . ")";
+//    $subject = "MySQL ERROR " . $myerrorno . " - " . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'] . " (" . date("d M Y  H:i") . ")";
 
-//		$fromemail = "ErrorReporter <info@smartchange.org>";
+//    $fromemail = "ErrorReporter <info@smartchange.org>";
 
-		
+    
 
-		// headers need to be in the correct order... 
+    // headers need to be in the correct order... 
 
-//		$headers = "From: $fromemail  \r\n"; 
+//    $headers = "From: $fromemail  \r\n"; 
 
-//		$headers .= "Date: " . date("r") . "\n"; 
+//    $headers .= "Date: " . date("r") . "\n"; 
 
-//		$headers .= "MIME-Version: 1.0\n"; 
+//    $headers .= "MIME-Version: 1.0\n"; 
 
-//		$headers .= "X-Priority: 3\n"; //1 UrgentMessage, 3 Normal 
+//    $headers .= "X-Priority: 3\n"; //1 UrgentMessage, 3 Normal 
 
-//		$headers .= "X-Mailer: PHP4\n"; //mailer 
+//    $headers .= "X-Mailer: PHP4\n"; //mailer 
 
-//		$headers .= "Content-Type: text/plain; charset=\"iso-8859-1\"\n"; 
+//    $headers .= "Content-Type: text/plain; charset=\"iso-8859-1\"\n"; 
 
 
 
-		$message = "MySQL ERROR REPORT
+    $message = "MySQL ERROR REPORT
 
 " . date("d F Y, h:i a") . "
 
@@ -781,21 +781,21 @@ $rvar = "";
 
 if(count($_REQUEST) >0) {
 
-	$rvar .= "\nREQUEST VARIBLES:\n";
+  $rvar .= "\nREQUEST VARIBLES:\n";
 
-	foreach($_REQUEST as $k => $v)
+  foreach($_REQUEST as $k => $v)
 
-	{
+  {
 
-		if(is_array($v))
+    if(is_array($v))
 
-			$rvar .= $k . " => " . var_export($v,true) ."\n";
+      $rvar .= $k . " => " . var_export($v,true) ."\n";
 
-		else
+    else
 
-			$rvar .= $k . " => " . $v ."\n";
+      $rvar .= $k . " => " . $v ."\n";
 
-	}
+  }
 
 }
 
@@ -803,31 +803,31 @@ if(count($_REQUEST) >0) {
 
 if(count($_SESSION) >0) {
 
-	$rvar .= "\nSESSION VARIBLES:\n";
+  $rvar .= "\nSESSION VARIBLES:\n";
 
-	foreach($_SESSION as $k => $v)
+  foreach($_SESSION as $k => $v)
 
-	{
+  {
 
-		if(is_array($v))
+    if(is_array($v))
 
-			$rvar .= $k . " => " . var_export($v,true) ."\n";
+      $rvar .= $k . " => " . var_export($v,true) ."\n";
 
-		else
+    else
 
-			$rvar .= $k . " => " . $v ."\n";
+      $rvar .= $k . " => " . $v ."\n";
 
-	}
+  }
 
 }
 
 $message = $message . $rvar;
 
-		
+    
 
-	print $message; 
+  print $message; 
 
-		
+    
 
    }
 
