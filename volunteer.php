@@ -7,8 +7,13 @@
 <!-- VOLUNTEER PAGE CONTENT -->
 <div class="feature_wrapper">
     <div class="row hide-for-small">
-        <div class="twelve columns">
+        <div class="seven columns">
             <h1>Volunteer</h1>
+            <p class="lead">Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer.</p>
+
+        </div>
+        <div class="five columns">
+            <img src="images/people/c-photo4.png" alt="Volunteer at Family Giving Tree">
         </div>
     </div>
 </div>
@@ -26,8 +31,6 @@
   </div>
   <div class="nine column">
     <section id="joinus">
-      <h2>Join Us</h2>
-      <p>Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer:</p>
       <h3> Year-Round Volunteer Opportunities</h3>
       <ul>
         <li> General Office Help &amp; Drive Preparation: Help us organize materials and prep for our Back to School Drive and/or Holiday Wish Drive. Great for students! </li>
