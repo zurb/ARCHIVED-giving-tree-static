@@ -31,17 +31,17 @@
       <br>
       <div class="row">
         <div class="four columns">
-          <img src="http://placehold.it/300x300" alt="bio image">
+          <img src="images/people/jenn.png" alt="bio image">
           <h3>Jenn</h3>
           <p>Our illustrious founder and Queen Elf, Jenn created the Family Giving Tree as a class project while earning her MBA from San Jose State University in 1990. In addition to managing the Tree, Jenn is affiliated with many organizations, some of which include the Young Entrepreneurs Organization, The Milpitas Chamber of Commerce, and the Rotary Club of Milpitas. She is happily married to her husband Dan and has two beautiful children, Connor and Kinsey. Together with her family, Jenn nurtures and socializes kittens to get them ready for adoption. She has successfully found homes for over 117 kittens!</p>
         </div>
         <div class="four columns">
-          <img src="http://placehold.it/300x300" alt="bio image">
+          <img src="images/people/david.png" alt="bio image">
           <h3>David</h3>
           <p>Armed with a Bachelors in Social Sciences and state teaching credential from UC Irvine as well as a marketing MBA from Temple University in Philadelphia, David spent 25 years in the transportation industry, including eight years at FedEx. He taught elementary school in San Juan Capistrano for three years and worked as a Peace Corps volunteer in Ethiopia in East Africa from 1974&mdash;1975. In 2010, David joined the Tree as in a unique switch from the for-profit world and has never looked back. In his free time, he enjoys snorkeling, golfing, and fly fishing. David has been married to his wife for over 30 years and has two beautiful daughters (and a son-in-law).</p>
         </div>
         <div class="four columns">
-          <img src="http://placehold.it/300x300" alt="bio image">
+          <img src="images/people/jeanne.png" alt="bio image">
           <h3>Jeanne</h3>
           <p>Jeanne has a degree in sociology with a minor in art from UC Santa Barbara. She completed her postgraduate work in social service management at Santa Clara University. She began volunteering in high school and taught English to migrant workers. Her passion for nonprofit work has continued to blossom and most of her work experience in fact has been in the nonprofit sector. In her free time, she enjoys gardening, traveling, and doing Pilates. And don&rsquo;t forget to ask her about her private pilot&rsquo;s license!</p>
         </div>
@@ -50,7 +50,7 @@
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
-              <img src="http://placehold.it/150x150" alt="bio image">
+              <img src="images/people/al.png" alt="bio image">
             </div>
             <div class="ten columns">
               <h4>Al Galan</h4>
@@ -63,7 +63,7 @@
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
-              <img src="http://placehold.it/150x150" alt="bio image">
+              <img src="images/people/katie.png" alt="bio image">
             </div>
             <div class="ten columns">
               <h4>Katie</h4>
@@ -76,7 +76,7 @@
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
-              <img src="http://placehold.it/150x150" alt="bio image">
+              <img src="images/people/cristi.png" alt="bio image">
             </div>
             <div class="ten columns">
               <h4>Cristi</h4>
@@ -89,7 +89,7 @@
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
-              <img src="http://placehold.it/150x150" alt="bio image">
+              <img src="images/people/dawn.png" alt="bio image">
             </div>
             <div class="ten columns">
               <h4>Dawn</h4>
@@ -102,7 +102,7 @@
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
-              <img src="http://placehold.it/150x150" alt="bio image">
+              <img src="images/people/celeste.png" alt="bio image">
             </div>
             <div class="ten columns">
               <h4>Celeste</h4>
@@ -115,7 +115,7 @@
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
-              <img src="http://placehold.it/150x150" alt="bio image">
+              <img src="images/people/susan.png" alt="bio image">
             </div>
             <div class="ten columns">
               <h4>Susan</h4>
@@ -128,7 +128,7 @@
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
-              <img src="http://placehold.it/150x150" alt="bio image">
+              <img src="images/people/rene.png" alt="bio image">
             </div>
             <div class="ten columns">
               <h4>Rene</h4>
@@ -141,7 +141,7 @@
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
-              <img src="http://placehold.it/150x150" alt="bio image">
+              <img src="images/people/shannon.png" alt="bio image">
             </div>
             <div class="ten columns">
               <h4>Shannon</h4>
@@ -154,7 +154,7 @@
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
-              <img src="http://placehold.it/150x150" alt="bio image">
+              <img src="images/people/dianne.png" alt="bio image">
             </div>
             <div class="ten columns">
               <h4>Dianne</h4>
@@ -167,7 +167,7 @@
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
-              <img src="http://placehold.it/150x150" alt="bio image">
+              <img src="images/people/sylvia.png" alt="bio image">
             </div>
             <div class="ten columns">
               <h4>Sylvia</h4>
@@ -180,7 +180,7 @@
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
-              <img src="http://placehold.it/150x150" alt="bio image">
+              <img src="images/people/angie.png" alt="bio image">
             </div>
             <div class="ten columns">
               <h4>Angie</h4>
@@ -254,7 +254,7 @@
 
     <div class="row">
       <div class="twelve columns">
-        <a href="#orgChartPDF" class="button">Download the Org Chart</a>
+        <a href="#orgChartPDF" class="button banner purple">Download the Org Chart</a>
       </div>
     </div>
 
@@ -262,14 +262,25 @@
 
     <section id="programStats">
       <h2>Program Statistics</h2>
-      <div class="row">
-        <div class="six columns">
-          <p class="large-stat">847,288 <small>Children helped since 1990</small></p>
+       <div class="row">
+        <div class="four columns">
+            <img src="images/icons/person.png" alt="person">
+            <h3 class="orange">970,516 Children</h3>
+            <p>Have received holiday gifts or back-to-school supplies through
+                Family Giving Tree since 1990</p>
         </div>
-        <div class="six columns">
-          <p class="large-stat">847,288 <small>Children helped since 1990</small></p>
+        <div class="four columns">
+            <img src="images/icons/gift.png" alt="gift">
+            <h3 class="green">1,123,228 Gifts</h3>
+            <p>Delivered to needy children. We provide gifts during the holidays, 
+                and back-to-school supplies during the school year.</p>
         </div>
-      </div>
+        <div class="four columns">
+            <img src="images/icons/money.png" alt="money">
+            <h3 class="pink">89 Percent</h3>
+            <p>of every donation we raise goes straight to participating charities</p>
+        </div>
+    </div>
       <div class="row">
         <div class="twelve columns">
           <table>
@@ -457,9 +468,9 @@
           <img src="http://placehold.it/400x300" alt="news">
         </div>
         <div class="eight columns">
-          <h4>Persistence Pays Off: Announcing Family Giving Tree as This Year's ZURBwired Nonprofit</h4>
+          <h3>Persistence Pays Off: Announcing Family Giving Tree as This Year's ZURBwired Nonprofit</h3>
           <p>To quote an old friend, "we're super excited" to congratulate Family Giving Tree for being this year's participating ZURBwired nonprofit! Competition was fierce this year and the ZURB team had to choose only one nonprofit from a slew of excellent proposals. We want to thank all the excellent nonprofits that submitted proposals.</p>
-          <a href="http://www.zurb.com/article/1030/persistence-pays-off-announcing-family-gi" class="medium button">Read More</a>
+          <a href="http://www.zurb.com/article/1030/persistence-pays-off-announcing-family-gi" class="medium button banner purple">Read More</a>
         </div>
       </div>
       <br>
@@ -468,11 +479,11 @@
           <img src="http://placehold.it/400x300" alt="news">
         </div>
         <div class="eight columns">
-          <h4>Milpitas ‘Family Giving Tree’ Equips Students With Necessary Tools</h4>
+          <h3>Milpitas ‘Family Giving Tree’ Equips Students With Necessary Tools</h3>
           <p>A Milpitas non-profit organization is helping low-income children start the school year with the necessary tools they need to succeed.</p>
 
           <p>The Family Giving Tree has collected 135-thousand backpacks and school supplies for children for over 17 years.</p>
-          <a href="http://sanfrancisco.cbslocal.com/2012/07/13/milpitas-family-giving-tree-equips-students-with-necessary-tools/" class="medium button">Read More</a>
+          <a href="http://sanfrancisco.cbslocal.com/2012/07/13/milpitas-family-giving-tree-equips-students-with-necessary-tools/" class="medium  button banner purple">Read More</a>
         </div>
       </div>
       <br>
@@ -481,10 +492,10 @@
           <img src="http://placehold.it/400x300" alt="news">
         </div>
         <div class="eight columns">
-          <h4>Texas Instruments, Family Giving Tree promote STEM at student event</h4>
+          <h3>Texas Instruments, Family Giving Tree promote STEM at student event</h3>
           <p> Texas Instruments (TI) (NASDAQ: TXN) and Family Giving Tree will host "STEM in the Schoolyard" at Downtown College Prep (DCP) on Friday, July 27. The event kicks off the school year for 130 incoming, low-income DCP freshmen and their families and will include inspiring presentations by elected officials, hands-on science, technology, engineering and math (STEM) activities, as well as a welcoming reception for the new ninth grade students.</p>
 
-          <a href="http://newscenter.ti.com/2012-07-24-STEM-in-the-Schoolyard-celebrates-back-to-school-at-Downtown-College-Prep" class="medium button">Read More</a>
+          <a href="http://newscenter.ti.com/2012-07-24-STEM-in-the-Schoolyard-celebrates-back-to-school-at-Downtown-College-Prep" class="medium  button banner purple">Read More</a>
         </div>
       </div>
     </section>
