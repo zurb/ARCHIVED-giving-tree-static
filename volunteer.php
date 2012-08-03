@@ -1,6 +1,8 @@
 <?
   $page_title = "Volunteer" ;
-  $page_template = "main";  
+  $page_template = "main";
+  include_once("includes/mysql_obj.php");
+  $mysql = new mysql_obj;
 ?>
 <?php include("includes/_header.php"); ?>
 
@@ -89,50 +91,49 @@
         For warehouse tasks, add class="warehousetask" in order to show the warehouse task dropdown
         -->
         <ul id="tasklist">
-          <li class="january february march april may june july august september october november december"><a href="#" data-reveal-id="volEmailModal">General Office Duties</a> &nbsp;<a href="#" data-reveal-id="task1Modal" class="helpicon">?</a></li>
-          <li class="may june"><a href="#" data-reveal-id="volEmailModal">Back to School Drive Prep</a> &nbsp;<a href="#" data-reveal-id="task2Modal" class="helpicon">?</a></li>
-          <li class="september october november december"><a href="#" data-reveal-id="volEmailModal">Holiday Wish Drive Prep</a> &nbsp;<a href="#" data-reveal-id="task3Modal" class="helpicon">?</a></li>
+          <li class="january february march april may june july august september october november december"><a href="#" class="email-link" data-reveal-id="volEmailModal">General Office Duties</a> &nbsp;<a href="#" data-reveal-id="task1Modal" class="helpicon">?</a></li>
+          <li class="may june"><a href="#" data-reveal-id="volEmailModal" class="email-link">Back to School Drive Prep</a> &nbsp;<a href="#" data-reveal-id="task2Modal" class="helpicon">?</a></li>
+          <li class="september october november december"><a href="#" data-reveal-id="volEmailModal" class="email-link">Holiday Wish Drive Prep</a> &nbsp;<a href="#" data-reveal-id="task3Modal" class="helpicon">?</a></li>
           <li class="august"><a href="#" class="warehousetask">Back to School Warehouse</a> &nbsp;<a href="#" data-reveal-id="task4Modal" class="helpicon">?</a></li>
           <li class="january december"><a href="#" class="warehousetask">Holiday Wish Drive Warehouse</a> &nbsp;<a href="#" data-reveal-id="task5Modal" class="helpicon">?</a></li>
-          <li class="august december"><a href="#" data-reveal-id="volEmailModal">Donation Pick-ups</a> &nbsp;<a href="#" data-reveal-id="task6Modal" class="helpicon">?</a></li>
-          <li class="january february march april may june july august september october november december"><a href="#" data-reveal-id="volEmailModal">Agency Interviews</a> &nbsp;<a href="#" data-reveal-id="task7Modal" class="helpicon">?</a></li>
-          <li class="october november"><a href="#" data-reveal-id="volEmailModal">Wish Editing</a> &nbsp;<a href="#" data-reveal-id="task8Modal" class="helpicon">?</a></li>
+          <li class="august december"><a href="#" data-reveal-id="volEmailModal" class="email-link">Donation Pick-ups</a> &nbsp;<a href="#" data-reveal-id="task6Modal" class="helpicon">?</a></li>
+          <li class="january february march april may june july august september october november december"><a href="#" data-reveal-id="volEmailModal" class="email-link">Agency Interviews</a> &nbsp;<a href="#" data-reveal-id="task7Modal" class="helpicon">?</a></li>
+          <li class="october november"><a href="#" data-reveal-id="volEmailModal" class="email-link">Wish Editing</a> &nbsp;<a href="#" data-reveal-id="task8Modal" class="helpicon">?</a></li>
         </ul>
         <div id="warehousetaskform">
           <div class="inputrow">
             <label>Day/Task:</label>
             
-            <!-- Replace below selections with PHP snippet to generate them -->
-            
-            <select class="volunteerday january">
-              <!--
-        POPULATE OPTION ATTRIBUTES
-        value: Task ID
-        disabled: Include if volunteer slot is full
-        Text: Day and date
-        -->
-              <option value="" selected>Select a day and task</option>
-              <option value="360">Wed, 7/25/2012 - Warehouse Set UP</option>
-              <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
-              <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
-              <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
+            <? 
+              $first_of_month = date("Y-m-01"); 
+              for($i=1;$i<=12;$i++) {
+                $end_of_month = date("Y-m-t", strtotime($first_of_month) );
+                $task_sql = "SELECT * FROM taskdetails WHERE status='Y' AND Task like 'warehouse%' AND Date BETWEEN '$first_of_month' AND '$end_of_month' ORDER BY Date";
+                $first_of_month = date("Y-m-d", strtotime("+1 month", strtotime($first_of_month)) );
+                $recslot = $mysql->fetch_array($task_sql,MYSQL_ASSOC);
+                ?>
+                <select class="volunteerday <? echo strtolower(date("F", strtotime($end_of_month))) ?>">
+                  <option selected>Select a day and task</option>
+                <?
+                for($j=0;$j<count($recslot);$j++){
+                  $date1 = explode("-",$recslot[$j][Date]);
+                  $noofvolunteer = 0;
+                  $sqlavailable = "select *  from slotdetails sd, volunteers vo where sd.SlotId=vo.SlotId and vo.SlotId = '".$recslot[$j][SlotId]."'"; 
+                  $res = $mysql->fetch_array($sqlavailable,MYSQL_ASSOC);
+                  for($k=0;$k<count($res);$k++){
+                    $noofvolunteer += $res[$k]['noofvolunteers'];
+                  }
+                  $availble += $recslot[$j][NoofVolunteersReq] - $noofvolunteer;
+                  ?>
+                  
+                    <option value="<? echo $recslot[$j][TaskId]; ?>" <? echo ($noofvolunteer == 0) ? 'disabled=="disabled"' : ''; ?> ><?php echo date("l, M j, Y", mktime(0, 0, 0, $date1[1], $date1[2], $date1[0])); ?> - <? echo $recslot[$j][Task]?></option>
+                  
+                  <?
+                }
+            ?>
             </select>
+            <? } ?>
             
-            <select class="volunteerday august">
-              <option value="" selected>Select a day and task</option>
-              <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
-              <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
-              <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
-              <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
-            </select>
-            
-            <select class="volunteerday december">
-              <option value="" selected>Select a day and task</option>
-              <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
-              <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
-              <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
-              <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
-            </select>
             &nbsp;
             <a href="#" class="button" data-reveal-id="registerModal" id="registerlink">Go</a>
           </div>
@@ -319,7 +320,7 @@
     *Required Fields 
     </p>
   <h2>Register to Volunteer</h2>
-  <form id="volunteerform" method="post" action="../../../wamp/www/giving-tree-static/volunteer-post-email.php">
+  <form id="volunteerform" method="post" action="volunteer-post-email.php">
     <label for="name">*Name</label>
     <input type="text" id="name" name="name" class="required" />
     <label for="email">Email Address</label>
@@ -611,6 +612,10 @@ function registerSelect(){
     var month = $(this).val();
     $('#tasklist li').hide();
     $('.'+month).show();
+  });
+  $(".email-link").click(function() {
+    var description = $(this).text();
+    $('#volunteerform').append('<input type="hidden" name="category" value="'+description+'">');
   });
   $('.volunteerday').change(function(){
     $('#registerlink').hide();

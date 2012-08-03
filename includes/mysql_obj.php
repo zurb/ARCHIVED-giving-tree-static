@@ -20,9 +20,9 @@ class mysql_obj
 
    var $db       = "fg_tree";
 
-   var $user     = "root";
+   var $user     = "dataelf";
 
-   var $pass     = "";
+   var $pass     = "connor700";
 
    
 
