@@ -19,7 +19,7 @@
                 <div class="content">
                     <h1>Plant a Seed </h1>
                     <p>Putting a smile on a kid’s face doesn’t just happen. It takes the kindness of those who become part of our community of Elves. People who plant seeds by donating their time, a backpack or even a few dollars to fulfill the needs of children in low-income communities.</p>
-                    <a href="volunteer.php" class="button radius">Donate Today &raquo;</a>
+                    <a href="donate.php" class="button radius">Donate Today &raquo;</a>
                 </div>
                 <img src="http://placehold.it/980x367">
             </div>
