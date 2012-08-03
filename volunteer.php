@@ -20,8 +20,8 @@
 <div class="row">
   <div class="three column">
     <ul class="side-nav" data-sticky>
-      <li><a href="#joinus">Join Us</a></li>
-      <li><a href="#register">Register</a></li>
+      <!--<li><a href="#joinus">Join Us</a></li>-->
+      <li><a href="#register">Join Us</a></li>
       <li><a href="#warehouse">The Warehouse</a></li>
       <!--<li><a href="#events">Events</a>-->
       <li><a href="#angelelf">Angel Elves</a></li>
@@ -32,12 +32,28 @@
   <div class="nine column">
     <section id="joinus">
       <h3> Year-Round Volunteer Opportunities</h3>
-      <ul>
-        <li> General Office Help &amp; Drive Preparation: Help us organize materials and prep for our Back to School Drive and/or Holiday Wish Drive. Great for students! </li>
-        <li><strong>Please, no drop-ins.</strong> Email <a href="mailto:volunteers@familygivingtree.org">volunteers@familygivingtree.org</a> or call (408) 946-3111 first. </li>
-        <li> Back to School Drive</li>
-        <li> Backpack Card sorting (May)</li>
-      </ul>
+      <div class="row">
+      <div class="three columns">
+        <p class="text-center"><img src="images/icons/office-help.png" width="120" height="120" alt="Office Help"></p>
+        <p>General Office Help &amp; Drive Preparation: Help us organize materials and prep for our Back to School Drive and/or Holiday Wish Drive. Great for students!
+        </p>
+      </div>
+      <div class="three columns">
+        <p class="text-center"><img src="images/icons/no-drop-ins.png" width="120" height="120" alt="No Drop Ins"></p>
+        <p>Please, no drop-ins. Email <a href="mailto:volunteers@familygivingtree.org">volunteers@<br>
+          familygivingtree.org</a> or call (408) 946-3111 first. 
+        </p>
+      </div>
+      <div class="three columns">
+        <p class="text-center"><img src="images/icons/school-drive.png" width="120" height="120" alt="School Drive"></p>
+        <p>Back to School Drive
+        </p>
+      </div>
+      <div class="three columns">
+        <p class="text-center"><img src="images/icons/card-sorting.png" width="120" height="120" alt="Card Sorting"></p>
+        <p>Backpack Card sorting (May)
+        </p>
+      </div></div>
       <h3> Backpack pick-up and delivery (August)</h3>
       <ul>
         <li> BTS Warehouse Duties (August): Help us set-up the warehouse, receive backpacks, sort, quality check, clean-up warehouse and prepare backpacks for distribution to low-income children.</li>
@@ -165,13 +181,10 @@
     <section id="angelelf">
       <h2>Angel Elves</h2>
       <p>Do you want to help the Family Giving Tree in a special way? Angel Elves are experienced volunteers willing to donate their time and skill set to help our programs run smoothly. Some Angel Elves supervise other volunteers at the warehouse on multiple days. Some help with special events and other activities such as the Executive Elf Challenge and Wish Card sorting. In the warehouse during Back to School and Holiday Drive, tasks may involve general set up, greeting other volunteers, store supervision and supervision of gift shipping/receiving.  Angel Elf responsibilities depend on the person's experience and comfort level with specific tasks.</p>
-    </section>
-    <section id="celebrating">
-      <h2>Celebrating Volunteers</h2>
       <h3>Who are the Angel Elves?</h3>
       <p>The contributions of our Angel Elves are tremendous. Their combined efforts are vital to our programs and their constant enthusiasm helps brighten the holidays for thousands of children each year. On behalf of all the children, we thank them for their dedication! </p>
       <div class="row">
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
+        <div class="four columns"> <img src="images/people/jessy.png" alt="bio image">
           <h3>Jessy Rodriguez</h3>
           <section><p>Jessy Rodriguez first came to The Family Giving Tree as a volunteer with her young classmates from Calaveras Montessori in 2004. They bagged gifts by 10 and she was already leading her group (she was one of the two children who could count to 10)!
           <!-- .readmorecontent is hidden until the closest .readmore is clicked-->
@@ -179,11 +192,11 @@
           <!-- data-hidetext and data-showtext alaternate as the link text on toggle-->
           <p class="text-right"><a href="#" class="readmore" data-hidetext="Show Less" data-showtext="Read More">Read More</a></p></section>
         </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
+        <div class="four columns"> <img src="images/people/joanne.png" alt="bio image">
           <h3>Joanne Bodenhammer</h3>
           <p>Joanne Bodenhammer has volunteered countless hours helping us contact and sign up hundreds of hosts for our holiday program, and get wish cards ready to send them.  Thanks to her dedication and generous spirit for many years, thousands more children's wishes will be fulfilled this season!  She is an amazing Angel Elf!</p>
         </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
+        <div class="four columns"> <img src="images/people/dianne.png" alt="bio image">
           <h3>Diane Trevino</h3>
           <section><p>Diane Trevino has volunteered with FGT since it’s inception, more than 20 years!  She spends endless hours at our warehouses for the Back-to-School Drive and Holiday Wish Drive, doing everything from training fellow volunteers to personally making sure every bag is perfectly packed.  <span class="readmorecontent">Her other commitments include serving as lead volunteer with Sacred Heart Community Services and heading the former National Semiconductor's Holiday Workshop Project that provided 800 gift bags for seniors, low-income families, homeless adults and adults with disabilities. Not only does Diane coordinate the hundreds of volunteers that assemble the gift bags, she and her husband Rey shop for each of the items (over 10,400 toiletries, books, etc.) that go into the bags.  Diane participates in all of the volunteer projects coordinated by Texas Instruments including bagging groceries for seniors at the Sunnyvale Community Services, beautifying an InnVision shelter for women and children, and pulling invasive weeds with Save the Bay.  She also serves on Texas Instrument's Wellness Team, Recycling Team and is a Building Emergency Manager for their headquarters building.  She is an inspiration to all of us!</span></p>
           <p class="text-right"><a href="#" class="readmore" data-hidetext="Show Less" data-showtext="Read More">Read More</a></p></section>
@@ -194,51 +207,45 @@
       <h2>Photos</h2>
       <div class="row">
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol1.jpg"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol2.jpg"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol3.jpg"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
-        </div>
-        <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
-        </div>
-        <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
-        </div>
-        <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol4.jpg"></a></p>
         </div>
       </div>
       <div class="row">
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol5.jpg"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol6.jpg"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol7.jpg"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol8.jpg"></a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="three columns">
+          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol9.jpg"></a></p>
+        </div>
+        <div class="three columns end">
+          <p><a href="#" data-reveal-id="imgModal" class="imgthumb"><img src="images/volunteer photos/vol10.jpg"></a></p>
         </div>
       </div>
     </section>
   </div>
 </div>
 <!--Large image modal-->
-<div class="reveal-modal" id="imgModal"> <img src="http://placehold.it/300x300"> <a class="close-reveal-modal">&#215;</a> </div>
+<div class="reveal-modal" id="imgModal"> <img src="http://placehold.it/300x300" id="largeimage"> <a class="close-reveal-modal">&#215;</a> </div>
 <!--Database-driven volunteer registration-->
 <div id="registerModal" class="reveal-modal">
   <h2>Register to Volunteer</h2>
@@ -592,6 +599,7 @@
 $(document).ready(function(){
   registerSelect();
   readMoreToggle();
+  imagePopup();
   $('#volunteerform').validate();
   $('#volunteerform').ajaxForm({success: function(response){
     $('.preconfirm').hide();
@@ -624,6 +632,12 @@ function registerSelect(){
       $('#daytask').text(desc);
   }
   });
+}
+<!--Image popup-->
+function imagePopup(){
+	$('.imgthumb').click(function(){
+		$('#largeimage').attr('src',$(this).attr('src'));
+	});
 }
 <!--FOR THE READ MORE TOGGLE-->
 function readMoreToggle(){
