@@ -332,92 +332,92 @@
   <a class="close-reveal-modal">&#215;</a> </div>
 <div id="volEmailModal" class="reveal-modal">
   <h2>Register to Volunteer</h2>
-  <form id="volunteerform">
+  <form id="volunteerform" method="post" action="volunteer-post-email.php">
     <label for="name">*Name</label>
-    <input type="text" id="name">
+    <input type="text" id="name" name="name" />
     <label for="email">Email Address</label>
-    <input type="text" id="email">
+    <input type="text" id="email" name="email" />
     <label for="phone">*Phone Number</label>
-    <input type="text" id="phone">
+    <input type="text" id="phone" name="phone" />
     <label for="org">Company or School Name</label>
-    <input type="text" id="org">
+    <input type="text" id="org" name="org" />
     <label for="under18">*Are you under 18?</label>
     <label>
-      <input type="radio" name="under18" id="under18yes">
+      <input type="radio" name="under18" id="under18yes" value="1" />
       Yes</label>
     <label>
-      <input type="radio" name="under18" id="under18no">
+      <input type="radio" name="under18" id="under18no" value="0" />
       No</label>
     <label for="grade">If so, grade level</label>
-    <input type="text" id="grade">
+    <input type="text" id="grade" name="grade" />
     <label for="weekday">*Availability (check all that apply)</label>
     Days
     <label>
-      <input type="checkbox" name="weekday" id="weekdaym">
+      <input type="checkbox" name="weekday[]" id="weekdaym" value="M" />
       M</label>
     <label>
-      <input type="checkbox" name="weekday" id="weekdaytu">
+      <input type="checkbox" name="weekday[]" id="weekdaytu" value="Tu" />
       Tu</label>
     <label>
-      <input type="checkbox" name="weekday" id="weekdayw">
+      <input type="checkbox" name="weekday[]" id="weekdayw" value="W" />
       W</label>
     <label>
-      <input type="checkbox" name="weekday" id="weekdayth">
+      <input type="checkbox" name="weekday[]" id="weekdayth" value="Th" />
       Th</label>
     <label>
-      <input type="checkbox" name="weekday" id="weekdaym">
+      <input type="checkbox" name="weekday[]" id="weekdaym" value="F" />
       F</label>
     <label>
-      <input type="checkbox" name="weekday" id="weekdaysat">
+      <input type="checkbox" name="weekday[]" id="weekdaysat" value="Sat" />
       Sat</label>
     <label>
-      <input type="checkbox" name="weekday" id="weekdaysun">
+      <input type="checkbox" name="weekday[]" id="weekdaysun" value="Sun" />
       Sun</label>
     <label for="time">Times</label>
     <label>
-      <input type="checkbox" name="time" id="timemornings">
+      <input type="checkbox" name="time[]" id="timemornings" value="Mornings" />
       Mornings</label>
     <label>
-      <input type="checkbox" name="time" id="timeafternoons">
+      <input type="checkbox" name="time[]" id="timeafternoons" value="Afternoons" />
       Afternoons</label>
     <label>
-      <input type="checkbox" name="time" id="timeevenings">
+      <input type="checkbox" name="time[]" id="timeevenings" value="Evenings" />
       Evenings</label>
     <label>
-      <input type="checkbox" name="time" id="timeanytime">
+      <input type="checkbox" name="time[]" id="timeanytime" value="Anytime" />
       Anytime</label>
     <label for="purpose">*I am volunteering:</label>
     <label>
-      <input type="radio" name="purpose" id="purpose_school">
+      <input type="radio" name="purpose" id="purpose_school" value="school" />
       School requirement</label>
     (# of hours
-    <input type="text" id="schoolhrs">
+    <input type="text" id="schoolhrs" name="schoolhrs" />
     )
     <label>
-      <input type="radio" name="purpose" id="purpose_company">
+      <input type="radio" name="purpose" id="purpose_company" value="company" />
       Company volunteer opportunity</label>
     (Matching program?
     <label>
-      <input type="radio" name="matching" id="matchingyes">
+      <input type="radio" name="matching" id="matchingyes" value="yes" />
       Yes</label>
     <label>
-      <input type="radio" name="matching" id="matchingno">
+      <input type="radio" name="matching" id="matchingno" value="no" />
       No</label>
     )
     <label>
-      <input type="radio" name="purpose" id="purpose_fun">
+      <input type="radio" name="purpose" id="purpose_fun" value="fun" />
       For fun</label>
     <label>
-      <input type="radio" name="purpose" id="purpose_court">
+      <input type="radio" name="purpose" id="purpose_court" value="court" />
       Court Order</label>
     <label>
-      <input type="radio" name="purpose" id="purpose_fun">
+      <input type="radio" name="purpose" id="purpose_other" value="other" />
       Other</label>
-    <input type="text" id="purpose_other">
+    <input type="text" id="purpose_other" name="purpose_other" />
     <label for="skills">Special Skills (i.e. Computer systems, programs, programming, event coordination, etc.)</label>
-    <textarea id="skills"></textarea>
+    <textarea id="skills" name="skills"></textarea>
     <label for="info">Any additional information?</label>
-    <textarea id="info"></textarea>
+    <textarea id="info" name="info"></textarea>
     *Required Fields 
     <!--Submit sends email to volunteer@familygivingtree.org-->
     <input type="submit" value="Submit" class="button">
@@ -569,10 +569,14 @@
 
 
 <?php include("includes/_footer.php");  ?>
+<script src="javascripts/jquery.form.js"></script>
 <script>
 $(document).ready(function(){
   registerSelect();
   readMoreToggle();
+  $('#volunteerform').ajaxForm({success: function(response) {
+    $("#volEmailModal").html(response);
+  }})
 });
 <!--FOR THE REGISTRATION FORM-->
 function registerSelect(){
