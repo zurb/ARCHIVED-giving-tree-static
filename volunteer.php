@@ -5,6 +5,13 @@
 <?php include("includes/_header.php"); ?>
 
 <!-- VOLUNTEER PAGE CONTENT -->
+<div class="feature_wrapper">
+    <div class="row hide-for-small">
+        <div class="twelve columns">
+            <h1>Volunteer</h1>
+        </div>
+    </div>
+</div>
 <div class="row">
   <div class="twelve column"> <img src="http://placehold.it/1000x350">
     <h1>Volunteer</h1>
@@ -597,9 +604,10 @@
 </div>
 
 
-<?php include("../../../wamp/www/giving-tree-static/includes/_footer.php");  ?>
-<script src="../../../wamp/www/giving-tree-static/javascripts/jquery.form.js"></script>
-<script src="../../../wamp/www/giving-tree-static/javascripts/jquery.validate.min.js"></script>
+<?php include("includes/_footer.php");  ?>
+<script src="javascripts/jquery.form.js"></script>
+<script src="javascripts/jquery.validate.min.js"></script>
+
 <script>
 $(document).ready(function(){
   registerSelect();
@@ -627,11 +635,15 @@ function registerSelect(){
     $('.'+month).show();
   });
   $('.volunteerday').change(function(){
+    $('#registerlink').hide();
     var taskId = $(this).val();
-  var desc = $(this).find('option:selected').text();
-    $('#registerlink').show();
-  $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
-    $('#daytask').text(desc);
+	  alert(taskId);
+    var desc = $(this).find('option:selected').text();
+	if(taskId!==''){
+      $('#registerlink').show();
+      $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
+      $('#daytask').text(desc);
+	}
   });
 }
 <!--FOR THE READ MORE TOGGLE-->

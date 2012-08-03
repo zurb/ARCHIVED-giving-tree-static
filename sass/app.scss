@@ -139,14 +139,12 @@
 }
 
 /*Hompepage*/
-.featured { position: relative; margin: 0 !important; width: 100%; background: #faf9f4;
-}
-.featured .orbit-wrapper .content { position: relative; top: 120px; width: 980px; margin: 0 auto; padding-right: 450px; }
+.featured { position: relative; margin-bottom: 0px; width: 100%; margin-top: -45px; }
+.featured .orbit-wrapper .content { width: 980px; margin: 0 auto; position: relative; top: 120px; padding-right: 450px; }
 .featured .timer { display: none }
 .featured > .twelve { padding: 0; }
 .featured .orbit.with-bullets { margin-bottom: 0 !important; }
 .featured {
-  margin-top: -45px !important;
   h1 { color: $darkPurple; font-size: ms(4); }
   p.lead { font-size: ms(1) - 2; }
 }
@@ -159,6 +157,7 @@ ul.orbit-bullets { bottom: 20px;
   }
 }
 .stats { text-align: center; }
+.news { margin-bottom: 40px; }
 
 #sliderOne { background: image-url('home1.jpg') top center no-repeat; }
 #sliderTwo { background: image-url('home2.jpg') top center no-repeat; }
@@ -167,15 +166,19 @@ ul.orbit-bullets { bottom: 20px;
 
 
 /*Global*/
+p { color: #555; }
 .orange { color: $orange; }
 .green { color: $green; }
 .pink { color: $pink; }
+
+/*Global*/
 .full { width: 100%; }
 h1 { color: $darkPurple; }
 h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
 .Main h4 { font-size: 18px; font-size: 1.8rem; }
 .full.rule { background: image-url('seamless-rule.png'); height: 18px; position: relative; top: -10px; z-index: 10; }
-.full.stats { background: #f0f0d9; margin-top: -30px; padding-top: 70px; padding-bottom: 40px; border-bottom: solid 1px darken(#f0f0d9, 20%); }
+.full.stats { background: #f0f0d9; margin-top: -30px; padding-top: 60px; padding-bottom: 30px; margin-bottom: 60px; border-bottom: solid 1px darken(#f0f0d9, 20%); }
+
 .button.banner { padding: 21px 28px 21px 57px !important; position: relative; border: none; @include box-shadow(0 0 0 rgba(0,0,0,0) inset); color: $white; font-family: "HandOfSeanRegular"; text-align: center; background: image-url('buttons/bg-purple.png') 0 0 repeat-x; 
   &:after { content: ""; display: block; width: 24px; height: 100%; position: absolute; top: 50%; margin-top: -50%; right: -24px; background: image-url('buttons/right-purple.png') 0 0 no-repeat; }
   &.green { background: image-url('buttons/bg-green.png');
@@ -188,7 +191,7 @@ h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
 
 /*Lead a Drive*/
 .featured p { font-size: 18px; }
-.feature_wrapper { background-color: $lightGreen;  }
+.feature_wrapper { background-color: $lightGreen; padding-top: 120px; padding-bottom: 40px; }
 
 /*Events*/
 .date {
@@ -375,61 +378,4 @@ img.right {
     padding:15px !important;
     border: 1px solid #ddd;
     margin-left: 50px;
-}
-
-/*Volunteer Page*/
-.inputrow {
-  margin: 0 0 12px;
-  label,
-  input[type="text"], 
-  input[type="password"], 
-  input[type="date"], 
-  input[type="datetime"], 
-  input[type="email"], 
-  input[type="number"], 
-  input[type="search"], 
-  input[type="tel"], 
-  input[type="time"], 
-  input[type="url"], 
-  textarea,
-  select {
-    display: inline;
-  width: auto;
-  }
-}
-#tasklist {
-  list-style-type: none;
-  margin: 0;
-  li {
-    display: inline-block;
-  *display: inline;
-  zoom: 1;
-  padding: 0 15px 0 0;
-  }
-}
-.helpicon,
-.helpicon:link,
-.helpicon:visited {
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-  width: 14px;
-  height: 14px;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 14px;
-  background-color: $darkPurple;
-  border-radius: 7px;
-  color: #fff;
-  text-align: center;
-  margin: 4px 0 0;
-  vertical-align: top;
-}
-.calendar {
-  td, th, p {
-    font-size: 12px;
-  }
-  td, th {
-    width: 14%;
-  }
 }
