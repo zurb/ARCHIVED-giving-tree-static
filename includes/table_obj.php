@@ -2107,7 +2107,7 @@ function display_banner(){
 
 function create_url($exclude_array = '') {
 
-	//print_r($exclude_array);
+  //print_r($exclude_array);
 
     global $HTTP_GET_VARS;
 
@@ -2119,19 +2119,19 @@ function create_url($exclude_array = '') {
 
     $get_url = '';
 
-	
+  
 
     if (is_array($HTTP_GET_VARS) && (sizeof($HTTP_GET_VARS) > 0)) {
 
-     	reset($HTTP_GET_VARS);
+       reset($HTTP_GET_VARS);
 
-	while (list($key, $value) = each($HTTP_GET_VARS)) {
+  while (list($key, $value) = each($HTTP_GET_VARS)) {
 
-		if ( (strlen($value) > 0) && ($key != 'error') && (!in_array($key, $exclude_array)) && ($key != 'x') && ($key != 'y') ) {
+    if ( (strlen($value) > 0) && ($key != 'error') && (!in_array($key, $exclude_array)) && ($key != 'x') && ($key != 'y') ) {
 
           $get_url .= $key . '=' . rawurlencode(stripslashes($value)) . '&';
 
-		  //echo $get_url;
+      //echo $get_url;
 
         }
 
@@ -4595,7 +4595,7 @@ class draw_table
 
         <? foreach ($hdarray as $varname => $varvalue) {
 
-		  //print_r($paging_rec[$i]);
+      //print_r($paging_rec[$i]);
 
           $prefix=$cols[$varname]['prefix'];
 
@@ -4853,13 +4853,13 @@ class draw_table
 
       <tr>
 
-	  		<td height="50" align="center" bgcolor="#FFFFFF" style="vertical-align:middle" colspan="<?php echo count($hdarray);?>"><h3><?=$title?></h3></td>
+        <td height="50" align="center" bgcolor="#FFFFFF" style="vertical-align:middle" colspan="<?php echo count($hdarray);?>"><h3><?=$title?></h3></td>
 
-	  </tr>
+    </tr>
 
 
 
-	  <tr bgcolor="#000000">
+    <tr bgcolor="#000000">
 
       <? foreach ($hdarray as $varname => $varvalue) {?> 
 
@@ -5037,37 +5037,37 @@ class draw_table
 
    }else{ 
 
-   	if($key == 'Slot') 
+     if($key == 'Slot') 
 
-	{ 	$sdate = explode(":",$recs[Starttime]);
+  {   $sdate = explode(":",$recs[Starttime]);
 
-		$edate = explode(":",$recs[Endtime]);
+    $edate = explode(":",$recs[Endtime]);
 
-		return $sdate[0].':'.$sdate[1].' '.$recs[SAMPM].' - '.$edate[0].':'.$edate[1].' '.$recs[EAMPM];
+    return $sdate[0].':'.$sdate[1].' '.$recs[SAMPM].' - '.$edate[0].':'.$edate[1].' '.$recs[EAMPM];
 
-		//return $recs[Starttime].' '.$recs[SAMPM].' - '.$recs[Endtime].' '.$recs[EAMPM];
+    //return $recs[Starttime].' '.$recs[SAMPM].' - '.$recs[Endtime].' '.$recs[EAMPM];
 
-		
+    
 
-	}elseif($key == 'Options'){
+  }elseif($key == 'Options'){
 
-    	return $varPages .= "<a href=\"addtask.php?TaskId=$recs[TaskId]&edit=edit&".create_url(array('page','msg')) . "\"><img src='../images/nit_edit.gif' width='21' height='17' border='0' title='Edit Task Details'></a>&nbsp;<a href=\"javascript:del_resident($recs[TaskId])\"><img src='../images/delete.gif' width='21' height='17' border='0' title='Delete Task'></a>";
+      return $varPages .= "<a href=\"addtask.php?TaskId=$recs[TaskId]&edit=edit&".create_url(array('page','msg')) . "\"><img src='../images/nit_edit.gif' width='21' height='17' border='0' title='Edit Task Details'></a>&nbsp;<a href=\"javascript:del_resident($recs[TaskId])\"><img src='../images/delete.gif' width='21' height='17' border='0' title='Delete Task'></a>";
 
-	}elseif($key == 'Date' || $key == 'Register_date'){
+  }elseif($key == 'Date' || $key == 'Register_date'){
 
-		$date1 = explode("-",$recs[$key]);
+    $date1 = explode("-",$recs[$key]);
 
-    	return $date1[1].'/'.$date1[2].'/'.$date1[0];
+      return $date1[1].'/'.$date1[2].'/'.$date1[0];
 
-	}elseif($key == 'Option'){
+  }elseif($key == 'Option'){
 
-    	return $varPages .= "<a href=\"javascript:del_resident($recs[VolunteerId])\"><img src='../images/delete.gif' width='21' height='17' border='0' title='Delete Volunteer Details'></a>";
+      return $varPages .= "<a href=\"javascript:del_resident($recs[VolunteerId])\"><img src='../images/delete.gif' width='21' height='17' border='0' title='Delete Volunteer Details'></a>";
 
-	}else{
+  }else{
 
-		return $recs[$key];
+    return $recs[$key];
 
-	}	
+  }  
 
    }
 
@@ -5167,7 +5167,7 @@ function scan_file($file)
 
  
 
- //When the ’-fullreport’ startup switch is used in the daemon scanner, the following additional codes may be returned 
+ //When the fullreport startup switch is used in the daemon scanner, the following additional codes may be returned 
 
  $ret_value[6] = " Known archive file was scanned and nothing was found.";
 
