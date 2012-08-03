@@ -55,6 +55,8 @@
     });
     $("[data-sticky]").each(GivingTree.setInitialStickyNavOffset);
   });
+  // Uncomment to support sticky nav updates on page resize
+  // $(window).resize(GivingTree.setInitialStickyNavOffset);
   
   $(window).scroll(GivingTree.updateStickyNav);
   $("[data-sticky]").each(GivingTree.setInitialStickyNavOffset);
