@@ -10,7 +10,7 @@
             <div id="sliderOne">
                 <div class="content">
                     <h1>You Can Help Our Millionth Child</h1>
-                    <p class="lead">This year, we’ll reach our goal of helping one million children locally. You could be the person who fulfils the unique holiday wish of our millionth child.</p>
+                    <p>This year, we’ll reach our goal of helping one million children locally. You could be the person who fulfils the unique holiday wish of our millionth child.</p>
                     <a href="donate.php" class="button banner purple">Donate Today &raquo;</a>
                 </div>
             </div>
@@ -133,7 +133,7 @@
       if ($(window).width() > 1000) {
         orbitRatio = "1430x508";
       } else {
-        orbitRatio = "1x1";
+        orbitRatio = "2x1";
       }
        $('#featured').orbit({ pauseOnHover: true, startClockOnMouseOut: true, advanceSpeed: 5000, fluid: orbitRatio, bullets: true });
        $(".row.featured").spin(false);

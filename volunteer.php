@@ -7,12 +7,11 @@
 <!-- VOLUNTEER PAGE CONTENT -->
 <div class="feature_wrapper">
     <div class="row">
-        <div class="seven columns">
+        <div class="nine columns">
             <h1>Volunteer</h1>
-            <p class="lead">Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer.</p>
-
+            <p>Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer.</p>
         </div>
-        <div class="five columns">
+        <div class="three columns">
             <img src="images/people/c-photo4.png" alt="Volunteer at Family Giving Tree">
         </div>
     </div>
@@ -115,7 +114,7 @@
         Text: Day and date
         -->
               <option value="" selected>Select a day and task</option>
-              <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
+              <option value="360">Wed, 7/25/2012 - Warehouse Set UP</option>
               <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
               <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
               <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
@@ -404,7 +403,7 @@
     <label for="info">Any additional information?</label>
     <textarea id="info" name="info"></textarea>
     <!--Submit sends email to volunteer@familygivingtree.org-->
-    <p class="text-center"><a href="#">Cancel</a> &nbsp; <input type="submit" value="Submit" class="button">
+    <p class="text-center"><a href="#" class="another-reveal-close">Cancel</a> &nbsp; <input type="submit" value="Submit" class="button">
   </form>
   </div>
   <!--Confirmation below-->
@@ -603,6 +602,10 @@ function registerSelect(){
       $('#registerModalContent').load('vol_register.php?taskId='+taskId);
       $('#daytask').text(desc);
   }
+  });
+  $("div.reveal-modal").delegate(".another-reveal-close", "click", function(e) {
+    e.preventDefault();
+    $(this).parents("div.reveal-modal").trigger('reveal:close');
   });
 }
 <!--Image popup-->

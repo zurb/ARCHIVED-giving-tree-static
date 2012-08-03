@@ -320,6 +320,7 @@ header {
     }
     p {
         font-size: 14px;
+        color: #fff !important; 
     }
     .upcoming-events li a {
         color: $green;
@@ -443,6 +444,10 @@ img.right {
     .banner.button {
         padding: 21px 28px 21px 26px !important;
     }
+}
+@media screen and (max-width: 1050px) {
+  .featured h1 { font-size: 34px; font-size: 3.4rem; }
+  .featured .content { position: relative; left: 60px; }
 }
 @media screen and (max-width: 767px) {
     .button.banner { 

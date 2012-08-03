@@ -17,19 +17,16 @@
                         </dl>
                         <h6>Follow Us</h6>
                         <ul class="glyph social link-list">
-                            <li><a href="#">e</a></li>
-                            <li><a href="#">o</a></li>
-                            <li><a href="#">d</a></li>
+                            <li><a href="http://facebook.com/familygivingtree"><img src="images/icons/facebook.png"></a></li>
+                            <li><a href="http://twitter.com/fgttweets"><img src="images/icons/twitter.png"></a></a></li>
                         </ul>
                     </div>
                     <div class="six columns">
                         <h6>Upcoming Events</h6>
                         <ul class="upcoming-events">
                             <li>
-                                <a href="lead-a-drive.php#importantDates">9/20 B2S Luncheon</a>
-                                <p>All Drive Leaders are invited to join the Family Giving
-                                    Tree Elves for a community&hellip;
-                                    <a href="lead-a-drive.php#importantDates">more &raquo;</a></p>
+                                <h6>12/10 Holiday Warehouse Ribbon Cutting</h6>
+                                <p>Come celebrate your inner elf at the Millionth Child campaign kickoff and ribbon cutting ceremony. Details coming soon.</p>
                             </li>
                         </ul>
                     </div>
