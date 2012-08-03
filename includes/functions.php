@@ -1,5 +1,7 @@
 <?php 
 
+define("VOLUNTEER_EMAIL_RECIPIENT", "chatche+zurbwired@gmail.com");
+
 function is_valid_email($email) {
 
   
@@ -956,7 +958,24 @@ function sendmailnew($VolunteerId,$typeId){
 
 } 
 
-// return an array of open task details and their IDs
+function sendVolunteerEmail($values) {
+  $message = "Name: $values[name]\n"
+              . "Email: $values[email]\n"
+              . "Phone: $values[phone]\n"
+              . "Company or School: $values[org]\n"
+              . "Under 18: ".$values[under18]."\n"
+              . "Grade: $values[grade]\n"
+              . "Days available: " . join(", ", $values[weekday]) . "\n"
+              . "Times available: " . join(", ", $values[time]) . "\n"
+              . "Volunteering for: $values[purpose]\n"
+              . "Volunteering for (Other): $values[purpose_other]\n"
+              . "Hours for school: $values[schoolhrs]\n"
+              . "Company matching program: $values[matching]\n"
+              . "Special Skills: $values[skills]\n"
+              . "Additional Info: $values[info]\n";
+              
+  mail(VOLUNTEER_EMAIL_RECIPIENT, "Volunteer Signup: $values[name]", $message);
+}
 
 
 ?>

@@ -42,10 +42,10 @@
 
 <header>
     <div class="row">
-        <div class="three columns logo">
+        <div class="three columns logo hide-for-small mobile-one">
             <a href="index.php"><img src="images/logo.png" alt="Family Giving Tree"></a>
         </div>
-        <nav class="seven columns">
+        <nav class="seven columns hide-for-small mobile-two">
             <ul class="link-list">
                 <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="who-we-help.php">Who We Help</a></li>
@@ -55,11 +55,30 @@
                 <li><a href="about.php">About</a></li>
             </ul>
         </nav>
-        <div class="two columns">
-            <a href="donate.php" class="button donate right">Donate</a>
+        <div class="two mobile-one columns pull-three-mobile">
+            <a href="donate.php" class="button donate right hide-for-small">Donate</a>
+            <br>
+            <a href="#" class="button small show-for-small" data-reveal-id="mobileNav">Menu</a>
         </div>
     </div>
     <!-- end .row -->
 </header>
+<div class="row show-for-small">
+    <div class="mobile-two columns pull-one-mobile">
+        <a href="index.php"><img src="images/logo.png" alt="Family Giving Tree"></a>
+    </div>
+</div>
+<div id="mobileNav" class="reveal-modal">
+    <ul class="nav-bar">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="who-we-help.php">Who We Help</a></li>
+        <li><a href="lead-a-drive.php">Lead a Drive</a></li>
+        <li><a href="sponsor.php">Sponsors</a></li>
+        <li><a href="volunteer.php">Volunteer</a></li>
+        <li><a href="about.php">About</a></li>
+    </ul>
+    <a href="donate.php" class="button large">Donate</a>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
 
 <?php include("includes/_functions.php"); ?>
