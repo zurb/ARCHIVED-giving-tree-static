@@ -1,6 +1,6 @@
 <?php 
 
-define("VOLUNTEER_EMAIL_RECIPIENT", "chatche+zurbwired@gmail.com");
+define("VOLUNTEER_EMAIL_RECIPIENT", "volunteer@familygivingtree.org");
 
 function is_valid_email($email) {
 

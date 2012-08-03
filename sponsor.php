@@ -30,7 +30,6 @@
         <div class="twelve columns">
           <h4>Back to School Drives</h4>
           <p class="lead">For our Back to School Drives, the students who receive backpacks from our drive usually begin school with few or no supplies. We believe they deserve an equal start, with the supplies they need to learn. When it comes to our Holiday Wish Drive, you’ll be ensuring that a child doesn’t have to go without a gift during the holidays.</p>
-          <img src="http://www.placehold.it/1000x300">
         </div>
       </div>
       
@@ -115,11 +114,11 @@
     </div>
     <div class="nine columns">
       <ul class="top-circles block-grid five-up">
-        <li><img src="images/icons/bg-orange.png"><br/><span>1</span>Financial Sponsorship —  $2,500 to $100,000</li>
-        <li><img src="images/icons/bg-green.png"><br/>Public Service Announcements — $2,500 to $8,000 through a variety of media outlets</li>
-        <li><img src="images/icons/bg-yellow.png"><br/>Web banner package —  TBD</li>
-        <li><img src="images/icons/bg-pink.png"><br/>To discuss sponsorship opportunities, contact:</li>
-        <li><img src="images/icons/bg-purple.png"><br/>Recognition as a major funder at our annual Celebration Luncheon in September.</li>
+        <li class="num1"><img src="images/icons/bg-orange.png"><br/>Financial Sponsorship —  $2,500 to $100,000</li>
+        <li class="num2"><img src="images/icons/bg-green.png"><br/>Public Service Announcements — $2,500 to $8,000 through a variety of media outlets</li>
+        <li class="num3"><img src="images/icons/bg-yellow.png"><br/>Web banner package —  TBD</li>
+        <li class="num4"><img src="images/icons/bg-pink.png"><br/>To discuss sponsorship opportunities, contact:</li>
+        <li class="num5"><img src="images/icons/bg-purple.png"><br/>Recognition as a major funder at our annual Celebration Luncheon in September.</li>
       </ul>
     </div>
   </div>
@@ -129,8 +128,8 @@
       
       <ul class="top-last block-grid four-up">
         <li><h6>Presenting Sponsor</h6><br/><img src="images/sponsor logos/sp-texinst.jpg" /></li>
-        <li><h6>Presenting Sponsor</h6><br/><img src="images/sponsor logos/sp-sandisk.jpg" /></li>
-        <li class="top-last"><h6>Presenting Sponsor</h6><br/><img src="images/sponsor logos/sp-cisco.jpg" /></li>
+        <li><h6>Superintendent Sponsor</h6><br/><img src="images/sponsor logos/sp-sandisk.jpg" /></li>
+        <li class="top-last"><h6>Principal Sponsor</h6><br/><img src="images/sponsor logos/sp-cisco.jpg" /></li>
         <li class="last"><img src="images/sponsor logos/sp-kaiser.jpg" /></li>
         
       </ul>
