@@ -4,9 +4,12 @@
 ?>
 <?php include("includes/_header.php"); ?>
 
-<div class="row">
-  <div class="twelve columns">
-    <h1>Donations</h1>    
+
+<div class="feature_wrapper">
+  <div class="row">
+    <div class="twelve columns">
+      <h1>Donations</h1>
+    </div>
   </div>
 </div>
 
