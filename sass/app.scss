@@ -193,7 +193,9 @@ h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
   }
 }
 
-.button.purple { background-color: $darkPurple; color: #fff; border: solid 1px darken($darkPurple, 10%);}
+.button.purple { background-color: $darkPurple; color: #fff; border: solid 1px darken($darkPurple, 10%);
+	&:hover { background-color: darken($darkPurple, 10%); }
+}
 
 blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; background: $lightPink; margin-bottom: 0; margin-top: -1px;
   cite { font-family: "Helvetica", Arial, sans-serif; color: $white; }
@@ -202,7 +204,7 @@ blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; 
 
 /*Lead a Drive*/
 .featured p { font-size: 18px; }
-.feature_wrapper { background-color: $lightGreen; padding-top: 110px; padding-bottom: 40px; }
+.feature_wrapper { background-color: $lightGreen; padding-top: 110px; padding-bottom: 40px; margin-bottom: 30px; }
 .register_callout { background-color: #f3e9f1; padding: 10px 0; margin-bottom: 20px !important }
 .register_callout p { font-size: 22px; color: #999; padding: 12px 0 0 10px; }
 #aboutDrive ul li { width: 240px }
@@ -312,7 +314,7 @@ header {
 }
 .footer-columns {
     background: image-url("bg/bg-footer.png") repeat;
-    padding-bottom: 15px;
+    padding-bottom: 15px; margin-top: 30px; 
     .elf img {
         margin-top:-80px;
     }
@@ -353,7 +355,7 @@ h1, h2, h3 {
     font-weight: normal;
 }
 .side-nav a {
-    font-weight: bold;
+    font-weight: bold; font-size: 14px; font-size: 1.4rem; font-weight: normal; 
 }
 .glyph {
   font-family: 'FoundationIconsGeneral';
@@ -396,7 +398,7 @@ h1, h2, h3 {
 
 /* Donate Page */
 .choose-donation { margin-top: 60px; margin-bottom: 40px; }
-.panel.donate { background: lighten($darkPurple, 58%); border: solid 1px lighten($darkPurple, 45%); }
+.panel { background: #f3eaf0; border: none; }
 
 /* Progress Bar */
 .progress-bar {
@@ -443,6 +445,7 @@ img.right {
         padding: 21px 28px 21px 26px !important;
     }
 }
+
 /*Volunteer Page*/
 .inputrow {
   label,
@@ -499,11 +502,19 @@ img.right {
   }
 }
 
+
+.block-grid.three-up li { font-size: 12px; font-size: 1.2rem; line-height: 14px; }
+li.has-icon img { margin: 4px 0 -7px 0; }
+li.has-icon { margin-bottom: 4px; }
+
+>>>>>>> styling tweaks
+
 @media screen and (max-width: 1050px) {
   .featured h1 { font-size: 34px; font-size: 3.4rem; }
   .featured p { font-size: 14px; font-size: 1.4rem; }
   .featured .content { position: relative; left: 60px; }
 }
+
 @media screen and (max-width: 767px) {
     .button.banner { 
         padding: 21px 35px 21px 25px !important;  
@@ -541,3 +552,4 @@ img.right {
         position: relative;
     }
 }
+
