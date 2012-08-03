@@ -459,40 +459,40 @@
 <?php include("includes/_footer.php");  ?>
 <script>
 $(document).ready(function(){
-	registerSelect();
-	readMoreToggle();
+  registerSelect();
+  readMoreToggle();
 });
 <!--FOR THE REGISTRATION FORM-->
 function registerSelect(){
-	$('#registerlink').hide();
-	$('#warehousetaskform').hide();
-	$('.warehousetask').click(function(e){
-		e.preventDefault();
-		$('#warehousetaskform').show();
-	});
-	$('#tasklist li').hide();
-	$('#volunteermonth').val(jQuery('options:first', this).val())
-	$('#volunteermonth').change(function(){
-		var month = $(this).val();
-		$('#tasklist li').hide();
-		$('.'+month).show();
-	});
-	$('#volunteerday').change(function(){
-		var taskId = $(this).val();
-		$('#registerlink').show();
-		$('#registerModalContent').load('vol_register.php?taskName='+taskId,function(){
-		});
-	});
+  $('#registerlink').hide();
+  $('#warehousetaskform').hide();
+  $('.warehousetask').click(function(e){
+    e.preventDefault();
+    $('#warehousetaskform').show();
+  });
+  $('#tasklist li').hide();
+  $('#volunteermonth').val(jQuery('options:first', this).val())
+  $('#volunteermonth').change(function(){
+    var month = $(this).val();
+    $('#tasklist li').hide();
+    $('.'+month).show();
+  });
+  $('#volunteerday').change(function(){
+    var taskId = $(this).val();
+    $('#registerlink').show();
+    $('#registerModalContent').load('vol_register.php?taskName='+taskId,function(){
+    });
+  });
 }
 <!--FOR THE READ MORE TOGGLE-->
 function readMoreToggle(){
-	$('.readmorecontent').hide();
-	$('.readmore').toggle(function(){
-		$(this).text($(this).attr('data-hidetext'))
-		.closest('section').find('.readmorecontent').show('blind');
-	},function(){
-		$(this).text($(this).attr('data-showtext'))
-		.closest('section').find('.readmorecontent').hide('blind');
-	});
+  $('.readmorecontent').hide();
+  $('.readmore').toggle(function(){
+    $(this).text($(this).attr('data-hidetext'))
+    .closest('section').find('.readmorecontent').show('blind');
+  },function(){
+    $(this).text($(this).attr('data-showtext'))
+    .closest('section').find('.readmorecontent').hide('blind');
+  });
 }
 </script>
