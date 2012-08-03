@@ -39,7 +39,7 @@
         <div class="row">
           <div class="twelve columns">
             <div class="panel">
-              <img src="http://www.placehold.it/800x320">
+              <img src="images/dorsa.png" alt="Dorsa Elementry School">
               <h6>Dorsa Elementary School</h6>
               <p>Dorsa Elementary School in San Jose is a part our community of Elves. They help distribute backpacks stuffed with school supplies to their students that need them the most.</p>
             </div>
