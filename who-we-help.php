@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?
   $page_title = "Volunteer or Host";
   $page_template = "main";  
@@ -412,11 +411,10 @@
 
 </div>
 
-=======
+
 <?
   $page_title = "Volunteer or Host";
-  $page_template = "main";  
-?>
+    $page_template = "main";  ?>
 <?php include("includes/_header.php"); ?>
 
 <!-- WHO-WE-HELP-PAGE CONTENT -->
@@ -789,5 +787,5 @@
   </div>
 
 </div>
->>>>>>> fix captilization in header and side nav text
+
 <?php include("includes/_footer.php");  ?>
