@@ -5,10 +5,14 @@
 <?php include("includes/_header.php"); ?>
 
 <!-- VOLUNTEER PAGE CONTENT -->
-<div class="row">
+<div class="row hide-for-small">
   <div class="twelve column"> <img src="http://placehold.it/1000x350">
     <h1>Volunteer</h1>
   </div>
+</div>
+<div class="row intro show-for-small">
+    <h1>Volunteer</h1>
+    <p class="lead">Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled</p>
 </div>
 <div class="row">
   <div class="three column">
