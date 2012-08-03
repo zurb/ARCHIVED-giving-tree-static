@@ -7,7 +7,7 @@
 <!-- SPONSORPAGE CONTENT -->
 <div id="mainContent">
 
-  <div class="row">
+  <div class="row featured">
     <div class="twelve columns">
      <div class="orbit-wrapper"style="height:350px;">
        <div id="featured" >
@@ -82,8 +82,10 @@
 
 <?php content_for('footer', function() { ?>
   <script type="text/javascript">
+    $(".row.featured").spin({lines:9, width:4})
      $(window).load(function() {
          $('#featured').orbit();
+         $(".row.featured").spin(false);
      });
   </script>
   <div id="sponsorModal" class="reveal-modal">
