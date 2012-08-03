@@ -6,17 +6,17 @@
 
 <!-- WHO-WE-HELP-PAGE CONTENT -->
 <div id="mainContent">
-  
-  <div class="row">
-    <div class="seven columns">
-      <h1>Who we help</h1>
-      <p class="leade">Family Giving Tree has cultivated deep roots in the community. We work with more than 300 social service agencies and schools around the Bay Area. Among the folks we work with are homeless shelters, community centers, rehabilitation houses, schools and various nonprofit organizations. Each year, these folks help us fulfill the needs of children in low-income neighborhoods. They supply us with the names and wishes of the children they serve year-round. These are kids who would go without anything during the holidays and back-to-school season.</p>
-    </div>
+    <div class="feature_wrapper">
+      <div class="row">
+        <div class="seven columns">
+          <h1>Who we help</h1>
+          <p>Family Giving Tree has cultivated deep roots in the community. We work with more than 300 social service agencies and schools around the Bay Area. Among the folks we work with are homeless shelters, community centers, rehabilitation houses, schools and various nonprofit organizations. Each year, these folks help us fulfill the needs of children in low-income neighborhoods. They supply us with the names and wishes of the children they serve year-round. These are kids who would go without anything during the holidays and back-to-school season.</p>
+        </div>
     
-    <div class="five columns">
-      <img src="http://www.placehold.it/500x350">
+        <div class="five columns">
+          <img src="http://www.placehold.it/500x350">
+        </div>
     </div>
-    
   </div>
 
   <div class="row">

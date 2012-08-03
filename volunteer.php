@@ -5,10 +5,12 @@
 <?php include("includes/_header.php"); ?>
 
 <!-- VOLUNTEER PAGE CONTENT -->
-<div class="row hide-for-small">
-  <div class="twelve column"> <img src="http://placehold.it/1000x350">
-    <h1>Volunteer</h1>
-  </div>
+<div class="feature_wrapper">
+    <div class="row hide-for-small">
+        <div class="twelve columns">
+            <h1>Volunteer</h1>
+        </div>
+    </div>
 </div>
 <div class="row intro show-for-small">
     <h1>Volunteer</h1>
@@ -579,6 +581,7 @@
   </tbody>
 </table>
 </div>
+
 
 
 <?php include("includes/_footer.php");  ?>
