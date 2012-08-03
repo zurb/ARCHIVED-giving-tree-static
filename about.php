@@ -350,6 +350,52 @@
 
     <hr>
 
+    <section id="greenTree">
+      <div class="row">
+        <div class="four columns">
+          <img src="http://placehold.it/400x300" alt="green tree">
+        </div>
+        <div class="eight columns">
+          <h4>Green Tree</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="news">
+      <div class="row">
+        <div class="four columns">
+          <img src="http://placehold.it/400x300" alt="news">
+        </div>
+        <div class="eight columns">
+          <h4>Title</h4>
+          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui.</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="four columns">
+          <img src="http://placehold.it/400x300" alt="news">
+        </div>
+        <div class="eight columns">
+          <h4>Title</h4>
+          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui.</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="four columns">
+          <img src="http://placehold.it/400x300" alt="news">
+        </div>
+        <div class="eight columns">
+          <h4>Title</h4>
+          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui.</p>
+        </div>
+      </div>
+    </section>
+
   </div>
 </div>
 
