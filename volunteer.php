@@ -26,7 +26,7 @@
     <section id="joinus">
       <h2>Join Us</h2>
       <p>Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer:</p>
-      <h4> Year-Round Volunteer Opportunities</h4>
+      <h3> Year-Round Volunteer Opportunities</h3>
       <ul>
         <li> General Office Help & Drive Preparation: Help us organize materials and prep for our Back to School Drive and/or Holiday Wish Drive. Great for students! </li>
         <li> *Please, no drop-ins. Email volunteers@familygivingtree.org or call
@@ -35,19 +35,19 @@
         <li> Back to School Drive :</li>
         <li> Backpack Card sorting (May)</li>
       </ul>
-      <h4> Backpack pick-up and delivery (August)</h4>
+      <h3> Backpack pick-up and delivery (August)</h3>
       <ul>
         <li> BTS Warehouse Duties (August): Help us set-up the warehouse, receive backpacks, sort, quality check, clean-up warehouse and prepare backpacks for distribution to low-income children.</li>
         <li> Backpack distributions (August)</li>
       </ul>
-      <h4> Holiday Wish Drive:</h4>
+      <h3> Holiday Wish Drive:</h3>
       <ul>
         <li> Wish Card sorting (October)</li>
         <li> Gift pickup and delivery (December)</li>
         <li> HWD warehouse duties (December): Help us set-up warehouse, receive gifts, sort, wrap, quality check, clean-up warehouse and distribute gifts to low-income children.</li>
         <li> Gift distributions (December & January)</li>
       </ul>
-      <p> To learn about our needs as soon as they're posted, Sign up for our newsletter <a href="#">become a friend on Facebook</a></p>
+      <p> To learn about our needs as soon as they're posted, Sign up for our newsletter <a href="https://www.facebook.com/familygivingtree" target="_blank">become a friend on Facebook</a></p>
       <div class="panel" id="register">
         <h4>When can you volunteer?</h4>
         <p>
@@ -87,12 +87,37 @@
         </ul>
         <div id="warehousetaskform">
           <p>
-            <label for="volunteerday">Day/Task:</label>
-            <select id="volunteerday">
+            <label>Day/Task:</label>
+            <select class="volunteerday january">
               <!--
         POPULATE OPTION ATTRIBUTES
-        value: Task Name
-        data-taskid: Task ID
+        value: Task ID
+        disabled: Include if volunteer slot is full
+        Text: Day and date
+        -->
+              <option selected>Select a day and task</option>
+              <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
+              <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
+              <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
+              <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
+            </select>
+            <select class="volunteerday august">
+              <!--
+        POPULATE OPTION ATTRIBUTES
+        value: Task ID
+        disabled: Include if volunteer slot is full
+        Text: Day and date
+        -->
+              <option selected>Select a day and task</option>
+              <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
+              <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
+              <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
+              <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
+            </select>
+            <select class="volunteerday december">
+              <!--
+        POPULATE OPTION ATTRIBUTES
+        value: Task ID
         disabled: Include if volunteer slot is full
         Text: Day and date
         -->
@@ -172,61 +197,22 @@
     <section id="celebrating">
       <h2>Celebrating Volunteers</h2>
       <h3>Who are the Angel Elves?</h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere gravida magna in tristique. Nam pretium augue sit amet tortor varius vitae venenatis magna semper. Proin quis erat et massa consectetur feugiat. Morbi sollicitudin mattis ligula, non vehicula est rutrum id. Ut cursus lorem a leo aliquet auctor. Suspendisse elit felis, pellentesque sed gravida rutrum, ultrices at erat. Aliquam vel ultricies urna. In interdum luctus magna ac tincidunt. Nullam tortor ligula, venenatis ut aliquet in, lobortis eget nisl. Ut quis elit mauris, et congue ligula. Mauris vitae tellus non mauris rutrum ultricies a pulvinar nisi. Morbi facilisis dignissim turpis, non aliquet nibh scelerisque ut. Donec quis lacus lectus, in venenatis tellus.</p>
+      <p>The contributions of our Angel Elves are tremendous. Their combined efforts are vital to our programs and their constant enthusiasm helps brighten the holidays for thousands of children each year. On behalf of all the children, we thank them for their dedication! </p>
       <div class="row">
         <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+          <h3>Jessy Rodriguez</h3>
+          <section><p>Jessy Rodriguez first came to The Family Giving Tree as a volunteer with her young classmates from Calaveras Montessori in 2004. They bagged gifts by 10 and she was already leading her group (she was one of the two children who could count to 10)!
+          <span class="readmorecontent"> For the next several years, Jessy became a regular warehouse volunteer at the Holiday Wish Drive and Back to School Drive. In 2011 she really blossomed and took over the agency pick up job, working some pretty long shifts and even spent time helping her young friends learn the system! Jessy's hard work earned her Angel Elf of the year award in 2011! She currently attends Monroe Middle School where she is on the honor roll, active in band and plays the flute.</span></p>
+          <p class="text-right"><a href="#" class="readmore" data-hidetext="Show Less" data-showtext="Read More">Read More</a></p></section>
         </div>
         <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+          <h3>Joanne Bodenhammer</h3>
+          <p>Joanne Bodenhammer has volunteered countless hours helping us contact and sign up hundreds of hosts for our holiday program, and get wish cards ready to send them.  Thanks to her dedication and generous spirit for many years, thousands more children's wishes will be fulfilled this season!  She is an amazing Angel Elf!</p>
         </div>
         <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+          <h3>Diane Trevino</h3>
+          <section><p>Diane Trevino has volunteered with FGT since it’s inception, more than 20 years!  She spends endless hours at our warehouses for the Back-to-School Drive and Holiday Wish Drive, doing everything from training fellow volunteers to personally making sure every bag is perfectly packed.  <span class="readmorecontent">Her other commitments include serving as lead volunteer with Sacred Heart Community Services and heading the former National Semiconductor's Holiday Workshop Project that provided 800 gift bags for seniors, low-income families, homeless adults and adults with disabilities. Not only does Diane coordinate the hundreds of volunteers that assemble the gift bags, she and her husband Rey shop for each of the items (over 10,400 toiletries, books, etc.) that go into the bags.  Diane participates in all of the volunteer projects coordinated by Texas Instruments including bagging groceries for seniors at the Sunnyvale Community Services, beautifying an InnVision shelter for women and children, and pulling invasive weeds with Save the Bay.  She also serves on Texas Instrument's Wellness Team, Recycling Team and is a Building Emergency Manager for their headquarters building.  She is an inspiration to all of us!</span></p>
+          <p class="text-right"><a href="#" class="readmore" data-hidetext="Show Less" data-showtext="Read More">Read More</a></p></section>
         </div>
       </div>
     </section>
@@ -345,99 +331,103 @@
   <p> Help us sort through our database of wishes to ensure each child receives exactly what they want!</p>
   <a class="close-reveal-modal">&#215;</a> </div>
 <div id="volEmailModal" class="reveal-modal">
+  <div class="preconfirm">
   <h2>Register to Volunteer</h2>
-  <form id="volunteerform">
+  <form id="volunteerform" method="post" action="volunteer-post-email.php">
     <label for="name">*Name</label>
-    <input type="text" id="name">
+    <input type="text" id="name" name="name" class="required" />
     <label for="email">Email Address</label>
-    <input type="text" id="email">
+    <input type="text" id="email" name="email" />
     <label for="phone">*Phone Number</label>
-    <input type="text" id="phone">
+    <input type="text" id="phone" name="phone" class="required" />
     <label for="org">Company or School Name</label>
-    <input type="text" id="org">
+    <input type="text" id="org" name="org" />
     <label for="under18">*Are you under 18?</label>
     <label>
-      <input type="radio" name="under18" id="under18yes">
+      <input type="radio" name="under18" id="under18yes" value="Yes" class="required" />
       Yes</label>
     <label>
-      <input type="radio" name="under18" id="under18no">
+      <input type="radio" name="under18" id="under18no" value="No" class="required" />
       No</label>
     <label for="grade">If so, grade level</label>
-    <input type="text" id="grade">
+    <input type="text" id="grade" name="grade" />
     <label for="weekday">*Availability (check all that apply)</label>
-    Days
+    <label for="weekday">Days</label>
     <label>
-      <input type="checkbox" name="weekday" id="weekdaym">
+      <input type="checkbox" name="weekday[]" id="weekdaym" value="M" class="required" />
       M</label>
     <label>
-      <input type="checkbox" name="weekday" id="weekdaytu">
+      <input type="checkbox" name="weekday[]" id="weekdaytu" value="Tu" class="required" />
       Tu</label>
     <label>
-      <input type="checkbox" name="weekday" id="weekdayw">
+      <input type="checkbox" name="weekday[]" id="weekdayw" value="W" class="required" />
       W</label>
     <label>
-      <input type="checkbox" name="weekday" id="weekdayth">
+      <input type="checkbox" name="weekday[]" id="weekdayth" value="Th" class="required" />
       Th</label>
     <label>
-      <input type="checkbox" name="weekday" id="weekdaym">
+      <input type="checkbox" name="weekday[]" id="weekdaym" value="F" class="required" />
       F</label>
     <label>
-      <input type="checkbox" name="weekday" id="weekdaysat">
+      <input type="checkbox" name="weekday[]" id="weekdaysat" value="Sat" class="required" />
       Sat</label>
     <label>
-      <input type="checkbox" name="weekday" id="weekdaysun">
+      <input type="checkbox" name="weekday[]" id="weekdaysun" value="Sun" class="required" />
       Sun</label>
     <label for="time">Times</label>
     <label>
-      <input type="checkbox" name="time" id="timemornings">
+      <input type="checkbox" name="time[]" id="timemornings" value="Mornings" />
       Mornings</label>
     <label>
-      <input type="checkbox" name="time" id="timeafternoons">
+      <input type="checkbox" name="time[]" id="timeafternoons" value="Afternoons" />
       Afternoons</label>
     <label>
-      <input type="checkbox" name="time" id="timeevenings">
+      <input type="checkbox" name="time[]" id="timeevenings" value="Evenings" />
       Evenings</label>
     <label>
-      <input type="checkbox" name="time" id="timeanytime">
+      <input type="checkbox" name="time[]" id="timeanytime" value="Anytime" />
       Anytime</label>
     <label for="purpose">*I am volunteering:</label>
     <label>
-      <input type="radio" name="purpose" id="purpose_school">
+      <input type="radio" name="purpose" id="purpose_school" value="school" class="required" />
       School requirement</label>
     (# of hours
-    <input type="text" id="schoolhrs">
+    <input type="text" id="schoolhrs" name="schoolhrs" />
     )
     <label>
-      <input type="radio" name="purpose" id="purpose_company">
+      <input type="radio" name="purpose" id="purpose_company" value="company" class="required" />
       Company volunteer opportunity</label>
     (Matching program?
     <label>
-      <input type="radio" name="matching" id="matchingyes">
+      <input type="radio" name="matching" id="matchingyes" value="yes" />
       Yes</label>
     <label>
-      <input type="radio" name="matching" id="matchingno">
+      <input type="radio" name="matching" id="matchingno" value="no" />
       No</label>
     )
     <label>
-      <input type="radio" name="purpose" id="purpose_fun">
+      <input type="radio" name="purpose" id="purpose_fun" value="fun" class="required" />
       For fun</label>
     <label>
-      <input type="radio" name="purpose" id="purpose_court">
+      <input type="radio" name="purpose" id="purpose_court" value="court" class="required" />
       Court Order</label>
     <label>
-      <input type="radio" name="purpose" id="purpose_fun">
+      <input type="radio" name="purpose" id="purpose_other" value="other" class="required" />
       Other</label>
-    <input type="text" id="purpose_other">
+    <input type="text" id="purpose_other" name="purpose_other" />
     <label for="skills">Special Skills (i.e. Computer systems, programs, programming, event coordination, etc.)</label>
-    <textarea id="skills"></textarea>
+    <textarea id="skills" name="skills"></textarea>
     <label for="info">Any additional information?</label>
-    <textarea id="info"></textarea>
+    <textarea id="info" name="info"></textarea>
     *Required Fields 
     <!--Submit sends email to volunteer@familygivingtree.org-->
     <input type="submit" value="Submit" class="button">
   </form>
+  </div>
   <!--Confirmation below-->
-  <p style="display:none">Thank you for your interest in volunteering for  Family Giving Tree. You will be contacted when and if a volunteer match becomes available.</p>
+  <div class="confirm" style="display:none">
+  <h2>Thank you</h2>
+  <p>Thank you for your interest in volunteering for  Family Giving Tree. You will be contacted when and if a volunteer match becomes available.</p></div>
   <a class="close-reveal-modal">&#215;</a> </div>
 <div id="shiftDetailsModal" class="reveal-modal">
   <h2>Shift Details</h2>
@@ -449,149 +439,162 @@
   <a class="close-reveal-modal">&#215;</a> </div>
 <div id="hoursCalendar" class="reveal-modal"> <a class="close-reveal-modal">&#215;</a>
   <h4>Warehouse Hours: August</h4>
-  <table id="month">
-    <thead>
-      <tr>
-        <th class="weekend">Sunday</th>
-        <th>Monday</th>
-        <th>Tuesday</th>
-        <th>Wednesday</th>
-        <th>Thursday</th>
-        <th>Friday</th>
-        <th class="weekend">Saturday</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="previous weekend"><span class="date">29</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td class="previous"><span class="date">30</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td class="previous"><span class="date">31</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">1</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">2</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">3</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td class="weekend"><span class="date">4</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-      </tr>
-      <tr>
-        <td class="weekend"><span class="date">5</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">6</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">7</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">8</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">9</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">10</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td class="weekend"><span class="date">11</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-      </tr>
-      <tr>
-        <td class="weekend"><span class="date">12</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">13</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">14</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">15</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">16</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">17</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td class="weekend"><span class="date">18</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-      </tr>
-      <tr>
-        <td class="weekend"><span class="date">19</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">20</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">21</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">22</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">23</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">24</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td class="weekend"><span class="date">25</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-      </tr>
-      <tr>
-        <td class="weekend"><span class="date">26</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">27</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">28</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">29</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">30</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">31</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td class="weekend next"><span class="date">1</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-      </tr>
-    </tbody>
-  </table>
+<table id="month">
+  <thead>
+    <tr>
+      <th class="weekend">Sunday</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+      <th class="weekend">Saturday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="previous weekend"><span class="date">29</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td class="previous"><span class="date">30</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td class="previous"><span class="date">31</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td><span class="date">1</span>
+        <p> Backpacks DUE!<br />
+          Warehouse Open
+          
+          10am - 6pm </p>
+        <div class="day"></div></td>
+      <td><span class="date">2</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">3</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td class="weekend"><span class="date">4</span>
+        <p>Warehouse Open 11am - 3pmm</p>
+        <div class="day"></div></td>
+    </tr>
+    <tr>
+      <td class="weekend"><span class="date">5</span>
+        <p>Closed</p>
+        <div class="day"></div></td>
+      <td><span class="date">6</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">7</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">8</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">9</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">10</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td class="weekend"><span class="date">11</span>
+        <p>Closed</p>
+        <div class="day"></div></td>
+    </tr>
+    <tr>
+      <td class="weekend"><span class="date">12</span>
+        <p>Closed</p>
+        <div class="day"></div></td>
+      <td><span class="date">13</span>
+        <p> Backpacks Distributed to Schools <br />
+          Warehouse Open 10am - 5pm </p>
+        <div class="day"></div></td>
+      <td><span class="date">14</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">15</span>
+        <p> School Starts! <br />
+          Warehouse Open 10am - 5pm </p>
+        <div class="day"></div></td>
+      <td><span class="date">16</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">17</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td class="weekend"><span class="date">18</span>
+        <p>Closed</p>
+        <div class="day"></div></td>
+    </tr>
+    <tr>
+      <td class="weekend"><span class="date">19</span>
+        <p>Closed</p>
+        <div class="day"></div></td>
+      <td><span class="date">20</span>
+        <p>Warehouse Open 10am - 3pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">21</span>
+        <p>Warehouse Open 10am - 3pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">22</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td><span class="date">23</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td><span class="date">24</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td class="weekend"><span class="date">25</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+    </tr>
+    <tr>
+      <td class="weekend"><span class="date">26</span>
+        <p>Closed</p>
+        <div class="day"></div></td>
+      <td><span class="date">27</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td><span class="date">28</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td><span class="date">29</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td><span class="date">30</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td><span class="date">31</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td class="weekend next"><span class="date">1</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+    </tr>
+  </tbody>
+</table>
 </div>
 
 
 <?php include("includes/_footer.php");  ?>
+<script src="javascripts/jquery.form.js"></script>
+<script src="javascripts/jquery.validate.min.js"></script>
 <script>
 $(document).ready(function(){
   registerSelect();
   readMoreToggle();
+  $('#volunteerform').validate();
+  $('#volunteerform').ajaxForm({success: function(response){
+    $('.preconfirm').hide();
+    $('.confirm').show();
+  }})
 });
 <!--FOR THE REGISTRATION FORM-->
 function registerSelect(){
   $('#registerlink').hide();
   $('#warehousetaskform').hide();
+  $('.volunteerday').hide();
   $('.warehousetask').click(function(e){
     e.preventDefault();
     $('#warehousetaskform').show();
@@ -603,13 +606,11 @@ function registerSelect(){
     $('#tasklist li').hide();
     $('.'+month).show();
   });
-  $('#volunteerday').change(function(){
+  $('.volunteerday').change(function(){
     var taskId = $(this).val();
-	var desc = $(this).find('option:selected').text();
-	alert(desc);
+  var desc = $(this).find('option:selected').text();
     $('#registerlink').show();
-	$('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">')
-    $('#TaskId').val(taskId);
+  $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
     $('#daytask').text(desc);
   });
 }

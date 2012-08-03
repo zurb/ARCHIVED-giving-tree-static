@@ -42,16 +42,10 @@
 
 <header>
     <div class="row">
-        <div class="twelve columns">
-            <a href="donate.php" class="medium button right">Donate</a>
-        </div>
-    </div>
-    <!-- end .row -->
-    <div class="row">
-        <div class="three columns">
+        <div class="three columns logo">
             <a href="index.php"><img src="images/logo.png" alt="Family Giving Tree"></a>
         </div>
-        <nav class="nine columns">
+        <nav class="seven columns">
             <ul class="link-list">
                 <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="who-we-help.php">Who We Help</a></li>
@@ -61,6 +55,9 @@
                 <li><a href="about.php">About</a></li>
             </ul>
         </nav>
+        <div class="two columns">
+            <a href="donate.php" class="button donate right">Donate</a>
+        </div>
     </div>
     <!-- end .row -->
 </header>

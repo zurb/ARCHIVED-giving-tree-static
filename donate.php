@@ -14,14 +14,14 @@
   <div class="eight columns">
     <div class="panel">
       <h3>Give Gifts</h3>
-      <p>The most popular way to help the Elves and the children we serve is through gift donation. During our Back to School Drive you can donate backpacks and school supplies, which will give underserved kids the tools they need to succeed in the classroom. You can also donate gifts for a specific child's holiday wish during our holiday season.</p>
+      <p>The most popular way to help the Elves and the children we serve is through gift donation.</p>
       <a class="button" href="#donateGifts">Donate Today</a>
     </div>
   </div>
   <div class="four columns">
     <div class="panel">
       <h3>Give Money</h3>
-      <p>Give a one time or monthly monetary donation to provide a new, supply-filled backpack or meet a specific holiday gift wish. If your company offers a <a href="http://www.familygivingtree.org/donations/matching_gifts.html">matching gift program</a>, you can double the impact you have. Save your printed receipt for this donation, submit it to your company and help twice as many kids! </p>
+      <p>Give a one time or monthly monetary donation to provide a new, supply-filled backpack or meet a specific holiday gift wish.</p>
       <a class="button" href="#donateGifts">Donate Today</a>
     </div>
   </div>
