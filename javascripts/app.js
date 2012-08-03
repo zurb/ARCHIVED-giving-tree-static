@@ -39,7 +39,7 @@
       "enterOn" : "konami-code"
     });
     $("[data-sticky]").each(GivingTree.setInitialStickyNavOffset);
-  });  
+  });
   
   
   $("[data-sticky]").each(function(idx,el){
