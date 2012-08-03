@@ -140,36 +140,45 @@
 
 /*Hompepage*/
 .featured { position: relative; margin-bottom: 20px; width: 100%; }
-.featured .orbit-wrapper .content { position: absolute; top: 50px; left: 80px; width: 425px; }
+.featured .orbit-wrapper .content { position: absolute; top: 130px; left: 80px; width: 550px; }
 .featured .timer { display: none }
 .featured > .twelve { padding: 0; }
 .featured {
   h1 { color: $darkPurple; font-size: ms(4); }
   p.lead { font-size: ms(1) - 2; }
 }
-ul.orbit-bullets { bottom: 20px; }
+ul.orbit-bullets { bottom: 20px; 
+  li { background: image-url('foundation/orbit/bullets.png') 0 0;
+    &.active {
+      width: 13px;
+      background-position: right;
+    }
+  }
+}
+.stats { text-align: center; }
+.Main {
+  .featured { margin-top: -28px; 
+  }
+}
 
+.orange { color: $orange; }
+.green { color: $green; }
+.pink { color: $pink; }
+
+/*Global*/
+.full { width: 100%; }
+h1 { color: $darkPurple; }
+h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
 
 /*Lead a Drive*/
-h1 { color: $darkPurple; }
+.featured p { font-size: 18px; }
+.feature_wrapper { background-color: $lightGreen; }
 
 /*Events*/
 .date {
-  border: 1px solid $darkPurple;
-  li {
-    list-style:none;
-    text-align:center;
-  }
-  .month {
-    background: $darkPurple;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: ms(-1);
-  }
-  .day {
-    font-size: ms(3);
-    color: $darkPurple;
-  }
+  background-color: $beige;
+  text-transform: uppercase;
+  padding: 4px 10px;
 }
 .upcoming-events {
     a {
@@ -203,16 +212,31 @@ footer {
         overflow: visible;
     }
 }
+a, a:link, a:visited { color: $darkPurple; }
+a:hover, a:active, a.selected { color: darken($darkPurple, 10%); }
 .footer-nav {
     ul.link-list a, p {
         color: #E2D8D0;
     }
 }
 header {
-    background: image-url("puple-bg.png");
-    height: 90px;
+    background: image-url("bg/bg-header.png") bottom center repeat-x;
+    height: 115px;
     overflow: visible;
+    position: relative;
+    z-index: 10;
+    .button.donate {
+        text-indent: -9999px;
+        display:block;
+        width: 174px;
+        height: 70px;
+        background: image-url("buttons/donate.png") no-repeat;
+        border:0;
+        box-shadow: 0 0 0;
+        
+    }
     .link-list {
+        margin-top: 25px;
          a {
             font-weight: bold;
             font-size: 14px;
@@ -220,17 +244,27 @@ header {
          }
     }
     img {
-        margin-top: -60px;
+        position: absolute;
+        top: -25px;
+        z-index: 10;
     }
 }
 .footer-columns {
-    background: url(../images/footer-bg.png) repeat-x;
+    background: image-url("footer-bg.png") repeat-x;
+    padding-bottom: 15px;
     .elf img {
         margin-top:-80px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .upcoming-events li a {
+        color: $green;
     }
 }
 .footer-nav {
     background: #523219;
+    padding-top: 15px;
     .link-list a {
         font-size:15px;
     }
@@ -240,9 +274,9 @@ footer {
     h5 {
         margin-top: 25px;
         a {
-            color: #E2D8D0;
+            color: #E2D8D0 !important;
             &:hover {
-                color: $white;
+                color: $white !important;
             }
         }
     }
@@ -253,9 +287,9 @@ h1, h2, h3 {
 }
 .handwritten {
     font-family: 'HandOfSeanRegular';
+    font-weight: normal;
 }
 .side-nav a {
-    color: $pink;
     font-weight: bold;
 }
 .glyph {
@@ -264,10 +298,16 @@ h1, h2, h3 {
     font-family: 'FoundationIconsSocial';
     font-size: 24px;
     li a {
-        border-radius: 20px;
+        border-radius: 50%;
         color: $darkPurple;
         background: $white;
-        width:30px;
+        width:25px;
+        height:25px;
+        text-align: center;
+        opacity: .5;
+        &:hover {
+            opacity:1;
+        }
     }
   }
 }

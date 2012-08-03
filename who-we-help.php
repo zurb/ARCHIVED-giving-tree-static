@@ -24,7 +24,6 @@
       <ul class="side-nav" data-sticky>
         <li><a href="#current">Current Agencies & Companies</a></li>
         <li><a href="#reqs">Application Reqs.</a></li>
-        <li><a href="#resources">Resources</a></li>
         <li><a href="#interview">Agency Interviews</a></li>
         <li><a href="#faq">Agency FAQs</a></li>
         <li><a href="#impact">Making an Impact</a></li>
