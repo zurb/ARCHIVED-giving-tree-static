@@ -618,11 +618,11 @@ function registerSelect(){
     $('#registerlink').hide();
     var taskId = $(this).val();
     var desc = $(this).find('option:selected').text();
-	if(taskId!==''){
+  if(taskId!==''){
       $('#registerlink').show();
       $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
       $('#daytask').text(desc);
-	}
+  }
   });
 }
 <!--FOR THE READ MORE TOGGLE-->
