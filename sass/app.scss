@@ -109,7 +109,12 @@ footer {
     font-size: 24px;
   }
 }
-
+.reveal-modal .row {
+    width:auto !important;
+    max-width: 106%;
+    margin-left:-($columnGutter / 2);
+    margin-right:-($columnGutter / 2);
+}
 .right {
   float: right;
 }

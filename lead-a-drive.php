@@ -164,28 +164,29 @@
     </div>
 </div>
 <!-- end #mainContent -->
-<div id="register" class="reveal-modal medium">
-    <h2>Lead a Drive</h2>
-    <p class="lead">Host a drive in your community.</p>
-    <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
-    <form>
-        <label>This is a label.</label>
-        <input type="text" placeholder="Standard Input" />
-        
-        <label>Address</label>
-        <input type="text" class="twelve" placeholder="Street" />
-        <div class="row">
-            <div class="six columns">
-                <input type="text" placeholder="City" />
-            </div>
-            <div class="three columns">
-                <input type="text" placeholder="State" />
-            </div>
-            <div class="three columns">
-                <input type="text" placeholder="ZIP" />
-            </div>
-        </div>  
-    </form>
-  <a class="close-reveal-modal">&#215;</a>
-</div>
+        <div id="register" class="reveal-modal medium">
+            <h2>Lead a Drive</h2>
+            <p class="lead">Host a drive in your community.</p>
+            <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Email Address">
+                <label>Address</label>
+                <input type="text" class="twelve" placeholder="Street">
+                <div class="row">
+                    <div class="six columns">
+                        <input type="text" placeholder="City">
+                    </div>
+                    <div class="three columns">
+                        <input type="text" placeholder="State">
+                    </div>
+                    <div class="three columns">
+                        <input type="text" placeholder="ZIP">
+                    </div>
+                </div>
+                <br>
+                <a href="#" class="medium button">Register</a>  
+            </form>
+          <a class="close-reveal-modal">&#215;</a>
+        </div>
 <?php include("includes/_footer.php");  ?>

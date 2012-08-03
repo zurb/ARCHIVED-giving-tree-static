@@ -4401,12 +4401,28 @@ footer {
   font-size: 24px;
 }
 
+<<<<<<< HEAD
 /* line 113, ../sass/app.scss */
+=======
+/* line 103, ../sass/app.scss */
+.reveal-modal .row {
+  width: auto !important;
+  max-width: 106%;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 109, ../sass/app.scss */
+>>>>>>> Fixed Register form
 .right {
   float: right;
 }
 
+<<<<<<< HEAD
 /* line 116, ../sass/app.scss */
+=======
+/* line 112, ../sass/app.scss */
+>>>>>>> Fixed Register form
 .left {
   float: left;
 }
