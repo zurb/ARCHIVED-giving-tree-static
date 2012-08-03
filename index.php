@@ -6,40 +6,36 @@
 
 <div class="row featured">
     <div class="twelve columns">
-        <!-- Four spots on the slider, Donate, Lead a Drive, Volunteer, Marketing Blurb -->
-        <div class="orbit-wrapper" style="width: 950px; height: 367px" id="featured">
+        <div class="orbit-wrapper" id="featured">
             <div>
                 <div class="content">
-                    <h1>Donate</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Integer malesuada dapibus fermentum.</p>
-                    <a href="donate.php" class="button radius">Donate &raquo;</a>
+                    <h1>Be the Millionth Child's Elf</h1>
+                    <p>This year, we’ll have helped one million children. You could be the person who fulfils the unique holiday wish of our millionth child. </p>
+                    <a href="donate.php" class="button radius">Become an Elf &raquo;</a>
                 </div>
                 <img src="http://placehold.it/980x367">
             </div>
             <div>
                 <div class="content">
-                    <h1>Organize</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Integer malesuada dapibus fermentum.</p>
-                    <a href="lead-a-drive.php" class="button radius">Lead a Drive &raquo;</a>
+                    <h1>Lead a Holiday Wish Drive</h1>
+                    <p>As the holidays get closer, your company or organization can help lead a drive by displaying wish cards for fellow workers, customers, members or friends. </p>
+                    <a href="lead-a-drive.php" class="button radius">Lead a Holiday Wish Drive &raquo;</a>
                 </div>
                 <img src="http://placehold.it/980x367">
             </div>
             <div>
                 <div class="content">
-                    <h1>Volunteer</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Integer malesuada dapibus fermentum.</p>
-                    <a href="volunteer.php" class="button radius">Volunteer &raquo;</a>
+                    <h1>Cultivating Deep Roots</h1>
+                    <p>Our roots in the communities we serve go deep thanks to our volunteers. Without them, we wouldn’t be able to put smiles on the faces of the kids we help. </p>
+                    <a href="volunteer.php" class="button radius">Join Our Community &raquo;</a>
                 </div>
                 <img src="http://placehold.it/980x367">
             </div>
             <div>
                 <div class="content">
-                    <h1>Featured</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Integer malesuada dapibus fermentum.</p>
+                    <h1>Plant a Seed </h1>
+                    <p>Putting a smile on a kid’s face doesn’t just happen. It takes the kindness of those who become part of our community of Elves. People who plant seeds by donating their time, a backpack or even a few dollars to fulfill the needs of children in low-income communities.</p>
+                    <a href="volunteer.php" class="button radius">Plant a Seed Today &raquo;</a>
                 </div>
                 <img src="http://placehold.it/980x367">
             </div>
@@ -72,11 +68,11 @@
 
 <div class="row">
     <div class="twelve columns">
-        <h3>About</h3>
+        <h3>Bestowing Joy One Fulfilled Wish, One Backpack at a Time</h3>
         <div class="row">
             <div class="nine columns">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada dapibus fermentum. Sed at velit massa. Sed consectetur bibendum magna nec pulvinar. Suspendisse posuere auctor enim nec malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada dapibus fermentum. Sed at velit massa. Sed consectetur bibendum magna nec pulvinar. Suspendisse posuere auctor enim nec malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <a href="">learn more &raquo;</a></p>
+                <p>Since 1990, Family Giving Tree has been fulfilling the holiday wishes of children in low-income neighborhoods and providing backpacks stuffed with school supplies so they’re prepared to learn. It’s more than just gifts or rulers or pencils. It’s giving kids precious, happy memories. It’s amazing to know that we’ve put smiles on the faces of a million kids.</p>
+                <a href="" class="small white button">Learn more about our roots &raquo;</a>
             </div>
             <div class="three columns">
                 <img src="http://placehold.it/200x200">
@@ -89,6 +85,10 @@
     <div class="twelve columns">
         <h3>News</h3>
         <div class="row">
+            <div class="four columns">
+                <h4>We're Heading Into our Holiday Wish Drive</h4>
+                <p>As we wrap up our Back to School Drive, we’re heading right into our Holiday Wish Drive where you could help fulfill the unique holiday wish of an underserved child with a donation. Your company or organization can lead a drive or you can join our community of Elves. &hellip; <a href="">more &raquo;</a></p>
+            </div>
             <div class="four columns">
                 <h4>FGT on eBay</h4>
                 <p>Looking for another way to support the Family Giving Tree?
@@ -103,22 +103,26 @@
                     nonprofits at that, we&#8217;ve finally been chosen as this year&#8217;s&hellip;
                     <a href="">more &raquo;</a></p>
             </div>
-            <div class="four columns">
+            <!--
+<div class="four columns">
                 <h4>Back to School &amp; STEM</h4>
                 <p>Children from low-income families have many barriers to success in the
                     classroom, let alone engaging in career fields related to Science,
                     Technology, Engineering and Mathematics (STEM)&hellip;
                     <a href="">more &raquo;</a></p>
             </div>
+-->
         </div>
     </div>
 </div>
 
 <?php content_for('footer', function() { ?>
   <script type="text/javascript"> 
-     $(window).load(function() {
-         $('#featured').orbit({ fluid: '16x6' });
-     });
+    $(".row.featured").spin({lines:9, width:4})
+   $(window).load(function() {
+       $('#featured').orbit({ fluid: '16x6' });
+       $(".row.featured").spin(false);
+   });
   </script>
 <?php })?>
 

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -65,20 +66,4 @@
     <!-- end .row -->
 </header>
 
-<?php
-
-$contents = array();
-
-function content_for($name, $method) {
-  global $contents;
-  $contents[$name] = $method;
-}
-
-function yield($name) {
-  global $contents;
-  if (array_key_exists($name, $contents)) {
-      return $contents[$name]();
-  }
-}
-
-?>
+<?php include("includes/_functions.php"); ?>
