@@ -4328,7 +4328,7 @@ p.vevent abbr {
 /* line 75, ../sass/app.scss */
 .featured ul {
   position: absolute;
-  bottom: 0;
+  top: 340px;
   left: 280px;
   z-index: 1000;
 }
@@ -4336,15 +4336,16 @@ p.vevent abbr {
 /* line 76, ../sass/app.scss */
 .featured .orbit-wrapper .content {
   position: absolute;
-  top: 80px;
+  top: 50px;
   left: 80px;
   width: 425px;
 }
 
 /* line 77, ../sass/app.scss */
 #featured {
-  background: url('../images/spinner.gif?1343958749') center center #f4f4f4;
-  height: 300px;
+  background: #f4f4f4;
+  height: 364px;
+  margin-bottom: 20px;
 }
 
 /* line 78, ../sass/app.scss */
@@ -4452,7 +4453,7 @@ footer {
 /*Holiday Slider*/
 /* line 146, ../sass/app.scss */
 #holidaySlider {
-  height: 460px !important;
+  min-height: 450px !important;
 }
 
 /* line 149, ../sass/app.scss */

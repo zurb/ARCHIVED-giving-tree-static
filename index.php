@@ -6,8 +6,7 @@
 
 <div class="row featured">
     <div class="twelve columns">
-        <!-- Four spots on the slider, Donate, Lead a Drive, Volunteer, Marketing Blurb -->
-        <div class="orbit-wrapper" style="width: 950px; height: 367px" id="featured">
+        <div class="orbit-wrapper" id="featured">
             <div>
                 <div class="content">
                     <h1>Be the Millionth Child's Elf</h1>
@@ -119,9 +118,11 @@
 
 <?php content_for('footer', function() { ?>
   <script type="text/javascript"> 
-     $(window).load(function() {
-         $('#featured').orbit({ fluid: '16x6' });
-     });
+    $(".row.featured").spin({lines:9, width:4})
+   $(window).load(function() {
+       $('#featured').orbit({ fluid: '16x6' });
+       $(".row.featured").spin(false);
+   });
   </script>
 <?php })?>
 

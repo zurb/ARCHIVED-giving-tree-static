@@ -82,40 +82,46 @@
     </section>
   </div>
 </div>
-<?php include("includes/_footer.php");  ?>
-<div id="registerModal" class="reveal-modal">
-  <div id="registerModalContent"></div>
-  <a class="close-reveal-modal">&#215;</a>
-</div>
-<script>
-$(document).ready(function(){
-  registerSelect();
-  readMoreToggle();
-});
-<!--FOR THE REGISTRATION FORM-->
-function registerSelect(){
-  $('#registerlink').hide();
-  $('#volunteerday').change(function(){
-    var taskId = $('#volunteerday option:selected').attr('data-taskid');
-    var taskName = $(this).val();
-    $('#registerlink').text(taskName).show();
-    $('#registerModalContent').load('vol_register.php?taskId='+taskId+'taskName='+taskName,function(){
-      $('#registerlink').click(function(e){
-        e.preventDefault();
-        $('#registerModal').reveal();
+
+
+<?php content_for('footer', function() { ?>
+  <div id="registerModal" class="reveal-modal">
+    <div id="registerModalContent"></div>
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+  <script>
+  $(document).ready(function(){
+    registerSelect();
+    readMoreToggle();
+  });
+  <!--FOR THE REGISTRATION FORM-->
+  function registerSelect(){
+    $('#registerlink').hide();
+    $('#volunteerday').change(function(){
+      var taskId = $('#volunteerday option:selected').attr('data-taskid');
+      var taskName = $(this).val();
+      $('#registerlink').text(taskName).show();
+      $('#registerModalContent').load('vol_register.php?taskId='+taskId+'taskName='+taskName,function(){
+        $('#registerlink').click(function(e){
+          e.preventDefault();
+          $('#registerModal').reveal();
+        });
       });
     });
-  });
-}
-<!--FOR THE READ MORE TOGGLE-->
-function readMoreToggle(){
-  $('.readmorecontent').hide();
-  $('.readmore').toggle(function(){
-    $(this).text('Show Less')
-    .closest('section').find('.readmorecontent').show('blind');
-  },function(){
-    $(this).text('Read More')
-    .closest('section').find('.readmorecontent').hide('blind');
-  });
-}
-</script>
+  }
+  <!--FOR THE READ MORE TOGGLE-->
+  function readMoreToggle(){
+    $('.readmorecontent').hide();
+    $('.readmore').toggle(function(){
+      $(this).text('Show Less')
+      .closest('section').find('.readmorecontent').show('blind');
+    },function(){
+      $(this).text('Read More')
+      .closest('section').find('.readmorecontent').hide('blind');
+    });
+  }
+  </script>
+<?php })?>
+
+
+<?php include("includes/_footer.php");  ?>

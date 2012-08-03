@@ -56,4 +56,16 @@
     </div>
 </div>
 
+<?php content_for('footer', function() { ?>
+<script type="text/javascript">
+$(window).load(function(){
+  $("#holidaySlider").orbit({
+    directionalNav: true,
+    timer:false,
+    fluid: true
+  });
+});
+</script>
+<?php })?>
+
 <?php include("includes/_footer.php");  ?>
