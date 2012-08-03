@@ -40,27 +40,15 @@
 </head>
 <body class="<?= $page_template ?>">
 
-<header>
+  <header>
     <div class="row">
-        <div class="twelve columns">
-            <a href="#" class="medium button right">Donate</a>
-        </div>
+      <div class="ten columns">
+        <h1><small>Family Giving Tree</small><br>
+          Back to School Drive
+        </h1>
+      </div>
+      <div class="two columns">
+        <img src="http://placehold.it/200x200" alt="cicso">
+      </div>
     </div>
-    <!-- end .row -->
-    <div class="row">
-        <div class="three columns">
-            <a href="index.php"><img src="http://placehold.it/200x61" alt="Family Giving Tree"></a>
-        </div>
-        <nav class="nine columns">
-            <ul class="link-list">
-                <li class="active"><a href="index.php">Home</a></li>
-                <li><a href="#">Who We Help</a></li>
-                <li><a href="lead-a-drive.php">Lead a Drive</a></li>
-                <li><a href="sponsor.php">Sponsors</a></li>
-                <li><a href="#">Join Our Community</a></li>
-                <li><a href="about.php">About</a></li>
-            </ul>
-        </nav>
-    </div>
-    <!-- end .row -->
-</header>
+  </header>
