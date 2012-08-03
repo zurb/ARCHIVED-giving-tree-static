@@ -2,7 +2,18 @@
   $page_title = "Donation Details";
   $page_template = "donation-details";  
 ?>
-<?php include("includes/_header.php"); ?>
+<?php include("includes/_virtual-header.php"); ?>
+
+<div class="container header">
+	<div class="row">
+	<div class="ten columns">
+	  	<h1 class="purple">Back to School Drive</h1>
+  	</div>
+  	<div class="two columns company">
+  		<img src="vgt-images/cisco.png"/>
+  	</div>
+	</div>
+</div>
 
 <div class="row">
   <div class="six columns">
@@ -48,6 +59,7 @@
       </tbody>
     </table>
     <p>Virtual Giving Tree donations lets us do the shopping for you! We receive discounts through bulk purchases and your donation helps with these orders. Backpacks and supplies are delivered by the manufacturers to our warehouse to be assembled and distributed.</p>
+    <a href="#">Back to home page</a>
   </div>
 </div>
 

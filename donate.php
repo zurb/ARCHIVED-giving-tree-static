@@ -25,14 +25,14 @@
     <div class="donate panel">
       <h3>Give Money</h3>
       <p>Give a one time or monthly monetary donation!</p>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
       <input type="hidden" name="cmd" value="_s-xclick">
       <input type="hidden" name="hosted_button_id" value="E8CTCYY6FGSU4">
-      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <input type="image" src="images/paypal/donate_today.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
       <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-      </form>
+      </form> -->
       
-      <!-- <a class="pink button banner" href="https://npo.networkforgood.org/Donate/Donate.aspx?npoSubscriptionId=4257">Donate Today</a> -->
+      <a class="pink button banner" href="https://npo.networkforgood.org/Donate/Donate.aspx?npoSubscriptionId=4257">Donate Today</a>
     </div>
   </div>
 </div>
@@ -41,7 +41,7 @@
   <div class="nine columns">
     <h2>Help in Other Ways</h2>
 
-    <div class="row">
+    <div class="row dotted">
       <div class="three columns">
         <img class="down" src="images/icons/help-time.png">
       </div>
@@ -52,7 +52,7 @@
       </div>
     </div>
     <br>
-    <div class="row">
+    <div class="row dotted">
       <div class="three columns">
         <img class="down" src="images/icons/help-drive.png">
       </div>
@@ -63,7 +63,7 @@
       </div>
     </div>
     <br>
-    <div class="row">
+    <div class="row dotted">
       <div class="three columns">
         <img class="down" src="images/icons/help-sponsor.png">
       </div>
@@ -84,15 +84,15 @@
         <a href="#volunteer" class="purple tiny button">Learn More &raquo;</a>
       </div>
     </div>
-    <br><br><br>
+    <br>
+    <br>
     <div class="row">
       <div class="twelve columns">
-        <hr>
-        <h4>Donate Procedures</h4>
+        <h2>Donate Procedures</h2>
         <p><strong>Workplace / Civic Organizations</strong> —  Look for information in your workplace for information regarding how to contribute to your organization's drive.  You can select a wish tag and learn who is receiving monetary donations.</p>
         <p><strong>General Donations</strong> —  Donate on our public tree to provide backpacks stuffed with school supplies or fulfill a child's unique holiday wish.</p>
         <p><strong>Checks</strong> — Mail your checks (made payable to Family Giving Tree) to:</p>
-        <p>Questions about Donations? Contact:</p>
+        <p><strong>Questions about Donations?</strong> Contact:</p>
         <blockquote class="secondary"><strong>Family Giving Tree</strong><br />
         606 Valley Way<br />
         Milpitas, CA  95035</blockquote>
@@ -101,13 +101,13 @@
         <a href="theo@familygivingtree.org">theo@familygivingtree.org</a><br />
         408-946-3111 x210</blockquote>
         
-        <p>Questions about Sponsorships?  Contact:</p>
+        <p><strong>Questions about Sponsorships?</strong> Contact:</p>
         <blockquote class="secondary"><strong>Jeanne Clabaugh</strong><br />
         <a href="jeanne@familygivingtree.org">jeanne@familygivingtree.org</a><br />
         408-946-3111 x225</blockquote>
       </div>
     </div>
-    <div class="row">
+    <div class="row dotted">
       <div class="twelve columns">
         <h4>Donation Deadline?</h4>
         <p>Monetary donations are received throughout the year.  For information about deadlines for gifts according to the drive, visit the  warehouse page.</p>
@@ -115,7 +115,7 @@
       </div>
     </div>
     
-    <div class="row">
+    <div class="row dotted">
       <div class="twelve columns">
         <h4>Product Donations</h4>
         <p>Do you have overruns of a product? Ordered too much? You can help us fulfill the wishes of more children.</p>
