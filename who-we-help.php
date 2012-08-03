@@ -21,7 +21,17 @@
 
   <div class="row">
     <div class="three columns">
-      <ul class="side-nav" data-sticky>
+      <ul class="side-nav hide-for-mobile" data-sticky>
+        <li><a href="#current">Current Agencies &amp; Companies</a></li>
+        <li><a href="#reqs">Application Reqs.</a></li>
+        <li><a href="#faq">Agency FAQs</a></li>
+        <li><a href="#impact">Making an Impact</a></li>
+        <li><a href="#terms">Terms &amp; Cond.</a></li>
+        <li><a href="#collect">Collecting Wishes</a></li>
+        <li><a href="#apply">Apply</a></li>
+      </ul>
+      <!-- duplicate nav -->
+      <ul class="side-nav show-for-mobile">
         <li><a href="#current">Current Agencies &amp; Companies</a></li>
         <li><a href="#reqs">Application Reqs.</a></li>
         <li><a href="#faq">Agency FAQs</a></li>
@@ -42,6 +52,7 @@
               <img src="images/dorsa.png" alt="Dorsa Elementry School">
               <h6>Dorsa Elementary School</h6>
               <p>Dorsa Elementary School in San Jose is a part our community of Elves. They help distribute backpacks stuffed with school supplies to their students that need them the most.</p>
+              <a href="#impact" class="purple banner button">Learn More &raquo;</a>
             </div>
           </div>
         </div>
@@ -237,7 +248,7 @@
       </div>
       
       <section id="terms">
-        <h2>Terms & Conditions</h2>
+        <h2>Terms &amp; Conditions</h2>
         
         <h5>501 c (3) Status</h5>
         <p>a. Our Board of Directors has deemed it necessary to verify your 501-c (3) status. This assures us that the services we provide will reach the neediest children in our community. Proof of your status may be mailed or faxed to our office, and must be received before participating.  Government run agencies are exempt from this requirement.</p>
