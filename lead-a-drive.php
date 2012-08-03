@@ -11,10 +11,10 @@
             <div class="seven columns">
                 <h1>Send Children to School Prepared</h1>
                 <p>Leading a Back to School Drive is an incredible way to help local kids in need just in time for the new school year. This drive focuses on the children as individuals; pairing a backpack and school supply wish list with a name. By leading a Back to School Drive drive, you’re not only providing the wealth of education, you’re also joining the Family Giving Tree community.</p>
-                <a href="http://familygivingtree.force.com/hosts" class="large primary button">Register &raquo;</a>
+                <a href="http://familygivingtree.force.com/hosts" class="button banner purple">Register &raquo;</a>
             </div>
             <div class="five columns">
-                <img src="http://placehold.it/500x350" alt="Lead a Drive">
+                <img src="images/people/home-kid.png" alt="Back to School" height="235" width="231">
             </div>
         </div>
         <div class="row next-season">
@@ -49,23 +49,27 @@
                         <p class="next-season">When leading the Family Giving Tree Holiday Wish drive, you’re creating memories of the holiday season that they may not have otherwise known. Wish cards are distributed with an individual name, age, gender, and holiday gift wish. Once the drive is complete, our Elves distribute the wishes and donations to add a little magic to the holiday season.</p>
                     </div>
                     <div class="four columns">
-                        <h4>Current Drives</h4>
-                        <ul class="block-grid three-up">
-                            <li><img src="http://placehold.it/45x45" alt="Company Name"></li>
-                            <li><img src="http://placehold.it/45x45" alt="Company Name"></li>
-                            <li><img src="http://placehold.it/45x45" alt="Company Name"></li>
-                            <li><img src="http://placehold.it/45x45" alt="Company Name"></li>
-                            <li><img src="http://placehold.it/45x45" alt="Company Name"></li>
-                            <li><img src="http://placehold.it/45x45" alt="Company Name"></li>
-                            <li><img src="http://placehold.it/45x45" alt="Company Name"></li>
-                            <li><img src="http://placehold.it/45x45" alt="Company Name"></li>
-                            <li><img src="http://placehold.it/45x45" alt="Company Name"></li>
+                        <h2>Participants</h2>
+                        <ul class="block-grid">
+                            <li>
+                                <img src="images/icons/companies.png" height="30" width="30" alt="Companies"> Companies</li>
+                            <li><img src="images/icons/civic-groups.png" height="30" width="30" alt="Companies"> Civic Groups</li>
+                            <li><img src="images/icons/families.png" height="30" width="30" alt="Companies"> Families</li>
+                            <li><img src="images/icons/youth.png" height="30" width="30" alt="Companies"> Youth</li>
+
                         </ul>
                     </div>
                 </div>
                 <!-- end .row -->
             </section>
             <!-- end #aboutDrive -->
+
+            <div class="row">
+              <div class="twelve columns">
+                <img src="images/horizontal-rule1.png">
+              </div>
+            </div>
+
             <section id="timeline">
                 <div class="row">
                     <div class="four columns">
@@ -81,7 +85,7 @@
                                 <h5 class="event-title">
                                     <a href="#">Holiday Wish Kickoff </a>
                                 </h5>
-                                <p>11:30am-1pm<br>Mountain View, CA.</p>
+                                <p>11:30am-1pm<br>Mountain View, CA</p>
                                 <p>All Drive Leaders are invited to join the Family Giving Tree Elves for a community get together before the Holiday Wish Drive. This is a chance to pick up materials, ask questions, meet other local Elves, and celebrate the season of making wishes become reality.</p>
                             </div> 
                         </div>
@@ -93,7 +97,7 @@
                                 <h5 class="event-title">
                                     <a href="#">Back-to-School Kickoff </a>
                                 </h5>
-                                <p>11:30am-1pm<br>Mountain View, CA.</p>
+                                <p>11:30am-1pm<br>Mountain View, CA</p>
                                 <p>All Drive Leaders are invited to join the Family Giving Tree Elves for a community get together before the Back to School Drive. This is a chance to pick up materials, ask questions, meet other local Elves, and dive right into the school year.</p>
                             </div> 
                         </div>
@@ -101,32 +105,59 @@
                 </div>
             </section>
             <!-- end #timeline -->
+
+            <div class="row">
+              <div class="twelve columns">
+                <img src="images/horizontal-rule1.png">
+              </div>
+            </div>
+
             <section id="tipsSuccessfulDrive">
                 <h2>4 Tips For a Successful Drive</h2>
                 <div class="row">
                     <div class="twelve columns">
                         <ul>
-                          <li>Display your posters and/or cards in <strong>very visible, heavily trafficked</strong> areas. Keep materials fully stocked and <a href="#">let us know</a> if you need more!</li>
-                          <li>Have your advocates <strong>post materials</strong> and <strong>spread the word</strong> via email, social networking or even in person.</li>
-                          <li>Reminders! A little <strong>motivation</strong> like holiday candy or a notecard with announcements never hurts. (See sample announcements for more ideas)</li>
-                          <li>Coordinate a <strong>launch event</strong> (lunch, ice cream social, dance party, etc.) and get your group excited about the Family Giving Tree. The more they <strong>know the more they’ll want to be <strong>involved</strong>. (Check out some creative drive launch events <a href="#">here</a>)</li>
+                          <li class="first"><img src="/images/icons/person.png" height="121" width="121">
+                              <p>Display your posters and/or cards in <strong>very visible,
+                                  heavily trafficked</strong> areas. Keep materials fully
+                                  stocked and <a href="#">let us know</a> if you need more!</p></li>
+                          <li><img src="/images/icons/gift.png" height="121" width="121">
+                              <p>Have your advocates <strong>post materials</strong>
+                                  and <strong>spread the word</strong> via email, social
+                                  networking or even in person.</p></li>
+                          <li><img src="/images/icons/money.png" height="121" width="121">
+                              <p>Reminders! A little <strong>motivation</strong> like holiday
+                                  candy or a notecard with announcements never hurts.
+                                  (See sample announcements for more ideas)</p></li>
+                          <li><img src="/images/icons/person.png" height="121" width="121">
+                              <p>Coordinate a <strong>launch event</strong> (lunch, ice cream
+                              social, dance party, etc.) and get your group excited about the
+                              Family Giving Tree. The more they <strong>know the more they’ll
+                              want to be <strong>involved</strong>. (Check out some creative
+                              drive launch events <a href="#">here</a>)</strong></p></li>
                         </ul>
                     </div>
                 </div>
             </section>
-
-            <div class="row">
-                <div class="six columns">
-                    <h5>Register Now</h5>
-                    <p>Ready to get lead your own drive? Let’s go!</p>
-                    <a href="http://familygivingtree.force.com/hosts" class="large primary button">Register &raquo;</a>
+            <div class="row register_callout">
+                <div class="eight columns">
+                    <p class="handwritten">Ready to lead your own drive? Let’s go!</p>
+                </div>
+                <div class="four columns">
+                    <a href="http://familygivingtree.force.com/hosts" class="button banner purple">Register &raquo;</a>
                 </div>
             </div>
 
+            <div class="row">
+              <div class="twelve columns">
+                <img src="images/horizontal-rule1.png">
+              </div>
+            </div>
+
             <section id="hallOfFame">
-                <h2>Current Drive Locations</h2>
                 <div class="row">
                     <div class="twelve columns">
+                        <h2>Current Drives</h2>
                         <p>Check out all the current drive locations! See the who, what and where of the Family Giving Tree community and Elves. </p>
                     </div>
                 </div>

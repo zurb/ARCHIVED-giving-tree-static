@@ -1,4 +1,4 @@
-<?
+    <?
   $page_title = "Volunteer or Host";
   $page_template = "main";  
 ?>
@@ -22,12 +22,12 @@
   <div class="row">
     <div class="three columns">
       <ul class="side-nav" data-sticky>
-        <li><a href="#current">Current Agencies & Companies</a></li>
+        <li><a href="#current">Current Agencies &amp; Companies</a></li>
         <li><a href="#reqs">Application Reqs.</a></li>
         <li><a href="#interview">Agency Interviews</a></li>
         <li><a href="#faq">Agency FAQs</a></li>
         <li><a href="#impact">Making an Impact</a></li>
-        <li><a href="#terms">Terms & Cond.</a></li>
+        <li><a href="#terms">Terms &amp; Cond.</a></li>
         <li><a href="#collect">Collecting Wishes</a></li>
         <li><a href="#apply">Apply</a></li>
       </ul>
