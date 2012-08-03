@@ -75,7 +75,7 @@
 
   <div class="three columns">
     <div class="panel">
-      <h5><a href="#">About Family Giving Tree</a></h5>
+      <h5><a href="virtual-about-fgt.php">About Family Giving Tree</a></h5>
       <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.</p>
       <hr>
       <h5>Goal Status</h5>
