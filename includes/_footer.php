@@ -11,14 +11,15 @@
                     <div class="six columns">
                         <dl>
                             <dt>Contact Us</dt>
-                            <dd>606 Valley Way,<br>
-                            Milipitas, CA 95035</dd>
+                            <dd>606 Valley Way<br>
+                            Milpitas, CA 95035</dd>
                             <dd>(408) 946-3111</dd>
                         </dl>
                         <h6>Follow Us</h6>
                         <ul class="glyph social link-list">
                             <li><a href="http://facebook.com/familygivingtree"><img src="images/icons/facebook.png"></a></li>
                             <li><a href="http://twitter.com/fgttweets"><img src="images/icons/twitter.png"></a></a></li>
+                            <li><a href="http://www.youtube.com/user/FamilyGivingTree"><img src="images/icons/youtube.png"></a></a></li>
                         </ul>
                     </div>
                     <div class="six columns">
@@ -61,12 +62,11 @@
             <div class="nine columns">
                 <ul class="link-list">
                     <li class="active"><a href="index.php">Home</a></li>
-                    <li><a href="#">Who We Help</a></li>
+                    <li><a href="who-we-help.php">Who We Help</a></li>
                     <li><a href="lead-a-drive.php">Lead a Drive</a></li>
                     <li><a href="sponsor.php">Sponsors</a></li>
-                    <li><a href="#">Join Our Community</a></li>
+                    <li><a href="volunteer.php">Volunteer</a></li>
                     <li><a href="about.php">About</a></li>
-                    <li><a href="#">Events</a></li>
                 </ul>
             </div>
             <div class="three columns">
