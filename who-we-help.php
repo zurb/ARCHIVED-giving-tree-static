@@ -42,6 +42,7 @@
               <img src="images/dorsa.png" alt="Dorsa Elementry School">
               <h6>Dorsa Elementary School</h6>
               <p>Dorsa Elementary School in San Jose is a part our community of Elves. They help distribute backpacks stuffed with school supplies to their students that need them the most.</p>
+              <a href="#impact" class="purple banner button">Learn More &raquo;</a>
             </div>
           </div>
         </div>
