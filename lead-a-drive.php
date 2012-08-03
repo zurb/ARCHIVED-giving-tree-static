@@ -14,7 +14,7 @@
                 <a href="http://familygivingtree.force.com/hosts" class="large primary button">Register &raquo;</a>
             </div>
             <div class="five columns">
-                <img src="http://placehold.it/310x310" alt="Lead a Drive">
+                <img src="http://placehold.it/500x350" alt="Lead a Drive">
             </div>
         </div>
         <div class="row next-season">
