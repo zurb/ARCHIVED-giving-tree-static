@@ -6,7 +6,9 @@
 
 <div class="row">
   <div class="twelve columns">
-    <img src="http://placehold.it/1000x200" alt="About Us">
+    <div class="bg-fill-4" style="background:#efe98d; width: 1000px; height: 200px;">
+<!--         <img src="http://placehold.it/1000x200" alt="About Us">   -->
+    </div>
     <h1>About Us</h1>
   </div>
 </div>
@@ -20,11 +22,11 @@
 <div class="row">
   <div class="three columns">
     <ul class="side-nav" data-sticky>
-      <li><a href="#">Staff</a></li>
-      <li><a href="#">Board</a></li>
-      <li><a href="#">Stats</a></li>
+      <li><a href="#staff">Staff</a></li>
+      <li><a href="#board">Board</a></li>
+      <li><a href="#programStats">Stats</a></li>
       <li><a href="#">Green Tree</a></li>
-      <li><a href="#">News</a></li>
+      <li><a href="#news">News</a></li>
       <li><a href="#">Download</a></li>
     </ul>
   </div>
@@ -42,12 +44,12 @@
         <div class="four columns">
           <img src="http://placehold.it/300x300" alt="bio image">
           <h3>David</h3>
-          <p>Armed with a Bachelors in Social Sciences and state teaching credential from UC Irvine as well as a marketing MBA from Temple University in Philadelphia, David spent 25 years in the transportation industry, including eight years at FedEx. He taught elementary school in San Juan Capistrano for three years and worked as a Peace Corps volunteer in Ethiopia in East Africa from 1974-1975. In 2010, David joined the Tree as in a unique switch from the for-profit world and has never looked back. In his free time, he enjoys snorkeling, golfing, and fly fishing. David has been married to his wife for over 30 years and has two beautiful daughters (and a son-in-law).</p>
+          <p>Armed with a Bachelors in Social Sciences and state teaching credential from UC Irvine as well as a marketing MBA from Temple University in Philadelphia, David spent 25 years in the transportation industry, including eight years at FedEx. He taught elementary school in San Juan Capistrano for three years and worked as a Peace Corps volunteer in Ethiopia in East Africa from 1974&mdash;1975. In 2010, David joined the Tree as in a unique switch from the for-profit world and has never looked back. In his free time, he enjoys snorkeling, golfing, and fly fishing. David has been married to his wife for over 30 years and has two beautiful daughters (and a son-in-law).</p>
         </div>
         <div class="four columns">
           <img src="http://placehold.it/300x300" alt="bio image">
           <h3>Jeanne</h3>
-          <p>Jeanne has a degree in sociology with a minor in art from UC Santa Barbara. She completed her postgraduate work in social service management at Santa Clara University. She began volunteering in high school and taught English to migrant workers. Her passion for nonprofit work has continued to blossom and most of her work experience in fact has been in the nonprofit sector. In her free time, she enjoys gardening, traveling, and doing Pilates. And don’t forget to ask her about her private pilot’s license!</p>
+          <p>Jeanne has a degree in sociology with a minor in art from UC Santa Barbara. She completed her postgraduate work in social service management at Santa Clara University. She began volunteering in high school and taught English to migrant workers. Her passion for nonprofit work has continued to blossom and most of her work experience in fact has been in the nonprofit sector. In her free time, she enjoys gardening, traveling, and doing Pilates. And don&rsquo;t forget to ask her about her private pilot&rsquo;s license!</p>
         </div>
       </div>
       <div class="row">
@@ -71,7 +73,7 @@
             </div>
             <div class="ten columns">
               <h4>Katie</h4>
-              <p>A Bay Area native, Katie graduated from San Diego State University with a degree in psychology and a minor in Women’s Studies. She went on to earn her Masters in School Counseling and a PPS Credential from St. Mary’s College of California. In addition to sitting on the board of directors for Alameda Family Services, Katie is also the president and technology chair of AFS’ fundraising league. She’s married to her high school sweetheart Travis, and in her free time she enjoys baking, silversmithing, watching horrible reality TV shows, and embracing her inner techie.</p>
+              <p>A Bay Area native, Katie graduated from San Diego State University with a degree in psychology and a minor in Women&rsquo;s Studies. She went on to earn her Masters in School Counseling and a PPS Credential from St. Mary&rsquo;s College of California. In addition to sitting on the board of directors for Alameda Family Services, Katie is also the president and technology chair of AFS&rsquo; fundraising league. She&rsquo;s married to her high school sweetheart Travis, and in her free time she enjoys baking, silversmithing, watching horrible reality TV shows, and embracing her inner techie.</p>
             </div>
           </div>
         </div>
@@ -110,7 +112,7 @@
             </div>
             <div class="ten columns">
               <h4>Celeste</h4>
-              <p>At age 14, Celeste volunteered at the O’Connor hospital and received an award for 100 community service hours. Her commitment to service has stayed strong over the years, and we love having her as our Agency Coordinator. In her free time, she enjoys cooking and traveling, and is her next stop is Australia to visit her daughter. Celeste is also a bit of a daredevil — although she is afraid of heights, she’s been skydiving … twice!</p>
+              <p>At age 14, Celeste volunteered at the O&rsquo;Connor hospital and received an award for 100 community service hours. Her commitment to service has stayed strong over the years, and we love having her as our Agency Coordinator. In her free time, she enjoys cooking and traveling, and is her next stop is Australia to visit her daughter. Celeste is also a bit of a daredevil — although she is afraid of heights, she&rsquo;s been skydiving … twice!</p>
             </div>
           </div>
         </div>
@@ -136,7 +138,7 @@
             </div>
             <div class="ten columns">
               <h4>Rene</h4>
-              <p>Rene joined us at the Tree in 2003 as a volunteer and became a full-time employee in 2007. Affectionately dubbed “Poppy,” Rene’s our Fix-It Elf, and his responsibilities range from being in charge the gift database to making sure that the wish cards accurately reflect the wishes of the kids we work with. Rene’s favorite movie is Raiders of the Lost Ark (he’s seen it 46 times), and he’s an avid Sharks fan.</p>
+              <p>Rene joined us at the Tree in 2003 as a volunteer and became a full-time employee in 2007. Affectionately dubbed &ldquo;Poppy,&rdquo; Rene&rsquo;s our Fix-It Elf, and his responsibilities range from being in charge the gift database to making sure that the wish cards accurately reflect the wishes of the kids we work with. Rene&rsquo;s favorite movie is Raiders of the Lost Ark (he&rsquo;s seen it 46 times), and he&rsquo;s an avid Sharks fan.</p>
             </div>
           </div>
         </div>
@@ -162,7 +164,7 @@
             </div>
             <div class="ten columns">
               <h4>Dianne</h4>
-              <p>Colloquially known as the Gopher Elf, Dianne is an incredibly creative and makes centerpieces and awards for all the Tree’s events. She began as a seasonal employee eight years ago and now works part time. A native Californian, Dianne lives in the Bay Area.</p>
+              <p>Colloquially known as the Gopher Elf, Dianne is an incredibly creative and makes centerpieces and awards for all the Tree&rsquo;s events. She began as a seasonal employee eight years ago and now works part time. A native Californian, Dianne lives in the Bay Area.</p>
             </div>
           </div>
         </div>
@@ -175,7 +177,7 @@
             </div>
             <div class="ten columns">
               <h4>Sylvia</h4>
-              <p>Sylvia attended Long Beach City and State Colleges before moving to the Bay Area in 1962, where she completed her degree in Business. She has been friends with the Cullenbine family since the Queen Elf herself was a toddler. She’s been involved with the Family Giving Tree in some way or another since its inception and she’s the best Granny Elf we could have ever asked for. In addition to being a stellar pianist, Sylvia enjoys listening to mystery books on tape and spending time with her grandchildren and husband Randy (UncPa) of 36 years.</p>
+              <p>Sylvia attended Long Beach City and State Colleges before moving to the Bay Area in 1962, where she completed her degree in Business. She has been friends with the Cullenbine family since the Queen Elf herself was a toddler. She&rsquo;s been involved with the Family Giving Tree in some way or another since its inception and she&rsquo;s the best Granny Elf we could have ever asked for. In addition to being a stellar pianist, Sylvia enjoys listening to mystery books on tape and spending time with her grandchildren and husband Randy (UncPa) of 36 years.</p>
             </div>
           </div>
         </div>
@@ -188,7 +190,7 @@
             </div>
             <div class="ten columns">
               <h4>Angie</h4>
-              <p>With a degree in English highlighted by a focus on Language and Discourse from CSU East Bay, Angie is out to change the world. Born with a rare physical disability called central core myopathy, she learned early on how important it is to help those in need. As a result, Angie’s always dreamed of being a part of an organization that makes a difference to those in need. She joined the Tree in 2010 as our resident Digital Arts Elf, and she continually wows her with her design and photography skills. An avid fan of all things Disney, Angie is either 1) at Disneyland or 2) in the midst of planning her next trip!</p>
+              <p>With a degree in English highlighted by a focus on Language and Discourse from CSU East Bay, Angie is out to change the world. Born with a rare physical disability called central core myopathy, she learned early on how important it is to help those in need. As a result, Angie&rsquo;s always dreamed of being a part of an organization that makes a difference to those in need. She joined the Tree in 2010 as our resident Digital Arts Elf, and she continually wows her with her design and photography skills. An avid fan of all things Disney, Angie is either 1) at Disneyland or 2) in the midst of planning her next trip!</p>
             </div>
           </div>
         </div>
@@ -210,7 +212,7 @@
       </div>
       <div class="row">
         <div class="six columns">
-          <h4>William “Bill” Cilker, Jr. <small>Treasurer</small></h4>
+          <h4>William &ldquo;Bill&rdquo; Cilker, Jr. <small>Treasurer</small></h4>
           <p>Bill is a property manager and orchardist, who lives in Milpitas with his wife , Liz, and daughter, Cindy.  Bill graduated from Los Gatos High School and then from Cal Poly San Luis Obispo.  He works in the family business of managing commercial and agricultural property.  Bill also sits on the Agricultural Advisory Board of the Santa Clara Water District, his HOA and is active in the Model A Ford Club.  He is past president of the Milpitas Rotary Club and the Santa Clara County Farm Bureau.</p>
         </div>
         <div class="six columns">
@@ -231,7 +233,7 @@
       <div class="row">
         <div class="six columns">
           <h4>Josh McFarland</h4>
-          <p>Josh was the Founding CEO of MyTwoFrontTeeth.org and is currently an Entrepreneur in Residence at Greylock Partners.  Prior to this, he held the role of Senior Product Manager at Google and Zaplet, a business process management software company. Josh earned his Bachelor's degree with distinction in Economics at Stanford and was selected to complete the Mayfield Fellows Program, a highly prestigious fellowship designed to hone entrepreneurial skills. McFarland has also worked for Riffage.com, Trilogy Software —  and yes, even as a truck driver in a coal mine.</p>
+          <p>Josh was the Founding CEO of MyTwoFrontTeeth.org and is currently an Entrepreneur in Residence at Greylock Partners.  Prior to this, he held the role of Senior Product Manager at Google and Zaplet, a business process management software company. Josh earned his Bachelor's degree with distinction in Economics at Stanford and was selected to complete the Mayfield Fellows Program, a highly prestigious fellowship designed to hone entrepreneurial skills. McFarland has also worked for Riffage.com, Trilogy Software &mdash; and yes, even as a truck driver in a coal mine.</p>
         </div>
         <div class="six columns">
           <h4>Larry Sacks</h4>
@@ -241,11 +243,11 @@
       <div class="row">
         <div class="six columns">
           <h4>David Selinger</h4>
-          <p>David "Selly" Selinger describes himself as a serial entrepreneur and philanthropist. He is currently the CEO and Co-Founder of Rich Relevance, a data mining company. In addition, David co-founded Redfin, building the next generation of real estate software, which was recently featured on “60 Minutes.” He has also developed extensive experience in software development and business intelligence throughout his career including stints at Amazon.com, Overstock.com, Palo Alto BMW Research Center, 2Roam Wireless and Engage media. He received his Bachelor's degree in Computer Science from Stanford University with a specialization in robotics and artificial intelligence, and has authored a number of patents and papers in data mining and internet technologies.</p>
+          <p>David &ldquo;Selly&rdquo; Selinger describes himself as a serial entrepreneur and philanthropist. He is currently the CEO and Co-Founder of Rich Relevance, a data mining company. In addition, David co-founded Redfin, building the next generation of real estate software, which was recently featured on &ldquo;60 Minutes.&rdquo; He has also developed extensive experience in software development and business intelligence throughout his career including stints at Amazon.com, Overstock.com, Palo Alto BMW Research Center, 2Roam Wireless and Engage media. He received his Bachelor's degree in Computer Science from Stanford University with a specialization in robotics and artificial intelligence, and has authored a number of patents and papers in data mining and internet technologies.</p>
         </div>
         <div class="six columns">
           <h4>Carol Wagner</h4>
-          <p>Carol is a CPA and a principal at the public accounting firm, Abbott, Stringham & Lynch.  Her career has focused on meeting the accounting and audit needs of privately held companies and nonprofit organizations. When she isn’t helping a client, Carol is helping to further the goals of her colleagues and of their profession through her service on the Board for the Silicon Valley San Jose Chapter of the California Society of CPAs.  After growing up in Colorado and attending college in Texas, Carol and her husband have now been California residents for almost 30 years.  Carol enjoys sharing activities with her family, traveling, and following her favorite professional sports teams.</p>
+          <p>Carol is a CPA and a principal at the public accounting firm, Abbott, Stringham &amp; Lynch.  Her career has focused on meeting the accounting and audit needs of privately held companies and nonprofit organizations. When she isn&rsquo;t helping a client, Carol is helping to further the goals of her colleagues and of their profession through her service on the Board for the Silicon Valley San Jose Chapter of the California Society of CPAs.  After growing up in Colorado and attending college in Texas, Carol and her husband have now been California residents for almost 30 years.  Carol enjoys sharing activities with her family, traveling, and following her favorite professional sports teams.</p>
         </div>
       </div>
       <div class="row">
@@ -450,30 +452,7 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="six columns">
-          <div class="row">
-            <div class="six columns">
-              <img src="http://placehold.it/300x300">
-            </div>
-            <div class="six columns">
-              <h5>Story Title</h5>
-              <p>Description of the story</p>
-            </div>
-          </div>
-        </div>
-        <div class="six columns">
-          <div class="row">
-            <div class="six columns">
-              <img src="http://placehold.it/300x300">
-            </div>
-            <div class="six columns">
-              <h5>Story Title</h5>
-              <p>Description of the story</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </section>
 
     <hr>
@@ -484,8 +463,9 @@
           <img src="http://placehold.it/400x300" alt="news">
         </div>
         <div class="eight columns">
-          <h4>Title</h4>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui.</p>
+          <h4>Persistence Pays Off: Announcing Family Giving Tree as This Year's ZURBwired Nonprofit</h4>
+          <p>To quote an old friend, "we're super excited" to congratulate Family Giving Tree for being this year's participating ZURBwired nonprofit! Competition was fierce this year and the ZURB team had to choose only one nonprofit from a slew of excellent proposals. We want to thank all the excellent nonprofits that submitted proposals.</p>
+          <a href="http://www.zurb.com/article/1030/persistence-pays-off-announcing-family-gi" class="medium button">Read More</a>
         </div>
       </div>
       <br>
@@ -494,8 +474,11 @@
           <img src="http://placehold.it/400x300" alt="news">
         </div>
         <div class="eight columns">
-          <h4>Title</h4>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui.</p>
+          <h4>Milpitas ‘Family Giving Tree’ Equips Students With Necessary Tools</h4>
+          <p>A Milpitas non-profit organization is helping low-income children start the school year with the necessary tools they need to succeed.</p>
+
+          <p>The Family Giving Tree has collected 135-thousand backpacks and school supplies for children for over 17 years.</p>
+          <a href="http://sanfrancisco.cbslocal.com/2012/07/13/milpitas-family-giving-tree-equips-students-with-necessary-tools/" class="medium button">Read More</a>
         </div>
       </div>
       <br>
@@ -504,8 +487,10 @@
           <img src="http://placehold.it/400x300" alt="news">
         </div>
         <div class="eight columns">
-          <h4>Title</h4>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui.</p>
+          <h4>Texas Instruments, Family Giving Tree promote STEM at student event</h4>
+          <p> Texas Instruments (TI) (NASDAQ: TXN) and Family Giving Tree will host "STEM in the Schoolyard" at Downtown College Prep (DCP) on Friday, July 27. The event kicks off the school year for 130 incoming, low-income DCP freshmen and their families and will include inspiring presentations by elected officials, hands-on science, technology, engineering and math (STEM) activities, as well as a welcoming reception for the new ninth grade students.</p>
+
+          <a href="http://newscenter.ti.com/2012-07-24-STEM-in-the-Schoolyard-celebrates-back-to-school-at-Downtown-College-Prep" class="medium button">Read More</a>
         </div>
       </div>
     </section>

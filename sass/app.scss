@@ -231,7 +231,7 @@ header {
     }
 }
 .footer-columns {
-    background: url(../images/footer-bg.png) repeat-x;
+    background: image-url("footer-bg.png") repeat-x;
     .elf img {
         margin-top:-80px;
     }
@@ -260,6 +260,7 @@ h1, h2, h3 {
 }
 .handwritten {
     font-family: 'HandOfSeanRegular';
+    font-weight: normal;
 }
 .side-nav a {
     color: $pink;
