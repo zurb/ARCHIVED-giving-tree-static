@@ -4428,107 +4428,122 @@ p.vevent abbr {
 
 /*Lead a Drive*/
 /* line 152, ../sass/app.scss */
-h1 {
+.featured h1 {
   color: #8c316d;
 }
 
-/*Events*/
+/* line 153, ../sass/app.scss */
+.featured p {
+  font-size: 18px;
+}
+
+/* line 154, ../sass/app.scss */
+.feature_wrapper {
+  background-color: #e0f0b2;
+}
+
 /* line 155, ../sass/app.scss */
+h2 {
+  color: #555555;
+}
+
+/*Events*/
+/* line 158, ../sass/app.scss */
 .date {
   border: 1px solid #8c316d;
 }
-/* line 157, ../sass/app.scss */
+/* line 160, ../sass/app.scss */
 .date li {
   list-style: none;
   text-align: center;
 }
-/* line 161, ../sass/app.scss */
+/* line 164, ../sass/app.scss */
 .date .month {
   background: #8c316d;
   text-transform: uppercase;
   color: #fff;
   font-size: 10px;
 }
-/* line 167, ../sass/app.scss */
+/* line 170, ../sass/app.scss */
 .date .day {
   font-size: 27px;
   color: #8c316d;
 }
 
 /*General Styles*/
-/* line 175, ../sass/app.scss */
+/* line 178, ../sass/app.scss */
 header,
 footer {
   background: #fafafa;
 }
-/* line 177, ../sass/app.scss */
+/* line 180, ../sass/app.scss */
 header ul.link-list,
 footer ul.link-list {
   margin-bottom: 0;
 }
-/* line 180, ../sass/app.scss */
+/* line 183, ../sass/app.scss */
 header dt,
 footer dt {
   font-weight: bold;
 }
-/* line 183, ../sass/app.scss */
+/* line 186, ../sass/app.scss */
 header label,
 footer label {
   color: white;
 }
 
-/* line 188, ../sass/app.scss */
+/* line 191, ../sass/app.scss */
 .footer-nav ul.link-list a, .footer-nav p {
   color: white;
 }
 
-/* line 192, ../sass/app.scss */
+/* line 195, ../sass/app.scss */
 header {
   background: url('../images/puple-bg.png?1343973136');
 }
 
-/* line 195, ../sass/app.scss */
+/* line 198, ../sass/app.scss */
 .footer-columns {
   background: url(../images/footer-bg.png) repeat-x;
 }
 
-/* line 198, ../sass/app.scss */
+/* line 201, ../sass/app.scss */
 .footer-nav {
   background: #523219;
 }
 
-/* line 201, ../sass/app.scss */
+/* line 204, ../sass/app.scss */
 footer {
   color: white;
 }
 
-/* line 204, ../sass/app.scss */
+/* line 207, ../sass/app.scss */
 h1, h2, h3 {
   font-family: 'Museo300Regular';
 }
 
-/* line 207, ../sass/app.scss */
+/* line 210, ../sass/app.scss */
 .handwritten {
   font-family: 'HandOfSeanRegular';
 }
 
-/* line 210, ../sass/app.scss */
+/* line 213, ../sass/app.scss */
 .side-nav a {
   color: #d57a72;
   font-weight: bold;
 }
 
-/* line 214, ../sass/app.scss */
+/* line 217, ../sass/app.scss */
 .glyph {
   font-family: 'FoundationIconsGeneral';
 }
-/* line 216, ../sass/app.scss */
+/* line 219, ../sass/app.scss */
 .glyph.social {
   font-family: 'FoundationIconsSocial';
   font-size: 24px;
 }
 
-/* line 221, ../sass/app.scss */
+/* line 224, ../sass/app.scss */
 .reveal-modal .row {
   width: auto !important;
   max-width: 106% !important;
@@ -4536,59 +4551,59 @@ h1, h2, h3 {
   margin-right: -15px;
 }
 
-/* line 227, ../sass/app.scss */
+/* line 230, ../sass/app.scss */
 .side-nav {
   background: white;
 }
 
-/* line 230, ../sass/app.scss */
+/* line 233, ../sass/app.scss */
 .right {
   float: right;
 }
 
-/* line 233, ../sass/app.scss */
+/* line 236, ../sass/app.scss */
 .left {
   float: left;
 }
 
-/* line 237, ../sass/app.scss */
+/* line 240, ../sass/app.scss */
 .next-season {
   display: none;
 }
 
 /* Progress Bar */
-/* line 242, ../sass/app.scss */
+/* line 245, ../sass/app.scss */
 .progress-bar {
   width: 100%;
   height: 30px;
   border: solid 1px #888;
 }
-/* line 246, ../sass/app.scss */
+/* line 249, ../sass/app.scss */
 .progress-bar .progress-status {
   width: 40%;
   height: 100%;
   background: #ddd;
 }
 
-/* line 252, ../sass/app.scss */
+/* line 255, ../sass/app.scss */
 .sticky {
   position: fixed;
   top: 10px;
 }
 
 /*Holiday Slider*/
-/* line 255, ../sass/app.scss */
+/* line 258, ../sass/app.scss */
 #holidaySlider {
   min-height: 450px !important;
 }
 
-/* line 258, ../sass/app.scss */
+/* line 261, ../sass/app.scss */
 img.right {
   width: 200px;
   margin-left: 30px;
 }
 
-/* line 262, ../sass/app.scss */
+/* line 265, ../sass/app.scss */
 #holidaySlider .columns {
   background: white;
   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);

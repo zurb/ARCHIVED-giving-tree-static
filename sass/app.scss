@@ -149,7 +149,10 @@
 #featured.orbit div { display: block; }
 
 /*Lead a Drive*/
-h1 { color: $darkPurple; }
+.featured h1 { color: $darkPurple; }
+.featured p { font-size: 18px; }
+.feature_wrapper { background-color: $lightGreen; }
+h2 { color: $gray; }
 
 /*Events*/
 .date {
