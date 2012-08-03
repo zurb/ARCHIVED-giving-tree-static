@@ -68,18 +68,28 @@
       </div>
       <div class="two columns">
       </div>
+    </div>
+    <hr>
+    <a href="virtual-giving-details.php" class="button right">Continue</a>
+  </div>
+
   <div class="three columns">
+    <div class="panel">
+      <h5><a href="#">About Family Giving Tree</a></h5>
+      <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.</p>
+      <hr>
+      <h5>Goal Status</h5>
+      <p>You are <strong>50%</strong> of the way through.</p>
+      <h5>Top Teams</h5>
+      <ol>
+        <li>Team 1</li>
+        <li>Team 2</li>
+        <li>Team 3</li>
+      </ol>
+      <a href="#">Read More &raquo;</a>
     </div>
   </div>
-  </div>
 
-  <a href="#" class="button right">Continue</a>
-
-  <div class="row">
-    <div class="twelve columns">
-      <a href="#" class="button right">Continue</a>
-    </div>
-  </div>
 </div>
 
 <?php include("includes/_virtual-footer.php");  ?>
