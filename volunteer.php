@@ -644,10 +644,12 @@ function registerSelect(){
   });
   $('.volunteerday').change(function(){
     var taskId = $(this).val();
-  var desc = $(this).find('option:selected').text();
-    $('#registerlink').show();
-  $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
-    $('#daytask').text(desc);
+    var desc = $(this).find('option:selected').text();
+	if(taskId!==''){
+      $('#registerlink').show();
+      $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
+      $('#daytask').text(desc);
+	}
   });
 }
 <!--FOR THE READ MORE TOGGLE-->
