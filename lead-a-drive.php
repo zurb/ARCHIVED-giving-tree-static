@@ -117,7 +117,7 @@
                           <li class="first"><img src="images/icons/tips1.png" height="121" width="121">
                               <p>Display your posters and/or cards in <strong>very visible,
                                   heavily trafficked</strong> areas. Keep materials fully
-                                  stocked and <a href="#">let us know</a> if you need more!</p></li>
+                                  stocked and <a href="mailto:hosts@familygivingtree.org">let us know</a> if you need more!</p></li>
                           <li><img src="images/icons/tips2.png" height="121" width="121">
                               <p>Have your advocates <strong>post materials</strong>
                                   and <strong>spread the word</strong> via email, social
