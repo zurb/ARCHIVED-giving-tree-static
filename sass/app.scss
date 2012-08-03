@@ -317,6 +317,7 @@ header {
     }
     p {
         font-size: 14px;
+        color: #fff !important; 
     }
     .upcoming-events li a {
         color: $green;
@@ -533,5 +534,8 @@ img.right {
         display:block;
         width:100%;
         float:none;
+    }
+    .sticky {
+        position: relative;
     }
 }
