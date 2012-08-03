@@ -92,22 +92,22 @@
         <h2>News</h2>
         <div class="row">
             <div class="four columns">
-                <h4>We're Heading Into Our Holiday Wish Drive</h4>
-                <p>As we wrap up our Back to School Drive, we’re heading right into our Holiday Wish Drive where you could help fulfill the unique holiday wish of an underserved child with a donation. Your company or organization can lead a drive or you can join our community of Elves. &hellip; <a href="">more &raquo;</a></p>
+                <p><strong>We're Heading Into Our Holiday Wish Drive</strong></p>
+                <p>As we wrap up our Back to School Drive, we’re heading right into our Holiday Wish Drive where you could help fulfill the unique holiday wish of an underserved child with a donation. Your company or organization can lead a drive or you can join our community of Elves &hellip; <a href="donate.php">more &raquo;</a></p>
             </div>
             <div class="four columns">
-                <h4>FGT on eBay</h4>
+                <p><strong>FGT on eBay</strong></p>
                 <p>Looking for another way to support the Family Giving Tree?
                     Check out eBay&#8217;s Facebook page to see how you can help
                     without spending a penny. Simply complete the form and eBay will
-                    donate a supply-filled&hellip; <a href="">more &raquo;</a></p>
+                    donate a supply-filled backpack to a child in need. <a href="http://www.facebook.com/eBay/app_263639493746045">more &raquo;</a></p>
             </div>
             <div class="four columns">
-                <h4>ZurbWIRED</h4>
+                <p><strong>ZURBwired</strong></p>
                 <p>After three attempts to submit a winning application to the zany
                     folks at ZURB, and among so many excellent proposals from local
-                    nonprofits at that, we&#8217;ve finally been chosen as this year&#8217;s&hellip;
-                    <a href="">more &raquo;</a></p>
+                    nonprofits at that, we&#8217;ve finally been chosen as this year&#8217;s lucky winner.
+                    <a href="http://zurbwired.com">more &raquo;</a></p>
             </div>
         </div>
     </div>
