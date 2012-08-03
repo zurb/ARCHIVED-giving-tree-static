@@ -4405,7 +4405,8 @@ p.vevent abbr {
 /* line 146, ../sass/app.scss */
 #featured {
   background: #f4f4f4;
-  height: 364px;
+  height: 460px;
+  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -4417,6 +4418,7 @@ p.vevent abbr {
 /* line 148, ../sass/app.scss */
 #featured.orbit {
   background: none;
+  height: 460px;
 }
 
 /* line 149, ../sass/app.scss */

@@ -143,9 +143,9 @@
 .featured ul { position: absolute; top: 340px; left: 254px; z-index: 1000; }
 .featured .orbit-wrapper .content { position: absolute; top: 50px; left: 80px; width: 425px }
 .featured .timer { display: none }
-#featured { background: #f4f4f4; height: 364px; margin-bottom: 20px; }
+#featured { background: #f4f4f4; height: 460px; width: 100%; margin-bottom: 20px; }
 #featured div { display: none; }
-#featured.orbit { background: none; }
+#featured.orbit { background: none; height: 460px; }
 #featured.orbit div { display: block; }
 
 /*Lead a Drive*/
