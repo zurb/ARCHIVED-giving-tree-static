@@ -139,17 +139,24 @@
 }
 
 /*Hompepage*/
-.featured { position: relative; margin-bottom: 20px; }
-.featured ul { position: absolute; top: 340px; left: 254px; z-index: 1000; }
-.featured .orbit-wrapper .content { position: absolute; top: 50px; left: 80px; width: 425px }
+.featured { position: relative; margin-bottom: 20px; width: 100%; }
+.featured .orbit-wrapper .content { position: absolute; top: 50px; left: 80px; width: 425px; }
 .featured .timer { display: none }
-#featured { background: #f4f4f4; height: 460px; width: 100%; margin-bottom: 20px; }
-#featured div { display: none; }
-#featured.orbit { background: none; height: 460px; }
-#featured.orbit div { display: block; }
+.featured > .twelve { padding: 0; }
+.featured {
+  h1 { color: $darkPurple; font-size: ms(4); }
+  p.lead { font-size: ms(1) - 2; }
+}
+ul.orbit-bullets { bottom: 20px; }
+.stats { text-align: center; }
+
+.orange { color: $orange; }
+.green { color: $green; }
+.pink { color: $pink; }
 
 /*Lead a Drive*/
 h1 { color: $darkPurple; }
+h2 { color: #555555; font-size: 27px; font-size: 2.7rem; }
 
 /*Events*/
 .date {
@@ -169,40 +176,85 @@ h1 { color: $darkPurple; }
     color: $darkPurple;
   }
 }
-
+.upcoming-events {
+    a {
+        font-weight: bold;
+    }
+    p {
+        font-size: 14px;
+    }
+}
 /*General Styles*/
 header,
 footer {
-    background:#fafafa;
     ul.link-list {
         margin-bottom:0;
     }
     dt {
         font-weight: bold;
+        margin-bottom:10px;
+        margin-top: 15px;
+    }
+    dd {
+        line-height: 21px;
     }
     label {
         color: $white;
     }
+    ul li {
+        list-style: none;
+    }
+    .row {
+        overflow: visible;
+    }
 }
 .footer-nav {
     ul.link-list a, p {
-        color: $white;
+        color: #E2D8D0;
     }
 }
 header {
     background: image-url("puple-bg.png");
+    height: 90px;
+    overflow: visible;
+    .link-list {
+         a {
+            font-weight: bold;
+            font-size: 14px;
+            color: $white;
+         }
+    }
+    img {
+        margin-top: -60px;
+    }
 }
 .footer-columns {
     background: url(../images/footer-bg.png) repeat-x;
+    .elf img {
+        margin-top:-80px;
+    }
 }
 .footer-nav {
     background: #523219;
+    .link-list a {
+        font-size:15px;
+    }
 }
 footer {
-    color: $white;
+    color: #E2D8D0;
+    h5 {
+        margin-top: 25px;
+        a {
+            color: #E2D8D0;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
 }
-h1, h2, h3, {
+h1, h2, h3 {
     font-family: 'Museo300Regular';
+    font-weight: normal;
 }
 .handwritten {
     font-family: 'HandOfSeanRegular';
@@ -216,6 +268,12 @@ h1, h2, h3, {
   &.social {
     font-family: 'FoundationIconsSocial';
     font-size: 24px;
+    li a {
+        border-radius: 20px;
+        color: $darkPurple;
+        background: $white;
+        width:30px;
+    }
   }
 }
 .reveal-modal .row {

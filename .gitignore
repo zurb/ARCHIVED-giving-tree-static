@@ -2,3 +2,5 @@
 .sass-cache/*
 stylesheets/*
 deploy.yml
+
+*.css

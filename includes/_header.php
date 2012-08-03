@@ -48,7 +48,7 @@
     </div>
     <!-- end .row -->
     <div class="row">
-        <div class="three columns">
+        <div class="three columns logo">
             <a href="index.php"><img src="images/logo.png" alt="Family Giving Tree"></a>
         </div>
         <nav class="nine columns">
