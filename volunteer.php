@@ -18,18 +18,7 @@
 </div>
 <div class="row">
   <div class="three column">
-    <ul class="side-nav hide-for-mobile" data-sticky>
-      <!--<li><a href="#joinus">Join Us</a></li>-->
-      <li><a href="#register">Join Us</a></li>
-      <li><a href="#warehouse">The Warehouse</a></li>
-      <!--<li><a href="#events">Events</a>-->
-      <li><a href="#angelelf">Angel Elves</a></li>
-      <li><a href="#celebrating">Celebrating Volunteers</a></li>
-      <li><a href="#photos">Photos</a></li>
-    </ul>
-    <!-- duplicate nav -->
-    <ul class="side-nav show-for-mobile">
-      <!--<li><a href="#joinus">Join Us</a></li>-->
+    <ul class="side-nav" data-sticky>
       <li><a href="#register">Join Us</a></li>
       <li><a href="#warehouse">The Warehouse</a></li>
       <li><a href="#angelelf">Angel Elves</a></li>
@@ -38,8 +27,8 @@
   </div>
   <div class="nine column">
     <section id="joinus">
-      <br><br>
-      <h3> Year-Round Volunteer Opportunities</h3>
+      <br>
+      <h2>Year-Round Volunteer Opportunities</h2>
       <div class="row">
       <div class="three columns">
         <p class="text-center"><img src="images/icons/office-help.png" width="120" height="120" alt="Office Help"></p>

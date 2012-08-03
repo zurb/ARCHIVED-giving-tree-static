@@ -1,18 +1,17 @@
 <?
   $page_title = "Volunteer or Host";
-    $page_template = "main";  ?>
+    $page_template = "volunteer";  ?>
 <?php include("includes/_header.php"); ?>
 
 <!-- WHO-WE-HELP-PAGE CONTENT -->
 <div id="mainContent">
     <div class="feature_wrapper">
       <div class="row">
-        <div class="seven columns">
+        <div class="nine columns">
           <h1>Who We Help</h1>
           <p>Family Giving Tree has cultivated deep roots in the community. We work with more than 300 social service agencies and schools around the Bay Area. Among the folks we work with are homeless shelters, community centers, rehabilitation houses, schools and various nonprofit organizations. Each year, these folks help us fulfill the needs of children in low-income neighborhoods. They supply us with the names and wishes of the children they serve year-round. These are kids who would go without anything during the holidays and back-to-school season.</p>
         </div>
-    
-        <div class="five columns">
+        <div class="three columns">
           <img src="images/people/c-photo12.png" alt="Who We Help">
         </div>
     </div>
@@ -24,24 +23,23 @@
         <li><a href="#current">Current Agencies &amp; Schools</a></li>
         <li><a href="#reqs">Application Reqs.</a></li>
         <li><a href="#faq">Agency FAQs</a></li>
-        <li><a href="#impact">Making an Impact</a></li>
-        <li><a href="#terms">Terms &amp; Cond.</a></li>
+        <li><a href="#terms">Terms &amp; Conditions</a></li>
         <li><a href="#collect">Collecting Wishes</a></li>
-        <li><a href="#apply">Apply</a></li>
+        <li><a href="#impact">Making an Impact</a></li>
       </ul>
     </div>
     
     <div class="nine columns">
       
       <section id="current">
-        <br><br>
         <h2>Current Agencies</h2>
         <div class="row">
           <div class="twelve columns">
             <div class="panel">
-              <img src="images/dorsa.png" alt="Dorsa Elementry School">
+              <img src="images/dorsa.jpg" alt="Dorsa Elementry School">
               <h6>Dorsa Elementary School</h6>
               <p>Dorsa Elementary School in San Jose is a part our community of Elves. They help distribute backpacks stuffed with school supplies to their students that need them the most.</p>
+              <a href="#impact" class="purple banner button">Learn More &raquo;</a>
             </div>
           </div>
         </div>
@@ -237,7 +235,7 @@
       </div>
       
       <section id="terms">
-        <h2>Terms & Conditions</h2>
+        <h2>Terms &amp; Conditions</h2>
         
         <h5>501 c (3) Status</h5>
         <p>a. Our Board of Directors has deemed it necessary to verify your 501-c (3) status. This assures us that the services we provide will reach the neediest children in our community. Proof of your status may be mailed or faxed to our office, and must be received before participating.  Government run agencies are exempt from this requirement.</p>
@@ -310,7 +308,7 @@
             <li>For clothing, please include the <strong>correct size</strong> requirements. This applies to shoes, slippers, roller skates, jackets, hats, etc.</li>
             <li>The maximum dollar limit per gift is <strong>$30</strong>. This eliminates most video games, name-brand clothing, bicycles, etc.</li>
             <li>Use good judgement if the child requests a certain movie. R-rated and age-inappropriate titles will not be considered.</li>
-            <li>f any gift requests are received not following these guidelines, you will be asked to update your request (s) with appropriate information or an acceptable selection.</li>
+            <li>If any gift requests are received not following these guidelines, you will be asked to update your request(s) with appropriate information or an acceptable selection.</li>
           </ul>
         </div>
         
@@ -348,7 +346,7 @@
         <div style="padding-left:50px;">
           <p style="font-style:italic;">“Their education is their ticket out of poverty.” </p>
         </div>
-        
+
         <p>Devorah says that some families have to choose between buying food and backpacks. But with the donated backpacks and school supplies, they’re able to see that the kids get their needs met at home and at school. In the end, it makes them better prepared to learn.</p>
         
         <p>Kids were happy to get their backpacks, rulers, folders and other school supplies. As one kid says:</p>

@@ -26,29 +26,29 @@
       <h2>Office Elves</h2>
       <p>Making a career out of helping others, our professional staff oversees day to day operations. We currently employ 13 full time and 3 part time employees throughout the year. We all take great pride in being the foundation for our Elves community.</p>
       <br>
-      <div class="row">
+      <div class="row size-fix">
         <div class="three columns">
           <img src="images/people/jenn.png" alt="bio image">
           <h3>Jenn</h3>
-          <p class="smaller">Our illustrious founder and Queen Elf, Jenn created the Family Giving Tree as a class project while earning her MBA from San Jose State University in 1990. In addition to managing the Tree, Jenn is affiliated with many organizations, some of which include the Young Entrepreneurs Organization, The Milpitas Chamber of Commerce, and the Rotary Club of Milpitas. She is happily married to her husband Dan and has two beautiful children, Connor and Kinsey. Together with her family, Jenn nurtures and socializes kittens to get them ready for adoption. She has successfully found homes for over 117 kittens!</p>
+          <p>Our illustrious founder and Queen Elf, Jenn created the Family Giving Tree as a class project while earning her MBA from San Jose State University in 1990. In addition to managing the Tree, Jenn is affiliated with many organizations, some of which include the Young Entrepreneurs Organization, The Milpitas Chamber of Commerce, and the Rotary Club of Milpitas. She is happily married to her husband Dan and has two beautiful children, Connor and Kinsey. Together with her family, Jenn nurtures and socializes kittens to get them ready for adoption. She has successfully found homes for over 117 kittens!</p>
         </div>
         <div class="three columns">
           <img src="images/people/david.png" alt="bio image">
           <h3>David</h3>
-          <p class="smaller">Armed with a Bachelors in Social Sciences and state teaching credential from UC Irvine as well as a marketing MBA from Temple University in Philadelphia, David spent 25 years in the transportation industry, including eight years at FedEx. He taught elementary school in San Juan Capistrano for three years and worked as a Peace Corps volunteer in Ethiopia in East Africa from 1974&mdash;1975. In 2010, David joined the Tree as in a unique switch from the for-profit world and has never looked back. In his free time, he enjoys snorkeling, golfing, and fly fishing. David has been married to his wife for over 30 years and has two beautiful daughters (and a son-in-law).</p>
+          <p>Armed with a Bachelors in Social Sciences and state teaching credential from UC Irvine as well as a marketing MBA from Temple University in Philadelphia, David spent 25 years in the transportation industry, including eight years at FedEx. He taught elementary school in San Juan Capistrano for three years and worked as a Peace Corps volunteer in Ethiopia in East Africa from 1974&mdash;1975. In 2010, David joined the Tree as in a unique switch from the for-profit world and has never looked back. In his free time, he enjoys snorkeling, golfing, and fly fishing. David has been married to his wife for over 30 years and has two beautiful daughters (and a son-in-law).</p>
         </div>
         <div class="three columns">
           <img src="images/people/jeanne.png" alt="bio image">
           <h3>Jeanne</h3>
-          <p class="smaller">Jeanne has a degree in sociology with a minor in art from UC Santa Barbara. She completed her postgraduate work in social service management at Santa Clara University. She began volunteering in high school and taught English to migrant workers. Her passion for nonprofit work has continued to blossom and most of her work experience in fact has been in the nonprofit sector. In her free time, she enjoys gardening, traveling, and doing Pilates. And don&rsquo;t forget to ask her about her private pilot&rsquo;s license!</p>
+          <p>Jeanne has a degree in sociology with a minor in art from UC Santa Barbara. She completed her postgraduate work in social service management at Santa Clara University. She began volunteering in high school and taught English to migrant workers. Her passion for nonprofit work has continued to blossom and most of her work experience in fact has been in the nonprofit sector. In her free time, she enjoys gardening, traveling, and doing Pilates. And don&rsquo;t forget to ask her about her private pilot&rsquo;s license!</p>
         </div>
         <div class="three columns">
           <img src="images/people/jess.png" alt="bio image">
           <h3>Jess</h3>
-          <p class="smaller">Jess is an en expert with small to medium sized operations with added extensive work in the not-for-profit sector. With his specialization in financial reporting, internal controls, business planning, financial systems, and organization development Jess keeps the Elves' finances in line. He currently act as the permanent and part-time CFO for numerous not-for profit organizations including the Family Giving Tree. Jess obtained a BSC from Santa Clara University and received an MBA from Pepperdine University. When he's not crunching numbers, Jess enjoys golfing, enjoying fine wine, and spending time with his lovely wife and children.</p>
+          <p>Jess is an en expert with small to medium sized operations with added extensive work in the not-for-profit sector. With his specialization in financial reporting, internal controls, business planning, financial systems, and organization development Jess keeps the Elves' finances in line. He currently act as the permanent and part-time CFO for numerous not-for profit organizations including the Family Giving Tree. Jess obtained a BSC from Santa Clara University and received an MBA from Pepperdine University. When he's not crunching numbers, Jess enjoys golfing, enjoying fine wine, and spending time with his lovely wife and children.</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row size-fix">
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
@@ -56,12 +56,12 @@
             </div>
             <div class="ten columns">
               <h3>Al Galan</h3>
-              <p class="smaller">Originally from Chicago, IL, Al graduated with a BS in Math from Marquette University in Milwaukee, WI. Prior to moving to San Jose, Al served in the U.S. Navy as a Surface Warfare Officer for 8 years in San Diego (ironically, he gets seasick). He then received a Masters in Organization Development from the University of San Francisco prior to working for Integrated Device Technology and at Intel as a Supply Chain planner and manager. In addition to being an avid hockey fan, Al also enjoys running, commuting to work on his bike, and visiting lighthouses on the coast with his wife Jenny.</p>
+              <p>Originally from Chicago, IL, Al graduated with a BS in Math from Marquette University in Milwaukee, WI. Prior to moving to San Jose, Al served in the U.S. Navy as a Surface Warfare Officer for 8 years in San Diego (ironically, he gets seasick). He then received a Masters in Organization Development from the University of San Francisco prior to working for Integrated Device Technology and at Intel as a Supply Chain planner and manager. In addition to being an avid hockey fan, Al also enjoys running, commuting to work on his bike, and visiting lighthouses on the coast with his wife Jenny.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row size-fix">
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
@@ -69,12 +69,12 @@
             </div>
             <div class="ten columns">
               <h3>Katie</h3>
-              <p class="smaller">A Bay Area native, Katie graduated from San Diego State University with a degree in psychology and a minor in Women&rsquo;s Studies. She went on to earn her Masters in School Counseling and a PPS Credential from St. Mary&rsquo;s College of California. In addition to sitting on the board of directors for Alameda Family Services, Katie is also the president and technology chair of AFS&rsquo; fundraising league. She&rsquo;s married to her high school sweetheart Travis, and in her free time she enjoys baking, silversmithing, watching horrible reality TV shows, and embracing her inner techie.</p>
+              <p>A Bay Area native, Katie graduated from San Diego State University with a degree in psychology and a minor in Women&rsquo;s Studies. She went on to earn her Masters in School Counseling and a PPS Credential from St. Mary&rsquo;s College of California. In addition to sitting on the board of directors for Alameda Family Services, Katie is also the president and technology chair of AFS&rsquo; fundraising league. She&rsquo;s married to her high school sweetheart Travis, and in her free time she enjoys baking, silversmithing, watching horrible reality TV shows, and embracing her inner techie.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row size-fix">
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
@@ -82,12 +82,12 @@
             </div>
             <div class="ten columns">
               <h3>Cristi</h3>
-              <p class="smaller">All the way from Toronto, Canada, Cristi has since embraced the Bay Area as home and is currently in the midst of earning a sociology degree at San Jose State University. She joined the Tree in 2004 as Communications Specialist, and her day-to-day activities include overseeing all social media and developing electronic newsletters, website content, and collateral campaigns. In her free time, Cristi enjoys spending time with her family at soccer games and lego marathons and watching her urban garden wilt under her black thumb. She does not like cardboard.</p>
+              <p>All the way from Toronto, Canada, Cristi has since embraced the Bay Area as home and is currently in the midst of earning a sociology degree at San Jose State University. She joined the Tree in 2004 as Communications Specialist, and her day-to-day activities include overseeing all social media and developing electronic newsletters, website content, and collateral campaigns. In her free time, Cristi enjoys spending time with her family at soccer games and lego marathons and watching her urban garden wilt under her black thumb. She does not like cardboard.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row size-fix">
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
@@ -95,12 +95,12 @@
             </div>
             <div class="ten columns">
               <h3>Dawn</h3>
-              <p class="smaller">Hailing from Colorado, Dawn graduated from Colorado State University. Prior to her 11+ years of experience in the nonprofit sector, Dawn lived for a year in South Australia as an exchange student and for two years as a Peace Corps volunteer in Namibia. She joined the Family Giving Tree nearly five years ago as an Executive Elf, and she is now our amazing Host Coordinator. Though she misses the Colorado mountains, Dawn loves the Bay Area and enjoys crafting, reading, volunteering, and going on crazy adventures with her other half, Kevin.</p>
+              <p>Hailing from Colorado, Dawn graduated from Colorado State University. Prior to her 11+ years of experience in the nonprofit sector, Dawn lived for a year in South Australia as an exchange student and for two years as a Peace Corps volunteer in Namibia. She joined the Family Giving Tree nearly five years ago as an Executive Elf, and she is now our amazing Host Coordinator. Though she misses the Colorado mountains, Dawn loves the Bay Area and enjoys crafting, reading, volunteering, and going on crazy adventures with her other half, Kevin.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row size-fix">
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
@@ -108,12 +108,12 @@
             </div>
             <div class="ten columns">
               <h3>Celeste</h3>
-              <p class="smaller">At age 14, Celeste volunteered at the O&rsquo;Connor hospital and received an award for 100 community service hours. Her commitment to service has stayed strong over the years, and we love having her as our Agency Coordinator. In her free time, she enjoys cooking and traveling, and is her next stop is Australia to visit her daughter. Celeste is also a bit of a daredevil — although she is afraid of heights, she&rsquo;s been skydiving … twice!</p>
+              <p>At age 14, Celeste volunteered at the O&rsquo;Connor hospital and received an award for 100 community service hours. Her commitment to service has stayed strong over the years, and we love having her as our Agency Coordinator. In her free time, she enjoys cooking and traveling, and is her next stop is Australia to visit her daughter. Celeste is also a bit of a daredevil — although she is afraid of heights, she&rsquo;s been skydiving … twice!</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row size-fix">
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
@@ -121,12 +121,12 @@
             </div>
             <div class="ten columns">
               <h3>Susan</h3>
-              <p class="smaller">A third generation native Californian, Susan earned her business degree from San Jose State University and worked in the for-profit world for many years before joining the Family Giving Tree. In her free time, she enjoys spending time with her rescue dog Razzle, quilting, and going on quilt shop hops.</p>
+              <p>A third generation native Californian, Susan earned her business degree from San Jose State University and worked in the for-profit world for many years before joining the Family Giving Tree. In her free time, she enjoys spending time with her rescue dog Razzle, quilting, and going on quilt shop hops.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row size-fix">
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
@@ -134,12 +134,12 @@
             </div>
             <div class="ten columns">
               <h3>Rene</h3>
-              <p class="smaller">Rene joined us at the Tree in 2003 as a volunteer and became a full-time employee in 2007. Affectionately dubbed &ldquo;Poppy,&rdquo; Rene&rsquo;s our Fix-It Elf, and his responsibilities range from being in charge the gift database to making sure that the wish cards accurately reflect the wishes of the kids we work with. Rene&rsquo;s favorite movie is Raiders of the Lost Ark (he&rsquo;s seen it 46 times), and he&rsquo;s an avid Sharks fan.</p>
+              <p>Rene joined us at the Tree in 2003 as a volunteer and became a full-time employee in 2007. Affectionately dubbed &ldquo;Poppy,&rdquo; Rene&rsquo;s our Fix-It Elf, and his responsibilities range from being in charge the gift database to making sure that the wish cards accurately reflect the wishes of the kids we work with. Rene&rsquo;s favorite movie is Raiders of the Lost Ark (he&rsquo;s seen it 46 times), and he&rsquo;s an avid Sharks fan.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row size-fix">
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
@@ -147,12 +147,12 @@
             </div>
             <div class="ten columns">
               <h3>Shannon</h3>
-              <p class="smaller">Born and raised in San Jose, Shannon graduated from San Jose State University with a degree in public relations and a minor in communication studies. After spending eight years in the corporate world, Shannon is excited to join the Tree as our newest member and contribute her knowledge, skills, and positive attitude as best she can. In her free time, Shannon enjoys cooking, traveling, and spending time with her husband Phil.</p>
+              <p>Born and raised in San Jose, Shannon graduated from San Jose State University with a degree in public relations and a minor in communication studies. After spending eight years in the corporate world, Shannon is excited to join the Tree as our newest member and contribute her knowledge, skills, and positive attitude as best she can. In her free time, Shannon enjoys cooking, traveling, and spending time with her husband Phil.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row size-fix">
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
@@ -160,12 +160,12 @@
             </div>
             <div class="ten columns">
               <h3>Dianne</h3>
-              <p class="smaller">Colloquially known as the Gopher Elf, Dianne is an incredibly creative and makes centerpieces and awards for all the Tree&rsquo;s events. She began as a seasonal employee eight years ago and now works part time. A native Californian, Dianne lives in the Bay Area.</p>
+              <p>Colloquially known as the Gopher Elf, Dianne is an incredibly creative and makes centerpieces and awards for all the Tree&rsquo;s events. She began as a seasonal employee eight years ago and now works part time. A native Californian, Dianne lives in the Bay Area.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row size-fix">
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
@@ -173,12 +173,12 @@
             </div>
             <div class="ten columns">
               <h3>Sylvia</h3>
-              <p class="smaller">Sylvia attended Long Beach City and State Colleges before moving to the Bay Area in 1962, where she completed her degree in Business. She has been friends with the Cullenbine family since the Queen Elf herself was a toddler. She&rsquo;s been involved with the Family Giving Tree in some way or another since its inception and she&rsquo;s the best Granny Elf we could have ever asked for. In addition to being a stellar pianist, Sylvia enjoys listening to mystery books on tape and spending time with her grandchildren and husband Randy (UncPa) of 36 years.</p>
+              <p>Sylvia attended Long Beach City and State Colleges before moving to the Bay Area in 1962, where she completed her degree in Business. She has been friends with the Cullenbine family since the Queen Elf herself was a toddler. She&rsquo;s been involved with the Family Giving Tree in some way or another since its inception and she&rsquo;s the best Granny Elf we could have ever asked for. In addition to being a stellar pianist, Sylvia enjoys listening to mystery books on tape and spending time with her grandchildren and husband Randy (UncPa) of 36 years.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row size-fix">
         <div class="twelve columns">
           <div class="row">
             <div class="two columns">
@@ -186,7 +186,7 @@
             </div>
             <div class="ten columns">
               <h3>Angie</h3>
-              <p class="smaller">With a degree in English highlighted by a focus on Language and Discourse from CSU East Bay, Angie is out to change the world. Born with a rare physical disability called central core myopathy, she learned early on how important it is to help those in need. As a result, Angie&rsquo;s always dreamed of being a part of an organization that makes a difference to those in need. She joined the Tree in 2010 as our resident Digital Arts Elf, and she continually wows her with her design and photography skills. An avid fan of all things Disney, Angie is either 1) at Disneyland or 2) in the midst of planning her next trip!</p>
+              <p>With a degree in English highlighted by a focus on Language and Discourse from CSU East Bay, Angie is out to change the world. Born with a rare physical disability called central core myopathy, she learned early on how important it is to help those in need. As a result, Angie&rsquo;s always dreamed of being a part of an organization that makes a difference to those in need. She joined the Tree in 2010 as our resident Digital Arts Elf, and she continually wows her with her design and photography skills. An avid fan of all things Disney, Angie is either 1) at Disneyland or 2) in the midst of planning her next trip!</p>
             </div>
           </div>
         </div>
