@@ -19,7 +19,7 @@
     <!-- end .row -->
     <div class="row">
         <div class="three columns">
-            <ul class="side-nav">
+            <ul class="side-nav" data-sticky>
                 <li><a href="#aboutDrive">About</a></li>
                 <li><a href="#timeline">Timeline</a></li>
                 <li><a href="#hallOfFame">Hall of Fame</a></li>

@@ -43,7 +43,7 @@
 <header>
     <div class="row">
         <div class="twelve columns">
-            <a href="#" class="medium button right">Donate</a>
+            <a href="donate.php" class="medium button right">Donate</a>
         </div>
     </div>
     <!-- end .row -->
@@ -57,7 +57,7 @@
                 <li><a href="#">Who We Help</a></li>
                 <li><a href="lead-a-drive.php">Lead a Drive</a></li>
                 <li><a href="sponsor.php">Sponsors</a></li>
-                <li><a href="#">Join Our Community</a></li>
+                <li><a href="volunteer.php">Volunteer</a></li>
                 <li><a href="about.php">About</a></li>
             </ul>
         </nav>
