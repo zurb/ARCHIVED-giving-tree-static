@@ -170,6 +170,9 @@ h1 { color: $darkPurple; }
   }
 }
 .upcoming-events {
+    a {
+        font-weight: bold;
+    }
     p {
         font-size: 14px;
     }
@@ -183,6 +186,7 @@ footer {
     dt {
         font-weight: bold;
         margin-bottom:10px;
+        margin-top: 15px;
     }
     dd {
         line-height: 21px;
@@ -204,6 +208,18 @@ footer {
 }
 header {
     background: image-url("puple-bg.png");
+    height: 90px;
+    overflow: visible;
+    .link-list {
+         a {
+            font-weight: bold;
+            font-size: 14px;
+            color: $white;
+         }
+    }
+    img {
+        margin-top: -60px;
+    }
 }
 .footer-columns {
     background: url(../images/footer-bg.png) repeat-x;
@@ -249,7 +265,7 @@ h1, h2, h3 {
         border-radius: 20px;
         color: $darkPurple;
         background: $white;
-        width:40px;
+        width:30px;
     }
   }
 }
