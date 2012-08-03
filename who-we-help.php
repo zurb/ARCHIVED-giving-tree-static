@@ -10,7 +10,7 @@
       <div class="row">
         <div class="seven columns">
           <h1>Who we help</h1>
-          <p>Family Giving Tree has cultivated deep roots in the community. We work with more than 300 social service agencies and schools around the Bay Area. Among the folks we work with are homeless shelters, community centers, rehabilitation houses, schools and various nonprofit organizations. Each year, these folks help us fulfill the needs of children in low-income neighborhoods. They supply us with the names and wishes of the children they serve year-round. These are kids who would go without anything during the holidays and back-to-school season.</p>
+          <p class="lead">Family Giving Tree has cultivated deep roots in the community. We work with more than 300 social service agencies and schools around the Bay Area. Among the folks we work with are homeless shelters, community centers, rehabilitation houses, schools and various nonprofit organizations. Each year, these folks help us fulfill the needs of children in low-income neighborhoods. They supply us with the names and wishes of the children they serve year-round. These are kids who would go without anything during the holidays and back-to-school season.</p>
         </div>
     
         <div class="five columns">
@@ -117,7 +117,7 @@
         <h5>Become Part of Our Community of Elves</h5>
         <p>We’re always looking for Elves who want to help us meet the wishes of underserved children and ensure that they get the school supplies they need to succeed. Here’s what we need to know if you’re interested in joining our community as an agency partner:</p>
         
-        <h6><strong>1. Tell us who you are</strong></h6>
+        <h6><strong><span class="circle-icon">1</span> Tell us who you are</strong></h6>
         <p>Send the following information to us at 606 Valley Way, Milpitas CA 95035 or email agencies@familygivingtree.org:</p>
         <div style="padding-left:50px;">
           <ul>
