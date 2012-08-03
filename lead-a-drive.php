@@ -89,6 +89,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus lacus, cursus sed placerat quis, scelerisque id erat. Praesent at sapien eu ligula dignissim varius. Nam id erat ut dui lobortis malesuada. Donec imperdiet lectus eget leo condimentum vel pellentesque est facilisis.</p>
                     </div>
                 </div>
+                <!-- end .row -->
                 <img src="http://placehold.it/700x400&text=Map">
                 <div class="row">
                     <div class="six columns">
@@ -112,6 +113,7 @@
                                 <p>This is a description of the event.</p>
                             </div>
                         </div>
+                        <!-- end .row -->
                         <div class="row">
                             <div class="three columns">
                                 <ul class="date">
@@ -126,9 +128,33 @@
                                 <p>This is a description of the event.</p>
                             </div>
                         </div>
+                        <!-- end .row -->
                     </div>
                 </div>
                 <!-- end .row -->
+                <div class="row">
+                    <div class="four columns">
+                        <h4>Kickoff Events</h4>
+                    </div>
+                    <div class="eight columns">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus lacus, cursus sed placerat quis, scelerisque id erat. Praesent at sapien eu ligula dignissim varius. Nam id erat ut dui lobortis malesuada. Donec imperdiet lectus eget leo condimentum vel pellentesque est facilisis.</p>
+                        <div class="row">
+                            <div class="one columns">
+                                <ul class="date">
+                                    <li class="month">Aug</li>
+                                    <li class="day">2</li>
+                                </ul>
+                            </div>
+                            <div class="nine columns">
+                                <h5 class="event-title">
+                                    <a href="#">FGT Open House</a>
+                                </h5>
+                                <p>This is a description of the event.</p>
+                            </div> 
+                        </div>
+                        <!-- end .row -->
+                    </div>
+                </div>
             </section>
             <!-- end #hallOfFame -->
         </div>

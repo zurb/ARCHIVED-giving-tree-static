@@ -4342,26 +4342,27 @@ p.vevent abbr {
 }
 
 /*General Styles*/
-/* line 92, ../sass/app.scss */
-header {
+/* line 93, ../sass/app.scss */
+header,
+footer {
   background: #fafafa;
 }
 
-/* line 95, ../sass/app.scss */
+/* line 96, ../sass/app.scss */
 .glyph {
   font-family: 'FoundationIconsGeneral';
 }
-/* line 97, ../sass/app.scss */
+/* line 98, ../sass/app.scss */
 .glyph.social {
   font-family: 'FoundationIconsSocial';
 }
 
-/* line 102, ../sass/app.scss */
+/* line 103, ../sass/app.scss */
 .right {
   float: right;
 }
 
-/* line 105, ../sass/app.scss */
+/* line 106, ../sass/app.scss */
 .left {
   float: left;
 }
