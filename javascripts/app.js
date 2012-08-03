@@ -68,9 +68,6 @@
   });
   
   $(window).load(function() {
-    $("body").raptorize({
-      "enterOn" : "konami-code"
-    });
     $("[data-sticky]").each(GivingTree.setInitialStickyNavOffset);
   });
   // Uncomment to support sticky nav updates on page resize
