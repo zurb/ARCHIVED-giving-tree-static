@@ -246,6 +246,17 @@ ul.numbered-list li { padding: 0px 0px 15px 60px;  height: 60px; }
 ul.top-circles li span { margin-top: -30px; text-align: center;  }
 ul.top-circles li img { margin:0 auto; }
 
+ul.public-service li, ul.media li { width:130px !important; }
+ul.top-last li.last { margin-top: 65px;margin-left: -80px !important; }
+ul.top-last li h6 { margin-bottom: 0px !important; }
+
+#mainContent { margin-bottom: 100px !important; }
+
+
+.sponsor-logos { margin-top: 30px; }
+.sponsor-logos h6 { font-weight: 300; color: #777; font-size: 20px;  }
+.row.sponsor-levels,.row.value-sponsors { margin-top: 20px; }
+
 
 /*General Styles*/
 header,
