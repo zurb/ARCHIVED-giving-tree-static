@@ -175,8 +175,7 @@ p { color: #555; line-height: 1.5; }
 .orange { color: $orange; }
 .green { color: $green; }
 .pink { color: $pink; }
-
-/*Global*/
+.down { margin-top: 13px; }
 .full { width: 100%; }
 h1 { color: $darkPurple; }
 h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
@@ -194,8 +193,11 @@ h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
   }
 }
 
+.button.purple { background-color: $darkPurple; color: #fff; border: solid 1px darken($darkPurple, 10%);}
+
 blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; background: $lightPink; margin-bottom: 0; 
   cite { font-family: "Helvetica", Arial, sans-serif; color: $white;}
+  &.secondary { background: #eee; font-family: "Helvetica", Arial, sans-serif; color: #333; padding-bottom: 14px; padding-top: 14px; margin-bottom: 20px; }
 }
 
 /*Lead a Drive*/
@@ -360,6 +362,10 @@ h1, h2, h3 {
   display: none; 
 }
 
+/* Donate Page */
+.choose-donation { margin-top: 60px; margin-bottom: 40px; }
+.panel.donate { background: lighten($darkPurple, 58%); border: solid 1px lighten($darkPurple, 45%); }
+
 /* Progress Bar */
 .progress-bar {
   width: 100%;
@@ -370,7 +376,7 @@ h1, h2, h3 {
     height: 100%;
     background: #ddd;
   }
-}
+} 
 .sticky {position:fixed; top:10px;}
 
 /*Holiday Slider*/

@@ -13,19 +13,19 @@
   </div>
 </div>
 
-<div class="row">
+<div class="row choose-donation">
   <div class="eight columns">
-    <div class="panel">
+    <div class="donate panel">
       <h3>Give Gifts</h3>
       <p>The most popular way to help the Elves and the children we serve is through gift donation.</p>
-      <a class="button" href="http://vgt.familygivingtree.org/fgt/">Donate Today</a>
+      <a class="pink button banner" href="http://vgt.familygivingtree.org/fgt/">Donate Today</a>
     </div>
   </div>
   <div class="four columns">
-    <div class="panel">
+    <div class="donate panel">
       <h3>Give Money</h3>
-      <p>Give a one time or monthly monetary donation to provide a new, supply-filled backpack or meet a specific holiday gift wish.</p>
-      <a class="button" href="https://npo.networkforgood.org/Donate/Donate.aspx?npoSubscriptionId=4257">Donate Today</a>
+      <p>Give a one time or monthly monetary donation!</p>
+      <a class="pink button banner" href="https://npo.networkforgood.org/Donate/Donate.aspx?npoSubscriptionId=4257">Donate Today</a>
     </div>
   </div>
 </div>
@@ -36,68 +36,67 @@
 
     <div class="row">
       <div class="three columns">
-        <img src="http://placehold.it/300x300">
+        <img class="down" src="images/icons/help-time.png">
       </div>
       <div class="nine columns">
         <h4>Volunteer Time</h4>
         <p>We know that time is precious and by donating it, we know that you're dedicated to helping us put a smile on a child's face. </p>
-        <a href="#volunteer" class="tiny button">Learn More &raquo;</a>
+        <a href="#volunteer" class="purple secondary tiny button">Learn More &raquo;</a>
       </div>
     </div>
     <br>
     <div class="row">
       <div class="three columns">
-        <img src="http://placehold.it/300x300">
+        <img class="down" src="images/icons/help-drive.png">
       </div>
       <div class="nine columns">
         <h4>Lead Drive</h4>
         <p>As a Family Giving Tree drive host, you can display wish cards for fellow workers, customers, members or friends. Drive leaders become our Elves for promoting, collecting backpacks and/or gifts and returning them to our magical warehouse. </p>
-        <a href="#volunteer" class="tiny button">Learn More &raquo;</a>
+        <a href="#volunteer" class="purple secondary tiny button">Learn More &raquo;</a>
       </div>
     </div>
     <br>
     <div class="row">
       <div class="three columns">
-        <img src="http://placehold.it/300x300">
+        <img class="down" src="images/icons/help-sponsor.png">
       </div>
       <div class="nine columns">
         <h4>Sponsorship</h4>
         <p>Your company or business can have a big impact on our efforts. Sponsorship funds enable us to bulk purchase gifts early and leverage generous manufacturer discounts that can help us get the backpacks or gifts we need to meet the kids' wishes. </p>
-        <a href="#volunteer" class="tiny button">Learn More &raquo;</a>
+        <a href="#volunteer" class="purple secondary tiny button">Learn More &raquo;</a>
       </div>
     </div>
     <br>
     <div class="row">
       <div class="three columns">
-        <img src="http://placehold.it/300x300">
+        <img class="down" src="images/icons/help-match.png">
       </div>
       <div class="nine columns">
         <h4>Does My Company Match?</h4>
         <p>Several companies support the charitable donations of employees by matching their financial contributions to eligible organizations. Use the search function to see if your company has previously provided a matching gift to Family Giving Tree.</p>
-        <a href="#volunteer" class="tiny button">Learn More &raquo;</a>
+        <a href="#volunteer" class="purple tiny button">Learn More &raquo;</a>
       </div>
     </div>
-    <br>
+    <br><br><br>
     <div class="row">
       <div class="three columns">
-        <img src="http://placehold.it/300x300">
       </div>
       <div class="nine columns">
         <h4>Donate Procedures</h4>
         <p><strong>Workplace / Civic Organizations</strong> —  Look for information in your workplace for information regarding how to contribute to your organization's drive.  You can select a wish tag and learn who is receiving monetary donations.</p>
         <p><strong>General Donations</strong> —  Donate on our public tree to provide backpacks stuffed with school supplies or fulfill a child's unique holiday wish.</p>
         <p><strong>Checks</strong> — Mail your checks (made payable to Family Giving Tree) to:</p>
-        <blockquote><strong>Family Giving Tree</strong><br />
+        <p>Questions about Donations? Contact:</p>
+        <blockquote class="secondary"><strong>Family Giving Tree</strong><br />
         606 Valley Way<br />
         Milpitas, CA  95035</blockquote>
-        <p>Questions about Donations? Contact:</p>
         <p><strong>Donations Deadline</strong> - monetary donations are received through:</p>
-        <blockquote><strong>Theo Olson</strong><br />
+        <blockquote class="secondary"><strong>Theo Olson</strong><br />
         <a href="theo@familygivingtree.org">theo@familygivingtree.org</a><br />
         408-946-3111 x210</blockquote>
         
         <p>Questions about Sponsorships?  Contact:</p>
-        <blockquote><strong>Jeanne Clabaugh</strong><br />
+        <blockquote class="secondary"><strong>Jeanne Clabaugh</strong><br />
         <a href="jeanne@familygivingtree.org">jeanne@familygivingtree.org</a><br />
         408-946-3111 x225</blockquote>
       </div>
