@@ -29,7 +29,6 @@
   <title>Family Giving Tree: <?= $page_title ?></title>
 
   <!-- Included CSS Files -->
-  <link rel="stylesheet" href="stylesheets/app.css">
   <link rel="stylesheet" href="stylesheets/vgt.css">
 
   <script src="javascripts/foundation/modernizr.foundation.js"></script>
