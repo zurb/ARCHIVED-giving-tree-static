@@ -424,10 +424,16 @@ img.right {
     .button.banner { 
         padding: 21px 35px 21px 25px !important;  
     }
-    .reveal-modal {
-        .button.banner {
-            padding-right: 5px !important;
+    .feature_wrapper {
+        padding-top:25px;
+    }
+    header {
+        img {
+            position: relative;
+            top: 0;
+            z-index: 10;
         }
+        margin-bottom:15px;
     }
     .reveal-modal .nav-bar {
         background: transparent none;
@@ -435,6 +441,10 @@ img.right {
             border:0;
             a {
             color: $darkPurple;
+                &:hover {
+                    background: $darkPurple;
+                    color: $white;
+                }
             }
         }
     }
