@@ -4,7 +4,7 @@
 ?>
 <?php include("includes/_header.php"); ?>
 
-<div class="row featured">
+<div class="row featured hide-for-small">
     <div class="twelve columns">
         <div class="orbit-wrapper" id="featured">
             <div>
