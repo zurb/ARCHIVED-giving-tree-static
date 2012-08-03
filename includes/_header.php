@@ -55,7 +55,7 @@
         <nav class="nine columns">
             <ul class="link-list">
                 <li class="active"><a href="index.php">Home</a></li>
-                <li><a href="#">Who We Help</a></li>
+                <li><a href="who-we-help.php">Who We Help</a></li>
                 <li><a href="lead-a-drive.php">Lead a Drive</a></li>
                 <li><a href="sponsor.php">Sponsors</a></li>
                 <li><a href="volunteer.php">Volunteer</a></li>
