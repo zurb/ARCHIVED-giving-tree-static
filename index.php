@@ -11,7 +11,7 @@
                 <div class="content">
                     <h1>Be the Millionth Child's Elf</h1>
                     <p>This year, we’ll have helped one million children. You could be the person who fulfils the unique holiday wish of our millionth child. </p>
-                    <a href="donate.php" class="button radius">Become an Elf &raquo;</a>
+                    <a href="donate.php" class="button radius">Millionth Child &raquo;</a>
                 </div>
                 <img src="http://placehold.it/980x367">
             </div>
@@ -35,16 +35,16 @@
                 <div class="content">
                     <h1>Plant a Seed </h1>
                     <p>Putting a smile on a kid’s face doesn’t just happen. It takes the kindness of those who become part of our community of Elves. People who plant seeds by donating their time, a backpack or even a few dollars to fulfill the needs of children in low-income communities.</p>
-                    <a href="volunteer.php" class="button radius">Plant a Seed Today &raquo;</a>
+                    <a href="volunteer.php" class="button radius">Donate Today &raquo;</a>
                 </div>
                 <img src="http://placehold.it/980x367">
             </div>
         </div>
         <ul class="button-group radius">
-            <li><a href="#" class="button radius">Donate</a></li>
+            <li><a href="#" class="button radius">Donate Today</a></li>
             <li><a href="#" class="button radius">Lead a Drive</a></li>
             <li><a href="#" class="button radius">Volunteer</a></li>
-            <li><a href="#" class="button radius">Featured</a></li>
+            <li><a href="#" class="button radius">Millionth Child</a></li>
         </ul>
     </div>
 </div>
@@ -68,7 +68,7 @@
 
 <div class="row">
     <div class="twelve columns">
-        <h3>Bestowing Joy One Fulfilled Wish, One Backpack at a Time</h3>
+        <h3>One Fulfilled Wish, One Backpack at a Time</h3>
         <div class="row">
             <div class="nine columns">
                 <p>Since 1990, Family Giving Tree has been fulfilling the holiday wishes of children in low-income neighborhoods and providing backpacks stuffed with school supplies so they’re prepared to learn. It’s more than just gifts or rulers or pencils. It’s giving kids precious, happy memories. It’s amazing to know that we’ve put smiles on the faces of a million kids.</p>
@@ -103,15 +103,6 @@
                     nonprofits at that, we&#8217;ve finally been chosen as this year&#8217;s&hellip;
                     <a href="">more &raquo;</a></p>
             </div>
-            <!--
-<div class="four columns">
-                <h4>Back to School &amp; STEM</h4>
-                <p>Children from low-income families have many barriers to success in the
-                    classroom, let alone engaging in career fields related to Science,
-                    Technology, Engineering and Mathematics (STEM)&hellip;
-                    <a href="">more &raquo;</a></p>
-            </div>
--->
         </div>
     </div>
 </div>
@@ -120,7 +111,7 @@
   <script type="text/javascript"> 
     $(".row.featured").spin({lines:9, width:4})
    $(window).load(function() {
-       $('#featured').orbit({ fluid: '16x6' });
+       $('#featured').orbit({ pauseOnHover: true, startClockOnMouseOut: true, advanceSpeed: 6000, fluid: '16x6' });
        $(".row.featured").spin(false);
    });
   </script>
