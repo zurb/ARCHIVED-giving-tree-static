@@ -109,7 +109,7 @@
     
       <div class="row">
         <div class="twelve columns">
-          <hr>
+          <img src="images/horizontal-rule1.png">
         </div>
       </div>
       
@@ -140,7 +140,7 @@
       
       <div class="row">
         <div class="twelve columns">
-          <hr>
+          <img src="images/horizontal-rule1.png">
         </div>
       </div>
     
@@ -207,7 +207,7 @@
       
       <div class="row">
         <div class="twelve columns">
-          <hr>
+          <img src="images/horizontal-rule1.png">
         </div>
       </div>
       
@@ -240,7 +240,7 @@
       
       <div class="row">
         <div class="twelve columns">
-          <hr>
+          <img src="images/horizontal-rule1.png">
         </div>
       </div>
       
@@ -264,7 +264,7 @@
       
       <div class="row">
         <div class="twelve columns">
-          <hr>
+          <img src="images/horizontal-rule1.png">
         </div>
       </div>
       
@@ -315,14 +315,12 @@
         <!-- ----- PDF File Downloads ----- -->
         
         <div class="row">
-          <div class="six columns">
+          <div class="twelve columns">
             <ul style="list-style:none;">
               <li style=" display:inline;margin-right:25px;"><a href=""><span class="glyph [general]">9</span> Wish Collect Form</a></li>
               <li style=" display:inline;"><a href=""><span class="glyph [general]">[</span> Second Choice List</a></li>
             </ul>
             </ul>
-          </div>
-          <div class="six columns">
           </div>
         </div>
         
@@ -330,7 +328,7 @@
       
       <div class="row">
         <div class="twelve columns">
-          <hr>
+          <img src="images/horizontal-rule1.png">
         </div>
       </div>
       
