@@ -459,8 +459,8 @@
 
       
     </section>
-    <div class=""
-    <img src="images/horizontal-rule1.png">
+
+    <hr>
 
     <section id="news">
       <div class="row">
@@ -468,9 +468,9 @@
           <img src="http://placehold.it/400x300" alt="news">
         </div>
         <div class="eight columns">
-          <h4>Persistence Pays Off: Announcing Family Giving Tree as This Year's ZURBwired Nonprofit</h4>
+          <h3>Persistence Pays Off: Announcing Family Giving Tree as This Year's ZURBwired Nonprofit</h3>
           <p>To quote an old friend, "we're super excited" to congratulate Family Giving Tree for being this year's participating ZURBwired nonprofit! Competition was fierce this year and the ZURB team had to choose only one nonprofit from a slew of excellent proposals. We want to thank all the excellent nonprofits that submitted proposals.</p>
-          <a href="http://www.zurb.com/article/1030/persistence-pays-off-announcing-family-gi" class="medium button">Read More</a>
+          <a href="http://www.zurb.com/article/1030/persistence-pays-off-announcing-family-gi" class="medium button banner purple">Read More</a>
         </div>
       </div>
       <br>
@@ -479,11 +479,11 @@
           <img src="http://placehold.it/400x300" alt="news">
         </div>
         <div class="eight columns">
-          <h4>Milpitas ‘Family Giving Tree’ Equips Students With Necessary Tools</h4>
+          <h3>Milpitas ‘Family Giving Tree’ Equips Students With Necessary Tools</h3>
           <p>A Milpitas non-profit organization is helping low-income children start the school year with the necessary tools they need to succeed.</p>
 
           <p>The Family Giving Tree has collected 135-thousand backpacks and school supplies for children for over 17 years.</p>
-          <a href="http://sanfrancisco.cbslocal.com/2012/07/13/milpitas-family-giving-tree-equips-students-with-necessary-tools/" class="medium button">Read More</a>
+          <a href="http://sanfrancisco.cbslocal.com/2012/07/13/milpitas-family-giving-tree-equips-students-with-necessary-tools/" class="medium  button banner purple">Read More</a>
         </div>
       </div>
       <br>
@@ -492,10 +492,10 @@
           <img src="http://placehold.it/400x300" alt="news">
         </div>
         <div class="eight columns">
-          <h4>Texas Instruments, Family Giving Tree promote STEM at student event</h4>
+          <h3>Texas Instruments, Family Giving Tree promote STEM at student event</h3>
           <p> Texas Instruments (TI) (NASDAQ: TXN) and Family Giving Tree will host "STEM in the Schoolyard" at Downtown College Prep (DCP) on Friday, July 27. The event kicks off the school year for 130 incoming, low-income DCP freshmen and their families and will include inspiring presentations by elected officials, hands-on science, technology, engineering and math (STEM) activities, as well as a welcoming reception for the new ninth grade students.</p>
 
-          <a href="http://newscenter.ti.com/2012-07-24-STEM-in-the-Schoolyard-celebrates-back-to-school-at-Downtown-College-Prep" class="medium button">Read More</a>
+          <a href="http://newscenter.ti.com/2012-07-24-STEM-in-the-Schoolyard-celebrates-back-to-school-at-Downtown-College-Prep" class="medium  button banner purple">Read More</a>
         </div>
       </div>
     </section>
