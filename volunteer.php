@@ -47,7 +47,7 @@
         <li> HWD warehouse duties (December): Help us set-up warehouse, receive gifts, sort, wrap, quality check, clean-up warehouse and distribute gifts to low-income children.</li>
         <li> Gift distributions (December & January)</li>
       </ul>
-      <p> To learn about our needs as soon as they're posted, Sign up for our newsletter <a href="https://www.facebook.com/familygivingtree">become a friend on Facebook</a></p>
+      <p> To learn about our needs as soon as they're posted, Sign up for our newsletter <a href="https://www.facebook.com/familygivingtree" target="_blank">become a friend on Facebook</a></p>
       <div class="panel" id="register">
         <h4>When can you volunteer?</h4>
         <p>
@@ -331,47 +331,48 @@
   <p> Help us sort through our database of wishes to ensure each child receives exactly what they want!</p>
   <a class="close-reveal-modal">&#215;</a> </div>
 <div id="volEmailModal" class="reveal-modal">
+  <div class="preconfirm">
   <h2>Register to Volunteer</h2>
   <form id="volunteerform" method="post" action="volunteer-post-email.php">
     <label for="name">*Name</label>
-    <input type="text" id="name" name="name" />
+    <input type="text" id="name" name="name" class="required" />
     <label for="email">Email Address</label>
     <input type="text" id="email" name="email" />
     <label for="phone">*Phone Number</label>
-    <input type="text" id="phone" name="phone" />
+    <input type="text" id="phone" name="phone" class="required" />
     <label for="org">Company or School Name</label>
     <input type="text" id="org" name="org" />
     <label for="under18">*Are you under 18?</label>
     <label>
-      <input type="radio" name="under18" id="under18yes" value="1" />
+      <input type="radio" name="under18" id="under18yes" value="Yes" class="required" />
       Yes</label>
     <label>
-      <input type="radio" name="under18" id="under18no" value="0" />
+      <input type="radio" name="under18" id="under18no" value="No" class="required" />
       No</label>
     <label for="grade">If so, grade level</label>
     <input type="text" id="grade" name="grade" />
     <label for="weekday">*Availability (check all that apply)</label>
-    Days
+    <label for="weekday">Days</label>
     <label>
-      <input type="checkbox" name="weekday[]" id="weekdaym" value="M" />
+      <input type="checkbox" name="weekday[]" id="weekdaym" value="M" class="required" />
       M</label>
     <label>
-      <input type="checkbox" name="weekday[]" id="weekdaytu" value="Tu" />
+      <input type="checkbox" name="weekday[]" id="weekdaytu" value="Tu" class="required" />
       Tu</label>
     <label>
-      <input type="checkbox" name="weekday[]" id="weekdayw" value="W" />
+      <input type="checkbox" name="weekday[]" id="weekdayw" value="W" class="required" />
       W</label>
     <label>
-      <input type="checkbox" name="weekday[]" id="weekdayth" value="Th" />
+      <input type="checkbox" name="weekday[]" id="weekdayth" value="Th" class="required" />
       Th</label>
     <label>
-      <input type="checkbox" name="weekday[]" id="weekdaym" value="F" />
+      <input type="checkbox" name="weekday[]" id="weekdaym" value="F" class="required" />
       F</label>
     <label>
-      <input type="checkbox" name="weekday[]" id="weekdaysat" value="Sat" />
+      <input type="checkbox" name="weekday[]" id="weekdaysat" value="Sat" class="required" />
       Sat</label>
     <label>
-      <input type="checkbox" name="weekday[]" id="weekdaysun" value="Sun" />
+      <input type="checkbox" name="weekday[]" id="weekdaysun" value="Sun" class="required" />
       Sun</label>
     <label for="time">Times</label>
     <label>
@@ -388,13 +389,13 @@
       Anytime</label>
     <label for="purpose">*I am volunteering:</label>
     <label>
-      <input type="radio" name="purpose" id="purpose_school" value="school" />
+      <input type="radio" name="purpose" id="purpose_school" value="school" class="required" />
       School requirement</label>
     (# of hours
     <input type="text" id="schoolhrs" name="schoolhrs" />
     )
     <label>
-      <input type="radio" name="purpose" id="purpose_company" value="company" />
+      <input type="radio" name="purpose" id="purpose_company" value="company" class="required" />
       Company volunteer opportunity</label>
     (Matching program?
     <label>
@@ -405,13 +406,13 @@
       No</label>
     )
     <label>
-      <input type="radio" name="purpose" id="purpose_fun" value="fun" />
+      <input type="radio" name="purpose" id="purpose_fun" value="fun" class="required" />
       For fun</label>
     <label>
-      <input type="radio" name="purpose" id="purpose_court" value="court" />
+      <input type="radio" name="purpose" id="purpose_court" value="court" class="required" />
       Court Order</label>
     <label>
-      <input type="radio" name="purpose" id="purpose_other" value="other" />
+      <input type="radio" name="purpose" id="purpose_other" value="other" class="required" />
       Other</label>
     <input type="text" id="purpose_other" name="purpose_other" />
     <label for="skills">Special Skills (i.e. Computer systems, programs, programming, event coordination, etc.)</label>
@@ -422,8 +423,11 @@
     <!--Submit sends email to volunteer@familygivingtree.org-->
     <input type="submit" value="Submit" class="button">
   </form>
+  </div>
   <!--Confirmation below-->
-  <p style="display:none">Thank you for your interest in volunteering for  Family Giving Tree. You will be contacted when and if a volunteer match becomes available.</p>
+  <div class="confirm" style="display:none">
+  <h2>Thank you</h2>
+  <p>Thank you for your interest in volunteering for  Family Giving Tree. You will be contacted when and if a volunteer match becomes available.</p></div>
   <a class="close-reveal-modal">&#215;</a> </div>
 <div id="shiftDetailsModal" class="reveal-modal">
   <h2>Shift Details</h2>
@@ -575,12 +579,15 @@
 
 <?php include("includes/_footer.php");  ?>
 <script src="javascripts/jquery.form.js"></script>
+<script src="javascripts/jquery.validate.min.js"></script>
 <script>
 $(document).ready(function(){
   registerSelect();
   readMoreToggle();
-  $('#volunteerform').ajaxForm({success: function(response) {
-    $("#volEmailModal").html(response);
+  $('#volunteerform').validate();
+  $('#volunteerform').ajaxForm({success: function(response){
+    $('.preconfirm').hide();
+    $('.confirm').show();
   }})
 });
 <!--FOR THE REGISTRATION FORM-->

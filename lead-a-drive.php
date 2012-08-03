@@ -75,10 +75,7 @@
                     <div class="eight columns">
                         <div class="row">
                             <div class="three columns">
-                                <ul class="date">
-                                    <li class="month">Aug</li>
-                                    <li class="day">2</li>
-                                </ul>
+                                <p class="date">Aug 2</p>
                             </div>
                             <div class="nine columns">
                                 <h5 class="event-title">
@@ -157,10 +154,7 @@
                     <div class="eight columns">
                         <div class="row">
                             <div class="two columns">
-                                <ul class="date">
-                                    <li class="month">Aug</li>
-                                    <li class="day">2</li>
-                                </ul>
+                                <p class="date">Aug 2</p>
                             </div>
                             <div class="ten columns">
                                 <h5 class="event-title">
@@ -172,10 +166,7 @@
                         <!-- end .row -->
                         <div class="row">
                             <div class="two columns">
-                                <ul class="date">
-                                    <li class="month">Aug</li>
-                                    <li class="day">2</li>
-                                </ul>
+                                <p class="date">Aug 2</p>
                             </div>
                             <div class="ten columns">
                                 <h5 class="event-title">
