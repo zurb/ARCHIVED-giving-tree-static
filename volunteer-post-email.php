@@ -1,5 +1,6 @@
 <?
+include_once("includes/functions.php");
 if ($_POST) {
-  var_dump($_POST);
+  sendVolunteerEmail($_POST);
 }
 ?>
