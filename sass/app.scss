@@ -154,9 +154,13 @@ ul.orbit-bullets { bottom: 20px;  }
 .green { color: $green; }
 .pink { color: $pink; }
 
-/*Lead a Drive*/
+/*Global*/
 h1 { color: $darkPurple; }
-h2 { color: #555555; font-size: 27px; font-size: 2.7rem; }
+h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
+
+/*Lead a Drive*/
+.featured p { font-size: 18px; }
+.feature_wrapper { background-color: $lightGreen; }
 
 /*Events*/
 .date {
