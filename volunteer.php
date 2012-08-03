@@ -7,19 +7,29 @@
 <!-- VOLUNTEER PAGE CONTENT -->
 <div class="feature_wrapper">
     <div class="row">
-        <div class="seven columns">
+        <div class="nine columns">
             <h1>Volunteer</h1>
-            <p class="lead">Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer.</p>
-
+            <p>Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer.</p>
         </div>
-        <div class="five columns">
+        <div class="three columns">
             <img src="images/people/c-photo4.png" alt="Volunteer at Family Giving Tree">
         </div>
     </div>
 </div>
 <div class="row">
   <div class="three column">
-    <ul class="side-nav" data-sticky>
+    <ul class="side-nav hide-for-mobile" data-sticky>
+      <!--<li><a href="#joinus">Join Us</a></li>-->
+      <li><a href="#register">Join Us</a></li>
+      <li><a href="#warehouse">The Warehouse</a></li>
+      <!--<li><a href="#events">Events</a>-->
+      <li><a href="#angelelf">Angel Elves</a></li>
+      <li><a href="#celebrating">Celebrating Volunteers</a></li>
+      <li><a href="#photos">Photos</a></li>
+    </ul>
+    <!-- duplicate nav -->
+    <ul class="side-nav show-for-mobile">
+      <!--<li><a href="#joinus">Join Us</a></li>-->
       <li><a href="#register">Join Us</a></li>
       <li><a href="#warehouse">The Warehouse</a></li>
       <li><a href="#angelelf">Angel Elves</a></li>
