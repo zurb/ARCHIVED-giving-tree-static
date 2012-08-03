@@ -106,19 +106,19 @@
                 <div class="row">
                     <div class="twelve columns">
                         <ul>
-                          <li class="first"><img src="images/icons/person.png" height="121" width="121">
+                          <li class="first"><img src="images/icons/tips1.png" height="121" width="121">
                               <p>Display your posters and/or cards in <strong>very visible,
                                   heavily trafficked</strong> areas. Keep materials fully
                                   stocked and <a href="#">let us know</a> if you need more!</p></li>
-                          <li><img src="images/icons/gift.png" height="121" width="121">
+                          <li><img src="images/icons/tips2.png" height="121" width="121">
                               <p>Have your advocates <strong>post materials</strong>
                                   and <strong>spread the word</strong> via email, social
                                   networking or even in person.</p></li>
-                          <li><img src="images/icons/money.png" height="121" width="121">
+                          <li><img src="images/icons/tips3.png" height="121" width="121">
                               <p>Reminders! A little <strong>motivation</strong> like holiday
                                   candy or a notecard with announcements never hurts.
                                   (See sample announcements for more ideas)</p></li>
-                          <li><img src="images/icons/person.png" height="121" width="121">
+                          <li><img src="images/icons/tips4.png" height="121" width="121">
                               <p>Coordinate a <strong>launch event</strong> (lunch, ice cream
                               social, dance party, etc.) and get your group excited about the
                               Family Giving Tree. The more they <strong>know the more they’ll
