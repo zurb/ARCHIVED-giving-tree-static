@@ -58,7 +58,7 @@
         <div class="two mobile-one columns pull-three-mobile">
             <a href="donate.php" class="button donate right hide-for-small">Donate</a>
             <br>
-            <a href="#" class="button small show-for-small" data-reveal-id="mobileNav">Menu</a>
+            <a href="#" class="button green banner small show-for-small" data-reveal-id="mobileNav">Menu</a>
         </div>
     </div>
     <!-- end .row -->
@@ -77,7 +77,7 @@
         <li><a href="volunteer.php">Volunteer</a></li>
         <li><a href="about.php">About</a></li>
     </ul>
-    <a href="donate.php" class="button large">Donate</a>
+    <a href="donate.php" class="button green banner medium">Donate</a>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 

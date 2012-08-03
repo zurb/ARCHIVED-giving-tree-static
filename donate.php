@@ -149,5 +149,99 @@
     </div>
   </div>
 </div>
+<div class="row">
+<div class="twelve columns">
+<section id="wishlist">
+<h2>Elf Wish List</h2>
+<p>Our wishlist represents items that we   need on a regular basis to keep our programs running.  Please take a   look at our list, and if you feel you can contribute, contact us at   (408) 946-3111 or email <a href="mailto:elf@familygivingtree.org">elf@familygivingtree.org</a>. Your donation is tax-deductible, and easy to make.</p>
 
+<h3 align="left">Immediate Needs:</h3>
+<ul>
+  <li>Carnival Games (for children's parties) </li>
+  <li>Bulk Transportation (Utility Van or Truck) </li>
+  <li> Rolling Carts (laundry carts, containers on wheels, bulk mover, tilt truck)</li>
+  <li>Large storage space for off season storage</li>
+  <li>Pallet jack (low profile)</li>
+  <li>Grip tape dispensers</li>
+  <li>32 Gallon trash cans</li>
+  <li>Large format printer to blow up pictures</li>
+</ul>
+<h3 align="left">Year Round Needs:</h3>
+<div class="row">
+<div class="four columns">
+<h5>Printer Ink Cartridges (for the following printers) </h5>
+<ul>
+  <li>HP Color LaserJet 4600</li>
+  <li>HP LaserJet 8100 DN</li>
+  <li>HP psc 1350 all-in-one</li>
+  <li>HP DeskJet 940c</li>
+  <li>HP Photosmart 8150</li>
+  <li>HP Photosmart 7760</li>
+  <li>HP DeskJet 990 cse</li>
+  <li>Canon MultiPASS MP390</li>
+</ul>
+<h5>Printer Paper</h5>
+<ul>
+  <li>White Paper 
+  (20lb, 8.5X11)</li>
+  <li>Bright White InkJet Paper    (8.5X11) </li>
+  <li>Photo Paper 
+    (4X6, high gloss ,acidfree)</li>
+  <li>Photo Paper 
+    (8.5X11, high gloss, acidfree)</li>
+</ul>
+<h5>Labels</h5>
+<ul>
+  <li>Avery 5160</li>
+  <li>Avery5163</li>
+  <li>Avery 5267</li>
+  <li>Smead Viewables</li>
+</ul>
+</div>
+<div class="four columns">
+<h5>Containers/Bags</h5>
+<ul>
+  <li>Plastic Storage Containers (small and large)</li>
+  <li>Plastic Bags 
+    (45+ Gallons)</li>
+  <li>Ziploc Bags 
+    (1 and 2 Gallons)</li>
+</ul>
+<h5>Services</h5>
+<ul>
+  <li>Public Relations (Pro Bono)</li>
+  <li>Graphic Designs</li>
+  <li>Printing Services</li>
+  <li>Bulk Mailing</li>
+  <li>Photocopying</li>
+  <li>Photography</li>
+  <li>Event Signage</li>
+  <li>Video Taping/Editing</li>
+  <li>Courier/Delivery Service</li>
+</ul>
+</div>
+<div class="four columns">
+<h5>Miscellaneous</h5>
+<ul>
+  <li>Postage Stamps </li>
+  <li>Bottled Water</li>
+  <li>Batteries (AA, C, D) </li>
+  <li>Pens (blue and black)</li>
+  <li>Scissors</li>
+  <li>Large Marking Pens</li>
+  <li>Laminating Sheets (8.5X11, Legal Size)</li>
+  <li>Scotch Tape (hand held)</li>
+  <li>Clear Packing Tape</li>
+  <li>Soda for Volunteers</li>
+  <li>Electronic Projector</li>
+  <li>Copier Toner (NPG-10)<br />
+  </li>
+  <li>Fax Cartridge (Panasonic KX-Fa76)</li></ul>
+</div>
+<div class="four columns">
+
+</div>
+</div>
+</section>
+</div></div>
 <?php include("includes/_footer.php");  ?>

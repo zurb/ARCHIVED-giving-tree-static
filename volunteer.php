@@ -13,11 +13,6 @@
     </div>
 </div>
 <div class="row">
-  <div class="twelve column"> <img src="http://placehold.it/1000x350">
-    <h1>Volunteer</h1>
-  </div>
-</div>
-<div class="row">
   <div class="three column">
     <ul class="side-nav" data-sticky>
       <li><a href="#joinus">Join Us</a></li>
@@ -102,7 +97,7 @@
         disabled: Include if volunteer slot is full
         Text: Day and date
         -->
-              <option selected>Select a day and task</option>
+              <option value="" selected>Select a day and task</option>
               <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
               <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
               <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
@@ -115,7 +110,7 @@
         disabled: Include if volunteer slot is full
         Text: Day and date
         -->
-              <option selected>Select a day and task</option>
+              <option value="" selected>Select a day and task</option>
               <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
               <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
               <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
@@ -128,7 +123,7 @@
         disabled: Include if volunteer slot is full
         Text: Day and date
         -->
-              <option selected>Select a day and task</option>
+              <option value="" selected>Select a day and task</option>
               <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
               <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
               <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
@@ -637,7 +632,6 @@ function registerSelect(){
   $('.volunteerday').change(function(){
     $('#registerlink').hide();
     var taskId = $(this).val();
-	  alert(taskId);
     var desc = $(this).find('option:selected').text();
 	if(taskId!==''){
       $('#registerlink').show();

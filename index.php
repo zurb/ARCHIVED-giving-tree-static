@@ -1,6 +1,6 @@
 <?
     $page_title = "Home";
-    $page_template = "Main";
+    $page_template = "main";
 ?>
 <?php include("includes/_header.php"); ?>
 
@@ -11,7 +11,7 @@
                 <div class="content">
                     <h1>You Can Help Our Millionth Child</h1>
                     <p class="lead">This year, we’ll reach our goal of helping one million children locally. You could be the person who fulfils the unique holiday wish of our millionth child.</p>
-                    <a href="who-we-help.php" class="button banner purple">Donate Today &raquo;</a>
+                    <a href="donate.php" class="button banner purple">Donate Today &raquo;</a>
                 </div>
             </div>
             <div id="sliderTwo">
@@ -114,15 +114,20 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="five columns">
-        <img src=""
+<div class="row home-quote">
+    <div class="five columns offset-by-one">
+        <img src="images/people/home-quote.png" alt="kid">
+    </div>
+    <div class="six columns">
+        <img src="images/bg/pink-blob-top.png">
+        <blockquote>I want to tell you thank you for the craft kit.  I like to make stuff.  I want to have jewelry like the girls at school and now I can make it myself! <cite>Maritza, age 6</cite></blockquote>
+        <img src="images/bg/pink-blob-bottom.png">
     </div>
 </div>
 
 <?php content_for('footer', function() { ?>
   <script type="text/javascript"> 
-    $(".row.featured").spin({lines:9, width:4})
+    // $(".row.featured").spin({lines:9, width:4})
    $(window).load(function() {
        $('#featured').orbit({ pauseOnHover: true, startClockOnMouseOut: true, advanceSpeed: 5000, fluid: "1430x550", bullets: true });
        $(".row.featured").spin(false);
