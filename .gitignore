@@ -1,4 +1,6 @@
 .DS_Store
 .sass-cache/*
-stylesheets
+stylesheets/*
 deploy.yml
+
+*.css
