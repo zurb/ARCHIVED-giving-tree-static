@@ -159,6 +159,7 @@ ul.orbit-bullets { bottom: 20px;
   }
 }
 .stats { text-align: center; }
+.news { margin-bottom: 40px; }
 
 #sliderOne { background: image-url('home1.jpg') top center no-repeat; }
 #sliderTwo { background: image-url('home2.jpg') top center no-repeat; }
@@ -167,6 +168,7 @@ ul.orbit-bullets { bottom: 20px;
 
 
 /*Global*/
+p { color: #555; }
 .orange { color: $orange; }
 .green { color: $green; }
 .pink { color: $pink; }
@@ -175,7 +177,7 @@ h1 { color: $darkPurple; }
 h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
 .Main h4 { font-size: 18px; font-size: 1.8rem; }
 .full.rule { background: image-url('seamless-rule.png'); height: 18px; position: relative; top: -10px; z-index: 10; }
-.full.stats { background: #f0f0d9; margin-top: -30px; padding-top: 70px; padding-bottom: 40px; border-bottom: solid 1px darken(#f0f0d9, 20%); }
+.full.stats { background: #f0f0d9; margin-top: -30px; padding-top: 60px; padding-bottom: 30px; margin-bottom: 60px; border-bottom: solid 1px darken(#f0f0d9, 20%); }
 .button.banner { padding: 21px 28px 21px 57px !important; position: relative; border: none; @include box-shadow(0 0 0 rgba(0,0,0,0) inset); color: $white; font-family: "HandOfSeanRegular"; text-align: center; background: image-url('buttons/bg-purple.png') 0 0 repeat-x; 
   &:after { content: ""; display: block; width: 24px; height: 100%; position: absolute; top: 50%; margin-top: -50%; right: -24px; background: image-url('buttons/right-purple.png') 0 0 no-repeat; }
   &.green { background: image-url('buttons/bg-green.png');
