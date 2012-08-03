@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -31,6 +30,7 @@
   <!-- Included CSS Files -->
   <link rel="stylesheet" href="stylesheets/app.css">
 
+  <script src="javascripts/foundation/modernizr.foundation.js"></script>
 
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>
@@ -40,29 +40,10 @@
 </head>
 <body class="<?= $page_template ?>">
 
-<header>
+  <header>
     <div class="row">
-        <div class="twelve columns">
-            <a href="donate.php" class="medium button right">Donate</a>
-        </div>
+      <div class="two columns">
+        <img src="http://placehold.it/200x200" alt="FGT">
+      </div>
     </div>
-    <!-- end .row -->
-    <div class="row">
-        <div class="three columns">
-            <a href="index.php"><img src="http://placehold.it/200x61" alt="Family Giving Tree"></a>
-        </div>
-        <nav class="nine columns">
-            <ul class="link-list">
-                <li class="active"><a href="index.php">Home</a></li>
-                <li><a href="who-we-help.php">Who We Help</a></li>
-                <li><a href="lead-a-drive.php">Lead a Drive</a></li>
-                <li><a href="sponsor.php">Sponsors</a></li>
-                <li><a href="volunteer.php">Volunteer</a></li>
-                <li><a href="about.php">About</a></li>
-            </ul>
-        </nav>
-    </div>
-    <!-- end .row -->
-</header>
-
-<?php include("includes/_functions.php"); ?>
+  </header>

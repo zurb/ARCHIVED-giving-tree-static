@@ -11,7 +11,7 @@
                 <div class="content">
                     <h1>You Can Help Our Millionth Child</h1>
                     <p>This year, we’ll reach our goal of helping one million children locally. You could be the person who fulfils the unique holiday wish of our millionth child.</p>
-                    <a href="donate.php" class="button radius">Millionth Child &raquo;</a>
+                    <a href="who-we-help.php" class="button radius">Millionth Child &raquo;</a>
                 </div>
                 <img src="http://placehold.it/980x367">
             </div>
@@ -86,7 +86,7 @@
         <h3>News</h3>
         <div class="row">
             <div class="four columns">
-                <h4>We're Heading Into our Holiday Wish Drive</h4>
+                <h4>We're Heading Into Our Holiday Wish Drive</h4>
                 <p>As we wrap up our Back to School Drive, we’re heading right into our Holiday Wish Drive where you could help fulfill the unique holiday wish of an underserved child with a donation. Your company or organization can lead a drive or you can join our community of Elves. &hellip; <a href="">more &raquo;</a></p>
             </div>
             <div class="four columns">
