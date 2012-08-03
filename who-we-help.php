@@ -49,7 +49,7 @@
         
         <div class="row">
           <div class="twelve columns">
-            <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=201967506944688961163.0004c6570f45ceb532d3e&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=37.631635,-122.217407&amp;spn=0.870062,1.919861&amp;z=9&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=201967506944688961163.0004c6570f45ceb532d3e&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=37.631635,-122.217407&amp;spn=0.870062,1.919861&amp;z=9&amp;source=embed" style="color:#0000FF;text-align:left">Family Giving Tree Agencies</a> in a larger map</small>
+            <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=201967506944688961163.0004c6570f45ceb532d3e&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=37.631635,-122.217407&amp;spn=0.870062,1.919861&amp;z=9&amp;output=embed"></iframe><br />
             <p><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=201967506944688961163.0004c6570f45ceb532d3e&amp;hl=en&amp;ie=UTF8&amp;t=h&amp;ll=37.662081,-122.187195&amp;spn=0.869705,1.919861&amp;z=9&amp;source=embed" style="color:#0000FF;text-align:left">Family Giving Tree Agencies</a> in a larger map</small></p>
             <ul class="block-grid three-up">
               <li>Achieve Academy</li>
@@ -109,7 +109,7 @@
     
       <div class="row">
         <div class="twelve columns">
-          <hr>
+          <img src="images/horizontal-rule1.png">
         </div>
       </div>
       
@@ -140,7 +140,7 @@
       
       <div class="row">
         <div class="twelve columns">
-          <hr>
+          <img src="images/horizontal-rule1.png">
         </div>
       </div>
     
@@ -207,7 +207,7 @@
       
       <div class="row">
         <div class="twelve columns">
-          <hr>
+          <img src="images/horizontal-rule1.png">
         </div>
       </div>
       
@@ -240,7 +240,7 @@
       
       <div class="row">
         <div class="twelve columns">
-          <hr>
+          <img src="images/horizontal-rule1.png">
         </div>
       </div>
       
@@ -264,7 +264,7 @@
       
       <div class="row">
         <div class="twelve columns">
-          <hr>
+          <img src="images/horizontal-rule1.png">
         </div>
       </div>
       
@@ -315,14 +315,12 @@
         <!-- ----- PDF File Downloads ----- -->
         
         <div class="row">
-          <div class="six columns">
+          <div class="twelve columns">
             <ul style="list-style:none;">
               <li style=" display:inline;margin-right:25px;"><a href=""><span class="glyph [general]">9</span> Wish Collect Form</a></li>
               <li style=" display:inline;"><a href=""><span class="glyph [general]">[</span> Second Choice List</a></li>
             </ul>
             </ul>
-          </div>
-          <div class="six columns">
           </div>
         </div>
         
@@ -330,7 +328,7 @@
       
       <div class="row">
         <div class="twelve columns">
-          <hr>
+          <img src="images/horizontal-rule1.png">
         </div>
       </div>
       

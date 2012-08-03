@@ -58,7 +58,7 @@
         </div>
         <div class="four columns">
             <img src="images/icons/money.png" alt="money">
-            <h3 class="pink">89%</h3>
+            <h3 class="pink">89 Percent</h3>
             <p>of every donation we raise goes straight to participating charities</p>
         </div>
     </div>
@@ -78,13 +78,17 @@
     </div>
 </div>
 
+<br><br>
+
 <div class="row">
     <div class="twelve columns">
         <img src="images/horizontal-rule1.png">
     </div>
 </div>
-    
-<div class="row">
+
+<br><br>
+
+<div class="row news">
     <div class="twelve columns">
         <h2>News</h2>
         <div class="row">
@@ -107,6 +111,12 @@
                     <a href="">more &raquo;</a></p>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="five columns">
+        <img src=""
     </div>
 </div>
 

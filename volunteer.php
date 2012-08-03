@@ -2,7 +2,7 @@
   $page_title = "Volunteer" ;
   $page_template = "main";  
 ?>
-<?php include("../../../wamp/www/giving-tree-static/includes/_header.php"); ?>
+<?php include("includes/_header.php"); ?>
 
 <!-- VOLUNTEER PAGE CONTENT -->
 <<<<<<< HEAD
@@ -607,6 +607,7 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <?php include("includes/_footer.php");  ?>
 <script src="javascripts/jquery.form.js"></script>
@@ -616,6 +617,11 @@
 <script src="../../../wamp/www/giving-tree-static/javascripts/jquery.form.js"></script>
 <script src="../../../wamp/www/giving-tree-static/javascripts/jquery.validate.min.js"></script>
 >>>>>>> 54ed22899f559412722f757f5f2c26e00e858f5e
+=======
+<?php include("includes/_footer.php");  ?>
+<script src="javascripts/jquery.form.js"></script>
+<script src="javascripts/jquery.validate.min.js"></script>
+>>>>>>> 546d2d8ec198ff2f3b93e8b8a998c5ac1f6720c3
 <script>
 $(document).ready(function(){
   registerSelect();
@@ -643,7 +649,9 @@ function registerSelect(){
     $('.'+month).show();
   });
   $('.volunteerday').change(function(){
+    $('#registerlink').hide();
     var taskId = $(this).val();
+	  alert(taskId);
     var desc = $(this).find('option:selected').text();
 	if(taskId!==''){
       $('#registerlink').show();

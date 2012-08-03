@@ -50,7 +50,7 @@
   
   <div class="row">
     <div class="twelve columns">
-      <hr>
+      <img src="images/horizontal-rule1.png">
     </div>
   </div>
   
