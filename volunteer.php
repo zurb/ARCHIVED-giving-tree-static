@@ -2,7 +2,7 @@
   $page_title = "Volunteer" ;
   $page_template = "main";  
 ?>
-<?php include("../../../wamp/www/giving-tree-static/includes/_header.php"); ?>
+<?php include("includes/_header.php"); ?>
 
 <!-- VOLUNTEER PAGE CONTENT -->
 <div class="row">
