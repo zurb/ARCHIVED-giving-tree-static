@@ -348,7 +348,7 @@
         <div style="padding-left:50px;">
           <p style="font-style:italic;">“Their education is their ticket out of poverty.” </p>
         </div>
-        
+
         <p>Devorah says that some families have to choose between buying food and backpacks. But with the donated backpacks and school supplies, they’re able to see that the kids get their needs met at home and at school. In the end, it makes them better prepared to learn.</p>
         
         <p>Kids were happy to get their backpacks, rulers, folders and other school supplies. As one kid says:</p>

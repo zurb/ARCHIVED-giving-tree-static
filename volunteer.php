@@ -38,8 +38,7 @@
   </div>
   <div class="nine column">
     <section id="joinus">
-      <br><br>
-      <h3> Year-Round Volunteer Opportunities</h3>
+      <h2>Year-Round Volunteer Opportunities</h2>
       <div class="row">
       <div class="three columns">
         <p class="text-center"><img src="images/icons/office-help.png" width="120" height="120" alt="Office Help"></p>
