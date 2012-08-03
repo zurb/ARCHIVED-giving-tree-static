@@ -25,7 +25,14 @@
     <div class="donate panel">
       <h3>Give Money</h3>
       <p>Give a one time or monthly monetary donation!</p>
-      <a class="pink button banner" href="https://npo.networkforgood.org/Donate/Donate.aspx?npoSubscriptionId=4257">Donate Today</a>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="E8CTCYY6FGSU4">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+      
+      <!-- <a class="pink button banner" href="https://npo.networkforgood.org/Donate/Donate.aspx?npoSubscriptionId=4257">Donate Today</a> -->
     </div>
   </div>
 </div>
@@ -80,6 +87,7 @@
     <br><br><br>
     <div class="row">
       <div class="twelve columns">
+        <hr>
         <h4>Donate Procedures</h4>
         <p><strong>Workplace / Civic Organizations</strong> —  Look for information in your workplace for information regarding how to contribute to your organization's drive.  You can select a wish tag and learn who is receiving monetary donations.</p>
         <p><strong>General Donations</strong> —  Donate on our public tree to provide backpacks stuffed with school supplies or fulfill a child's unique holiday wish.</p>

@@ -2,7 +2,7 @@
   $page_title = "Donation Details";
   $page_template = "donation-details";  
 ?>
-<?php include("includes/_header.php"); ?>
+<?php include("includes/_virtual-header.php"); ?>
 
 <div class="row">
   <div class="nine columns">

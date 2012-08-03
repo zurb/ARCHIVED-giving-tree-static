@@ -86,7 +86,7 @@
         <li><a href="volunteer.php">Volunteer</a></li>
         <li><a href="about.php">About</a></li>
     </ul>
-    <a href="donate.php" class="button green banner medium">Donate</a>
+    <a href="donate.php" class="button green medium">Donate</a>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 
