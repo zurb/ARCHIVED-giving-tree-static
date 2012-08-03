@@ -22,7 +22,7 @@
 
   <div class="row">
     <div class="three columns">
-      <ul class="side-nav">
+      <ul class="side-nav" data-sticky-nav>
         <li><a href="#current">Current Agencies & Companies</a></li>
         <li><a href="#reqs">Application Reqs.</a></li>
         <li><a href="#resources">Resources</a></li>
