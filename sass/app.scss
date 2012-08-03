@@ -242,6 +242,9 @@ footer {
     }
 }
 a, a:link, a:visited { color: $darkPurple; }
+a.button {
+    color: $white;
+}
 a:hover, a:active, a.selected { color: darken($darkPurple, 10%); }
 .footer-nav {
     ul.link-list a, p {
