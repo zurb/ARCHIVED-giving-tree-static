@@ -79,12 +79,11 @@
           <li class="january february march april may june july august september october november december"><a href="#" data-reveal-id="volEmailModal">General Office Duties</a> &nbsp; <a href="#" data-reveal-id="task1Modal">?</a></li>
           <li class="may june"><a href="#" data-reveal-id="volEmailModal">Back to School Drive Prep</a> &nbsp; <a href="#" data-reveal-id="task2Modal">?</a></li>
           <li class="september october november december"><a href="#" data-reveal-id="volEmailModal">Holiday Wish Drive Prep</a> &nbsp; <a href="#" data-reveal-id="task3Modal">?</a></li>
-          <li class="august"><a href="#" data-reveal-id="volEmailModal">Back to School Warehouse</a> &nbsp; <a href="#" data-reveal-id="task4Modal">?</a></li>
+          <li class="august"><a href="#" class="warehousetask">Back to School Warehouse</a> &nbsp; <a href="#" data-reveal-id="task4Modal">?</a></li>
           <li class="january december"><a href="#" class="warehousetask">Holiday Wish Drive Warehouse</a> &nbsp; <a href="#" data-reveal-id="task5Modal">?</a></li>
-          
-          <li class="august december"><a href="#" class="warehousetask">Donation Pick-ups</a> &nbsp; <a href="#" data-reveal-id="task6Modal">?</a></li>
-          <li class="february march april may june july september november"><a href="#" class="warehousetask">Agency Interviews</a> &nbsp; <a href="#" data-reveal-id="task7Modal">?</a></li>
-          <li class="october november"><a href="#" class="warehousetask">Wish Editing</a> &nbsp; <a href="#" data-reveal-id="task8Modal">?</a></li>
+          <li class="august december"><a href="#" data-reveal-id="volEmailModal">Donation Pick-ups</a> &nbsp; <a href="#" data-reveal-id="task6Modal">?</a></li>
+          <li class="february march april may june july september november"><a href="#" data-reveal-id="volEmailModal">Agency Interviews</a> &nbsp; <a href="#" data-reveal-id="task7Modal">?</a></li>
+          <li class="october november"><a href="#" data-reveal-id="volEmailModal">Wish Editing</a> &nbsp; <a href="#" data-reveal-id="task8Modal">?</a></li>
         </ul>
         <div id="warehousetaskform">
           <p>
@@ -100,8 +99,8 @@
               <option selected>Select a day and task</option>
               <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
               <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
-              <option value="678" data-taskid="456" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
-              <option value="901" data-taskid="456" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
+              <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
+              <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
             </select>
           </p>
           <p> <a href="#" class="button" data-reveal-id="registerModal" id="registerlink">Go</a></p>
@@ -280,9 +279,38 @@
 </div>
 <div class="reveal-modal" id="imgModal"> <img src="http://placehold.it/300x300"> <a class="close-reveal-modal">&#215;</a> </div>
 <div id="registerModal" class="reveal-modal">
-  <div id="registerModalContent"> 
-    <!--vol_register.php is loaded here, with taskId parameter--> 
-  </div>
+  <h2>Register to Volunteer</h2>
+  <p><strong>Day/Task:</strong> <span id="daytask"></span> </p>
+  <form action="" id="warehouseform">
+    <!--Hidden input with taskId value is added with script-->
+    <p>
+      <label for="name">Name</label>
+      <input type="text" id="name">
+    </p>
+    <p>
+      <label for="email">Email</label>
+      <input type="text" id="email">
+    </p>
+    <p>
+      <label for="emailconfirm">Confirm Email</label>
+      <input type="text" id="emailconfirm">
+    </p>
+    <p>
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone">
+    </p>
+    <p>
+      <label for="phone">Group/Company Name</label>
+      <input type="text" id="group">
+    </p>
+    <p>
+      <label for="phone">Numver of Volunteers</label>
+      <input type="text" id="number">
+    </p>
+    <p class="text-center"> <a href="#">Cancel</a> &nbsp;
+      <input type="submit" value="Submit" class="button">
+    </p>
+  </form>
   <a class="close-reveal-modal">&#215;</a> </div>
 <div id="task1Modal" class="reveal-modal">
   <h2>General Office Duties</h2>
@@ -316,46 +344,100 @@
   <h2>Wish Editing</h2>
   <p> Help us sort through our database of wishes to ensure each child receives exactly what they want!</p>
   <a class="close-reveal-modal">&#215;</a> </div>
-  
 <div id="volEmailModal" class="reveal-modal">
   <h2>Register to Volunteer</h2>
-  <p><label for="name">*Name</label>
-<input type="text" id="name">
-<label for="email">Email Address</label>
-<input type="text" id="email">
-
-<label for="phone">*Phone Number</label>
-<input type="text" id="phone">
-
-<label for="org">Company or School Name</label>
-<input type="text" id="org">
-
-<label for="under18">*Are you under 18?</label>   <label><input type="radio" name="under18" id="under18yes"> Yes</label>  <label><input type="radio" name="under18" id="under18no"> No</label>
-<label for="grade">If so, grade level</label>
-<input type="text" id="grade">
-
-<label for="weekday">*Availability (check all that apply)</label>
-Days  <label><input type="checkbox" name="weekday" id="weekdaym"> M</label>  <label><input type="checkbox" name="weekday" id="weekdaytu"> Tu</label>  <label><input type="checkbox" name="weekday" id="weekdayw"> W</label>  <label><input type="checkbox" name="weekday" id="weekdayth"> Th</label>  <label><input type="checkbox" name="weekday" id="weekdaym"> F</label>  <label><input type="checkbox" name="weekday" id="weekdaysat"> Sat</label>     <label><input type="checkbox" name="weekday" id="weekdaysun"> Sun</label> 
-<label for="time">Times</label>    <label><input type="checkbox" name="time" id="timemornings"> Mornings</label>      <label><input type="checkbox" name="time" id="timeafternoons"> Afternoons</label>    <label><input type="checkbox" name="time" id="timeevenings"> Evenings</label>    <label><input type="checkbox" name="time" id="timeanytime"> Anytime</label>
-
-<label for="purpose">*I am volunteering:</label>
-<label><input type="radio" name="purpose" id="purpose_school"> School requirement</label> (# of hours <input type="text" id="schoolhrs">)
-<label><input type="radio" name="purpose" id="purpose_company"> Company volunteer opportunity</label> (Matching program?    <label><input type="radio" name="matching" id="matchingyes"> Yes</label>  <label><input type="radio" name="matching" id="matchingno"> No</label>)
-<label><input type="radio" name="purpose" id="purpose_fun"> For fun</label>
-<label><input type="radio" name="purpose" id="purpose_court"> Court Order</label>
-<label><input type="radio" name="purpose" id="purpose_fun"> Other</label> <input type="text" id="purpose_other">
-
-
-<label for="skills">Special Skills (i.e. Computer systems, programs, programming, event coordination, etc.)</label>
-<textarea id="skills"></textarea>
-<label for="info">Any additional information?</label>
-<textarea id="info"></textarea>
-*Required Fields
-<!--Submit sends email to volunteer@familygivingtree.org-->
-<input type="submit" value="Submit" class="button"> 
-
-<!--Confirmation below-->
-<p style="display:none">Thank you for your interest in volunteering for  Family Giving Tree. You will be contacted when and if a volunteer match becomes available.</p>
+  <form id="volunteerform">
+    <label for="name">*Name</label>
+    <input type="text" id="name">
+    <label for="email">Email Address</label>
+    <input type="text" id="email">
+    <label for="phone">*Phone Number</label>
+    <input type="text" id="phone">
+    <label for="org">Company or School Name</label>
+    <input type="text" id="org">
+    <label for="under18">*Are you under 18?</label>
+    <label>
+      <input type="radio" name="under18" id="under18yes">
+      Yes</label>
+    <label>
+      <input type="radio" name="under18" id="under18no">
+      No</label>
+    <label for="grade">If so, grade level</label>
+    <input type="text" id="grade">
+    <label for="weekday">*Availability (check all that apply)</label>
+    Days
+    <label>
+      <input type="checkbox" name="weekday" id="weekdaym">
+      M</label>
+    <label>
+      <input type="checkbox" name="weekday" id="weekdaytu">
+      Tu</label>
+    <label>
+      <input type="checkbox" name="weekday" id="weekdayw">
+      W</label>
+    <label>
+      <input type="checkbox" name="weekday" id="weekdayth">
+      Th</label>
+    <label>
+      <input type="checkbox" name="weekday" id="weekdaym">
+      F</label>
+    <label>
+      <input type="checkbox" name="weekday" id="weekdaysat">
+      Sat</label>
+    <label>
+      <input type="checkbox" name="weekday" id="weekdaysun">
+      Sun</label>
+    <label for="time">Times</label>
+    <label>
+      <input type="checkbox" name="time" id="timemornings">
+      Mornings</label>
+    <label>
+      <input type="checkbox" name="time" id="timeafternoons">
+      Afternoons</label>
+    <label>
+      <input type="checkbox" name="time" id="timeevenings">
+      Evenings</label>
+    <label>
+      <input type="checkbox" name="time" id="timeanytime">
+      Anytime</label>
+    <label for="purpose">*I am volunteering:</label>
+    <label>
+      <input type="radio" name="purpose" id="purpose_school">
+      School requirement</label>
+    (# of hours
+    <input type="text" id="schoolhrs">
+    )
+    <label>
+      <input type="radio" name="purpose" id="purpose_company">
+      Company volunteer opportunity</label>
+    (Matching program?
+    <label>
+      <input type="radio" name="matching" id="matchingyes">
+      Yes</label>
+    <label>
+      <input type="radio" name="matching" id="matchingno">
+      No</label>
+    )
+    <label>
+      <input type="radio" name="purpose" id="purpose_fun">
+      For fun</label>
+    <label>
+      <input type="radio" name="purpose" id="purpose_court">
+      Court Order</label>
+    <label>
+      <input type="radio" name="purpose" id="purpose_fun">
+      Other</label>
+    <input type="text" id="purpose_other">
+    <label for="skills">Special Skills (i.e. Computer systems, programs, programming, event coordination, etc.)</label>
+    <textarea id="skills"></textarea>
+    <label for="info">Any additional information?</label>
+    <textarea id="info"></textarea>
+    *Required Fields 
+    <!--Submit sends email to volunteer@familygivingtree.org-->
+    <input type="submit" value="Submit" class="button">
+  </form>
+  <!--Confirmation below-->
+  <p style="display:none">Thank you for your interest in volunteering for  Family Giving Tree. You will be contacted when and if a volunteer match becomes available.</p>
   <a class="close-reveal-modal">&#215;</a> </div>
 <div id="shiftDetailsModal" class="reveal-modal">
   <h2>Shift Details</h2>
@@ -365,140 +447,140 @@ Days  <label><input type="checkbox" name="weekday" id="weekdaym"> M</label>  <la
   <p>In interdum luctus magna ac tincidunt. Nullam tortor ligula, venenatis ut aliquet in, lobortis eget nisl. </p>
   <p>Ut quis elit mauris, et congue ligula. Mauris vitae tellus non mauris rutrum ultricies a pulvinar nisi. Morbi facilisis dignissim turpis, non aliquet nibh scelerisque ut. Donec quis lacus lectus, in venenatis tellus.</p>
   <a class="close-reveal-modal">&#215;</a> </div>
-<div id="hoursCalendar" class="reveal-modal">
-  <a class="close-reveal-modal">&#215;</a>
+<div id="hoursCalendar" class="reveal-modal"> <a class="close-reveal-modal">&#215;</a>
   <h4>Warehouse Hours: August</h4>
-<table id="month">
-            <thead>
-              <tr>
-                <th class="weekend">Sunday</th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-                <th class="weekend">Saturday</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="previous weekend"><span class="date">29</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td class="previous"><span class="date">30</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td class="previous"><span class="date">31</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">1</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">2</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">3</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td class="weekend"><span class="date">4</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-              </tr>
-              <tr>
-                <td class="weekend"><span class="date">5</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">6</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">7</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">8</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">9</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">10</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td class="weekend"><span class="date">11</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-              </tr>
-              <tr>
-                <td class="weekend"><span class="date">12</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">13</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">14</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">15</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">16</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">17</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td class="weekend"><span class="date">18</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-              </tr>
-              <tr>
-                <td class="weekend"><span class="date">19</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">20</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">21</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">22</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">23</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">24</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td class="weekend"><span class="date">25</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-              </tr>
-              <tr>
-                <td class="weekend"><span class="date">26</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">27</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">28</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">29</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">30</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td><span class="date">31</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-                <td class="weekend next"><span class="date">1</span>
-                  <p>Lorem ipsum lorem ipsum</p>
-                  <div class="day"></div></td>
-              </tr>
-            </tbody>
-          </table>
+  <table id="month">
+    <thead>
+      <tr>
+        <th class="weekend">Sunday</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th class="weekend">Saturday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="previous weekend"><span class="date">29</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td class="previous"><span class="date">30</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td class="previous"><span class="date">31</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">1</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">2</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">3</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td class="weekend"><span class="date">4</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+      </tr>
+      <tr>
+        <td class="weekend"><span class="date">5</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">6</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">7</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">8</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">9</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">10</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td class="weekend"><span class="date">11</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+      </tr>
+      <tr>
+        <td class="weekend"><span class="date">12</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">13</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">14</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">15</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">16</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">17</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td class="weekend"><span class="date">18</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+      </tr>
+      <tr>
+        <td class="weekend"><span class="date">19</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">20</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">21</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">22</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">23</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">24</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td class="weekend"><span class="date">25</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+      </tr>
+      <tr>
+        <td class="weekend"><span class="date">26</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">27</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">28</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">29</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">30</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td><span class="date">31</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+        <td class="weekend next"><span class="date">1</span>
+          <p>Lorem ipsum lorem ipsum</p>
+          <div class="day"></div></td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 <?php include("includes/_footer.php");  ?>
 <script>
@@ -523,9 +605,12 @@ function registerSelect(){
   });
   $('#volunteerday').change(function(){
     var taskId = $(this).val();
+	var desc = $(this).find('option:selected').text();
+	alert(desc);
     $('#registerlink').show();
-    $('#registerModalContent').load('vol_register.php?taskName='+taskId,function(){
-    });
+	$('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">')
+    $('#TaskId').val(taskId);
+    $('#daytask').text(desc);
   });
 }
 <!--FOR THE READ MORE TOGGLE-->
