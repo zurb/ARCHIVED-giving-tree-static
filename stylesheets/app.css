@@ -4453,7 +4453,7 @@ footer {
 /*Holiday Slider*/
 /* line 146, ../sass/app.scss */
 #holidaySlider {
-  height: auto;
+  min-height: 450px !important;
 }
 
 /* line 149, ../sass/app.scss */
