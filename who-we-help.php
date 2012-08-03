@@ -1,7 +1,6 @@
 <?
   $page_title = "Volunteer or Host";
-  $page_template = "main";  
-?>
+    $page_template = "main";  ?>
 <?php include("includes/_header.php"); ?>
 
 <!-- WHO-WE-HELP-PAGE CONTENT -->
@@ -9,8 +8,8 @@
     <div class="feature_wrapper">
       <div class="row">
         <div class="seven columns">
-          <h1>Who we help</h1>
-          <p class="lead">Family Giving Tree has cultivated deep roots in the community. We work with more than 300 social service agencies and schools around the Bay Area. Among the folks we work with are homeless shelters, community centers, rehabilitation houses, schools and various nonprofit organizations. Each year, these folks help us fulfill the needs of children in low-income neighborhoods. They supply us with the names and wishes of the children they serve year-round. These are kids who would go without anything during the holidays and back-to-school season.</p>
+          <h1>Who We Help</h1>
+          <p>Family Giving Tree has cultivated deep roots in the community. We work with more than 300 social service agencies and schools around the Bay Area. Among the folks we work with are homeless shelters, community centers, rehabilitation houses, schools and various nonprofit organizations. Each year, these folks help us fulfill the needs of children in low-income neighborhoods. They supply us with the names and wishes of the children they serve year-round. These are kids who would go without anything during the holidays and back-to-school season.</p>
         </div>
     
         <div class="five columns">
@@ -21,18 +20,8 @@
 
   <div class="row">
     <div class="three columns">
-      <ul class="side-nav hide-for-mobile" data-sticky>
-        <li><a href="#current">Current Agencies &amp; Companies</a></li>
-        <li><a href="#reqs">Application Reqs.</a></li>
-        <li><a href="#faq">Agency FAQs</a></li>
-        <li><a href="#impact">Making an Impact</a></li>
-        <li><a href="#terms">Terms &amp; Cond.</a></li>
-        <li><a href="#collect">Collecting Wishes</a></li>
-        <li><a href="#apply">Apply</a></li>
-      </ul>
-      <!-- duplicate nav -->
-      <ul class="side-nav show-for-mobile">
-        <li><a href="#current">Current Agencies &amp; Companies</a></li>
+      <ul class="side-nav" data-sticky>
+        <li><a href="#current">Current Agencies &amp; Schools</a></li>
         <li><a href="#reqs">Application Reqs.</a></li>
         <li><a href="#faq">Agency FAQs</a></li>
         <li><a href="#impact">Making an Impact</a></li>
@@ -45,6 +34,7 @@
     <div class="nine columns">
       
       <section id="current">
+        <br><br>
         <h2>Current Agencies</h2>
         <div class="row">
           <div class="twelve columns">
@@ -52,7 +42,6 @@
               <img src="images/dorsa.png" alt="Dorsa Elementry School">
               <h6>Dorsa Elementary School</h6>
               <p>Dorsa Elementary School in San Jose is a part our community of Elves. They help distribute backpacks stuffed with school supplies to their students that need them the most.</p>
-              <a href="#impact" class="purple banner button">Learn More &raquo;</a>
             </div>
           </div>
         </div>
@@ -248,7 +237,7 @@
       </div>
       
       <section id="terms">
-        <h2>Terms &amp; Conditions</h2>
+        <h2>Terms & Conditions</h2>
         
         <h5>501 c (3) Status</h5>
         <p>a. Our Board of Directors has deemed it necessary to verify your 501-c (3) status. This assures us that the services we provide will reach the neediest children in our community. Proof of your status may be mailed or faxed to our office, and must be received before participating.  Government run agencies are exempt from this requirement.</p>
@@ -384,4 +373,6 @@
   </div>
 
 </div>
+
+>>>>>>> fddfec9162708baca4c081472f3e803c4adf7708
 <?php include("includes/_footer.php");  ?>

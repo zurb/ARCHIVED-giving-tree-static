@@ -170,6 +170,7 @@ ul.orbit-bullets { bottom: 20px;
 }
 
 /*Global*/
+a, img { border: none; }
 p { color: #555; line-height: 1.5; }
 .orange { color: $orange; }
 .green { color: $green; }
@@ -192,7 +193,9 @@ h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
   }
 }
 
-.button.purple { background-color: $darkPurple; color: #fff; border: solid 1px darken($darkPurple, 10%);}
+.button.purple { background-color: $darkPurple; color: #fff; border: solid 1px darken($darkPurple, 10%);
+	&:hover { background-color: darken($darkPurple, 10%); }
+}
 
 blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; background: $lightPink; margin-bottom: 0; margin-top: -1px;
   cite { font-family: "Helvetica", Arial, sans-serif; color: $white; }
@@ -201,7 +204,7 @@ blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; 
 
 /*Lead a Drive*/
 .featured p { font-size: 18px; }
-.feature_wrapper { background-color: $lightGreen; padding-top: 110px; padding-bottom: 40px; }
+.feature_wrapper { background-color: $lightGreen; padding-top: 110px; padding-bottom: 40px; margin-bottom: 30px; }
 .register_callout { background-color: #f3e9f1; padding: 10px 0; margin-bottom: 20px !important }
 .register_callout p { font-size: 22px; color: #999; padding: 12px 0 0 10px; }
 #aboutDrive ul li { width: 240px }
@@ -244,7 +247,6 @@ ul.top-circles li span { margin-top: -30px; text-align: center;  }
 ul.top-circles li img { margin:0 auto; }
 
 
-
 /*General Styles*/
 header,
 footer {
@@ -268,6 +270,9 @@ footer {
     .row {
         overflow: visible;
     }
+    p {
+        color: $offWhite;
+    }
 }
 a, a:link, a:visited { color: $darkPurple; }
 a.button {
@@ -276,7 +281,7 @@ a.button {
 a:hover, a:active, a.selected { color: darken($darkPurple, 10%); }
 .footer-nav {
     ul.link-list a, p {
-        color: #E2D8D0;
+        color: $offWhite;
     }
 }
 header {
@@ -311,7 +316,7 @@ header {
 }
 .footer-columns {
     background: image-url("bg/bg-footer.png") repeat;
-    padding-bottom: 15px;
+    padding-bottom: 15px; margin-top: 30px; 
     .elf img {
         margin-top:-80px;
     }
@@ -332,11 +337,11 @@ header {
 }
 footer {
     margin-top: 60px;
-    color: #E2D8D0;
+    color: $offWhite;
     h5 {
         margin-top: 25px;
         a {
-            color: #E2D8D0 !important;
+            color: $offWhite !important;
             &:hover {
                 color: $white !important;
             }
@@ -352,7 +357,7 @@ h1, h2, h3 {
     font-weight: normal;
 }
 .side-nav a {
-    font-weight: bold;
+    font-weight: bold; font-size: 14px; font-size: 1.4rem; font-weight: normal; 
 }
 .glyph {
   font-family: 'FoundationIconsGeneral';
@@ -395,7 +400,7 @@ h1, h2, h3 {
 
 /* Donate Page */
 .choose-donation { margin-top: 60px; margin-bottom: 40px; }
-.panel.donate { background: lighten($darkPurple, 58%); border: solid 1px lighten($darkPurple, 45%); }
+.panel { background: #f3eaf0; border: none; }
 
 /* Progress Bar */
 .progress-bar {
@@ -442,10 +447,75 @@ img.right {
         padding: 21px 28px 21px 26px !important;
     }
 }
+
+/*Volunteer Page*/
+.inputrow {
+  label,
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    display: inline;
+  width: auto;
+  }
+}
+#tasklist {
+  list-style-type: none;
+  margin-left: 0;
+  li {
+    display: inline-block;
+  *display: inline;
+  zoom: 1;
+  padding: 0 15px 0 0;
+  }
+}
+.helpicon,
+.helpicon:link,
+.helpicon:visited {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 14px;
+  height: 14px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  background-color: $darkPurple;
+  border-radius: 7px;
+  color: #fff;
+  text-align: center;
+  margin: 4px 0 0;
+  vertical-align: top;
+}
+.calendar {
+  td, th, p {
+    font-size: 12px;
+  }
+  td, th {
+    width: 14%;
+  }
+}
+
+
+.block-grid.three-up li { font-size: 12px; font-size: 1.2rem; line-height: 14px; }
+li.has-icon img { margin: 4px 0 -7px 0; }
+li.has-icon { margin-bottom: 4px; }
+
+
 @media screen and (max-width: 1050px) {
   .featured h1 { font-size: 34px; font-size: 3.4rem; }
+  .featured p { font-size: 14px; font-size: 1.4rem; }
   .featured .content { position: relative; left: 60px; }
 }
+
 @media screen and (max-width: 767px) {
     .button.banner { 
         padding: 21px 35px 21px 25px !important;  
@@ -483,3 +553,4 @@ img.right {
         position: relative;
     }
 }
+

@@ -69,7 +69,7 @@
         <div class="row">
             <div class="nine columns">
                 <h2>One Fulfilled Wish, One Backpack at a Time</h2>
-                <p>Since 1990, Family Giving Tree has been fulfilling the holiday wishes of children in low-income neighborhoods and providing backpacks stuffed with school supplies so they’re prepared to learn. It’s more than just gifts or rulers or pencils. It’s giving kids precious, happy memories. It’s amazing to know that we’ve put smiles on the faces of a million kids. <a href="#">Learn more about our roots &raquo;</a></p>
+                <p>Since 1990, Family Giving Tree has been fulfilling the holiday wishes of children in low-income neighborhoods and providing backpacks stuffed with school supplies so they’re prepared to learn. It’s more than just gifts or rulers or pencils. It’s giving kids precious, happy memories. It’s amazing to know that we’ve put smiles on the faces of a million kids. <a href="donate.php">Learn more about donating &raquo;</a></p>
             </div>
             <div class="three columns">
                 <img src="images/people/home-kid.png">
