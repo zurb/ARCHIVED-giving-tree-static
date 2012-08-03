@@ -39,6 +39,19 @@
       "enterOn" : "konami-code"
     });
     $("[data-sticky]").each(GivingTree.setInitialStickyNavOffset);
+  });  
+  
+  
+  $("[data-sticky]").each(function(idx,el){
+    $(el).data("offset-top", $(el).offset().top);
+  });
+  
+  $(window).scroll(GivingTree.updateStickyNav);
+  $('#holidaySlider').orbit({
+    directionalNav: true,
+    timer:false,
+    fluid: true
+    
   });
   $("[data-sticky]").each(GivingTree.setInitialStickyNavOffset);
   $(window).on("scroll.sticky-nav",GivingTree.updateStickyNav);
