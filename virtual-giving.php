@@ -6,12 +6,12 @@
 
 <div class="container header">
   <div class="row">
-  	<div class="ten columns">
-	  	<h1 class="purple">Back to School Drive</h1>
-  	</div>
-  	<div class="two columns company">
-  		<img src="vgt-images/cisco.png"/>
-  	</div>
+    <div class="ten columns">
+      <h1 class="purple">Back to School Drive</h1>
+    </div>
+    <div class="two columns company">
+      <img src="vgt-images/cisco.png"/>
+    </div>
   </div>
 </div>
 
