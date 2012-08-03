@@ -411,7 +411,22 @@ img.right {
     }
 }
 @media screen and (max-width: 767px) {
-    .button.banner { padding: 21px 21px 21px 25px !important; position: relative; border: none; @include box-shadow(0 0 0 rgba(0,0,0,0) inset); color: $white; font-family: "HandOfSeanRegular"; text-align: center; background: image-url('buttons/bg-purple.png') 0 0 repeat-x; 
+    .button.banner { 
+        padding: 21px 35px 21px 25px !important;  
+    }
+    .reveal-modal {
+        .button.banner {
+            padding-right: 5px !important;
+        }
+    }
+    .reveal-modal .nav-bar {
+        background: transparent none;
+        li {
+            border:0;
+            a {
+            color: $darkPurple;
+            }
+        }
     }
     .footer-nav ul.link-list li {
         display:block;
