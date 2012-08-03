@@ -215,6 +215,25 @@ blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; 
         font-size: 14px;
     }
 }
+
+/*Sponsor Page*/
+
+ul.numbered-list { list-style: none !important; }
+ul.numbered-list li { padding: 0px 0px 15px 60px;  height: 60px; }
+ul.numbered-list li { padding: 0px 0px 15px 60px;  height: 60px; }
+ul.numbered-list li { padding: 0px 0px 15px 60px;  height: 60px; }
+ul.numbered-list li { padding: 0px 0px 15px 60px;  height: 60px; }
+
+.orange-circle { background: image-url("icons/bg-orange.png") center no-repeat; background-size:50px 50px;  height: 50px; width: 50px; display: inline-block;  padding: 20px;line-height: 12px;}
+.green-circle { background: image-url("icons/bg-green.png")  center no-repeat; background-size:50px 50px;  height: 50px; width: 50px; display: inline-block;  padding: 20px;line-height: 12px;}
+.yellow-circle { background: image-url("icons/bg-yellow.png")  center no-repeat; background-size:50px 50px;  height: 50px; width: 50px; display: inline-block; padding: 20px;line-height: 12px;}
+.pink-circle { background: image-url("icons/bg-pink.png")  center no-repeat; background-size:50px 50px;  height: 50px; width: 50px; display: inline-block; padding: 20px;line-height: 12px;}
+
+
+
+
+
+
 /*General Styles*/
 header,
 footer {
