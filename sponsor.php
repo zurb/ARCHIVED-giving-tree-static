@@ -7,9 +7,9 @@
 <!-- SPONSORPAGE CONTENT -->
 <div id="mainContent">
 
-  <div class="row featured">
+  <div class="row">
     <div class="twelve columns">
-     <div class="orbit-wrapper"style="height:563px;">
+     <div class="orbit-wrapper"style="height:300px;">
        <div id="featured" >
          <img src="http://www.placehold.it/2000x800"/>
          <img src="http://www.placehold.it/2000x800"/>
