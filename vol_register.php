@@ -11,15 +11,15 @@ $TaskId = $_REQUEST['taskId'];
 
 //Saves the Details into Database 
 
-if($_POST['Submit'] == '  Submit  ')
+if($_POST)
 
 {
 
-	$Name = makesafestr(trim($_POST['Name']));
+	$Name = makesafestr(trim($_POST['name']));
 
-	$Email = trim($_POST['Email']);
+	$Email = trim($_POST['email']);
 
-	$Email_ver = trim($_POST['Email_ver']);
+	$Email_ver = trim($_POST['email_ver']);
 
 	$phoneNo = trim($_POST['phoneNo']);
 
@@ -40,7 +40,6 @@ if($_POST['Submit'] == '  Submit  ')
 		$msg.= "Please Select Timeslot<br>";
 
 	}
-
 	if(!$Name){
 
 		$msg.= "Please Enter  Name<br>";
@@ -119,7 +118,7 @@ if($_POST['Submit'] == '  Submit  ')
 
 			sendmailnew($VolunteerId,1);
 
-			header("location:reg_mail.php");
+			header("location:sent-volunteer-email.php");
 
 			exit;
 
@@ -143,7 +142,7 @@ $date1 = explode("-",$rec[0][Date]);
 <p class="error"><? echo $msg; ?></p>
 <p><strong>Day/Task:</strong> <span id="daytask"></span> </p>
 <form action="vol_register.php" method="post" id="warehouseform">
-  <input type="hidden" name="TaskId" value="<?php echo $_REQUEST['taskId'];?>">
+  <input type="hidden" name="taskId" value="<?php echo $_REQUEST['taskId'];?>">
   
   <?php echo date("l", mktime(0, 0, 0, $date1[1], $date1[2], $date1[0]));?>
 
