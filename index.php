@@ -40,11 +40,11 @@
                 <img src="http://placehold.it/980x367">
             </div>
         </div>
-        <ul class="button-group radius">
-            <li><a href="#" class="button radius">Millionth Child</a></li>
-            <li><a href="#" class="button radius">Donate Today</a></li>
-            <li><a href="#" class="button radius">Lead a Drive</a></li>
-            <li><a href="#" class="button radius">Volunteer</a></li>
+        <ul class="button-group radius orbit-buttons">
+          <li data-orbit-index="0"><a href="#" class="button radius">Millionth Child</a></li>
+          <li data-orbit-index="1"><a href="#" class="button radius">Donate Today</a></li>
+          <li data-orbit-index="2"><a href="#" class="button radius">Lead a Drive</a></li>
+          <li data-orbit-index="3"><a href="#" class="button radius">Volunteer</a></li>
         </ul>
     </div>
 </div>

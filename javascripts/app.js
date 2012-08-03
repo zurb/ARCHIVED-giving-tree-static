@@ -60,4 +60,11 @@
   $("[data-sticky]").each(GivingTree.setInitialStickyNavOffset);
   $(window).on("scroll.sticky-nav",GivingTree.updateStickyNav);
   
+  $('ul.orbit-buttons li').on("click", function (event) {
+    $this = $(this);
+    $('#featured')
+      .trigger('orbit.goto', [$this.data('orbit-index')])
+      .trigger('orbit.stop');
+  });
+  
 })(jQuery);
