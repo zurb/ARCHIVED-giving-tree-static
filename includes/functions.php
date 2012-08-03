@@ -2,17 +2,17 @@
 
 function is_valid_email($email) {
 
-	
+  
 
-	$result = TRUE;
+  $result = TRUE;
 
-  	if(!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$", $email)) {
+    if(!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$", $email)) {
 
-		$result = FALSE;
+    $result = FALSE;
 
-  	}
+    }
 
-  	return $result;
+    return $result;
 
 }
 
@@ -20,15 +20,15 @@ function makesafestr($str)
 
 {
 
-	//echo 'hello'.$str.'hello';
+  //echo 'hello'.$str.'hello';
 
-	//$str = trim($str);	
+  //$str = trim($str);  
 
-	//echo 'second'.$str."second";
+  //echo 'second'.$str."second";
 
-	$str = addslashes($str);	
+  $str = addslashes($str);  
 
-	return $str;
+  return $str;
 
 }
 
@@ -50,19 +50,19 @@ function check_phoneno($phoneno)
 
 function sendmail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
-	
+  
 
-	$to  = $Email;
+  $to  = $Email;
 
-	/* subject */
+  /* subject */
 
-	$subject = "Your Registered Information";
+  $subject = "Your Registered Information";
 
-	/* message */
+  /* message */
 
-			$message = "
+      $message = "
 
-					<style type='text/css'>
+          <style type='text/css'>
 
 <!--
 
@@ -192,7 +192,7 @@ function sendmail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
                                                <td>&nbsp;</td>
 
-											   <td>&nbsp;</td>
+                         <td>&nbsp;</td>
 
                                              </tr>
 
@@ -204,21 +204,21 @@ function sendmail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
                                              </tr>
 
-											 <tr class='GrayFont'>
+                       <tr class='GrayFont'>
 
                                                 <td width='20%' height='21'><span class='style3'>Task Name </span></td>
 
-												<td width='5%' align='center'>:</td>
+                        <td width='5%' align='center'>:</td>
 
                                                 <td width='54%'><span class='style3'>".$Task."</span></td>
 
                                               </tr>
 
-											  <tr class='GrayFont'>
+                        <tr class='GrayFont'>
 
                                                 <td width='20%' height='21'><span class='style3'>Date </span></td>
 
-												<td width='5%' align='center'>:</td>
+                        <td width='5%' align='center'>:</td>
 
                                                 <td width='54%'><span class='style3'>".$Date."</span></td>
 
@@ -228,7 +228,7 @@ function sendmail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
                                                 <td width='20%' height='21'><span class='style3'>Time Slot </span></td>
 
-												<td width='5%' align='center'>:</td>
+                        <td width='5%' align='center'>:</td>
 
                                                 <td width='54%'><span class='style3'>".$TimeSlot."</span></td>
 
@@ -238,37 +238,37 @@ function sendmail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
                                                <td><span class='style3'>No of Volunteers </span></td>
 
-											   <td width='5%' align='center'>:</td>
+                         <td width='5%' align='center'>:</td>
 
                                                <td><span class='style3'>".$noofvolunteers."</span></td>
 
                                              </tr>
 
-											 
+                       
 
                                             </table></td>
 
                                           </tr>
 
-										  <tr>
+                      <tr>
 
-										  	<td class='GrayFont'><div align='justify' class='style3'><br>We will find our south bay warehouse soon.  We will send you the address as soon as we 
+                        <td class='GrayFont'><div align='justify' class='style3'><br>We will find our south bay warehouse soon.  We will send you the address as soon as we 
 
-												know it and it will also be posted on our website.  We welcome your donation of gift wrap 
+                        know it and it will also be posted on our website.  We welcome your donation of gift wrap 
 
-												or scotch tape.  If you are a group of 25 or more, please email the name(s) of your 
+                        or scotch tape.  If you are a group of 25 or more, please email the name(s) of your 
 
-												Team Leader(s) to <a href='mailto:tara@familygivingtree.org' class='toplinks'>tara@familygivingtree.org</a> as soon as possible 
+                        Team Leader(s) to <a href='mailto:tara@familygivingtree.org' class='toplinks'>tara@familygivingtree.org</a> as soon as possible 
 
-												and have them arrive 15 minutes early.  Please dress warm.  Outside food is welcome...this is the 
+                        and have them arrive 15 minutes early.  Please dress warm.  Outside food is welcome...this is the 
 
-												email address for our in-house caterer 
+                        email address for our in-house caterer 
 
-												<a href='mailto:goldrushcoffee@sbcglobal.net' class='toplinks'>goldrushcoffee@sbcglobal.net</a>  . 
+                        <a href='mailto:goldrushcoffee@sbcglobal.net' class='toplinks'>goldrushcoffee@sbcglobal.net</a>  . 
 
-												Thank you for your help.<br></div></td>
+                        Thank you for your help.<br></div></td>
 
-										  </tr>
+                      </tr>
 
                                         </table></TD>
 
@@ -346,29 +346,29 @@ function sendmail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
 </TABLE>
 
-			";
+      ";
 
-			
+      
 
-			/* To send HTML mail, you can set the Content-type header. */
+      /* To send HTML mail, you can set the Content-type header. */
 
-			$headers  = "MIME-Version: 1.0\r\n";
+      $headers  = "MIME-Version: 1.0\r\n";
 
-			$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+      $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 
-			
+      
 
-			/* additional headers */
+      /* additional headers */
 
-			$headers .= "To: $Name <$to>\r\n";
+      $headers .= "To: $Name <$to>\r\n";
 
-			$headers .= "From: webmaster@familygivingtree.org\r\n";
+      $headers .= "From: webmaster@familygivingtree.org\r\n";
 
-			
+      
 
-			/* and now mail it */
+      /* and now mail it */
 
-			mail($to, $subject, $message, $headers);	
+      mail($to, $subject, $message, $headers);  
 
 } 
 
@@ -378,19 +378,19 @@ function sendmail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
 function senddeletemail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
-	
+  
 
-	$to  = $Email;
+  $to  = $Email;
 
-	/* subject */
+  /* subject */
 
-	$subject = "Registration Cancellation Information";
+  $subject = "Registration Cancellation Information";
 
-	/* message */
+  /* message */
 
-			$message = "
+      $message = "
 
-					<style type='text/css'>
+          <style type='text/css'>
 
 <!--
 
@@ -520,7 +520,7 @@ function senddeletemail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
                                                <td>&nbsp;</td>
 
-											   <td>&nbsp;</td>
+                         <td>&nbsp;</td>
 
                                              </tr>
 
@@ -532,23 +532,23 @@ function senddeletemail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
                                              </tr>
 
-											 <tr class='GrayFont'>
+                       <tr class='GrayFont'>
 
                                                 <td width='20%' height='21'><span class='style3'>Task Name </span></td>
 
-												<td width='5%' align='center'>:</td>
+                        <td width='5%' align='center'>:</td>
 
                                                 <td width='54%'><span class='style3'>".$Task."</span></td>
 
                                               </tr>
 
-											  <tr class='GrayFont'>
+                        <tr class='GrayFont'>
 
                                                 <td width='20%' height='21'><span class='style3'>Date </span></td>
 
                                                 <td width='5%' align='center'>:</td>
 
-												<td width='54%'><span class='style3'>".$Date."</span></td>
+                        <td width='54%'><span class='style3'>".$Date."</span></td>
 
                                               </tr>
 
@@ -558,7 +558,7 @@ function senddeletemail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
                                                 <td width='5%' align='center'>:</td>
 
-												<td width='54%'><span class='style3'>".$TimeSlot."</span></td>
+                        <td width='54%'><span class='style3'>".$TimeSlot."</span></td>
 
                                               </tr>
 
@@ -568,7 +568,7 @@ function senddeletemail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
                                                <td width='5%' align='center'>:</td>
 
-											   <td><span class='style3'>".$noofvolunteers."</span></td>
+                         <td><span class='style3'>".$noofvolunteers."</span></td>
 
                                              </tr>
 
@@ -576,7 +576,7 @@ function senddeletemail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
                                           </tr>
 
-										  
+                      
 
                                         </table></TD>
 
@@ -654,29 +654,29 @@ function senddeletemail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
 </TABLE>
 
-			";
+      ";
 
-			
+      
 
-			/* To send HTML mail, you can set the Content-type header. */
+      /* To send HTML mail, you can set the Content-type header. */
 
-			$headers  = "MIME-Version: 1.0\r\n";
+      $headers  = "MIME-Version: 1.0\r\n";
 
-			$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+      $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 
-			
+      
 
-			/* additional headers */
+      /* additional headers */
 
-			$headers .= "To: $Name <$to>\r\n";
+      $headers .= "To: $Name <$to>\r\n";
 
-			$headers .= "From: webmaster@familygivingtree.org\r\n";
+      $headers .= "From: webmaster@familygivingtree.org\r\n";
 
-			
+      
 
-			/* and now mail it */
+      /* and now mail it */
 
-			mail($to, $subject, $message, $headers);	
+      mail($to, $subject, $message, $headers);  
 
 } 
 
@@ -684,67 +684,67 @@ function senddeletemail($Email,$Name,$noofvolunteers,$Task,$Date,$TimeSlot){
 
 function sendmailnew($VolunteerId,$typeId){
 
-	
+  
 
-	
+  
 
-	$mysql = new mysql_obj;
+  $mysql = new mysql_obj;
 
-	$sql = "SELECT * FROM taskdetails td, slotdetails sd, volunteers vo
+  $sql = "SELECT * FROM taskdetails td, slotdetails sd, volunteers vo
 
-				WHERE td.TaskId = sd.TaskId
+        WHERE td.TaskId = sd.TaskId
 
-				AND sd.SlotId = vo.SlotId
+        AND sd.SlotId = vo.SlotId
 
-				AND vo.VolunteerId = '".$VolunteerId."'";
+        AND vo.VolunteerId = '".$VolunteerId."'";
 
-	$res = $mysql->fetch_array($sql,MYSQL_ASSOC);
+  $res = $mysql->fetch_array($sql,MYSQL_ASSOC);
 
-	$sqlcontent = "select *from emailcontent where typeId='".$typeId."'";
+  $sqlcontent = "select *from emailcontent where typeId='".$typeId."'";
 
-	$rc = $mysql->fetch_array($sqlcontent,MYSQL_ASSOC);
+  $rc = $mysql->fetch_array($sqlcontent,MYSQL_ASSOC);
 
-	
+  
 
-	
+  
 
-		
+    
 
-	$message = stripslashes($rc[0][Message]);
+  $message = stripslashes($rc[0][Message]);
 
-	$message = str_replace('##Name##',$res[0][Name],$message);
+  $message = str_replace('##Name##',$res[0][Name],$message);
 
-	$message = str_replace('##Task##',$res[0][Task],$message);
+  $message = str_replace('##Task##',$res[0][Task],$message);
 
-	$message = str_replace('##Date##',date("m/d/Y", strtotime($res[0]["Date"])),$message);
+  $message = str_replace('##Date##',date("m/d/Y", strtotime($res[0]["Date"])),$message);
 
-	$message = str_replace('##Starttime##',date("H:i ", strtotime($res[0][Starttime])).$res[0][SAMPM],$message);
+  $message = str_replace('##Starttime##',date("H:i ", strtotime($res[0][Starttime])).$res[0][SAMPM],$message);
 
-	$message = str_replace('##Endtime##',date("H:i ", strtotime($res[0][Endtime])).$res[0][EAMPM],$message);
+  $message = str_replace('##Endtime##',date("H:i ", strtotime($res[0][Endtime])).$res[0][EAMPM],$message);
 
-	$message = str_replace('##noofvolunteers##',$res[0][noofvolunteers],$message);
+  $message = str_replace('##noofvolunteers##',$res[0][noofvolunteers],$message);
 
-	$message = str_replace('##PhoneNo##',$res[0][phoneNo],$message);
+  $message = str_replace('##PhoneNo##',$res[0][phoneNo],$message);
 
-	$message = str_replace('##Email##',$res[0][ Email],$message);
+  $message = str_replace('##Email##',$res[0][ Email],$message);
 
-	$message = str_replace('##CompanyName##',$res[0][ companyName],$message);
+  $message = str_replace('##CompanyName##',$res[0][ companyName],$message);
 
-	
+  
 
-	
+  
 
-	$to  = $res[0][Email];
+  $to  = $res[0][Email];
 
-	/* subject */
+  /* subject */
 
-	$subject = $rc[0][Subject];
+  $subject = $rc[0][Subject];
 
-	/* message */
+  /* message */
 
-			$message = "
+      $message = "
 
-					<style type='text/css'>
+          <style type='text/css'>
 
 <!--
 
@@ -838,7 +838,7 @@ function sendmailnew($VolunteerId,$typeId){
 
                                           </tr> 
 
-										  <tr class='GrayFont'>
+                      <tr class='GrayFont'>
 
                                             <td height='24'>
 
@@ -854,7 +854,7 @@ function sendmailnew($VolunteerId,$typeId){
 
                                         </table>
 
-									  </TD>
+                    </TD>
 
                                     </TR>
 
@@ -930,29 +930,29 @@ function sendmailnew($VolunteerId,$typeId){
 
 </TABLE>
 
-			";
+      ";
 
-			$FromID = $rc[0][FromID];
+      $FromID = $rc[0][FromID];
 
-			/* To send HTML mail, you can set the Content-type header. */
+      /* To send HTML mail, you can set the Content-type header. */
 
-			$headers  = "MIME-Version: 1.0\r\n";
+      $headers  = "MIME-Version: 1.0\r\n";
 
-			$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+      $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 
-			
+      
 
-			/* additional headers */
+      /* additional headers */
 
-			$headers .= "To: $Name <$to>\r\n";
+      $headers .= "To: $Name <$to>\r\n";
 
-			$headers .= "From: <$FromID> \r\n";
+      $headers .= "From: <$FromID> \r\n";
 
-			
+      
 
-			/* and now mail it */
+      /* and now mail it */
 
-			mail($to, $subject, $message, $headers);	
+      mail($to, $subject, $message, $headers);  
 
 } 
 
