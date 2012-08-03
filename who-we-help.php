@@ -26,7 +26,6 @@
         <li><a href="#faq">Agency FAQs</a></li>
         <li><a href="#terms">Terms &amp; Conditions</a></li>
         <li><a href="#collect">Collecting Wishes</a></li>
-        <li><a href="#apply">Apply</a></li>
         <li><a href="#impact">Making an Impact</a></li>
       </ul>
     </div>
