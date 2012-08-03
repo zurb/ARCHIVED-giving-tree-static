@@ -9,25 +9,9 @@
         <div class="orbit-wrapper" id="featured">
             <div>
                 <div class="content">
-                    <h1>Be the Millionth Child's Elf</h1>
-                    <p>This year, we’ll have helped one million children. You could be the person who fulfils the unique holiday wish of our millionth child. </p>
+                    <h1>You Can Help Our Millionth Child</h1>
+                    <p>This year, we’ll reach our goal of helping one million children locally. You could be the person who fulfils the unique holiday wish of our millionth child.</p>
                     <a href="donate.php" class="button radius">Millionth Child &raquo;</a>
-                </div>
-                <img src="http://placehold.it/980x367">
-            </div>
-            <div>
-                <div class="content">
-                    <h1>Lead a Holiday Wish Drive</h1>
-                    <p>As the holidays get closer, your company or organization can help lead a drive by displaying wish cards for fellow workers, customers, members or friends. </p>
-                    <a href="lead-a-drive.php" class="button radius">Lead a Holiday Wish Drive &raquo;</a>
-                </div>
-                <img src="http://placehold.it/980x367">
-            </div>
-            <div>
-                <div class="content">
-                    <h1>Cultivating Deep Roots</h1>
-                    <p>Our roots in the communities we serve go deep thanks to our volunteers. Without them, we wouldn’t be able to put smiles on the faces of the kids we help. </p>
-                    <a href="volunteer.php" class="button radius">Join Our Community &raquo;</a>
                 </div>
                 <img src="http://placehold.it/980x367">
             </div>
@@ -35,16 +19,32 @@
                 <div class="content">
                     <h1>Plant a Seed </h1>
                     <p>Putting a smile on a kid’s face doesn’t just happen. It takes the kindness of those who become part of our community of Elves. People who plant seeds by donating their time, a backpack or even a few dollars to fulfill the needs of children in low-income communities.</p>
-                    <a href="volunteer.php" class="button radius">Donate Today &raquo;</a>
+                    <a href="donate.php" class="button radius">Donate Today &raquo;</a>
+                </div>
+                <img src="http://placehold.it/980x367">
+            </div>
+            <div>
+                <div class="content">
+                    <h1>Lead a Holiday Wish Drive</h1>
+                    <p>As the holidays get closer, your company or organization can help lead a drive by displaying wish cards for fellow workers, customers, members or friends. </p>
+                    <a href="lead-a-drive.php" class="button radius">Lead a Drive &raquo;</a>
+                </div>
+                <img src="http://placehold.it/980x367">
+            </div>
+            <div>
+                <div class="content">
+                    <h1>Volunteer for Your Community</h1>
+                    <p>Our roots in the communities we serve go deep thanks to our volunteers. Without them, we wouldn’t be able to put smiles on the faces of the kids we help. </p>
+                    <a href="volunteer.php" class="button radius">Volunteer &raquo;</a>
                 </div>
                 <img src="http://placehold.it/980x367">
             </div>
         </div>
-        <ul class="button-group radius">
-            <li><a href="#" class="button radius">Donate Today</a></li>
-            <li><a href="#" class="button radius">Lead a Drive</a></li>
-            <li><a href="#" class="button radius">Volunteer</a></li>
-            <li><a href="#" class="button radius">Millionth Child</a></li>
+        <ul class="button-group radius orbit-buttons">
+          <li data-orbit-index="0"><a href="#" class="button radius">Millionth Child</a></li>
+          <li data-orbit-index="1"><a href="#" class="button radius">Donate Today</a></li>
+          <li data-orbit-index="2"><a href="#" class="button radius">Lead a Drive</a></li>
+          <li data-orbit-index="3"><a href="#" class="button radius">Volunteer</a></li>
         </ul>
     </div>
 </div>
@@ -111,7 +111,7 @@
   <script type="text/javascript"> 
     $(".row.featured").spin({lines:9, width:4})
    $(window).load(function() {
-       $('#featured').orbit({ pauseOnHover: true, startClockOnMouseOut: true, advanceSpeed: 6000, fluid: '16x6' });
+       $('#featured').orbit({ pauseOnHover: true, startClockOnMouseOut: true, advanceSpeed: 5000, fluid: '16x6' });
        $(".row.featured").spin(false);
    });
   </script>
