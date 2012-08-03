@@ -22,9 +22,9 @@
   
   <div class="row">
     <div class="twelve columns">
-      <?= if (isset($logo)): ?>
+      <? if (isset($logo)): ?>
       <img src="<?= $logo ?>">
-      <? elseif: ?>
+      <? else: ?>
       <h5>Family Giving Tree</h5>
       <? endif; ?>
       <p>Believe it or not, the seed of Family Giving Tree was planted as a San Jose State MBA class project. The assignment: “create a program that adds value to someone else’s life.” Originally, Family Giving Tree fulfilled the wishes of 2,010 children in East Palo Alto. From there, it continued to grow and grow under the leadership of co-founder Jennifer Cullenbine, who believes in nurturing children’s precious memories by fulfilling their needs.</p> 
