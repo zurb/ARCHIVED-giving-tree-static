@@ -37,7 +37,7 @@
         </div>
       </div>
       
-      <div class="row">
+      <div class="row value-sponsors">
         <div class="four columns">
           <p>We value our sponsors and acknowledge them in several ways. This is just a small example of our sponsor benefits package:</p>
         </div>
@@ -101,39 +101,7 @@
       
       <br /><br />
           
-      <div class="row">
-        <div class="four columns">
-          <img src="http://www.placehold.it/400x550">
-        </div>
-        <div class="eight columns"> 
-          <h4>Sponsorship Levels</h4>
-          <p>We work with companies to customize a sponsorship package that meets our mutual goals.  Opportunities include:</p>
-          <ul class="disc">
-            <li>Financial Sponsorship —  $2,500 to $100,000</li>
-            <li>Public Service Announcements — $2,500 to $8,000 through a variety of media outlets</li>
-            <li>Web banner package —  TBD</li>
-            <li>To discuss sponsorship opportunities, contact:</li>
-            <li>Recognition as a major funder at our annual Celebration Luncheon in September.</li>
-          </ul>
-          
-          <p>To learn more about sponsorship opportunities and benefits, please contact:</p>
-          <div class="row">
-            <div class="six columns">
-              <p><strong>Jeanne Clabaugh</strong><br />
-              Director of Development<br />
-              <a href="jeanne@familygivingtree.org">jeanne@familygivingtree.org</a><br />
-              (408) 946-3111 ext. 225</p>
-            </div>
-    
-            <div class="six columns">
-              <p><strong>Theo Olson</strong><br />
-              Development Manager<br />
-              <a href="theo@familygivingtree.org">theo@familygivingtree.org</a><br/>
-              (408) 946-3111 ext. 210</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </div>
   
@@ -142,30 +110,31 @@
       <img src="images/horizontal-rule1.png">
     </div>
   </div>
-  
-  <div class="row">
+ 
+  <div class="row sponsor-levels">
     <div class="three columns">
       <h4>Sponsorship Levels</h4>
       <p>We work with companies to customize a sponsorship package that meets our mutual goals.  Opportunities include:</p>
     </div>
     <div class="nine columns">
       <ul class="top-circles block-grid five-up">
-        <li><img src="/images/icons/bg-orange.png"><br/><span>1</span>Financial Sponsorship —  $2,500 to $100,000</li>
-        <li>Public Service Announcements — $2,500 to $8,000 through a variety of media outlets</li>
-        <li>Web banner package —  TBD</li>
-        <li>To discuss sponsorship opportunities, contact:</li>
-        <li>Recognition as a major funder at our annual Celebration Luncheon in September.</li>
+        <li><img src="images/icons/bg-orange.png"><br/><span>1</span>Financial Sponsorship —  $2,500 to $100,000</li>
+        <li><img src="images/icons/bg-green.png"><br/>Public Service Announcements — $2,500 to $8,000 through a variety of media outlets</li>
+        <li><img src="images/icons/bg-yellow.png"><br/>Web banner package —  TBD</li>
+        <li><img src="images/icons/bg-pink.png"><br/>To discuss sponsorship opportunities, contact:</li>
+        <li><img src="images/icons/bg-purple.png"><br/>Recognition as a major funder at our annual Celebration Luncheon in September.</li>
       </ul>
     </div>
   </div>
-  
+   <div class="sponsor-logos">
   <div class="row">
     <div class="twelve columns"> 
-      <h6>Teacher Sponsor</h6> 
-      <ul class="block-grid three-up">
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /><img src="http://placehold.it/300x80" /></li>
+      
+      <ul class="top-last block-grid four-up">
+        <li><h6>Presenting Sponsor</h6><br/><img src="images/sponsor logos/sp-texinst.jpg" /></li>
+        <li><h6>Presenting Sponsor</h6><br/><img src="images/sponsor logos/sp-sandisk.jpg" /></li>
+        <li class="top-last"><h6>Presenting Sponsor</h6><br/><img src="images/sponsor logos/sp-cisco.jpg" /></li>
+        <li class="last"><img src="images/sponsor logos/sp-kaiser.jpg" /></li>
         
       </ul>
     </div>
@@ -175,12 +144,12 @@
     <div class="twelve columns"> 
       <h6>Teacher Sponsor</h6> 
       <ul class="block-grid six-up">
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="images/sponsor logos/sp-adobe.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-intuitive.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-lam.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-samsung.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-symantec.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-tyco.jpg" /></li>
       </ul>
     </div>
   </div>
@@ -189,13 +158,13 @@
     <div class="twelve columns">  
       <h6>Student Sponsor</h6>
       <ul class="block-grid five-up">
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
+        <li><img src="images/sponsor logos/sp-altera.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-att.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-cefcu.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-hitachi.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-techcu.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-leavitt.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-maxim.jpg" /></li>
       </ul>
     </div>
   </div>
@@ -203,11 +172,11 @@
   <div class="row">
     <div class="twelve columns">  
       <h6>Public Service Announcement</h6>
-      <ul class="block-grid four-up">
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
+      <ul class="public-service block-grid four-up">
+        <li><img src="images/sponsor logos/sp-texinst.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-thermo.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-symantec.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-focus.jpg" /></li>
       </ul>
     </div>
   </div>
@@ -215,13 +184,14 @@
   <div class="row">
     <div class="twelve columns">  
       <h6>Official Media Announcement</h6>
-      <ul class="block-grid four-up">
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
-        <li><img src="http://placehold.it/300x80" /></li>
+      <ul class="media block-grid four-up">
+        <li><img src="images/sponsor logos/sp-kliv.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-mercnews.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-krty.jpg" /></li>
+        <li><img src="images/sponsor logos/sp-nbc.jpg" /></li>
       </ul>
     </div>
+  </div>
   </div>
   
 </div>
