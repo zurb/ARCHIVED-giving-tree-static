@@ -30,41 +30,41 @@
   <div class="nine column">
     <section id="joinus">
       <br>
-      <h2>Year-Round Volunteer Opportunities</h2>
-      <div class="row">
-      <div class="three columns">
-        <p class="text-center"><img src="images/icons/office-help.png" width="120" height="120" alt="Office Help"></p>
-        <p>General Office Help &amp; Drive Preparation: Help us organize materials and prep for our Back to School Drive and/or Holiday Wish Drive. Great for students!
-        </p>
-      </div>
-      <div class="three columns">
-        <p class="text-center"><img src="images/icons/no-drop-ins.png" width="120" height="120" alt="No Drop Ins"></p>
-        <p>Please, no drop-ins. Email <a href="mailto:volunteers@familygivingtree.org">volunteers@<br>
-          familygivingtree.org</a> or call (408) 946-3111 first. 
-        </p>
-      </div>
-      <div class="three columns">
-        <p class="text-center"><img src="images/icons/school-drive.png" width="120" height="120" alt="School Drive"></p>
-        <p>Back to School Drive
-        </p>
-      </div>
-      <div class="three columns">
-        <p class="text-center"><img src="images/icons/card-sorting.png" width="120" height="120" alt="Card Sorting"></p>
-        <p>Backpack Card sorting (May)
-        </p>
-      </div></div>
-      <h3> Backpack pick-up and delivery (August)</h3>
-      <ul class="disc">
-        <li> BTS Warehouse Duties (August): Help us set-up the warehouse, receive backpacks, sort, quality check, clean-up warehouse and prepare backpacks for distribution to low-income children.</li>
-        <li> Backpack distributions (August)</li>
-      </ul>
-      <h3> Holiday Wish Drive</h3>
-      <ul class="disc">
-        <li> Wish Card sorting (October)</li>
-        <li> Gift pickup and delivery (December)</li>
-        <li> HWD warehouse duties (December): Help us set-up warehouse, receive gifts, sort, wrap, quality check, clean-up warehouse and distribute gifts to low-income children.</li>
-        <li> Gift distributions (December &amp; January)</li>
-      </ul>
+      <!-- <h2>Year-Round Volunteer Opportunities</h2>
+        <div class="row">
+        <div class="three columns">
+          <p class="text-center"><img src="images/icons/office-help.png" width="120" height="120" alt="Office Help"></p>
+          <p>General Office Help &amp; Drive Preparation: Help us organize materials and prep for our Back to School Drive and/or Holiday Wish Drive. Great for students!
+          </p>
+        </div>
+        <div class="three columns">
+          <p class="text-center"><img src="images/icons/no-drop-ins.png" width="120" height="120" alt="No Drop Ins"></p>
+          <p>Please, no drop-ins. Email <a href="mailto:volunteers@familygivingtree.org">volunteers@<br>
+            familygivingtree.org</a> or call (408) 946-3111 first. 
+          </p>
+        </div>
+        <div class="three columns">
+          <p class="text-center"><img src="images/icons/school-drive.png" width="120" height="120" alt="School Drive"></p>
+          <p>Back to School Drive
+          </p>
+        </div>
+        <div class="three columns">
+          <p class="text-center"><img src="images/icons/card-sorting.png" width="120" height="120" alt="Card Sorting"></p>
+          <p>Backpack Card sorting (May)
+          </p>
+        </div></div>
+        <h3> Backpack pick-up and delivery (August)</h3>
+        <ul class="disc">
+          <li> BTS Warehouse Duties (August): Help us set-up the warehouse, receive backpacks, sort, quality check, clean-up warehouse and prepare backpacks for distribution to low-income children.</li>
+          <li> Backpack distributions (August)</li>
+        </ul>
+        <h3> Holiday Wish Drive</h3>
+        <ul class="disc">
+          <li> Wish Card sorting (October)</li>
+          <li> Gift pickup and delivery (December)</li>
+          <li> HWD warehouse duties (December): Help us set-up warehouse, receive gifts, sort, wrap, quality check, clean-up warehouse and distribute gifts to low-income children.</li>
+          <li> Gift distributions (December &amp; January)</li>
+        </ul> -->
       <p> To learn about our needs as soon as they're posted, Sign up for our newsletter <a href="https://www.facebook.com/familygivingtree" target="_blank">become a friend on Facebook</a></p>
       <div class="panel" id="register">
         <h3>When can you volunteer?</h3>
