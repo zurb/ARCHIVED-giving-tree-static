@@ -22,11 +22,29 @@
   GivingTree.updateStickyNav = function(event){
     var windowTopOffset = $(event.currentTarget).scrollTop();
     $("[data-sticky]").each(function(idx,el){
-      var $el = $(el);
-      if (windowTopOffset > $(el).data("offset-top")) {
-        $el.addClass("sticky");
+      var $el = $(el),
+          $footer = $("footer");
+      
+      // var limit = $("footer").offset().top - $el.outerHeight();
+      // if (windowTopOffset > limit) {
+      //   console.info("IN FOOTER");
+      // }
+      
+      var limit = false;
+      if ($footer.length > 0) {
+        limit = $footer.offset().top - $el.outerHeight();
+      }
+        
+      if (limit && (windowTopOffset > limit)) {
+        var newLimit = limit - $footer.outerHeight() - $el.outerHeight() - 30;
+        $el.css({position:"absolute",top:newLimit+"px"});
+        
+      // Top position of side-nav is above viewport 
+      } else if (windowTopOffset > $(el).data("offset-top")) {
+        $el.css({position:"fixed", top:"10px"});
       } else {
-        $el.removeClass("sticky");
+        // $el.removeClass("sticky");
+        $el.css({position:"", top:""});
       }
     });
   };
