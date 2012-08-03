@@ -35,7 +35,7 @@
                 <li><a href="#aboutDrive">About Our Drives</a></li>
                 <li><a href="#importantDates">Important Dates</a></li>
                 <li><a href="#tipsSuccessfulDrive">Tips For a Successful Drive</a></li>
-                <li><a href="#currentDrives">Current Drives</a></li>
+                <li><a href="#currentDrives">Current Drive Locations</a></li>
                 <li class="divider"></li>
                 <li><a href="#"><span class="glyph">9</span> Download resources</a></li>
             </ul>
@@ -44,7 +44,7 @@
                 <li><a href="#aboutDrive">About Our Drives</a></li>
                 <li><a href="#importantDates">Important Dates</a></li>
                 <li><a href="#tipsSuccessfulDrive">Tips For a Successful Drive</a></li>
-                <li><a href="#currentDrives">Current Drives</a></li>
+                <li><a href="#currentDrives">Current Drive Locations</a></li>
                 <li class="divider"></li>
                 <li><a href="#"><span class="glyph">9</span> Download resources</a></li>
             </ul>
@@ -125,13 +125,12 @@
                           <li><img src="images/icons/tips3.png" height="121" width="121">
                               <p>Reminders! A little <strong>motivation</strong> like holiday
                                   candy or a notecard with announcements never hurts.
-                                  (See sample announcements for more ideas)</p></li>
+                                 </p></li>
                           <li><img src="images/icons/tips4.png" height="121" width="121">
                               <p>Coordinate a <strong>launch event</strong> (lunch, ice cream
                               social, dance party, etc.) and get your group excited about the
-                              Family Giving Tree. The more they <strong>know the more they’ll
-                              want to be <strong>involved</strong>. (Check out some creative
-                              drive launch events <a href="#">here</a>)</strong></p></li>
+                              Family Giving Tree. The more they know the more they’ll
+                              want to be <strong>involved. </p></li>
                         </ul>
                     </div>
                 </div>
@@ -154,8 +153,8 @@
             <section id="currentDrives">
                 <div class="row">
                     <div class="twelve columns">
-                        <h2>Current Drives</h2>
-                        <p>Check out all the current drive locations! See the who, what and where of the Family Giving Tree community and Elves. </p>
+                        <h2>Current Drive Locations</h2>
+                        <p>See the who, what and where of the Family Giving Tree community and Elves. </p>
                     </div>
                 </div>
                 <!-- end .row -->
