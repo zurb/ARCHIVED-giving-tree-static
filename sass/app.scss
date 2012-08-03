@@ -111,7 +111,7 @@ footer {
 }
 .reveal-modal .row {
     width:auto !important;
-    max-width: 106%;
+    max-width: 106% !important;
     margin-left:-($columnGutter / 2);
     margin-right:-($columnGutter / 2);
 }
