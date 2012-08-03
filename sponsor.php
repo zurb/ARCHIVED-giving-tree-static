@@ -6,9 +6,6 @@
 
 <!-- SPONSORPAGE CONTENT -->
 <div id="mainContent">
-
-  
-
     <div class="feature_wrapper">
       <div class="row">
         <div class="nine columns">

@@ -7,12 +7,11 @@
 <!-- VOLUNTEER PAGE CONTENT -->
 <div class="feature_wrapper">
     <div class="row">
-        <div class="seven columns">
+        <div class="nine columns">
             <h1>Volunteer</h1>
-            <p class="lead">Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer.</p>
-
+            <p>Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer.</p>
         </div>
-        <div class="five columns">
+        <div class="three columns">
             <img src="images/people/c-photo4.png" alt="Volunteer at Family Giving Tree">
         </div>
     </div>
@@ -20,17 +19,15 @@
 <div class="row">
   <div class="three column">
     <ul class="side-nav" data-sticky>
-      <!--<li><a href="#joinus">Join Us</a></li>-->
       <li><a href="#register">Join Us</a></li>
       <li><a href="#warehouse">The Warehouse</a></li>
-      <!--<li><a href="#events">Events</a>-->
       <li><a href="#angelelf">Angel Elves</a></li>
-      <li><a href="#celebrating">Celebrating Volunteers</a></li>
       <li><a href="#photos">Photos</a></li>
     </ul>
   </div>
   <div class="nine column">
     <section id="joinus">
+      <br><br>
       <h3> Year-Round Volunteer Opportunities</h3>
       <div class="row">
       <div class="three columns">
@@ -55,12 +52,12 @@
         </p>
       </div></div>
       <h3> Backpack pick-up and delivery (August)</h3>
-      <ul>
+      <ul class="disc">
         <li> BTS Warehouse Duties (August): Help us set-up the warehouse, receive backpacks, sort, quality check, clean-up warehouse and prepare backpacks for distribution to low-income children.</li>
         <li> Backpack distributions (August)</li>
       </ul>
       <h3> Holiday Wish Drive</h3>
-      <ul>
+      <ul class="disc">
         <li> Wish Card sorting (October)</li>
         <li> Gift pickup and delivery (December)</li>
         <li> HWD warehouse duties (December): Help us set-up warehouse, receive gifts, sort, wrap, quality check, clean-up warehouse and distribute gifts to low-income children.</li>
@@ -98,7 +95,7 @@
           <li class="august"><a href="#" class="warehousetask">Back to School Warehouse</a> &nbsp;<a href="#" data-reveal-id="task4Modal" class="helpicon">?</a></li>
           <li class="january december"><a href="#" class="warehousetask">Holiday Wish Drive Warehouse</a> &nbsp;<a href="#" data-reveal-id="task5Modal" class="helpicon">?</a></li>
           <li class="august december"><a href="#" data-reveal-id="volEmailModal">Donation Pick-ups</a> &nbsp;<a href="#" data-reveal-id="task6Modal" class="helpicon">?</a></li>
-          <li class="february march april may june july september november"><a href="#" data-reveal-id="volEmailModal">Agency Interviews</a> &nbsp;<a href="#" data-reveal-id="task7Modal" class="helpicon">?</a></li>
+          <li class="january february march april may june july august september october november december"><a href="#" data-reveal-id="volEmailModal">Agency Interviews</a> &nbsp;<a href="#" data-reveal-id="task7Modal" class="helpicon">?</a></li>
           <li class="october november"><a href="#" data-reveal-id="volEmailModal">Wish Editing</a> &nbsp;<a href="#" data-reveal-id="task8Modal" class="helpicon">?</a></li>
         </ul>
         <div id="warehousetaskform">
@@ -115,7 +112,7 @@
         Text: Day and date
         -->
               <option value="" selected>Select a day and task</option>
-              <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
+              <option value="360">Wed, 7/25/2012 - Warehouse Set UP</option>
               <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
               <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
               <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
@@ -142,6 +139,13 @@
         </div>
       </div>
     </section>
+ 
+    <div class="row">
+      <div class="twelve columns">
+        <img src="images/horizontal-rule1.png">
+      </div>
+    </div>
+
     <section id="warehouse">
       <h2>The Warehouse</h2>
       <div class="row">
@@ -181,6 +185,13 @@
         </tr>
       </table>
     </section>-->
+
+    <div class="row">
+      <div class="twelve columns">
+        <img src="images/horizontal-rule1.png">
+      </div>
+    </div>
+
     <section id="angelelf">
       <h2>Angel Elves</h2>
       <p>Do you want to help the Family Giving Tree in a special way? Angel Elves are experienced volunteers willing to donate their time and skill set to help our programs run smoothly. Some Angel Elves supervise other volunteers at the warehouse on multiple days. Some help with special events and other activities such as the Executive Elf Challenge and Wish Card sorting. In the warehouse during Back to School and Holiday Drive, tasks may involve general set up, greeting other volunteers, store supervision and supervision of gift shipping/receiving.  Angel Elf responsibilities depend on the person's experience and comfort level with specific tasks.</p>
@@ -206,6 +217,13 @@
         </div>
       </div>
     </section>
+
+    <div class="row">
+      <div class="twelve columns">
+        <img src="images/horizontal-rule1.png">
+      </div>
+    </div>
+
     <section id="photos">
       <h2>Photos</h2>
       <div class="row">
@@ -404,7 +422,7 @@
     <label for="info">Any additional information?</label>
     <textarea id="info" name="info"></textarea>
     <!--Submit sends email to volunteer@familygivingtree.org-->
-    <p class="text-center"><a href="#">Cancel</a> &nbsp; <input type="submit" value="Submit" class="button">
+    <p class="text-center"><a href="#" class="another-reveal-close">Cancel</a> &nbsp; <input type="submit" value="Submit" class="button">
   </form>
   </div>
   <!--Confirmation below-->
@@ -603,6 +621,10 @@ function registerSelect(){
       $('#registerModalContent').load('vol_register.php?taskId='+taskId);
       $('#daytask').text(desc);
   }
+  });
+  $("div.reveal-modal").delegate(".another-reveal-close", "click", function(e) {
+    e.preventDefault();
+    $(this).parents("div.reveal-modal").trigger('reveal:close');
   });
 }
 <!--Image popup-->
