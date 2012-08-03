@@ -601,7 +601,6 @@ function registerSelect(){
   if(taskId!==''){
       $('#registerlink').show();
       $('#registerModalContent').load('vol_register.php?taskId='+taskId);
-      $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
       $('#daytask').text(desc);
   }
   });
