@@ -8,7 +8,7 @@
 <div id="mainContent">
     <div class="row">
         <div class="seven columns">
-            <h1>Back To School Ready</h1>
+            <h1>Send Children to School Prepared</h1>
             <p>Leading a Back to School Drive is an incredible way to help local kids in need just in time for the new school year. This drive focuses on the children as individuals; pairing a backpack and school supply wish list with a name. By leading a Back to School Drive drive, you’re not only providing the wealth of education, you’re also joining the Family Giving Tree community.</p>
             <a href="#" class="large primary button" data-reveal-id="register">Register &raquo;</a>
         </div>
