@@ -121,8 +121,6 @@
   </div>
   
 </div>
-<br>
-<br>
 
 <?php content_for('footer', function() { ?>
 <?php })?>
