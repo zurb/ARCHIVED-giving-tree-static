@@ -373,6 +373,4 @@
   </div>
 
 </div>
-
->>>>>>> fddfec9162708baca4c081472f3e803c4adf7708
 <?php include("includes/_footer.php");  ?>
