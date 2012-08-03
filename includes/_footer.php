@@ -71,9 +71,9 @@
                 <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="#">Who We Help</a></li>
                 <li><a href="lead-a-drive.php">Lead a Drive</a></li>
-                <li><a href="#">Sponsors</a></li>
+                <li><a href="sponsor.php">Sponsors</a></li>
                 <li><a href="#">Join Our Community</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="about.php">About</a></li>
                 <li><a href="#">Events</a></li>
             </ul>
         </div>
