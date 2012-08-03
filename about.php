@@ -260,7 +260,7 @@
 
     <div class="row">
       <div class="twelve columns">
-        <a href="#orgChartPDF" class="button banner purple">Download the Org Chart</a>
+        <a href="images/orgchart.gif" class="button banner purple">Download the Org Chart</a>
       </div>
     </div>
 

@@ -25,7 +25,6 @@
         <li><a href="#faq">Agency FAQs</a></li>
         <li><a href="#terms">Terms &amp; Conditions</a></li>
         <li><a href="#collect">Collecting Wishes</a></li>
-        <li><a href="#apply">Apply</a></li>
         <li><a href="#impact">Making an Impact</a></li>
       </ul>
     </div>
@@ -320,8 +319,8 @@
         <div class="row">
           <div class="twelve columns">
             <ul style="list-style:none;">
-              <li style=" display:inline;margin-right:25px;"><a href=""><span class="glyph [general]">9</span> Wish Collect Form</a></li>
-              <li style=" display:inline;"><a href=""><span class="glyph [general]">[</span> Second Choice List</a></li>
+              <li style=" display:inline;margin-right:25px;"><a href="forms/wish_collect.pdf"><span class="glyph [general]">9</span> Wish Collect Form</a></li>
+              <li style=" display:inline;"><a href="forms/secondchoicelist.pdf"><span class="glyph [general]">[</span> Second Choice List</a></li>
             </ul>
             </ul>
           </div>
