@@ -45,21 +45,20 @@
 <div class="full stats">
     <div class="row">
         <div class="four columns">
-            <img src="images/icons/person.png" alt="person">
-            <h3 class="orange">970,516 Children</h3>
-            <p>Have received holiday gifts or back-to-school supplies through
-                Family Giving Tree since 1990</p>
+            <img src="images/icons/backpack.png" alt="person">
+            <h3 class="orange">15,000 Backpacks</h3>
+            <p>Is our distribution goal for the 2012 Back to School Drive</p>
         </div>
         <div class="four columns">
             <img src="images/icons/gift.png" alt="gift">
-            <h3 class="green">1,123,228 Gifts</h3>
-            <p>Delivered to needy children. We provide gifts during the holidays, 
-                and back-to-school supplies during the school year.</p>
+            <h3 class="green">847,288 Wishes Fulfilled</h3>
+            <p>These are the children who have received holiday gifts or back-to-school supplies through
+                Family Giving Tree since 1990</p>
         </div>
         <div class="four columns">
-            <img src="images/icons/money.png" alt="money">
-            <h3 class="pink">89 Percent</h3>
-            <p>of every donation we raise goes straight to participating charities</p>
+            <img src="images/icons/person.png" alt="money">
+            <h3 class="pink">7,000 Volunteers</h3>
+            <p>Will donate their time in our warehouse this year</p>
         </div>
     </div>
 </div>
