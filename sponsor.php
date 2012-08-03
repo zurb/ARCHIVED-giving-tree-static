@@ -60,7 +60,7 @@
       <p>Your company or business can make a big impact as a Family Giving Tree sponsor. You can either sponsor our Back to School Drive or our Holiday Wish Drive. When you sponsor we are able to leverage generous manufacture discounts on quality backpacks, school supplies and gifts or other items for our drives. Ultimately helping more children.</p>
       <p>For our Back to School Drives, the students who receive backpacks from our drive usually begin school with few or no supplies. We believe they deserve an equal start, with the supplies they need to learn. When it comes to our Holiday Wish Drive, you’ll be ensuring that a child doesn’t have to go without a gift during the holidays.</p>
       <p>We value our sponsors and acknowledge them in several ways. This is just a small example of our sponsor benefits package:</p>
-      <ul>
+      <ul class="disc">
         <li>Recognition in the Family Giving Tree monthly e-newsletter (readership of 34,000+)</li>
         <li>Prominent visibility as a major funder at our warehouse</li>
         <li>Recognized and thanked as a sponsor in a ½-page San Jose Mercury News advertisement</li>
@@ -93,7 +93,7 @@
     <div class="eight columns"> 
       <h4>Sponsorship Levels</h4>
       <p>We work with companies to customize a sponsorship package that meets our mutual goals.  Opportunities include:</p>
-      <ul>
+      <ul class="disc">
         <li>Financial Sponsorship —  $2,500 to $100,000</li>
         <li>Public Service Announcements — $2,500 to $8,000 through a variety of media outlets</li>
         <li>Web banner package —  TBD</li>
