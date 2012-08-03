@@ -53,3 +53,5 @@
       </div>
     </div>
   </header>
+
+<?php include("includes/_functions.php"); ?>
