@@ -211,6 +211,7 @@ blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; 
 #tipsSuccessfulDrive ul { list-style: none; }
 #tipsSuccessfulDrive ul li { float: left; width: 170px; padding-left: 20px; }
 #tipsSuccessfulDrive ul li.first { padding-left: 0px; }
+div.row.size-fix p { font-size: 14px!important; }
 
 /*Events*/
 .date {
@@ -245,11 +246,16 @@ ul.numbered-list li { padding: 0px 0px 15px 60px;  height: 60px; }
 
 ul.top-circles li span { margin-top: -30px; text-align: center;  }
 ul.top-circles li img { margin:0 auto; }
-ul.top-circles li.num1 {  }
-ul.top-circles li.num2 {  }
-ul.top-circles li.num3 {  }
-ul.top-circles li.num4 {  }
-ul.top-circles li.num5 {  }
+ul.top-circles li.num1 { position: relative; }
+ul.top-circles li.num2 { position: relative; }
+ul.top-circles li.num3 { position: relative; }
+ul.top-circles li.num4 { position: relative; }
+ul.top-circles li.num5 { position: relative; }
+ul.top-circles li.num1:before { content: "1"; color: #fff; font-weight: bold; position: absolute; top: 16px; left: 40px; font-size: 32px; font-size: 3.2rem; }
+ul.top-circles li.num2:before { content: "2"; color: #fff; font-weight: bold; position: absolute; top: 16px; left: 40px; font-size: 32px; font-size: 3.2rem; }
+ul.top-circles li.num3:before { content: "3"; color: #fff; font-weight: bold; position: absolute; top: 16px; left: 40px; font-size: 32px; font-size: 3.2rem; }
+ul.top-circles li.num4:before { content: "4"; color: #fff; font-weight: bold; position: absolute; top: 16px; left: 40px; font-size: 32px; font-size: 3.2rem; }
+ul.top-circles li.num5:before { content: "5"; color: #fff; font-weight: bold; position: absolute; top: 16px; left: 40px; font-size: 32px; font-size: 3.2rem; }
 
 ul.public-service li, ul.media li { width:130px !important; }
 ul.top-last li.last { margin-top: 65px;margin-left: -80px !important; }
@@ -465,7 +471,7 @@ img.right {
 }
 
 /*Volunteer Page*/
-.inputrow {
+.inputrow { margin-bottom: 12px;
   label,
   input[type="text"],
   input[type="password"],
