@@ -26,7 +26,7 @@
     <section id="joinus">
       <h2>Join Us</h2>
       <p>Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer:</p>
-      <h4> Year-Round Volunteer Opportunities</h4>
+      <h3> Year-Round Volunteer Opportunities</h3>
       <ul>
         <li> General Office Help & Drive Preparation: Help us organize materials and prep for our Back to School Drive and/or Holiday Wish Drive. Great for students! </li>
         <li> *Please, no drop-ins. Email volunteers@familygivingtree.org or call
@@ -35,12 +35,12 @@
         <li> Back to School Drive :</li>
         <li> Backpack Card sorting (May)</li>
       </ul>
-      <h4> Backpack pick-up and delivery (August)</h4>
+      <h3> Backpack pick-up and delivery (August)</h3>
       <ul>
         <li> BTS Warehouse Duties (August): Help us set-up the warehouse, receive backpacks, sort, quality check, clean-up warehouse and prepare backpacks for distribution to low-income children.</li>
         <li> Backpack distributions (August)</li>
       </ul>
-      <h4> Holiday Wish Drive:</h4>
+      <h3> Holiday Wish Drive:</h3>
       <ul>
         <li> Wish Card sorting (October)</li>
         <li> Gift pickup and delivery (December)</li>
@@ -87,12 +87,37 @@
         </ul>
         <div id="warehousetaskform">
           <p>
-            <label for="volunteerday">Day/Task:</label>
-            <select id="volunteerday">
+            <label>Day/Task:</label>
+            <select class="volunteerday january">
               <!--
         POPULATE OPTION ATTRIBUTES
-        value: Task Name
-        data-taskid: Task ID
+        value: Task ID
+        disabled: Include if volunteer slot is full
+        Text: Day and date
+        -->
+              <option selected>Select a day and task</option>
+              <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
+              <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
+              <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
+              <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
+            </select>
+            <select class="volunteerday august">
+              <!--
+        POPULATE OPTION ATTRIBUTES
+        value: Task ID
+        disabled: Include if volunteer slot is full
+        Text: Day and date
+        -->
+              <option selected>Select a day and task</option>
+              <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
+              <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
+              <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
+              <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
+            </select>
+            <select class="volunteerday december">
+              <!--
+        POPULATE OPTION ATTRIBUTES
+        value: Task ID
         disabled: Include if volunteer slot is full
         Text: Day and date
         -->
@@ -592,6 +617,7 @@ $(document).ready(function(){
 function registerSelect(){
   $('#registerlink').hide();
   $('#warehousetaskform').hide();
+  $('.volunteerday').hide();
   $('.warehousetask').click(function(e){
     e.preventDefault();
     $('#warehousetaskform').show();
@@ -603,13 +629,11 @@ function registerSelect(){
     $('#tasklist li').hide();
     $('.'+month).show();
   });
-  $('#volunteerday').change(function(){
+  $('.volunteerday').change(function(){
     var taskId = $(this).val();
 	var desc = $(this).find('option:selected').text();
-	alert(desc);
     $('#registerlink').show();
-	$('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">')
-    $('#TaskId').val(taskId);
+	$('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
     $('#daytask').text(desc);
   });
 }
