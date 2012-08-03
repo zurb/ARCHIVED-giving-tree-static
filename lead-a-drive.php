@@ -95,14 +95,14 @@
             </section>
             <!-- end #timeline -->
             <section id="hallOfFame">
-                <h2>Hall of Fame</h2>
+                <h2>Current Drive Locations</h2>
                 <div class="row">
                     <div class="twelve columns">
                         <p>Check out all the current drive locations! See the who, what and where of the Family Giving Tree community and Elves. </p>
                     </div>
                 </div>
                 <!-- end .row -->
-                <img src="http://placehold.it/700x400&text=Map">
+                <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=201967506944688961163.0004c655b86f1e09e3351&amp;ie=UTF8&amp;t=h&amp;ll=37.442155,-122.156982&amp;spn=0.436139,0.95993&amp;z=10&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=201967506944688961163.0004c655b86f1e09e3351&amp;ie=UTF8&amp;t=h&amp;ll=37.442155,-122.156982&amp;spn=0.436139,0.95993&amp;z=10&amp;source=embed" style="color:#0000FF;text-align:left">Family Giving Tree Drive Locations</a> in a larger map</small>
                 <div class="row">
                     <div class="six columns">
                         <h5>Register Now</h5>

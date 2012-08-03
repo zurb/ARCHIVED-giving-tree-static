@@ -143,10 +143,13 @@
 .featured ul { position: absolute; top: 340px; left: 254px; z-index: 1000; }
 .featured .orbit-wrapper .content { position: absolute; top: 50px; left: 80px; width: 425px }
 .featured .timer { display: none }
-#featured { background: #f4f4f4; height: 364px; margin-bottom: 20px; }
+#featured { background: #f4f4f4; height: 460px; width: 100%; margin-bottom: 20px; }
 #featured div { display: none; }
-#featured.orbit { background: none; }
+#featured.orbit { background: none; height: 460px; }
 #featured.orbit div { display: block; }
+
+/*Lead a Drive*/
+h1 { color: $darkPurple; }
 
 /*Events*/
 .date {
@@ -166,19 +169,71 @@
     color: $darkPurple;
   }
 }
-
+.upcoming-events {
+    p {
+        font-size: 14px;
+    }
+}
 /*General Styles*/
 header,
 footer {
-    background:#fafafa;
+    ul.link-list {
+        margin-bottom:0;
+    }
+    dt {
+        font-weight: bold;
+        margin-bottom:10px;
+    }
+    dd {
+        line-height: 21px;
+    }
+    label {
+        color: $white;
+    }
+    ul li {
+        list-style: none;
+    }
+    .row {
+        overflow: visible;
+    }
+}
+.footer-nav {
+    ul.link-list a, p {
+        color: #E2D8D0;
+    }
 }
 header {
     background: image-url("puple-bg.png");
 }
+.footer-columns {
+    background: url(../images/footer-bg.png) repeat-x;
+    .elf img {
+        margin-top:-80px;
+    }
+}
+.footer-nav {
+    background: #523219;
+    .link-list a {
+        font-size:15px;
+    }
+}
+footer {
+    color: #E2D8D0;
+    h5 {
+        margin-top: 25px;
+        a {
+            color: #E2D8D0;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+}
 h1, h2, h3 {
     font-family: 'Museo300Regular';
+    font-weight: normal;
 }
-h4, h5, h6 {
+.handwritten {
     font-family: 'HandOfSeanRegular';
 }
 .side-nav a {
@@ -190,6 +245,12 @@ h4, h5, h6 {
   &.social {
     font-family: 'FoundationIconsSocial';
     font-size: 24px;
+    li a {
+        border-radius: 20px;
+        color: $darkPurple;
+        background: $white;
+        width:40px;
+    }
   }
 }
 .reveal-modal .row {
