@@ -79,9 +79,7 @@
     </div>
     <br><br><br>
     <div class="row">
-      <div class="three columns">
-      </div>
-      <div class="nine columns">
+      <div class="twelve columns">
         <h4>Donate Procedures</h4>
         <p><strong>Workplace / Civic Organizations</strong> —  Look for information in your workplace for information regarding how to contribute to your organization's drive.  You can select a wish tag and learn who is receiving monetary donations.</p>
         <p><strong>General Donations</strong> —  Donate on our public tree to provide backpacks stuffed with school supplies or fulfill a child's unique holiday wish.</p>
@@ -102,34 +100,25 @@
       </div>
     </div>
     <div class="row">
-      <div class="three columns">
-        <img src="http://placehold.it/300x300">
-      </div>
-      <div class="nine columns">
+      <div class="twelve columns">
         <h4>Donation Deadline?</h4>
         <p>Monetary donations are received throughout the year.  For information about deadlines for gifts according to the drive, visit the  warehouse page.</p>
-        <a href="#volunteer" class="tiny button">Learn More &raquo;</a>
+        <a href="#volunteer" class="tiny purple button">Learn More &raquo;</a>
       </div>
     </div>
     
     <div class="row">
-      <div class="three columns">
-        <img src="http://placehold.it/300x300">
-      </div>
-      <div class="nine columns">
+      <div class="twelve columns">
         <h4>Product Donations</h4>
         <p>Do you have overruns of a product? Ordered too much? You can help us fulfill the wishes of more children.</p>
-        <a href="#volunteer" class="tiny button">Learn More &raquo;</a>
+        <a href="#volunteer" class="tiny purple button">Learn More &raquo;</a>
       </div>
     </div>
     <div class="row">
-      <div class="three columns">
-        <img src="http://placehold.it/300x300">
-      </div>
-      <div class="nine columns">
+      <div class="twelve columns">
         <h4>Our Rewards</h4>
         <p>Do your shopping online and support Family Giving Tree at the same time.</p>
-        <a href="#volunteer" class="tiny button">Learn More &raquo;</a>
+        <a href="#volunteer" class="tiny purple button">Learn More &raquo;</a>
       </div>
     </div>
   </div>
@@ -153,12 +142,13 @@
 </div>
 <div class="row">
 <div class="twelve columns">
+  <hr>
 <section id="wishlist">
 <h2>Elf Wish List</h2>
 <p>Our wishlist represents items that we   need on a regular basis to keep our programs running.  Please take a   look at our list, and if you feel you can contribute, contact us at   (408) 946-3111 or email <a href="mailto:elf@familygivingtree.org">elf@familygivingtree.org</a>. Your donation is tax-deductible, and easy to make.</p>
-
+<br>
 <h3 align="left">Immediate Needs:</h3>
-<ul>
+<ul class="disc">
   <li>Carnival Games (for children's parties) </li>
   <li>Bulk Transportation (Utility Van or Truck) </li>
   <li> Rolling Carts (laundry carts, containers on wheels, bulk mover, tilt truck)</li>
@@ -168,11 +158,12 @@
   <li>32 Gallon trash cans</li>
   <li>Large format printer to blow up pictures</li>
 </ul>
+<br>
 <h3 align="left">Year Round Needs:</h3>
 <div class="row">
 <div class="four columns">
 <h5>Printer Ink Cartridges (for the following printers) </h5>
-<ul>
+<ul class="disc">
   <li>HP Color LaserJet 4600</li>
   <li>HP LaserJet 8100 DN</li>
   <li>HP psc 1350 all-in-one</li>
@@ -183,7 +174,7 @@
   <li>Canon MultiPASS MP390</li>
 </ul>
 <h5>Printer Paper</h5>
-<ul>
+<ul class="disc">
   <li>White Paper 
   (20lb, 8.5X11)</li>
   <li>Bright White InkJet Paper    (8.5X11) </li>
@@ -193,16 +184,16 @@
     (8.5X11, high gloss, acidfree)</li>
 </ul>
 <h5>Labels</h5>
-<ul>
+<ul class="disc">
   <li>Avery 5160</li>
   <li>Avery5163</li>
   <li>Avery 5267</li>
   <li>Smead Viewables</li>
-</ul>
+</ul class="disc">
 </div>
 <div class="four columns">
 <h5>Containers/Bags</h5>
-<ul>
+<ul class="disc">
   <li>Plastic Storage Containers (small and large)</li>
   <li>Plastic Bags 
     (45+ Gallons)</li>
@@ -210,7 +201,7 @@
     (1 and 2 Gallons)</li>
 </ul>
 <h5>Services</h5>
-<ul>
+<ul class="disc">
   <li>Public Relations (Pro Bono)</li>
   <li>Graphic Designs</li>
   <li>Printing Services</li>
@@ -224,7 +215,7 @@
 </div>
 <div class="four columns">
 <h5>Miscellaneous</h5>
-<ul>
+<ul class="disc">
   <li>Postage Stamps </li>
   <li>Bottled Water</li>
   <li>Batteries (AA, C, D) </li>
