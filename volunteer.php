@@ -18,14 +18,7 @@
 </div>
 <div class="row">
   <div class="three column">
-    <ul class="side-nav hide-for-small" data-sticky>
-      <li><a href="#register">Join Us</a></li>
-      <li><a href="#warehouse">The Warehouse</a></li>
-      <li><a href="#angelelf">Angel Elves</a></li>
-      <li><a href="#photos">Photos</a></li>
-    </ul>
-    <!-- duplicate nav -->
-    <ul class="side-nav show-for-small">
+    <ul class="side-nav" data-sticky>
       <li><a href="#register">Join Us</a></li>
       <li><a href="#warehouse">The Warehouse</a></li>
       <li><a href="#angelelf">Angel Elves</a></li>
@@ -35,7 +28,7 @@
   <div class="nine column">
     <section id="joinus">
       <br><br>
-      <h3> Year-Round Volunteer Opportunities</h3>
+      <h3>Year-Round Volunteer Opportunities</h3>
       <div class="row">
       <div class="three columns">
         <p class="text-center"><img src="images/icons/office-help.png" width="120" height="120" alt="Office Help"></p>
