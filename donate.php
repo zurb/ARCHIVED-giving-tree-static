@@ -93,15 +93,16 @@
         <blockquote class="secondary"><strong>Family Giving Tree</strong><br />
         606 Valley Way<br />
         Milpitas, CA  95035</blockquote>
-        <p><strong>Donations Deadline</strong> - monetary donations are received through:</p>
-        <blockquote class="secondary"><strong>Theo Olson</strong><br />
-        <a href="theo@familygivingtree.org">theo@familygivingtree.org</a><br />
-        408-946-3111 x210</blockquote>
+        <p><strong>Donations Deadline</strong> - monetary donations are received throughout the year.</p>
         
         <p><strong>Questions about Sponsorships?</strong> Contact:</p>
         <blockquote class="secondary"><strong>Jeanne Clabaugh</strong><br />
         <a href="jeanne@familygivingtree.org">jeanne@familygivingtree.org</a><br />
         408-946-3111 x225</blockquote>
+        
+        <blockquote class="secondary"><strong>Theo Olson</strong><br />
+        <a href="theo@familygivingtree.org">theo@familygivingtree.org</a><br />
+        408-946-3111 x210</blockquote>
       </div>
     </div>
     <!-- <div class="row dotted">
