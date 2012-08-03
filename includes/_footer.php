@@ -26,12 +26,10 @@
                         <h6>Upcoming Events</h6>
                         <ul class="upcoming-events">
                             <li>
-                                <a href="#">8/2 FGT Open House</a>
-                                <p>This is a description of the event.</p>
-                            </li>
-                            <li>
-                                <a href="#">8/2 FGT Open House</a>
-                                <p>This is a description of the event.</p>
+                                <a href="lead-a-drive.php#importantDates">9/20 B2S Luncheon</a>
+                                <p>All Drive Leaders are invited to join the Family Giving
+                                    Tree Elves for a community&hellip;
+                                    <a href="lead-a-drive.php#importantDates">more &raquo;</a></p>
                             </li>
                         </ul>
                     </div>
@@ -43,8 +41,7 @@
                         <img src="images/elf.png" alt="Family Giving Tree ELf">
                     </div>
                     <div class="six columns">
-                        <h6>Sign up to our newsletter</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h6>Sign up for our newsletter</h6>
                         <form action="http://visitor.constantcontact.com/d.jsp" method="post" target="_blank" id="ccoptin" style="margin-bottom:3;">
                             <input type="hidden" name="m" value="1100352066583">
                             <input type="hidden" name="p" value="oi">

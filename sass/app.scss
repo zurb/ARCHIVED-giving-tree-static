@@ -268,6 +268,9 @@ footer {
     .row {
         overflow: visible;
     }
+    p {
+        color: $offWhite;
+    }
 }
 a, a:link, a:visited { color: $darkPurple; }
 a.button {
@@ -276,7 +279,7 @@ a.button {
 a:hover, a:active, a.selected { color: darken($darkPurple, 10%); }
 .footer-nav {
     ul.link-list a, p {
-        color: #E2D8D0;
+        color: $offWhite;
     }
 }
 header {
@@ -331,11 +334,11 @@ header {
 }
 footer {
     margin-top: 60px;
-    color: #E2D8D0;
+    color: $offWhite;
     h5 {
         margin-top: 25px;
         a {
-            color: #E2D8D0 !important;
+            color: $offWhite !important;
             &:hover {
                 color: $white !important;
             }
