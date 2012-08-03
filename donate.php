@@ -87,6 +87,7 @@
     <br><br><br>
     <div class="row">
       <div class="twelve columns">
+        <hr>
         <h4>Donate Procedures</h4>
         <p><strong>Workplace / Civic Organizations</strong> —  Look for information in your workplace for information regarding how to contribute to your organization's drive.  You can select a wish tag and learn who is receiving monetary donations.</p>
         <p><strong>General Donations</strong> —  Donate on our public tree to provide backpacks stuffed with school supplies or fulfill a child's unique holiday wish.</p>
