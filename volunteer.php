@@ -5,6 +5,13 @@
 <?php include("includes/_header.php"); ?>
 
 <!-- VOLUNTEER PAGE CONTENT -->
+<div class="feature_wrapper">
+    <div class="row hide-for-small">
+        <div class="twelve columns">
+            <h1>Volunteer</h1>
+        </div>
+    </div>
+</div>
 <div class="row">
   <div class="twelve column"> <img src="http://placehold.it/1000x350">
     <h1>Volunteer</h1>
@@ -600,6 +607,7 @@
 <?php include("includes/_footer.php");  ?>
 <script src="javascripts/jquery.form.js"></script>
 <script src="javascripts/jquery.validate.min.js"></script>
+
 <script>
 $(document).ready(function(){
   registerSelect();

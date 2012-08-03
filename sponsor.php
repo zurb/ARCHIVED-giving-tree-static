@@ -7,24 +7,35 @@
 <!-- SPONSORPAGE CONTENT -->
 <div id="mainContent">
 
-  <div class="row">
-    <div class="twelve columns">
-     <div class="orbit-wrapper"style="height:300px;">
-       <div id="featured" >
-         <img src="http://www.placehold.it/2000x800"/>
-         <img src="http://www.placehold.it/2000x800"/>
-         <img src="http://www.placehold.it/2000x800"/>
-       </div>
-     </div>
-    </div>
-  </div>
   
-  <div class="row">
-    <div class="twelve columns">
-      <h3>Current Sponsors</h3>
+
+    <div class="feature_wrapper">
+      <div class="row">
+        <div class="three columns">
+          <h1>Sponsors</h1>
+        </div>
+        <div class="three columns">
+            <img src="images/icons/person.png" alt="person">
+            <h3 class="orange">970,516 Children</h3>
+            <p>Have received holiday gifts or back-to-school supplies through
+                Family Giving Tree since 1990</p>
+        </div>
+        <div class="three columns">
+            <img src="images/icons/gift.png" alt="gift">
+            <h3 class="green">1,123,228 Gifts</h3>
+            <p>Delivered to needy children. We provide gifts during the holidays, 
+                and back-to-school supplies during the school year.</p>
+        </div>
+        <div class="three columns">
+            <img src="images/icons/money.png" alt="money">
+            <h3 class="pink">$1,000,000</h3>
+            <p>in donations to date</p>
+        </div>
+      </div>
     </div>
-  </div>
-  
+    
+    
+
   <div class="row">
     <div class="seven columns">
       <ul class="block-grid four-up">
@@ -135,19 +146,6 @@
 <br>
 
 <?php content_for('footer', function() { ?>
-  <script type="text/javascript">
-    $(".row.featured").spin({lines:9, width:4})
-     $(window).load(function() {
-         $('#featured').orbit();
-         $(".row.featured").spin(false);
-     });
-  </script>
-  <div id="sponsorModal" class="reveal-modal">
-    <h2>Awesome. I have it.</h2>
-    <p class="lead">Your couch.  I it's mine.</p>
-    <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
-    <a class="close-reveal-modal">&#215;</a>
-  </div>
 <?php })?>
 
 <?php include("includes/_footer.php");  ?>
