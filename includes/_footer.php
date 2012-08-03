@@ -44,7 +44,6 @@
                     </div>
                     <div class="six columns">
                         <h6>Sign up to our newsletter</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <form action="http://visitor.constantcontact.com/d.jsp" method="post" target="_blank" id="ccoptin" style="margin-bottom:3;">
                             <input type="hidden" name="m" value="1100352066583">
                             <input type="hidden" name="p" value="oi">
