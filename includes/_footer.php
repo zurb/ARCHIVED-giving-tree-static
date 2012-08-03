@@ -46,14 +46,16 @@
         <div class="four columns">
             <h5>Sign up to our newsletter</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <form>
+            <form action="http://visitor.constantcontact.com/d.jsp" method="post" target="_blank" id="ccoptin" style="margin-bottom:3;">
+                <input type="hidden" name="m" value="1100352066583">
+                <input type="hidden" name="p" value="oi">
                 <label>Email Address</label>
                 <div class="row collapse">
                     <div class="nine mobile-three columns">
-                        <input type="text" />
+                        <input type="text" name="ea "/>
                     </div>
                     <div class="three mobile-one columns">
-                        <a href="#" class="postfix button">Sign up</a>
+                        <input class="postfix button" type="submit" name="go" value="GO" class="submit" />
                     </div>
                 </div>
             </form>
