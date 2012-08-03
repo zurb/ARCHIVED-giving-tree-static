@@ -550,9 +550,12 @@ ul.orbit-bullets { bottom: 20px;
 #sliderThree { background: image-url('home3.jpg') top center no-repeat; }
 #sliderFour { background: image-url('home4.jpg') top center no-repeat; }
 
+.home-quote { display: block; 
+  img { display: block; }
+}
 
 /*Global*/
-p { color: #555; }
+p { color: #555; line-height: 1.5; }
 .orange { color: $orange; }
 .green { color: $green; }
 .pink { color: $pink; }
@@ -573,6 +576,10 @@ h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
   &.orange { background: image-url('buttons/bg-orange.png');
     &:after { background: image-url('buttons/right-orange.png'); }
   }
+}
+
+blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; background: $lightPink; margin-bottom: 0; 
+  cite { font-family: "Helvetica", Arial, sans-serif; color: $white;}
 }
 
 /*Lead a Drive*/

@@ -13,11 +13,6 @@
     </div>
 </div>
 <div class="row">
-  <div class="twelve column"> <img src="http://placehold.it/1000x350">
-    <h1>Volunteer</h1>
-  </div>
-</div>
-<div class="row">
   <div class="three column">
     <ul class="side-nav" data-sticky>
       <li><a href="#joinus">Join Us</a></li>
