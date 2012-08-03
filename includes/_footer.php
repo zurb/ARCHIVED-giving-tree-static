@@ -53,7 +53,7 @@
                                     <input type="text" name="ea "/>
                                 </div>
                                 <div class="three mobile-one columns">
-                                    <input class="postfix button" type="submit" name="go" value="GO" class="submit" />
+                                    <input class="postfix button banner purple small" type="submit" name="go" value="GO" class="submit" />
                                 </div>
                             </div>
                         </form>
