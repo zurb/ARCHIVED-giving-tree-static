@@ -39,7 +39,7 @@
             </div>
             <div class="six columns">
                 <div class="row">
-                    <div class="six columns elf">
+                    <div class="six columns elf hide-for-small">
                         <img src="images/elf.png" alt="Family Giving Tree ELf">
                     </div>
                     <div class="six columns">
