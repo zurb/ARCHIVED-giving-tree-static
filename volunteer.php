@@ -6,7 +6,7 @@
 
 <!-- VOLUNTEER PAGE CONTENT -->
 <div class="feature_wrapper">
-    <div class="row hide-for-small">
+    <div class="row">
         <div class="seven columns">
             <h1>Volunteer</h1>
             <p class="lead">Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer.</p>
@@ -104,6 +104,9 @@
         <div id="warehousetaskform">
           <div class="inputrow">
             <label>Day/Task:</label>
+            
+            <!-- Replace below selections with PHP snippet to generate them -->
+            
             <select class="volunteerday january">
               <!--
         POPULATE OPTION ATTRIBUTES
@@ -598,7 +601,6 @@ function registerSelect(){
   if(taskId!==''){
       $('#registerlink').show();
       $('#registerModalContent').load('vol_register.php?taskId='+taskId);
-      $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
       $('#daytask').text(desc);
   }
   });
