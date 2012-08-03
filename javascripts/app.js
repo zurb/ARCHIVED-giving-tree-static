@@ -1,5 +1,20 @@
 (function ($) {  
-  
+  $.fn.spin = function(opts) {
+  this.each(function() {
+    var $this = $(this),
+        data = $this.data();
+
+    if (data.spinner) {
+      data.spinner.stop();
+      delete data.spinner;
+    }
+    if (opts !== false) {
+      data.spinner = new Spinner($.extend({color: $this.css('color')}, opts)).spin(this);
+    }
+  });
+  return this;
+  };
+    
   var GivingTree = {};
   GivingTree.setInitialStickyNavOffset = function(idx,el) {
     $(el).data("offset-top", $(el).offset().top);
@@ -34,7 +49,7 @@
     // $('.block-grid.five-up>li:nth-child(5n+1)').css({clear: 'left'});
   });
   
-  $(window).load(function () {
+  $(window).load(function() {
     $("body").raptorize({
       "enterOn" : "konami-code"
     });
