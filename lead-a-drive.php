@@ -31,16 +31,7 @@
     <!-- end .feature_wrapper -->
     <div class="row size-fix">
         <div class="three columns">
-            <ul class="side-nav hide-for-small" data-sticky>
-                <li><a href="#aboutDrive">About Our Drives</a></li>
-                <li><a href="#importantDates">Important Dates</a></li>
-                <li><a href="#tipsSuccessfulDrive">Tips For a Successful Drive</a></li>
-                <li><a href="#currentDrives">Current Drive Locations</a></li>
-                <li class="divider"></li>
-                <li><a href="#"><span class="glyph">9</span> Download resources</a></li>
-            </ul>
-            <!-- duplicate nav -->
-            <ul class="side-nav show-for-small">
+            <ul class="side-nav" data-sticky>
                 <li><a href="#aboutDrive">About Our Drives</a></li>
                 <li><a href="#importantDates">Important Dates</a></li>
                 <li><a href="#tipsSuccessfulDrive">Tips For a Successful Drive</a></li>
@@ -154,7 +145,7 @@
                 <div class="row">
                     <div class="twelve columns">
                         <h2>Current Drive Locations</h2>
-                        <p>See the who, what and where of the Family Giving Tree community and Elves. </p>
+                        <p>The locations below have made wish cards available for individuals looking to provide a supply-filled backpack. </p>
                     </div>
                 </div>
                 <!-- end .row -->

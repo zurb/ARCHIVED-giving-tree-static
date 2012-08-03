@@ -7,12 +7,11 @@
 <div id="mainContent">
     <div class="feature_wrapper">
       <div class="row">
-        <div class="seven columns">
+        <div class="nine columns">
           <h1>Who We Help</h1>
           <p>Family Giving Tree has cultivated deep roots in the community. We work with more than 300 social service agencies and schools around the Bay Area. Among the folks we work with are homeless shelters, community centers, rehabilitation houses, schools and various nonprofit organizations. Each year, these folks help us fulfill the needs of children in low-income neighborhoods. They supply us with the names and wishes of the children they serve year-round. These are kids who would go without anything during the holidays and back-to-school season.</p>
         </div>
-    
-        <div class="five columns">
+        <div class="three columns">
           <img src="images/people/c-photo12.png" alt="Who We Help">
         </div>
     </div>
@@ -33,7 +32,6 @@
     <div class="nine columns">
       
       <section id="current">
-        <br><br>
         <h2>Current Agencies</h2>
         <div class="row">
           <div class="twelve columns">
