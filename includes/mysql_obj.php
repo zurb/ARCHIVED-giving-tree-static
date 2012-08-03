@@ -16,7 +16,7 @@ class mysql_obj
 
    
 
-   var $host     = "localhost";
+   var $host     = "mysql";
 
    var $db       = "fg_tree";
 
