@@ -47,7 +47,7 @@
         <li> HWD warehouse duties (December): Help us set-up warehouse, receive gifts, sort, wrap, quality check, clean-up warehouse and distribute gifts to low-income children.</li>
         <li> Gift distributions (December & January)</li>
       </ul>
-      <p> To learn about our needs as soon as they're posted, Sign up for our newsletter <a href="#">become a friend on Facebook</a></p>
+      <p> To learn about our needs as soon as they're posted, Sign up for our newsletter <a href="https://www.facebook.com/familygivingtree">become a friend on Facebook</a></p>
       <div class="panel" id="register">
         <h4>When can you volunteer?</h4>
         <p>
@@ -201,9 +201,9 @@
       <div class="row">
         <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
           <h3>Jessy Rodriguez</h3>
-          <p>Jessy Rodriguez first came to The Family Giving Tree as a volunteer with her young classmates from Calaveras Montessori in 2004. They bagged gifts by 10 and she was already leading her group (she was one of the two children who could count to 10)!
+          <section><p>Jessy Rodriguez first came to The Family Giving Tree as a volunteer with her young classmates from Calaveras Montessori in 2004. They bagged gifts by 10 and she was already leading her group (she was one of the two children who could count to 10)!
           <span class="readmorecontent"> For the next several years, Jessy became a regular warehouse volunteer at the Holiday Wish Drive and Back to School Drive. In 2011 she really blossomed and took over the agency pick up job, working some pretty long shifts and even spent time helping her young friends learn the system! Jessy's hard work earned her Angel Elf of the year award in 2011! She currently attends Monroe Middle School where she is on the honor roll, active in band and plays the flute.</span></p>
-          <p class="text-right"><a href="#" class="readmore" data-hidetext="Show Less" data-showtext="Read More">Read More</a></p>
+          <p class="text-right"><a href="#" class="readmore" data-hidetext="Show Less" data-showtext="Read More">Read More</a></p></section>
         </div>
         <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
           <h3>Joanne Bodenhammer</h3>
@@ -211,8 +211,8 @@
         </div>
         <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
           <h3>Diane Trevino</h3>
-          <p>Diane Trevino has volunteered with FGT since it’s inception, more than 20 years!  She spends endless hours at our warehouses for the Back-to-School Drive and Holiday Wish Drive, doing everything from training fellow volunteers to personally making sure every bag is perfectly packed.  Her other commitments include serving as lead volunteer with Sacred Heart Community Services and heading the former National Semiconductor's Holiday Workshop Project that provided 800 gift bags for seniors, low-income families, homeless adults and adults with disabilities. <span class="readmorecontent">Not only does Diane coordinate the hundreds of volunteers that assemble the gift bags, she and her husband Rey shop for each of the items (over 10,400 toiletries, books, etc.) that go into the bags.  Diane participates in all of the volunteer projects coordinated by Texas Instruments including bagging groceries for seniors at the Sunnyvale Community Services, beautifying an InnVision shelter for women and children, and pulling invasive weeds with Save the Bay.  She also serves on Texas Instrument's Wellness Team, Recycling Team and is a Building Emergency Manager for their headquarters building.  She is an inspiration to all of us!</span></p>
-          <p class="text-right"><a href="#" class="readmore" data-hidetext="Show Less" data-showtext="Read More">Read More</a></p>
+          <section><p>Diane Trevino has volunteered with FGT since it’s inception, more than 20 years!  She spends endless hours at our warehouses for the Back-to-School Drive and Holiday Wish Drive, doing everything from training fellow volunteers to personally making sure every bag is perfectly packed.  <span class="readmorecontent">Her other commitments include serving as lead volunteer with Sacred Heart Community Services and heading the former National Semiconductor's Holiday Workshop Project that provided 800 gift bags for seniors, low-income families, homeless adults and adults with disabilities. Not only does Diane coordinate the hundreds of volunteers that assemble the gift bags, she and her husband Rey shop for each of the items (over 10,400 toiletries, books, etc.) that go into the bags.  Diane participates in all of the volunteer projects coordinated by Texas Instruments including bagging groceries for seniors at the Sunnyvale Community Services, beautifying an InnVision shelter for women and children, and pulling invasive weeds with Save the Bay.  She also serves on Texas Instrument's Wellness Team, Recycling Team and is a Building Emergency Manager for their headquarters building.  She is an inspiration to all of us!</span></p>
+          <p class="text-right"><a href="#" class="readmore" data-hidetext="Show Less" data-showtext="Read More">Read More</a></p></section>
         </div>
       </div>
     </section>
@@ -435,136 +435,141 @@
   <a class="close-reveal-modal">&#215;</a> </div>
 <div id="hoursCalendar" class="reveal-modal"> <a class="close-reveal-modal">&#215;</a>
   <h4>Warehouse Hours: August</h4>
-  <table id="month">
-    <thead>
-      <tr>
-        <th class="weekend">Sunday</th>
-        <th>Monday</th>
-        <th>Tuesday</th>
-        <th>Wednesday</th>
-        <th>Thursday</th>
-        <th>Friday</th>
-        <th class="weekend">Saturday</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="previous weekend"><span class="date">29</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td class="previous"><span class="date">30</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td class="previous"><span class="date">31</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">1</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">2</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">3</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td class="weekend"><span class="date">4</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-      </tr>
-      <tr>
-        <td class="weekend"><span class="date">5</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">6</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">7</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">8</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">9</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">10</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td class="weekend"><span class="date">11</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-      </tr>
-      <tr>
-        <td class="weekend"><span class="date">12</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">13</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">14</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">15</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">16</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">17</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td class="weekend"><span class="date">18</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-      </tr>
-      <tr>
-        <td class="weekend"><span class="date">19</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">20</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">21</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">22</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">23</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">24</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td class="weekend"><span class="date">25</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-      </tr>
-      <tr>
-        <td class="weekend"><span class="date">26</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">27</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">28</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">29</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">30</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td><span class="date">31</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-        <td class="weekend next"><span class="date">1</span>
-          <p>Lorem ipsum lorem ipsum</p>
-          <div class="day"></div></td>
-      </tr>
-    </tbody>
-  </table>
+<table id="month">
+  <thead>
+    <tr>
+      <th class="weekend">Sunday</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+      <th class="weekend">Saturday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="previous weekend"><span class="date">29</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td class="previous"><span class="date">30</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td class="previous"><span class="date">31</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td><span class="date">1</span>
+        <p> Backpacks DUE!<br />
+          Warehouse Open
+          
+          10am - 6pm </p>
+        <div class="day"></div></td>
+      <td><span class="date">2</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">3</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td class="weekend"><span class="date">4</span>
+        <p>Warehouse Open 11am - 3pmm</p>
+        <div class="day"></div></td>
+    </tr>
+    <tr>
+      <td class="weekend"><span class="date">5</span>
+        <p>Closed</p>
+        <div class="day"></div></td>
+      <td><span class="date">6</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">7</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">8</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">9</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">10</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td class="weekend"><span class="date">11</span>
+        <p>Closed</p>
+        <div class="day"></div></td>
+    </tr>
+    <tr>
+      <td class="weekend"><span class="date">12</span>
+        <p>Closed</p>
+        <div class="day"></div></td>
+      <td><span class="date">13</span>
+        <p> Backpacks Distributed to Schools <br />
+          Warehouse Open 10am - 5pm </p>
+        <div class="day"></div></td>
+      <td><span class="date">14</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">15</span>
+        <p> School Starts! <br />
+          Warehouse Open 10am - 5pm </p>
+        <div class="day"></div></td>
+      <td><span class="date">16</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">17</span>
+        <p>Warehouse Open 10am - 5pm</p>
+        <div class="day"></div></td>
+      <td class="weekend"><span class="date">18</span>
+        <p>Closed</p>
+        <div class="day"></div></td>
+    </tr>
+    <tr>
+      <td class="weekend"><span class="date">19</span>
+        <p>Closed</p>
+        <div class="day"></div></td>
+      <td><span class="date">20</span>
+        <p>Warehouse Open 10am - 3pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">21</span>
+        <p>Warehouse Open 10am - 3pm</p>
+        <div class="day"></div></td>
+      <td><span class="date">22</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td><span class="date">23</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td><span class="date">24</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td class="weekend"><span class="date">25</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+    </tr>
+    <tr>
+      <td class="weekend"><span class="date">26</span>
+        <p>Closed</p>
+        <div class="day"></div></td>
+      <td><span class="date">27</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td><span class="date">28</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td><span class="date">29</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td><span class="date">30</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td><span class="date">31</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+      <td class="weekend next"><span class="date">1</span>
+        <p>&nbsp;</p>
+        <div class="day"></div></td>
+    </tr>
+  </tbody>
+</table>
 </div>
 
 
