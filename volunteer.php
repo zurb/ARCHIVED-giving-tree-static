@@ -89,33 +89,33 @@
 </div>
 <script>
 $(document).ready(function(){
-	registerSelect();
-	readMoreToggle();
+  registerSelect();
+  readMoreToggle();
 });
 <!--FOR THE REGISTRATION FORM-->
 function registerSelect(){
-	$('#registerlink').hide();
-	$('#volunteerday').change(function(){
-		var taskId = $('#volunteerday option:selected').attr('data-taskid');
-		var taskName = $(this).val();
-		$('#registerlink').text(taskName).show();
-		$('#registerModalContent').load('vol_register.php?taskId='+taskId+'taskName='+taskName,function(){
-			$('#registerlink').click(function(e){
-				e.preventDefault();
-				$('#registerModal').reveal();
-			});
-		});
-	});
+  $('#registerlink').hide();
+  $('#volunteerday').change(function(){
+    var taskId = $('#volunteerday option:selected').attr('data-taskid');
+    var taskName = $(this).val();
+    $('#registerlink').text(taskName).show();
+    $('#registerModalContent').load('vol_register.php?taskId='+taskId+'taskName='+taskName,function(){
+      $('#registerlink').click(function(e){
+        e.preventDefault();
+        $('#registerModal').reveal();
+      });
+    });
+  });
 }
 <!--FOR THE READ MORE TOGGLE-->
 function readMoreToggle(){
-	$('.readmorecontent').hide();
-	$('.readmore').toggle(function(){
-		$(this).text('Show Less')
-		.closest('section').find('.readmorecontent').show('blind');
-	},function(){
-		$(this).text('Read More')
-		.closest('section').find('.readmorecontent').hide('blind');
-	});
+  $('.readmorecontent').hide();
+  $('.readmore').toggle(function(){
+    $(this).text('Show Less')
+    .closest('section').find('.readmorecontent').show('blind');
+  },function(){
+    $(this).text('Read More')
+    .closest('section').find('.readmorecontent').hide('blind');
+  });
 }
 </script>
