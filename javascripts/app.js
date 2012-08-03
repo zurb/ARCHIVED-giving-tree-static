@@ -40,8 +40,6 @@
     });
     $("[data-sticky]").each(GivingTree.setInitialStickyNavOffset);
   });
-<<<<<<< HEAD
-  
   
   
   $("[data-sticky]").each(function(idx,el){
