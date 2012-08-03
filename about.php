@@ -134,6 +134,268 @@
       </div>
     </div>
 
+    <hr>
+
+    <section id="programStats">
+      <h2>Program Statistics</h2>
+      <div class="row">
+        <div class="six columns">
+          <p class="large-stat">847,288 <small>Children helped since 1990</small></p>
+        </div>
+        <div class="six columns">
+          <p class="large-stat">847,288 <small>Children helped since 1990</small></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <table>
+            <thead>
+              <tr>
+                <td>Year</td>
+                <td>Host Locations</td>
+                <td>Agencies Served</td>
+                <td>Children Helped</td>
+                <td>Volunteers</td>
+                <td>Host Locations</td>
+                <td>Agencies Served</td>
+                <td>Children Helped</td>
+                <td>Volunteers</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1990</td>
+                <td>28</td>
+                <td>3</td>
+                <td>2,010</td>
+                <td>N/A</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>1992</td>
+                <td>80</td>
+                <td>15</td>
+                <td>N/A</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>1993</td>
+                <td>80</td>
+                <td>15</td>
+                <td>N/A</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>1994</td>
+                <td>80</td>
+                <td>15</td>
+                <td>N/A</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>1995</td>
+                <td>80</td>
+                <td>15</td>
+                <td>N/A</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>1996</td>
+                <td>80</td>
+                <td>15</td>
+                <td>N/A</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>1997</td>
+                <td>505</td>
+                <td>93</td>
+                <td>23,364</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>1997</td>
+                <td>505</td>
+                <td>93</td>
+                <td>23,364</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>1997</td>
+                <td>505</td>
+                <td>93</td>
+                <td>23,364</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>1997</td>
+                <td>505</td>
+                <td>93</td>
+                <td>23,364</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>1997</td>
+                <td>505</td>
+                <td>93</td>
+                <td>23,364</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>1997</td>
+                <td>505</td>
+                <td>93</td>
+                <td>23,364</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>1997</td>
+                <td>505</td>
+                <td>93</td>
+                <td>23,364</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>1997</td>
+                <td>505</td>
+                <td>93</td>
+                <td>23,364</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="six columns">
+          <div class="row">
+            <div class="six columns">
+              <img src="http://placehold.it/300x300">
+            </div>
+            <div class="six columns">
+              <h5>Story Title</h5>
+              <p>Description of the story</p>
+            </div>
+          </div>
+        </div>
+        <div class="six columns">
+          <div class="row">
+            <div class="six columns">
+              <img src="http://placehold.it/300x300">
+            </div>
+            <div class="six columns">
+              <h5>Story Title</h5>
+              <p>Description of the story</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="greenTree">
+      <div class="row">
+        <div class="four columns">
+          <img src="http://placehold.it/400x300" alt="green tree">
+        </div>
+        <div class="eight columns">
+          <h4>Green Tree</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="news">
+      <div class="row">
+        <div class="four columns">
+          <img src="http://placehold.it/400x300" alt="news">
+        </div>
+        <div class="eight columns">
+          <h4>Title</h4>
+          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui.</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="four columns">
+          <img src="http://placehold.it/400x300" alt="news">
+        </div>
+        <div class="eight columns">
+          <h4>Title</h4>
+          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui.</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="four columns">
+          <img src="http://placehold.it/400x300" alt="news">
+        </div>
+        <div class="eight columns">
+          <h4>Title</h4>
+          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui.</p>
+        </div>
+      </div>
+    </section>
+
   </div>
 </div>
 
