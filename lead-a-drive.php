@@ -31,7 +31,16 @@
     <!-- end .feature_wrapper -->
     <div class="row">
         <div class="three columns">
-            <ul class="side-nav" data-sticky>
+            <ul class="side-nav hide-for-mobile" data-sticky>
+                <li><a href="#aboutDrive">About Our Drives</a></li>
+                <li><a href="#importantDates">Important Dates</a></li>
+                <li><a href="#tipsSuccessfulDrive">Tips For a Successful Drive</a></li>
+                <li><a href="#currentDrives">Current Drives</a></li>
+                <li class="divider"></li>
+                <li><a href="#"><span class="glyph">9</span> Download resources</a></li>
+            </ul>
+            <!-- duplicate nav -->
+            <ul class="side-nav show-for-mobile">
                 <li><a href="#aboutDrive">About Our Drives</a></li>
                 <li><a href="#importantDates">Important Dates</a></li>
                 <li><a href="#tipsSuccessfulDrive">Tips For a Successful Drive</a></li>
