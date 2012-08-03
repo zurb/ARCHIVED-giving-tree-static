@@ -31,7 +31,6 @@
   <!-- Included CSS Files -->
   <link rel="stylesheet" href="stylesheets/app.css">
 
-  <script src="javascripts/foundation/modernizr.foundation.js"></script>
 
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>
