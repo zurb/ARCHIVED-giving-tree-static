@@ -13,7 +13,7 @@
                     <p>This year, we’ll reach our goal of helping one million children locally. You could be the person who fulfils the unique holiday wish of our millionth child.</p>
                     <a href="who-we-help.php" class="button radius">Donate Today &raquo;</a>
                 </div>
-                <img src="http://placehold.it/980x367">
+                <img src="http://placehold.it/2000x460">
             </div>
             <div>
                 <div class="content">
@@ -21,7 +21,7 @@
                     <p>Putting a smile on a kid’s face doesn’t just happen. It takes the kindness of those who become part of our community of Elves. People plant seeds by donating their time, a backpack or even a few dollars to fulfill the needs of children in low-income communities.</p>
                     <a href="donate.php" class="button radius">Donate Today &raquo;</a>
                 </div>
-                <img src="http://placehold.it/980x367">
+                <img src="http://placehold.it/2000x460">
             </div>
             <div>
                 <div class="content">
@@ -29,7 +29,7 @@
                     <p>As the holidays get closer, your company or organization can help lead a drive by displaying wish cards for fellow workers, customers, members or friends. </p>
                     <a href="lead-a-drive.php" class="button radius">Lead a Drive &raquo;</a>
                 </div>
-                <img src="http://placehold.it/980x367">
+                <img src="http://placehold.it/2000x460">
             </div>
             <div>
                 <div class="content">
@@ -37,7 +37,7 @@
                     <p>Our roots in the communities we serve go deep thanks to our volunteers. Without them, we wouldn’t be able to put smiles on the faces of the kids we help. </p>
                     <a href="volunteer.php" class="button radius">Volunteer &raquo;</a>
                 </div>
-                <img src="http://placehold.it/980x367">
+                <img src="http://placehold.it/2000x460">
             </div>
         </div>
         <ul class="button-group radius orbit-buttons">
