@@ -479,3 +479,60 @@ img.right {
         float:none;
     }
 }
+
+/*Volunteer Page*/
+.inputrow {
+  margin: 0 0 12px;
+  label,
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    display: inline;
+  width: auto;
+  }
+}
+#tasklist {
+  list-style-type: none;
+  margin-left: 0;
+  li {
+    display: inline-block;
+  *display: inline;
+  zoom: 1;
+  padding: 0 15px 0 0;
+  }
+}
+.helpicon,
+.helpicon:link,
+.helpicon:visited {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 14px;
+  height: 14px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  background-color: $darkPurple;
+  border-radius: 7px;
+  color: #fff;
+  text-align: center;
+  margin: 4px 0 0;
+  vertical-align: top;
+}
+.calendar {
+  td, th, p {
+    font-size: 12px;
+  }
+  td, th {
+    width: 14%;
+  }
+}
