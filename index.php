@@ -137,8 +137,9 @@
            top: 'auto', // Top position relative to parent in px
            left: 'auto' // Left position relative to parent in px
          };
+         debugger
          var target = document.getElementById('featured');
-         var spinner = new Spinner(opts).spin('target');
+         var spinner = new Spinner(opts).spin(target);
      });
   </script>
 <?php })?>
