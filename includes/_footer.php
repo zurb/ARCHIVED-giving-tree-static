@@ -1,7 +1,7 @@
 <footer>
     <div class="footer-columns">
         <div class="row">
-            <div class="six columns">
+            <div class="eight columns">
                 <h5><a href="index.php">Family Giving Tree  <span class="handwritten">fulfilling children’s wishes</span></a></h5>
             </div>
         </div>
@@ -11,7 +11,7 @@
                     <div class="six columns">
                         <dl>
                             <dt>Contact Us</dt>
-                            <dd><span class="glyph">6</span>606 Valley Way,<br>
+                            <dd>606 Valley Way,<br>
                             Milipitas, CA 95035</dd>
                             <dd>(408) 946-3111</dd>
                         </dl>
@@ -24,7 +24,7 @@
                     </div>
                     <div class="six columns">
                         <h6>Upcoming Events</h6>
-                        <ul>
+                        <ul class="upcoming-events">
                             <li>
                                 <a href="#">8/2 FGT Open House</a>
                                 <p>This is a description of the event.</p>
@@ -39,7 +39,7 @@
             </div>
             <div class="six columns">
                 <div class="row">
-                    <div class="six columns">
+                    <div class="six columns elf">
                         <img src="images/elf.png" alt="Family Giving Tree ELf">
                     </div>
                     <div class="six columns">

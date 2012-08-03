@@ -26,7 +26,7 @@
     <section id="joinus">
       <h2>Join Us</h2>
       <p>Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer:</p>
-      <h4> Year-Round Volunteer Opportunities</h4>
+      <h3> Year-Round Volunteer Opportunities</h3>
       <ul>
         <li> General Office Help & Drive Preparation: Help us organize materials and prep for our Back to School Drive and/or Holiday Wish Drive. Great for students! </li>
         <li> *Please, no drop-ins. Email volunteers@familygivingtree.org or call
@@ -35,12 +35,12 @@
         <li> Back to School Drive :</li>
         <li> Backpack Card sorting (May)</li>
       </ul>
-      <h4> Backpack pick-up and delivery (August)</h4>
+      <h3> Backpack pick-up and delivery (August)</h3>
       <ul>
         <li> BTS Warehouse Duties (August): Help us set-up the warehouse, receive backpacks, sort, quality check, clean-up warehouse and prepare backpacks for distribution to low-income children.</li>
         <li> Backpack distributions (August)</li>
       </ul>
-      <h4> Holiday Wish Drive:</h4>
+      <h3> Holiday Wish Drive:</h3>
       <ul>
         <li> Wish Card sorting (October)</li>
         <li> Gift pickup and delivery (December)</li>
@@ -87,12 +87,37 @@
         </ul>
         <div id="warehousetaskform">
           <p>
-            <label for="volunteerday">Day/Task:</label>
-            <select id="volunteerday">
+            <label>Day/Task:</label>
+            <select class="volunteerday january">
               <!--
         POPULATE OPTION ATTRIBUTES
-        value: Task Name
-        data-taskid: Task ID
+        value: Task ID
+        disabled: Include if volunteer slot is full
+        Text: Day and date
+        -->
+              <option selected>Select a day and task</option>
+              <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
+              <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
+              <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
+              <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
+            </select>
+            <select class="volunteerday august">
+              <!--
+        POPULATE OPTION ATTRIBUTES
+        value: Task ID
+        disabled: Include if volunteer slot is full
+        Text: Day and date
+        -->
+              <option selected>Select a day and task</option>
+              <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
+              <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
+              <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
+              <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
+            </select>
+            <select class="volunteerday december">
+              <!--
+        POPULATE OPTION ATTRIBUTES
+        value: Task ID
         disabled: Include if volunteer slot is full
         Text: Day and date
         -->
@@ -172,61 +197,22 @@
     <section id="celebrating">
       <h2>Celebrating Volunteers</h2>
       <h3>Who are the Angel Elves?</h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere gravida magna in tristique. Nam pretium augue sit amet tortor varius vitae venenatis magna semper. Proin quis erat et massa consectetur feugiat. Morbi sollicitudin mattis ligula, non vehicula est rutrum id. Ut cursus lorem a leo aliquet auctor. Suspendisse elit felis, pellentesque sed gravida rutrum, ultrices at erat. Aliquam vel ultricies urna. In interdum luctus magna ac tincidunt. Nullam tortor ligula, venenatis ut aliquet in, lobortis eget nisl. Ut quis elit mauris, et congue ligula. Mauris vitae tellus non mauris rutrum ultricies a pulvinar nisi. Morbi facilisis dignissim turpis, non aliquet nibh scelerisque ut. Donec quis lacus lectus, in venenatis tellus.</p>
+      <p>The contributions of our Angel Elves are tremendous. Their combined efforts are vital to our programs and their constant enthusiasm helps brighten the holidays for thousands of children each year. On behalf of all the children, we thank them for their dedication! </p>
       <div class="row">
         <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+          <h3>Jessy Rodriguez</h3>
+          <p>Jessy Rodriguez first came to The Family Giving Tree as a volunteer with her young classmates from Calaveras Montessori in 2004. They bagged gifts by 10 and she was already leading her group (she was one of the two children who could count to 10)!
+          <span class="readmorecontent"> For the next several years, Jessy became a regular warehouse volunteer at the Holiday Wish Drive and Back to School Drive. In 2011 she really blossomed and took over the agency pick up job, working some pretty long shifts and even spent time helping her young friends learn the system! Jessy's hard work earned her Angel Elf of the year award in 2011! She currently attends Monroe Middle School where she is on the honor roll, active in band and plays the flute.</span></p>
+          <p class="text-right"><a href="#" class="readmore" data-hidetext="Show Less" data-showtext="Read More">Read More</a></p>
         </div>
         <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+          <h3>Joanne Bodenhammer</h3>
+          <p>Joanne Bodenhammer has volunteered countless hours helping us contact and sign up hundreds of hosts for our holiday program, and get wish cards ready to send them.  Thanks to her dedication and generous spirit for many years, thousands more children's wishes will be fulfilled this season!  She is an amazing Angel Elf!</p>
         </div>
         <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
-          <h3>Joe Shmoe</h3>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+          <h3>Diane Trevino</h3>
+          <p>Diane Trevino has volunteered with FGT since it’s inception, more than 20 years!  She spends endless hours at our warehouses for the Back-to-School Drive and Holiday Wish Drive, doing everything from training fellow volunteers to personally making sure every bag is perfectly packed.  Her other commitments include serving as lead volunteer with Sacred Heart Community Services and heading the former National Semiconductor's Holiday Workshop Project that provided 800 gift bags for seniors, low-income families, homeless adults and adults with disabilities. <span class="readmorecontent">Not only does Diane coordinate the hundreds of volunteers that assemble the gift bags, she and her husband Rey shop for each of the items (over 10,400 toiletries, books, etc.) that go into the bags.  Diane participates in all of the volunteer projects coordinated by Texas Instruments including bagging groceries for seniors at the Sunnyvale Community Services, beautifying an InnVision shelter for women and children, and pulling invasive weeds with Save the Bay.  She also serves on Texas Instrument's Wellness Team, Recycling Team and is a Building Emergency Manager for their headquarters building.  She is an inspiration to all of us!</span></p>
+          <p class="text-right"><a href="#" class="readmore" data-hidetext="Show Less" data-showtext="Read More">Read More</a></p>
         </div>
       </div>
     </section>
@@ -592,6 +578,7 @@ $(document).ready(function(){
 function registerSelect(){
   $('#registerlink').hide();
   $('#warehousetaskform').hide();
+  $('.volunteerday').hide();
   $('.warehousetask').click(function(e){
     e.preventDefault();
     $('#warehousetaskform').show();
@@ -603,13 +590,11 @@ function registerSelect(){
     $('#tasklist li').hide();
     $('.'+month).show();
   });
-  $('#volunteerday').change(function(){
+  $('.volunteerday').change(function(){
     var taskId = $(this).val();
-	var desc = $(this).find('option:selected').text();
-	alert(desc);
+  var desc = $(this).find('option:selected').text();
     $('#registerlink').show();
-	$('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">')
-    $('#TaskId').val(taskId);
+  $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
     $('#daytask').text(desc);
   });
 }
