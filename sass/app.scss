@@ -199,13 +199,20 @@ blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; 
 
 /*Lead a Drive*/
 .featured p { font-size: 18px; }
-.feature_wrapper { background-color: $lightGreen; padding-top: 120px; padding-bottom: 40px; }
+.feature_wrapper { background-color: $lightGreen; padding-top: 110px; padding-bottom: 40px; }
+.register_callout { background-color: #f3e9f1; padding: 10px 0; margin-bottom: 20px !important }
+.register_callout p { font-size: 22px; color: #999; padding: 12px 0 0 10px; }
+#aboutDrive ul li { width: 240px }
+#tipsSuccessfulDrive ul { list-style: none; }
+#tipsSuccessfulDrive ul li { float: left; width: 170px; padding-left: 20px; }
+#tipsSuccessfulDrive ul li.first { padding-left: 0px; }
 
 /*Events*/
 .date {
   background-color: $beige;
   text-transform: uppercase;
   padding: 4px 10px;
+  margin-top: 18px;
 }
 .upcoming-events {
     a {

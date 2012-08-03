@@ -1,4 +1,4 @@
-<?
+    <?
   $page_title = "Volunteer or Host";
   $page_template = "main";  
 ?>
