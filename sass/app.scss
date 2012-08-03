@@ -211,6 +211,7 @@ blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; 
 #tipsSuccessfulDrive ul { list-style: none; }
 #tipsSuccessfulDrive ul li { float: left; width: 170px; padding-left: 20px; }
 #tipsSuccessfulDrive ul li.first { padding-left: 0px; }
+div.row.size-fix p { font-size: 14px!important; }
 
 /*Events*/
 .date {
@@ -470,7 +471,7 @@ img.right {
 }
 
 /*Volunteer Page*/
-.inputrow {
+.inputrow { margin-bottom: 12px;
   label,
   input[type="text"],
   input[type="password"],
