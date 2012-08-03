@@ -131,11 +131,11 @@
     <div class="panel">
       <h5>Tax Links</h5>
       <ul class="disc">
-        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="privacypolicy.pdf">Privacy Policy</a></li>
         <li><a href="donations/tax.htm">Tax Link</a></li>
-        <li><a href="#">IRS 990</a></li>
-        <li><a href="#">501c(3)</a></li>
-        <li><a href="#">Audited Financial</a></li>
+        <li><a href="9902010.pdf">IRS 990</a></li>
+        <li><a href="501c3.pdf">501c(3)</a></li>
+        <li><a href="auditedfinancials10.pdf">Audited Financial</a></li>
       </ul>
     </div>
   </div>
