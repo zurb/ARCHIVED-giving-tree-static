@@ -1,6 +1,6 @@
 <?
-  $page_title = "About Us";
-  $page_template = "about";  
+  $page_title = "Donate";
+  $page_template = "donate";  
 ?>
 <?php include("includes/_header.php"); ?>
 
