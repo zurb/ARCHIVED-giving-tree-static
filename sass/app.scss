@@ -182,8 +182,8 @@ h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
 .full.rule { background: image-url('seamless-rule.png'); height: 18px; position: relative; top: -10px; z-index: 9; }
 .full.stats { background: #f0f0d9; margin-top: -30px; padding-top: 60px; padding-bottom: 30px; margin-bottom: 60px; border-bottom: solid 1px darken(#f0f0d9, 20%); }
 
-.button.banner { padding: 21px 28px 21px 57px !important; position: relative; border: none; @include box-shadow(0 0 0 rgba(0,0,0,0) inset); color: $white; font-family: "HandOfSeanRegular"; text-align: center; background: image-url('buttons/bg-purple.png') 0 0 repeat-x; 
-  &:after { content: ""; display: block; width: 24px; height: 100%; position: absolute; top: 50%; margin-top: -50%; right: -24px; background: image-url('buttons/right-purple.png') 0 0 no-repeat; }
+.button.banner { box-shadow: none !important; border: none !important; padding: 19px 28px 19px 57px !important; position: relative; border: none; @include box-shadow(0 0 0 rgba(0,0,0,0) inset); color: $white; font-family: "HandOfSeanRegular"; text-align: center; background: image-url('buttons/bg-purple.png') 0 0 repeat-x; 
+  &:after { content: ""; display: block; width: 24px; height: 55px; position: absolute; top: 50%; margin-top: -28px; right: -24px; background: image-url('buttons/right-purple.png') 0 0 no-repeat; }
   &.green { background: image-url('buttons/bg-green.png');
     &:after { background: image-url('buttons/right-green.png'); }
   }
@@ -194,20 +194,27 @@ h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
 
 .button.purple { background-color: $darkPurple; color: #fff; border: solid 1px darken($darkPurple, 10%);}
 
-blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; background: $lightPink; margin-bottom: 0; 
-  cite { font-family: "Helvetica", Arial, sans-serif; color: $white;}
+blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; background: $lightPink; margin-bottom: 0; margin-top: -1px;
+  cite { font-family: "Helvetica", Arial, sans-serif; color: $white; }
   &.secondary { background: #eee; font-family: "Helvetica", Arial, sans-serif; color: #333; padding-bottom: 14px; padding-top: 14px; margin-bottom: 20px; }
 }
 
 /*Lead a Drive*/
 .featured p { font-size: 18px; }
-.feature_wrapper { background-color: $lightGreen; padding-top: 120px; padding-bottom: 40px; }
+.feature_wrapper { background-color: $lightGreen; padding-top: 110px; padding-bottom: 40px; }
+.register_callout { background-color: #f3e9f1; padding: 10px 0; margin-bottom: 20px !important }
+.register_callout p { font-size: 22px; color: #999; padding: 12px 0 0 10px; }
+#aboutDrive ul li { width: 240px }
+#tipsSuccessfulDrive ul { list-style: none; }
+#tipsSuccessfulDrive ul li { float: left; width: 170px; padding-left: 20px; }
+#tipsSuccessfulDrive ul li.first { padding-left: 0px; }
 
 /*Events*/
 .date {
   background-color: $beige;
   text-transform: uppercase;
   padding: 4px 10px;
+  margin-top: 18px;
 }
 .upcoming-events {
     a {

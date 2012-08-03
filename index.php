@@ -129,7 +129,7 @@
   <script type="text/javascript"> 
     // $(".row.featured").spin({lines:9, width:4})
    $(window).load(function() {
-       $('#featured').orbit({ pauseOnHover: true, startClockOnMouseOut: true, advanceSpeed: 5000, fluid: "1430x550", bullets: true });
+       $('#featured').orbit({ pauseOnHover: true, startClockOnMouseOut: true, advanceSpeed: 5000, fluid: "1430x508", bullets: true });
        $(".row.featured").spin(false);
    });
   </script>
