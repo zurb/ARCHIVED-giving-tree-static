@@ -960,6 +960,7 @@ function sendmailnew($VolunteerId,$typeId){
 
 function sendVolunteerEmail($values) {
   $message = "Name: $values[name]\n"
+              . "Volunteer Category: $values[category]\n"
               . "Email: $values[email]\n"
               . "Phone: $values[phone]\n"
               . "Company or School: $values[org]\n"

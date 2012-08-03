@@ -89,14 +89,14 @@
         For warehouse tasks, add class="warehousetask" in order to show the warehouse task dropdown
         -->
         <ul id="tasklist">
-          <li class="january february march april may june july august september october november december"><a href="#" data-reveal-id="volEmailModal">General Office Duties</a> &nbsp;<a href="#" data-reveal-id="task1Modal" class="helpicon">?</a></li>
-          <li class="may june"><a href="#" data-reveal-id="volEmailModal">Back to School Drive Prep</a> &nbsp;<a href="#" data-reveal-id="task2Modal" class="helpicon">?</a></li>
-          <li class="september october november december"><a href="#" data-reveal-id="volEmailModal">Holiday Wish Drive Prep</a> &nbsp;<a href="#" data-reveal-id="task3Modal" class="helpicon">?</a></li>
+          <li class="january february march april may june july august september october november december"><a href="#" class="email-link" data-reveal-id="volEmailModal">General Office Duties</a> &nbsp;<a href="#" data-reveal-id="task1Modal" class="helpicon">?</a></li>
+          <li class="may june"><a href="#" data-reveal-id="volEmailModal" class="email-link">Back to School Drive Prep</a> &nbsp;<a href="#" data-reveal-id="task2Modal" class="helpicon">?</a></li>
+          <li class="september october november december"><a href="#" data-reveal-id="volEmailModal" class="email-link">Holiday Wish Drive Prep</a> &nbsp;<a href="#" data-reveal-id="task3Modal" class="helpicon">?</a></li>
           <li class="august"><a href="#" class="warehousetask">Back to School Warehouse</a> &nbsp;<a href="#" data-reveal-id="task4Modal" class="helpicon">?</a></li>
           <li class="january december"><a href="#" class="warehousetask">Holiday Wish Drive Warehouse</a> &nbsp;<a href="#" data-reveal-id="task5Modal" class="helpicon">?</a></li>
-          <li class="august december"><a href="#" data-reveal-id="volEmailModal">Donation Pick-ups</a> &nbsp;<a href="#" data-reveal-id="task6Modal" class="helpicon">?</a></li>
-          <li class="january february march april may june july august september october november december"><a href="#" data-reveal-id="volEmailModal">Agency Interviews</a> &nbsp;<a href="#" data-reveal-id="task7Modal" class="helpicon">?</a></li>
-          <li class="october november"><a href="#" data-reveal-id="volEmailModal">Wish Editing</a> &nbsp;<a href="#" data-reveal-id="task8Modal" class="helpicon">?</a></li>
+          <li class="august december"><a href="#" data-reveal-id="volEmailModal" class="email-link">Donation Pick-ups</a> &nbsp;<a href="#" data-reveal-id="task6Modal" class="helpicon">?</a></li>
+          <li class="january february march april may june july august september october november december"><a href="#" data-reveal-id="volEmailModal" class="email-link">Agency Interviews</a> &nbsp;<a href="#" data-reveal-id="task7Modal" class="helpicon">?</a></li>
+          <li class="october november"><a href="#" data-reveal-id="volEmailModal" class="email-link">Wish Editing</a> &nbsp;<a href="#" data-reveal-id="task8Modal" class="helpicon">?</a></li>
         </ul>
         <div id="warehousetaskform">
           <div class="inputrow">
@@ -319,7 +319,7 @@
     *Required Fields 
     </p>
   <h2>Register to Volunteer</h2>
-  <form id="volunteerform" method="post" action="../../../wamp/www/giving-tree-static/volunteer-post-email.php">
+  <form id="volunteerform" method="post" action="volunteer-post-email.php">
     <label for="name">*Name</label>
     <input type="text" id="name" name="name" class="required" />
     <label for="email">Email Address</label>
@@ -611,6 +611,10 @@ function registerSelect(){
     var month = $(this).val();
     $('#tasklist li').hide();
     $('.'+month).show();
+  });
+  $(".email-link").click(function() {
+    var description = $(this).text();
+    $('#volunteerform').append('<input type="hidden" name="category" value="'+description+'">');
   });
   $('.volunteerday').change(function(){
     $('#registerlink').hide();
