@@ -29,7 +29,7 @@
         <!-- end .row -->
     </div>
     <!-- end .feature_wrapper -->
-    <div class="row">
+    <div class="row size-fix">
         <div class="three columns">
             <ul class="side-nav hide-for-mobile" data-sticky>
                 <li><a href="#aboutDrive">About Our Drives</a></li>
