@@ -45,7 +45,7 @@
         <div class="three columns">
           <img src="images/people/jess.png" alt="bio image">
           <h3>Jess</h3>
-          <p>Jess is an en expert with small to medium sized operations with added extensive work in the not-for-profit sector. With his specialization in financial reporting, internal controls, business planning, financial systems, and organization development Jess keeps the Elves' finances in line. He currently act as the permanent and part-time CFO for numerous not-for profit organizations including the Family Giving Tree. Jess obtained a BSC from Santa Clara University and received an MBA from Pepperdine University. When he's not crunching numbers, Jess enjoys golfing, enjoying fine wine, and spending time with his lovely wife and children.</p>
+          <p>Jess is an expert with small to medium sized operations with added extensive work in the not-for-profit sector. With his specialization in financial reporting, internal controls, business planning, financial systems, and organization development Jess keeps the Elves' finances in line. He currently act as the permanent and part-time CFO for numerous not-for profit organizations including the Family Giving Tree. Jess obtained a BSC from Santa Clara University and received an MBA from Pepperdine University. When he's not crunching numbers, Jess enjoys golfing, enjoying fine wine, and spending time with his lovely wife and children.</p>
         </div>
       </div>
       <div class="row size-fix">
