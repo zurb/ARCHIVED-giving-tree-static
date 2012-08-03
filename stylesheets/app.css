@@ -4410,11 +4410,16 @@ footer {
 }
 
 /* line 118, ../sass/app.scss */
+.side-nav {
+  background: white;
+}
+
+/* line 121, ../sass/app.scss */
 .right {
   float: right;
 }
 
-/* line 121, ../sass/app.scss */
+/* line 124, ../sass/app.scss */
 .left {
   float: left;
 }
@@ -4442,4 +4447,26 @@ footer {
 .sticky {
   position: fixed;
   top: 10px;
+}
+
+/*Holiday Slider*/
+/* line 143, ../sass/app.scss */
+#holidaySlider {
+  min-height: 460px !important;
+}
+
+/* line 146, ../sass/app.scss */
+img.right {
+  width: 200px;
+  margin-left: 30px;
+}
+
+/* line 150, ../sass/app.scss */
+#holidaySlider .columns {
+  background: white;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  padding: 15px !important;
+  border: 1px solid #ddd;
+  margin-left: 50px;
 }

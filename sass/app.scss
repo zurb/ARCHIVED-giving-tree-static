@@ -115,6 +115,9 @@ footer {
     margin-left:-($columnGutter / 2);
     margin-right:-($columnGutter / 2);
 }
+.side-nav {
+    background:$white;
+}
 .right {
   float: right;
 }
@@ -138,3 +141,20 @@ footer {
   }
 }
 .sticky {position:fixed; top:10px;}
+
+/*Holiday Slider*/
+#holidaySlider {
+    height:460px !important;
+}
+img.right {
+    width:200px;
+    margin-left:$columnGutter;
+}
+#holidaySlider .columns {
+    background:$white;
+    box-shadow: 0px 3px 20px rgba(0,0,0,.1);
+    width:90%;
+    padding:15px !important;
+    border: 1px solid #ddd;
+    margin-left: 50px;
+}
