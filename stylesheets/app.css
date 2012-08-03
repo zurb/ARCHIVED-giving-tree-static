@@ -4355,14 +4355,15 @@ footer {
 /* line 98, ../sass/app.scss */
 .glyph.social {
   font-family: 'FoundationIconsSocial';
+  font-size: 24px;
 }
 
-/* line 103, ../sass/app.scss */
+/* line 104, ../sass/app.scss */
 .right {
   float: right;
 }
 
-/* line 106, ../sass/app.scss */
+/* line 107, ../sass/app.scss */
 .left {
   float: left;
 }
