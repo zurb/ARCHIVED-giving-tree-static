@@ -5167,7 +5167,7 @@ function scan_file($file)
 
  
 
- //When the ’-fullreport’ startup switch is used in the daemon scanner, the following additional codes may be returned 
+ //When the fullreport startup switch is used in the daemon scanner, the following additional codes may be returned 
 
  $ret_value[6] = " Known archive file was scanned and nothing was found.";
 
