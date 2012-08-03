@@ -101,7 +101,7 @@
     </div>
     <hr>
     
-    <a class="medium banner button purple" href="virtual-checkout.php">Continue</a>
+    <a class="medium button purple" href="virtual-checkout.php">Continue</a>
     
   </div>
 

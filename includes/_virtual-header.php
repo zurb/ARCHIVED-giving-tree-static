@@ -45,14 +45,14 @@
   <header>
     <div class="row">
         <div class="three columns logo hide-for-small mobile-one">
-            <a href="index.php"><img src="images/logo.png" alt="Family Giving Tree"></a>
+            <a href="index.php"><img src="vgt-images/logo.png" alt="Family Giving Tree"></a>
         </div>
     </div>
     <!-- end .row -->
 </header>
 <div class="row show-for-small">
     <div class="mobile-two columns pull-one-mobile">
-        <a href="index.php"><img src="images/logo.png" alt="Family Giving Tree"></a>
+        <a href="index.php"><img src="vgt-images/logo.png" alt="Family Giving Tree"></a>
     </div>
 </div>
 
