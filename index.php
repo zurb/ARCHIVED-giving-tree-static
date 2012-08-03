@@ -114,9 +114,6 @@
     </div>
 </div>
 
-<div class="row">
-    <div style="height: 40px"></div>
-</div>
 
 <?php include("includes/_footer.php");  ?>
 
