@@ -156,10 +156,6 @@ ul.orbit-bullets { bottom: 20px;
   }
 }
 .stats { text-align: center; }
-.Main {
-  .featured { margin-top: -28px; 
-  }
-}
 
 .orange { color: $orange; }
 .green { color: $green; }
@@ -222,6 +218,7 @@ a:hover, a:active, a.selected { color: darken($darkPurple, 10%); }
 header {
     background: image-url("bg/bg-header.png") bottom center repeat-x;
     height: 115px;
+    margin-bottom: -30px;
     overflow: visible;
     position: relative;
     z-index: 10;
