@@ -344,10 +344,10 @@
     <input type="text" id="org" name="org" />
     <label for="under18">*Are you under 18?</label>
     <label>
-      <input type="radio" name="under18" id="under18yes" value="1" class="required" />
+      <input type="radio" name="under18" id="under18yes" value="Yes" class="required" />
       Yes</label>
     <label>
-      <input type="radio" name="under18" id="under18no" value="0" class="required" />
+      <input type="radio" name="under18" id="under18no" value="No" class="required" />
       No</label>
     <label for="grade">If so, grade level</label>
     <input type="text" id="grade" name="grade" />
