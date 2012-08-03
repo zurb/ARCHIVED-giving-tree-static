@@ -139,9 +139,9 @@
 }
 
 /*Hompepage*/
-.featured { position: relative; margin-bottom: 0px; width: 1200px;
+.featured { position: relative; margin: 0 !important; width: 100%; background: #faf9f4;
 }
-.featured .orbit-wrapper .content { position: absolute; top: 130px; width: 980px; margin: 0 auto; }
+.featured .orbit-wrapper .content { position: relative; top: 120px; width: 980px; margin: 0 auto; }
 .featured .timer { display: none }
 .featured > .twelve { padding: 0; }
 .featured .orbit.with-bullets { margin-bottom: 0 !important; }
@@ -159,11 +159,16 @@ ul.orbit-bullets { bottom: 20px;
 }
 .stats { text-align: center; }
 
+#sliderOne { background: image-url('home1.jpg') top center no-repeat; }
+#sliderTwo { background: image-url('home2.jpg') top center no-repeat; }
+#sliderThree { background: image-url('home3.jpg') top center no-repeat; }
+#sliderFour { background: image-url('home4.jpg') top center no-repeat; }
+
+
+/*Global*/
 .orange { color: $orange; }
 .green { color: $green; }
 .pink { color: $pink; }
-
-/*Global*/
 .full { width: 100%; }
 h1 { color: $darkPurple; }
 h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
