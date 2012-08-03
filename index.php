@@ -1,6 +1,6 @@
 <?
     $page_title = "Home";
-    $page_template = "Main";
+    $page_template = "main";
 ?>
 <?php include("includes/_header.php"); ?>
 
