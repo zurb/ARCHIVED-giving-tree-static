@@ -129,7 +129,13 @@
   <script type="text/javascript"> 
     // $(".row.featured").spin({lines:9, width:4})
    $(window).load(function() {
-       $('#featured').orbit({ pauseOnHover: true, startClockOnMouseOut: true, advanceSpeed: 5000, fluid: "1430x508", bullets: true });
+      var orbitRatio;
+      if ($(window).width() > 1000) {
+        orbitRatio = "1430x508";
+      } else {
+        orbitRatio = "1x1";
+      }
+       $('#featured').orbit({ pauseOnHover: true, startClockOnMouseOut: true, advanceSpeed: 5000, fluid: orbitRatio, bullets: true });
        $(".row.featured").spin(false);
    });
   </script>
