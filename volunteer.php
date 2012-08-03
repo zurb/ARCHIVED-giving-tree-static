@@ -47,7 +47,7 @@
         <li> HWD warehouse duties (December): Help us set-up warehouse, receive gifts, sort, wrap, quality check, clean-up warehouse and distribute gifts to low-income children.</li>
         <li> Gift distributions (December & January)</li>
       </ul>
-      <p> To learn about our needs as soon as they're posted, Sign up for our newsletter <a href="https://www.facebook.com/familygivingtree">become a friend on Facebook</a></p>
+      <p> To learn about our needs as soon as they're posted, Sign up for our newsletter <a href="https://www.facebook.com/familygivingtree" target="_blank">become a friend on Facebook</a></p>
       <div class="panel" id="register">
         <h4>When can you volunteer?</h4>
         <p>
@@ -344,15 +344,15 @@
     <input type="text" id="org" name="org" />
     <label for="under18">*Are you under 18?</label>
     <label>
-      <input type="radio" name="under18" id="under18yes" value="1" class="required" />
+      <input type="radio" name="under18" id="under18yes" value="Yes" class="required" />
       Yes</label>
     <label>
-      <input type="radio" name="under18" id="under18no" value="0" class="required" />
+      <input type="radio" name="under18" id="under18no" value="No" class="required" />
       No</label>
     <label for="grade">If so, grade level</label>
     <input type="text" id="grade" name="grade" />
     <label for="weekday">*Availability (check all that apply)</label>
-    Days
+    <label for="weekday">Days</label>
     <label>
       <input type="checkbox" name="weekday[]" id="weekdaym" value="M" class="required" />
       M</label>
