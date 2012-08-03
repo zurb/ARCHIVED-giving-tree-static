@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -43,15 +42,8 @@
 
   <header>
     <div class="row">
-      <div class="ten columns">
-        <h1><small>Family Giving Tree</small><br>
-          Back to School Drive
-        </h1>
-      </div>
       <div class="two columns">
-        <img src="http://placehold.it/200x200" alt="cicso">
+        <img src="http://placehold.it/200x200" alt="FGT">
       </div>
     </div>
   </header>
-
-<?php include("includes/_functions.php"); ?>

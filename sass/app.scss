@@ -48,6 +48,74 @@
 // TESTING COMPASS WATCH, PUT CSS BELOW
 
 /*Fonts*/
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2012 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      exljbris
+ * License URL: http://www.fontspring.com/fflicense/exljbris
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'Museo700Regular';
+    src: font-url('museo/Museo700-Regular-webfont.eot');
+    src: font-url('museo/Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('museo/Museo700-Regular-webfont.woff') format('woff'),
+         font-url('museo/Museo700-Regular-webfont.ttf') format('truetype'),
+         font-url('museo/Museo700-Regular-webfont.svg#Museo700Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Museo500Regular';
+    src: font-url('museo/Museo500-Regular-webfont.eot');
+    src: font-url('museo/Museo500-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('museo/Museo500-Regular-webfont.woff') format('woff'),
+         font-url('museo/Museo500-Regular-webfont.ttf') format('truetype'),
+         font-url('museo/Museo500-Regular-webfont.svg#Museo500Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Museo300Regular';
+    src: font-url('museo/Museo300-Regular-webfont.eot');
+    src: font-url('museo/Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('museo/Museo300-Regular-webfont.woff') format('woff'),
+         font-url('museo/Museo300-Regular-webfont.ttf') format('truetype'),
+         font-url('museo/Museo300-Regular-webfont.svg#Museo300Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'HandOfSeanRegular';
+    src: font-url('hand/hand_of_sean_regular-webfont.eot');
+    src: font-url('hand/hand_of_sean_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('hand/hand_of_sean_regular-webfont.woff') format('woff'),
+         font-url('hand/hand_of_sean_regular-webfont.ttf') format('truetype'),
+         font-url('hand/hand_of_sean_regular-webfont.svg#HandOfSeanRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 @font-face {
   font-family: 'FoundationIconsGeneral';
   src: font-url('icons/foundation-icons-general.eot');
@@ -72,28 +140,30 @@
 
 /*Hompepage*/
 .featured { position: relative; margin-bottom: 20px; }
-.featured ul { position: absolute; bottom: 0; left: 280px; z-index: 1000; }
-.featured .orbit-wrapper .content { position: absolute; top: 80px; left: 80px; width: 200px }
-#featured { background: image-url("spinner.gif") center center #f4f4f4; height: 300px; }
+.featured ul { position: absolute; top: 340px; left: 254px; z-index: 1000; }
+.featured .orbit-wrapper .content { position: absolute; top: 50px; left: 80px; width: 425px }
+.featured .timer { display: none }
+#featured { background: #f4f4f4; height: 364px; margin-bottom: 20px; }
 #featured div { display: none; }
 #featured.orbit { background: none; }
 #featured.orbit div { display: block; }
 
 /*Events*/
 .date {
-  border: 1px solid #ddd;
+  border: 1px solid $darkPurple;
   li {
     list-style:none;
     text-align:center;
   }
   .month {
-    background: #4D4D4D;
+    background: $darkPurple;
     text-transform: uppercase;
     color: #fff;
     font-size: ms(-1);
   }
   .day {
     font-size: ms(3);
+    color: $darkPurple;
   }
 }
 
@@ -101,6 +171,42 @@
 header,
 footer {
     background:#fafafa;
+    ul.link-list {
+        margin-bottom:0;
+    }
+    dt {
+        font-weight: bold;
+    }
+    label {
+        color: $white;
+    }
+}
+.footer-nav {
+    ul.link-list a, p {
+        color: $white;
+    }
+}
+header {
+    background: image-url("puple-bg.png");
+}
+.footer-columns {
+    background: url(../images/footer-bg.png) repeat-x;
+}
+.footer-nav {
+    background: #523219;
+}
+footer {
+    color: $white;
+}
+h1, h2, h3, {
+    font-family: 'Museo300Regular';
+}
+.handwritten {
+    font-family: 'HandOfSeanRegular';
+}
+.side-nav a {
+    color: $pink;
+    font-weight: bold;
 }
 .glyph {
   font-family: 'FoundationIconsGeneral';
@@ -115,6 +221,9 @@ footer {
     margin-left:-($columnGutter / 2);
     margin-right:-($columnGutter / 2);
 }
+.side-nav {
+    background:$white;
+}
 .right {
   float: right;
 }
@@ -122,6 +231,9 @@ footer {
   float: left;
 }
 
+.next-season {
+  display: none; 
+}
 
 /* Progress Bar */
 .progress-bar {
@@ -135,3 +247,20 @@ footer {
   }
 }
 .sticky {position:fixed; top:10px;}
+
+/*Holiday Slider*/
+#holidaySlider {
+    min-height:450px !important;
+}
+img.right {
+    width:200px;
+    margin-left:$columnGutter;
+}
+#holidaySlider .columns {
+    background:$white;
+    box-shadow: 0px 3px 20px rgba(0,0,0,.1);
+    width:90%;
+    padding:15px !important;
+    border: 1px solid #ddd;
+    margin-left: 50px;
+}
