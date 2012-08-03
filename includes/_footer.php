@@ -90,6 +90,7 @@
 <script src="javascripts/foundation.min.js"></script>
 <script src="javascripts/spin.min.js"></script>
 <script src="javascripts/jquery.raptorize.js"></script>
+<script src="javascripts/jquery.form.js"></script>
 
 <!-- Application Javascript, safe to override -->
 <script src="javascripts/app.js"></script>
