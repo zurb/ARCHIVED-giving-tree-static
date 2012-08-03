@@ -1,4 +1,4 @@
-    <?
+<?
   $page_title = "Volunteer or Host";
   $page_template = "main";  
 ?>
@@ -24,7 +24,6 @@
       <ul class="side-nav" data-sticky>
         <li><a href="#current">Current Agencies &amp; Companies</a></li>
         <li><a href="#reqs">Application Reqs.</a></li>
-        <li><a href="#interview">Agency Interviews</a></li>
         <li><a href="#faq">Agency FAQs</a></li>
         <li><a href="#impact">Making an Impact</a></li>
         <li><a href="#terms">Terms &amp; Cond.</a></li>
@@ -36,11 +35,11 @@
     <div class="nine columns">
       
       <section id="current">
-        <h5>Current Agencies</h5>
+        <h2>Current Agencies</h2>
         <div class="row">
           <div class="twelve columns">
             <div class="panel">
-              <img src="http://www.placehold.it/800x320">
+              <img src="images/dorsa.png" alt="Dorsa Elementry School">
               <h6>Dorsa Elementary School</h6>
               <p>Dorsa Elementary School in San Jose is a part our community of Elves. They help distribute backpacks stuffed with school supplies to their students that need them the most.</p>
             </div>
@@ -114,7 +113,7 @@
       </div>
       
       <section id="reqs">
-        <h5>Become Part of Our Community of Elves</h5>
+        <h2>Become Part of Our Community of Elves</h2>
         <p>We’re always looking for Elves who want to help us meet the wishes of underserved children and ensure that they get the school supplies they need to succeed. Here’s what we need to know if you’re interested in joining our community as an agency partner:</p>
         
         <div class="row">
@@ -171,7 +170,7 @@
       </div>
     
       <section id="faq">
-        <h5>Agency FAQs</h5>
+        <h2>Agency FAQs</h2>
         <ul style="list-style:none;">
           <li>
             <h6>1. Does my agency qualify for the Holiday program?</h6>
@@ -198,7 +197,7 @@
             <p>We do not have the staff to deliver gifts or backpacks to your organization during in August or December.  If you cannot come to the warehouse to pick up your donations, please make other arrangements to have them picked up.  Donations left in the warehouse after the program ends will be given to organizations that are able to help those in need.</p>
           </li>
           
-          <h4>Holiday Wish Drive specific questions </h4>
+          <h2>Holiday Wish Drive specific questions </h2>
           
           <li>
             <h5>7. Is there a limit to how much the wish can cost?</h5>
@@ -238,7 +237,7 @@
       </div>
       
       <section id="terms">
-        <h5>Terms & Conditions</h5>
+        <h2>Terms & Conditions</h2>
         
         <h5>501 c (3) Status</h5>
         <p>a. Our Board of Directors has deemed it necessary to verify your 501-c (3) status. This assures us that the services we provide will reach the neediest children in our community. Proof of your status may be mailed or faxed to our office, and must be received before participating.  Government run agencies are exempt from this requirement.</p>
@@ -264,46 +263,7 @@
         <p>e. Once again, please be specific with the wishes. Wish lists requesting 50 of the same item will be returned for proper completion.</p>
       </section>
       
-      <div class="row">
-        <div class="twelve columns">
-          <img src="images/horizontal-rule1.png">
-        </div>
-      </div>
       
-      <section id="interview">
-        <h5>Agency Interviews</h5>
-        <div class="row">
-            <div class="eight columns">
-                <p>Family Giving Tree needs passionate people who want to make a difference in our community. As a volunteer, you can help us stay in touch with the agencies and children we serve. Year round, we need fellow Elves that can make site visits to the agencies and schools  in our community. The only thing we ask is that you have the time, compassion and follow through to get the job done. The rewards? When you sit down with an agency representative, you will learn one-on-one where the real needs are and how together, all of us, can make a difference. This is where it all begins.</p>
-            </div>
-            <div class="four columns">
-                <ul style="list-style:none;">
-                  <li><a href=""><span class="glyph [general]">9</span> Interview Form</a></li>
-                  <li><a href=""><span class="glyph [general]">9</span> 5 Minute Overview</a></li>
-                  <li><a href=""><span class="glyph [general]">.</span> Printable Pictures</a></li>
-                </ul>
-            </div>
-            
-        </div>
-        
-        <div class="contact panel">
-            <div class="row">
-                <div class="eight columns">
-                    <p>For more information about this special volunteering opportunity contact Celeste, Agency Coordinator</p>
-                </div>
-                <div class="four columns">
-                    <a class="small purple banner button" href="mailto:agencies@familygivingtree.org">Contact Celeste</a>
-                </div>
-            </div>
-        </div>
-        
-        <!-- ------------------------------ -->
-        <!-- ----- PDF File Downloads ----- -->
-        
-        
-        
-        
-      </section>
       
       <div class="row">
         <div class="twelve columns">
@@ -312,7 +272,8 @@
       </div>
       
       <section id="collect">
-        <h5>Collecting Great Wishes </h5>
+        <h2>Collecting Great Wishes </h2>
+
         <p>As you begin the gift selection process with your recipients, remember that the key to ensuring that donors purchase the exact gifts that each child wants is two-fold:</p>
         <div style="padding-left:50px;">
           <ul>
@@ -376,7 +337,7 @@
       </div>
       
       <section id="impact">
-        <h5>A Valuable Gift to the Universe</h5>
+        <h2>A Valuable Gift to the Universe</h2>
         <h6>Dorsa Elementary School </h6>
         
         <div class="flex-video">
@@ -412,5 +373,4 @@
   </div>
 
 </div>
-
 <?php include("includes/_footer.php");  ?>

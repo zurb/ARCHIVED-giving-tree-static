@@ -29,7 +29,7 @@
   <title>Family Giving Tree: <?= $page_title ?></title>
 
   <!-- Included CSS Files -->
-  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="stylesheets/vgt.css">
 
   <script src="javascripts/foundation/modernizr.foundation.js"></script>
 
@@ -43,15 +43,16 @@
 
   <header>
     <div class="row">
-      <div class="ten columns">
-        <h1><small>Family Giving Tree</small><br>
-          Back to School Drive
-        </h1>
-      </div>
-      <div class="two columns">
-        <img src="http://placehold.it/200x200" alt="cicso">
-      </div>
+        <div class="three columns logo hide-for-small mobile-one">
+            <a href="index.php"><img src="vgt-images/logo.png" alt="Family Giving Tree"></a>
+        </div>
     </div>
-  </header>
+    <!-- end .row -->
+</header>
+<div class="row show-for-small">
+    <div class="mobile-two columns pull-one-mobile">
+        <a href="index.php"><img src="vgt-images/logo.png" alt="Family Giving Tree"></a>
+    </div>
+</div>
 
 <?php include("includes/_functions.php"); ?>
