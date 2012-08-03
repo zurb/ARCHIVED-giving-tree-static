@@ -10,7 +10,7 @@
         <div class="seven columns">
             <h1>Send Children to School Prepared</h1>
             <p>Leading a Back to School Drive is an incredible way to help local kids in need just in time for the new school year. This drive focuses on the children as individuals; pairing a backpack and school supply wish list with a name. By leading a Back to School Drive drive, you’re not only providing the wealth of education, you’re also joining the Family Giving Tree community.</p>
-            <a href="#" class="large primary button" data-reveal-id="register">Register &raquo;</a>
+            <a href="http://familygivingtree.force.com/hosts" class="large primary button">Register &raquo;</a>
         </div>
         <div class="five columns">
             <img src="http://placehold.it/500x350" alt="Lead a Drive">
@@ -107,7 +107,7 @@
                     <div class="six columns">
                         <h5>Register Now</h5>
                         <p>Ready to get lead your own drive? Let’s go!</p>
-                        <a href="#" class="large primary button" data-reveal-id="register">Register &raquo;</a>
+                        <a href="http://familygivingtree.force.com/hosts" class="large primary button">Register &raquo;</a>
                     </div>
                     <div class="six columns">
                         <h4>Community Events</h4>
@@ -190,7 +190,7 @@
     </div>
 </div>
 <!-- end #mainContent -->
-        <div id="register" class="reveal-modal medium">
+        <!-- <div id="register" class="reveal-modal medium">
             <h2>Lead a Drive</h2>
             <p class="lead">Host a drive in your community.</p>
             <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
@@ -214,5 +214,5 @@
                 <a href="#" class="medium button">Register</a>  
             </form>
           <a class="close-reveal-modal">&#215;</a>
-        </div>
+        </div> -->
 <?php include("includes/_footer.php");  ?>
