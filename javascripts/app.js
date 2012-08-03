@@ -40,6 +40,33 @@
     });
     $("[data-sticky]").each(GivingTree.setInitialStickyNavOffset);
   });
+<<<<<<< HEAD
+  
+  
+  
+  $("[data-sticky]").each(function(idx,el){
+    $(el).data("offset-top", $(el).offset().top);
+  });
+  
+  var updateStickyNav = function(event){
+    var windowTopOffset = $(event.currentTarget).scrollTop();
+    $("[data-sticky]").each(function(idx,el){
+      var $el = $(el);
+      if (windowTopOffset > $(el).data("offset-top")) {
+        $el.addClass("sticky");
+      } else {
+        $el.removeClass("sticky");
+      }
+    });
+  };
+  
+  $(window).scroll(updateStickyNav);
+  $('#holidaySlider').orbit({
+    directionalNav: true,
+    timer:false,
+    fluid: true
+    
+  });
   $("[data-sticky]").each(GivingTree.setInitialStickyNavOffset);
   $(window).on("scroll.sticky-nav",GivingTree.updateStickyNav);
   
