@@ -104,6 +104,9 @@
         <div id="warehousetaskform">
           <div class="inputrow">
             <label>Day/Task:</label>
+            
+            <!-- Replace below selections with PHP snippet to generate them -->
+            
             <select class="volunteerday january">
               <!--
         POPULATE OPTION ATTRIBUTES
