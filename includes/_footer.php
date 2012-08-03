@@ -39,7 +39,7 @@
             </div>
             <div class="six columns">
                 <div class="row">
-                    <div class="six columns elf">
+                    <div class="six columns elf hide-for-small">
                         <img src="images/elf.png" alt="Family Giving Tree ELf">
                     </div>
                     <div class="six columns">
@@ -53,7 +53,7 @@
                                     <input type="text" name="ea "/>
                                 </div>
                                 <div class="three mobile-one columns">
-                                    <input class="postfix button" type="submit" name="go" value="GO" class="submit" />
+                                    <input class="postfix button banner purple small" type="submit" name="go" value="GO" class="submit" />
                                 </div>
                             </div>
                         </form>

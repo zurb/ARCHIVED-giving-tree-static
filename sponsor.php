@@ -9,11 +9,11 @@
 
   <div class="row featured">
     <div class="twelve columns">
-     <div class="orbit-wrapper"style="height:350px;">
+     <div class="orbit-wrapper"style="height:563px;">
        <div id="featured" >
-         <img src="http://www.placehold.it/1000x350"/>
-         <img src="http://www.placehold.it/1000x350"/>
-         <img src="http://www.placehold.it/1000x350"/>
+         <img src="http://www.placehold.it/2000x800"/>
+         <img src="http://www.placehold.it/2000x800"/>
+         <img src="http://www.placehold.it/2000x800"/>
        </div>
      </div>
     </div>
