@@ -7,18 +7,23 @@
 <!-- VOLUNTEER PAGE CONTENT -->
 <div class="feature_wrapper">
     <div class="row hide-for-small">
-        <div class="twelve columns">
+        <div class="seven columns">
             <h1>Volunteer</h1>
+            <p class="lead">Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer.</p>
+
+        </div>
+        <div class="five columns">
+            <img src="images/people/c-photo4.png" alt="Volunteer at Family Giving Tree">
         </div>
     </div>
 </div>
 <div class="row">
   <div class="three column">
     <ul class="side-nav" data-sticky>
-      <li><a href="#joinus">Join Us</a></li>
-      <li><a href="#register">Register</a></li>
+      <!--<li><a href="#joinus">Join Us</a></li>-->
+      <li><a href="#register">Join Us</a></li>
       <li><a href="#warehouse">The Warehouse</a></li>
-      <li><a href="#events">Events</a>
+      <!--<li><a href="#events">Events</a>-->
       <li><a href="#angelelf">Angel Elves</a></li>
       <li><a href="#celebrating">Celebrating Volunteers</a></li>
       <li><a href="#photos">Photos</a></li>
@@ -26,23 +31,35 @@
   </div>
   <div class="nine column">
     <section id="joinus">
-      <h2>Join Us</h2>
-      <p>Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer:</p>
       <h3> Year-Round Volunteer Opportunities</h3>
-      <ul>
-        <li> General Office Help &amp; Drive Preparation: Help us organize materials and prep for our Back to School Drive and/or Holiday Wish Drive. Great for students! </li>
-        <li> *Please, no drop-ins. Email volunteers@familygivingtree.org or call
-          
-          (408) 946-3111 first. </li>
-        <li> Back to School Drive :</li>
-        <li> Backpack Card sorting (May)</li>
-      </ul>
+      <div class="row">
+      <div class="three columns">
+        <p class="text-center"><img src="images/icons/office-help.png" width="120" height="120" alt="Office Help"></p>
+        <p>General Office Help &amp; Drive Preparation: Help us organize materials and prep for our Back to School Drive and/or Holiday Wish Drive. Great for students!
+        </p>
+      </div>
+      <div class="three columns">
+        <p class="text-center"><img src="images/icons/no-drop-ins.png" width="120" height="120" alt="No Drop Ins"></p>
+        <p>Please, no drop-ins. Email <a href="mailto:volunteers@familygivingtree.org">volunteers@<br>
+          familygivingtree.org</a> or call (408) 946-3111 first. 
+        </p>
+      </div>
+      <div class="three columns">
+        <p class="text-center"><img src="images/icons/school-drive.png" width="120" height="120" alt="School Drive"></p>
+        <p>Back to School Drive
+        </p>
+      </div>
+      <div class="three columns">
+        <p class="text-center"><img src="images/icons/card-sorting.png" width="120" height="120" alt="Card Sorting"></p>
+        <p>Backpack Card sorting (May)
+        </p>
+      </div></div>
       <h3> Backpack pick-up and delivery (August)</h3>
       <ul>
         <li> BTS Warehouse Duties (August): Help us set-up the warehouse, receive backpacks, sort, quality check, clean-up warehouse and prepare backpacks for distribution to low-income children.</li>
         <li> Backpack distributions (August)</li>
       </ul>
-      <h3> Holiday Wish Drive:</h3>
+      <h3> Holiday Wish Drive</h3>
       <ul>
         <li> Wish Card sorting (October)</li>
         <li> Gift pickup and delivery (December)</li>
@@ -55,13 +72,6 @@
         <div class="inputrow">
           <label for="volunteermonth">Month:</label>
           <select id="volunteermonth">
-            <!--
-        POPULATE OPTION ATTRIBUTES
-        value: Task Name
-        data-taskid: Task ID
-        disabled: Include if volunteer slot is full
-        Text: Day and date
-        -->
             <option selected>Select a month</option>
             <option value="january">January</option>
             <option value="february">February</option>
@@ -123,8 +133,9 @@
               <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
               <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
             </select>
+            &nbsp;
+            <a href="#" class="button" data-reveal-id="registerModal" id="registerlink">Go</a>
           </div>
-          <p> <a href="#" class="button" data-reveal-id="registerModal" id="registerlink">Go</a></p>
         </div>
       </div>
     </section>
@@ -158,56 +169,34 @@
       <p> <strong>Snacking:</strong> We always have Culligan water available! Snacks and food are available for sale from Gold Rush Catering during the Holiday Wish Drive only.  If you are hosting a group of volunteers, you are welcome to bring your own food and we will set tables up for you.</p>
       <p> <strong>Little Elves:</strong> Little elf volunteers are welcome, but remember the warehouse is not child-proof so younger volunteers must be strictly supervised.</p>
     </section>
-    <section id="events">
+    <!--<section id="events">
       <h2>Events</h2>
       <table>
         <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
-        </tr>
-        <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
-        </tr>
-        <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
-        </tr>
-        <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
-        </tr>
-        <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
+          <td>October 2012</td>
+          <td>Details coming soon</td>
         </tr>
       </table>
-    </section>
+    </section>-->
     <section id="angelelf">
       <h2>Angel Elves</h2>
       <p>Do you want to help the Family Giving Tree in a special way? Angel Elves are experienced volunteers willing to donate their time and skill set to help our programs run smoothly. Some Angel Elves supervise other volunteers at the warehouse on multiple days. Some help with special events and other activities such as the Executive Elf Challenge and Wish Card sorting. In the warehouse during Back to School and Holiday Drive, tasks may involve general set up, greeting other volunteers, store supervision and supervision of gift shipping/receiving.  Angel Elf responsibilities depend on the person's experience and comfort level with specific tasks.</p>
-    </section>
-    <section id="celebrating">
-      <h2>Celebrating Volunteers</h2>
       <h3>Who are the Angel Elves?</h3>
       <p>The contributions of our Angel Elves are tremendous. Their combined efforts are vital to our programs and their constant enthusiasm helps brighten the holidays for thousands of children each year. On behalf of all the children, we thank them for their dedication! </p>
       <div class="row">
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
+        <div class="four columns"> <img src="images/people/jessy.png" alt="bio image">
           <h3>Jessy Rodriguez</h3>
           <section><p>Jessy Rodriguez first came to The Family Giving Tree as a volunteer with her young classmates from Calaveras Montessori in 2004. They bagged gifts by 10 and she was already leading her group (she was one of the two children who could count to 10)!
+          <!-- .readmorecontent is hidden until the closest .readmore is clicked-->
           <span class="readmorecontent"> For the next several years, Jessy became a regular warehouse volunteer at the Holiday Wish Drive and Back to School Drive. In 2011 she really blossomed and took over the agency pick up job, working some pretty long shifts and even spent time helping her young friends learn the system! Jessy's hard work earned her Angel Elf of the year award in 2011! She currently attends Monroe Middle School where she is on the honor roll, active in band and plays the flute.</span></p>
+          <!-- data-hidetext and data-showtext alaternate as the link text on toggle-->
           <p class="text-right"><a href="#" class="readmore" data-hidetext="Show Less" data-showtext="Read More">Read More</a></p></section>
         </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
+        <div class="four columns"> <img src="images/people/joanne.png" alt="bio image">
           <h3>Joanne Bodenhammer</h3>
           <p>Joanne Bodenhammer has volunteered countless hours helping us contact and sign up hundreds of hosts for our holiday program, and get wish cards ready to send them.  Thanks to her dedication and generous spirit for many years, thousands more children's wishes will be fulfilled this season!  She is an amazing Angel Elf!</p>
         </div>
-        <div class="four columns"> <img src="http://placehold.it/300x300" alt="bio image">
+        <div class="four columns"> <img src="images/people/dianne.png" alt="bio image">
           <h3>Diane Trevino</h3>
           <section><p>Diane Trevino has volunteered with FGT since it’s inception, more than 20 years!  She spends endless hours at our warehouses for the Back-to-School Drive and Holiday Wish Drive, doing everything from training fellow volunteers to personally making sure every bag is perfectly packed.  <span class="readmorecontent">Her other commitments include serving as lead volunteer with Sacred Heart Community Services and heading the former National Semiconductor's Holiday Workshop Project that provided 800 gift bags for seniors, low-income families, homeless adults and adults with disabilities. Not only does Diane coordinate the hundreds of volunteers that assemble the gift bags, she and her husband Rey shop for each of the items (over 10,400 toiletries, books, etc.) that go into the bags.  Diane participates in all of the volunteer projects coordinated by Texas Instruments including bagging groceries for seniors at the Sunnyvale Community Services, beautifying an InnVision shelter for women and children, and pulling invasive weeds with Save the Bay.  She also serves on Texas Instrument's Wellness Team, Recycling Team and is a Building Emergency Manager for their headquarters building.  She is an inspiration to all of us!</span></p>
           <p class="text-right"><a href="#" class="readmore" data-hidetext="Show Less" data-showtext="Read More">Read More</a></p></section>
@@ -218,117 +207,92 @@
       <h2>Photos</h2>
       <div class="row">
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol1.jpg" class="imgthumb"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol2.jpg" class="imgthumb"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol3.jpg" class="imgthumb"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
-        </div>
-        <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
-        </div>
-        <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
-        </div>
-        <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol4.jpg" class="imgthumb"></a></p>
         </div>
       </div>
       <div class="row">
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol5.jpg" class="imgthumb"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol6.jpg" class="imgthumb"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol7.jpg" class="imgthumb"></a></p>
         </div>
         <div class="three columns">
-          <p><a href="#" data-reveal-id="imgModal"><img src="http://placehold.it/300x300"></a></p>
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol8.jpg" class="imgthumb"></a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="three columns">
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol9.jpg" class="imgthumb"></a></p>
+        </div>
+        <div class="three columns end">
+          <p><a href="#" data-reveal-id="imgModal"><img src="images/volunteer photos/vol10.jpg" class="imgthumb"></a></p>
         </div>
       </div>
     </section>
   </div>
 </div>
-<div class="reveal-modal" id="imgModal"> <img src="http://placehold.it/300x300"> <a class="close-reveal-modal">&#215;</a> </div>
+<!--Large image modal-->
+<div class="reveal-modal" id="imgModal"> <img src="http://placehold.it/300x300" id="largeimage"> <a class="close-reveal-modal">&#215;</a> </div>
+<!--Database-driven volunteer registration-->
 <div id="registerModal" class="reveal-modal">
-  <h2>Register to Volunteer</h2>
-  <p><strong>Day/Task:</strong> <span id="daytask"></span> </p>
-  <form action="" id="warehouseform">
-    <!--Hidden input with taskId value is added with script-->
-    <p>
-      <label for="name">Name</label>
-      <input type="text" id="name">
-    </p>
-    <p>
-      <label for="email">Email</label>
-      <input type="text" id="email">
-    </p>
-    <p>
-      <label for="emailconfirm">Confirm Email</label>
-      <input type="text" id="emailconfirm">
-    </p>
-    <p>
-      <label for="phone">Phone Number</label>
-      <input type="text" id="phone">
-    </p>
-    <p>
-      <label for="phone">Group/Company Name</label>
-      <input type="text" id="group">
-    </p>
-    <p>
-      <label for="phone">Numver of Volunteers</label>
-      <input type="text" id="number">
-    </p>
-    <p class="text-center"> <a href="#">Cancel</a> &nbsp;
-      <input type="submit" value="Submit" class="button">
-    </p>
-  </form>
+  <div id="registerModalContent"></div>
   <a class="close-reveal-modal">&#215;</a> </div>
+<!--Task description modals-->
 <div id="task1Modal" class="reveal-modal">
   <h2>General Office Duties</h2>
   <p>Help out at the Elves' Office with general office duties such as data input, filing, collateral prep, host calls, and other duties as needed.</p>
   <a class="close-reveal-modal">&#215;</a> </div>
+  
 <div id="task2Modal" class="reveal-modal">
   <h2>Back to School Drive Prep</h2>
   <p> Help us organize materials and prep collateral for our Back to School Drive. Great for students!</p>
   <a class="close-reveal-modal">&#215;</a> </div>
+  
 <div id="task3Modal" class="reveal-modal">
   <h2>Holiday Wish Drive Prep</h2>
   <p> Help us organize materials and prep collateral for our Holiday Wish Drive. Great for students!</p>
   <a class="close-reveal-modal">&#215;</a> </div>
+  
 <div id="task4Modal" class="reveal-modal">
   <h2>Back to School Warehouse</h2>
   <p> Help us set-up the warehouse, receive backpacks, sort supplies, quality check, clean-up and backpack preparation for distribution. </p>
   <a class="close-reveal-modal">&#215;</a> </div>
+  
 <div id="task5Modal" class="reveal-modal">
   <h2>Holiday Wish Drive Warehouse</h2>
   <p> Help us set-up warehouse, receive gifts, sort and wrap gifts, quality check, clean-up and distribute gifts.</p>
   <a class="close-reveal-modal">&#215;</a> </div>
+  
 <div id="task6Modal" class="reveal-modal">
   <h2>Donation Pick-ups</h2>
   <p> Help bring backpacks or gifts from our public host companies to our warehouse for preparation and distribution.</p>
   <a class="close-reveal-modal">&#215;</a> </div>
+  
 <div id="task7Modal" class="reveal-modal">
   <h2>Agency Interviews</h2>
   <p> Make site visits to our agency partners in an effort to evaluate their needs and ensure we stay connected. </p>
   <a class="close-reveal-modal">&#215;</a> </div>
+  
 <div id="task8Modal" class="reveal-modal">
   <h2>Wish Editing</h2>
   <p> Help us sort through our database of wishes to ensure each child receives exactly what they want!</p>
   <a class="close-reveal-modal">&#215;</a> </div>
+<!--Email-based volunteer registration-->
 <div id="volEmailModal" class="reveal-modal">
+  <!--.preconfirm is hidden after successful submit-->
   <div class="preconfirm">
   <p class="right">
     *Required Fields 
@@ -380,7 +344,7 @@
     <label>
       <input type="checkbox" name="weekday[]" id="weekdaysun" value="Sun" class="required" />
       Sun &nbsp;</label>
-      </div>
+    </div>
     <div class="inputrow">
     <label for="time">Times</label>
     <label>
@@ -445,6 +409,7 @@
   <h2>Thank you</h2>
   <p>Thank you for your interest in volunteering for  Family Giving Tree. You will be contacted when and if a volunteer match becomes available.</p></div>
   <a class="close-reveal-modal">&#215;</a> </div>
+<!--Warehouse task shift details-->
 <div id="shiftDetailsModal" class="reveal-modal">
   <h2>Shift Details</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere gravida magna in tristique. </p>
@@ -453,6 +418,7 @@
   <p>In interdum luctus magna ac tincidunt. Nullam tortor ligula, venenatis ut aliquet in, lobortis eget nisl. </p>
   <p>Ut quis elit mauris, et congue ligula. Mauris vitae tellus non mauris rutrum ultricies a pulvinar nisi. Morbi facilisis dignissim turpis, non aliquet nibh scelerisque ut. Donec quis lacus lectus, in venenatis tellus.</p>
   <a class="close-reveal-modal">&#215;</a> </div>
+<!--Warehouse hours-->
 <div id="hoursCalendar" class="reveal-modal large"> <a class="close-reveal-modal">&#215;</a>
   <h4>Warehouse Hours: August</h4>
 <table class="calendar">
@@ -592,15 +558,17 @@
 </table>
 </div>
 
-
 <?php include("includes/_footer.php");  ?>
 <script src="javascripts/jquery.form.js"></script>
+
+<!--For form validation-->
 <script src="javascripts/jquery.validate.min.js"></script>
 
 <script>
 $(document).ready(function(){
   registerSelect();
   readMoreToggle();
+  imagePopup();
   $('#volunteerform').validate();
   $('#volunteerform').ajaxForm({success: function(response){
     $('.preconfirm').hide();
@@ -627,11 +595,18 @@ function registerSelect(){
     $('#registerlink').hide();
     var taskId = $(this).val();
     var desc = $(this).find('option:selected').text();
-	if(taskId!==''){
+  if(taskId!==''){
       $('#registerlink').show();
+      $('#registerModalContent').load('vol_register.php?taskId='+taskId);
       $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
       $('#daytask').text(desc);
-	}
+  }
+  });
+}
+<!--Image popup-->
+function imagePopup(){
+  $('.imgthumb').click(function(){
+    $('#largeimage').attr('src',$(this).attr('src'));
   });
 }
 <!--FOR THE READ MORE TOGGLE-->

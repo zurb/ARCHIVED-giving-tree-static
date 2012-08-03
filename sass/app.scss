@@ -1,4 +1,3 @@
-
 // You custom settings file to override Foundation defaults
 @import "settings";
 
@@ -160,6 +159,7 @@ ul.orbit-bullets { bottom: 20px;
 .stats { text-align: center; }
 .news { margin-bottom: 40px; }
 
+.main footer { margin-top: 0 !important; }
 #sliderOne { background: image-url('home1.jpg') top center no-repeat; }
 #sliderTwo { background: image-url('home2.jpg') top center no-repeat; }
 #sliderThree { background: image-url('home3.jpg') top center no-repeat; }
@@ -174,8 +174,7 @@ p { color: #555; line-height: 1.5; }
 .orange { color: $orange; }
 .green { color: $green; }
 .pink { color: $pink; }
-
-/*Global*/
+.down { margin-top: 13px; }
 .full { width: 100%; }
 h1 { color: $darkPurple; }
 h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
@@ -183,8 +182,8 @@ h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
 .full.rule { background: image-url('seamless-rule.png'); height: 18px; position: relative; top: -10px; z-index: 9; }
 .full.stats { background: #f0f0d9; margin-top: -30px; padding-top: 60px; padding-bottom: 30px; margin-bottom: 60px; border-bottom: solid 1px darken(#f0f0d9, 20%); }
 
-.button.banner { padding: 21px 28px 21px 57px !important; position: relative; border: none; @include box-shadow(0 0 0 rgba(0,0,0,0) inset); color: $white; font-family: "HandOfSeanRegular"; text-align: center; background: image-url('buttons/bg-purple.png') 0 0 repeat-x; 
-  &:after { content: ""; display: block; width: 24px; height: 100%; position: absolute; top: 50%; margin-top: -50%; right: -24px; background: image-url('buttons/right-purple.png') 0 0 no-repeat; }
+.button.banner { box-shadow: none !important; border: none !important; padding: 19px 28px 19px 57px !important; position: relative; border: none; @include box-shadow(0 0 0 rgba(0,0,0,0) inset); color: $white; font-family: "HandOfSeanRegular"; text-align: center; background: image-url('buttons/bg-purple.png') 0 0 repeat-x; 
+  &:after { content: ""; display: block; width: 24px; height: 55px; position: absolute; top: 50%; margin-top: -28px; right: -24px; background: image-url('buttons/right-purple.png') 0 0 no-repeat; }
   &.green { background: image-url('buttons/bg-green.png');
     &:after { background: image-url('buttons/right-green.png'); }
   }
@@ -193,19 +192,29 @@ h2 { color: $gray; font-size: 27px; font-size: 2.7rem; }
   }
 }
 
-blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; background: $lightPink; margin-bottom: 0; 
-  cite { font-family: "Helvetica", Arial, sans-serif; color: $white;}
+.button.purple { background-color: $darkPurple; color: #fff; border: solid 1px darken($darkPurple, 10%);}
+
+blockquote { line-height: 1.7; color: $white; font-family: "HandOfSeanRegular"; background: $lightPink; margin-bottom: 0; margin-top: -1px;
+  cite { font-family: "Helvetica", Arial, sans-serif; color: $white; }
+  &.secondary { background: #eee; font-family: "Helvetica", Arial, sans-serif; color: #333; padding-bottom: 14px; padding-top: 14px; margin-bottom: 20px; }
 }
 
 /*Lead a Drive*/
 .featured p { font-size: 18px; }
-.feature_wrapper { background-color: $lightGreen; padding-top: 120px; padding-bottom: 40px; }
+.feature_wrapper { background-color: $lightGreen; padding-top: 110px; padding-bottom: 40px; }
+.register_callout { background-color: #f3e9f1; padding: 10px 0; margin-bottom: 20px !important }
+.register_callout p { font-size: 22px; color: #999; padding: 12px 0 0 10px; }
+#aboutDrive ul li { width: 240px }
+#tipsSuccessfulDrive ul { list-style: none; }
+#tipsSuccessfulDrive ul li { float: left; width: 170px; padding-left: 20px; }
+#tipsSuccessfulDrive ul li.first { padding-left: 0px; }
 
 /*Events*/
 .date {
   background-color: $beige;
   text-transform: uppercase;
   padding: 4px 10px;
+  margin-top: 18px;
 }
 .upcoming-events {
     a {
@@ -259,6 +268,9 @@ footer {
     }
 }
 a, a:link, a:visited { color: $darkPurple; }
+a.button {
+    color: $white;
+}
 a:hover, a:active, a.selected { color: darken($darkPurple, 10%); }
 .footer-nav {
     ul.link-list a, p {
@@ -378,6 +390,10 @@ h1, h2, h3 {
   display: none; 
 }
 
+/* Donate Page */
+.choose-donation { margin-top: 60px; margin-bottom: 40px; }
+.panel.donate { background: lighten($darkPurple, 58%); border: solid 1px lighten($darkPurple, 45%); }
+
 /* Progress Bar */
 .progress-bar {
   width: 100%;
@@ -388,7 +404,7 @@ h1, h2, h3 {
     height: 100%;
     background: #ddd;
   }
-}
+} 
 .sticky {position:fixed; top:10px;}
 
 /*Holiday Slider*/
@@ -407,8 +423,49 @@ img.right {
     border: 1px solid #ddd;
     margin-left: 50px;
 }
+/*Who We Help*/
+.circle-icon {
+    font-size: ms(4);
+    font-weight:bold;
+    color: $white;
+    background: image-url("icons/bg-orange.png") no-repeat center center;
+    padding: 28px 38px;
+    width: 100px;
+    height: 100px;
+    display:block;
+}
+.contact.panel {
+    .banner.button {
+        padding: 21px 28px 21px 26px !important;
+    }
+}
 @media screen and (max-width: 767px) {
-    .button.banner { padding: 21px 21px 21px 25px !important; position: relative; border: none; @include box-shadow(0 0 0 rgba(0,0,0,0) inset); color: $white; font-family: "HandOfSeanRegular"; text-align: center; background: image-url('buttons/bg-purple.png') 0 0 repeat-x; 
+    .button.banner { 
+        padding: 21px 35px 21px 25px !important;  
+    }
+    .feature_wrapper {
+        padding-top:25px;
+    }
+    header {
+        img {
+            position: relative;
+            top: 0;
+            z-index: 10;
+        }
+        margin-bottom:15px;
+    }
+    .reveal-modal .nav-bar {
+        background: transparent none;
+        li {
+            border:0;
+            a {
+            color: $darkPurple;
+                &:hover {
+                    background: $darkPurple;
+                    color: $white;
+                }
+            }
+        }
     }
     .footer-nav ul.link-list li {
         display:block;

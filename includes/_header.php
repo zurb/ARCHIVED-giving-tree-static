@@ -39,6 +39,15 @@
 
 </head>
 <body class="<?= $page_template ?>">
+  
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=273833829356309";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <header>
     <div class="row">
@@ -77,7 +86,7 @@
         <li><a href="volunteer.php">Volunteer</a></li>
         <li><a href="about.php">About</a></li>
     </ul>
-    <a href="donate.php" class="button green banner medium">Donate</a>
+    <a href="donate.php" class="button green medium">Donate</a>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 
