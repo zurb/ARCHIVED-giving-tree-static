@@ -45,7 +45,7 @@
       <div class="nine columns">
         <h4>Volunteer Time</h4>
         <p>We know that time is precious and by donating it, we know that you're dedicated to helping us put a smile on a child's face. </p>
-        <a href="#volunteer" class="purple secondary tiny button">Learn More &raquo;</a>
+        <a href="volunteer.php" class="purple secondary tiny button">Learn More &raquo;</a>
       </div>
     </div>
     <br>
@@ -56,7 +56,7 @@
       <div class="nine columns">
         <h4>Lead Drive</h4>
         <p>As a Family Giving Tree drive host, you can display wish cards for fellow workers, customers, members or friends. Drive leaders become our Elves for promoting, collecting backpacks and/or gifts and returning them to our magical warehouse. </p>
-        <a href="#volunteer" class="purple secondary tiny button">Learn More &raquo;</a>
+        <a href="lead-a-drive.php" class="purple secondary tiny button">Learn More &raquo;</a>
       </div>
     </div>
     <br>
@@ -67,7 +67,7 @@
       <div class="nine columns">
         <h4>Sponsorship</h4>
         <p>Your company or business can have a big impact on our efforts. Sponsorship funds enable us to bulk purchase gifts early and leverage generous manufacturer discounts that can help us get the backpacks or gifts we need to meet the kids' wishes. </p>
-        <a href="#volunteer" class="purple secondary tiny button">Learn More &raquo;</a>
+        <a href="sponsor.php" class="purple secondary tiny button">Learn More &raquo;</a>
       </div>
     </div>
     <br>
