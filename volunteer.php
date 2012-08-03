@@ -162,29 +162,8 @@
       <h2>Events</h2>
       <table>
         <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
-        </tr>
-        <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
-        </tr>
-        <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
-        </tr>
-        <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
-        </tr>
-        <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
+          <td>October 2012</td>
+          <td>Details coming soon</td>
         </tr>
       </table>
     </section>
