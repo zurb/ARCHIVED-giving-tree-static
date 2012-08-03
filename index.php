@@ -46,19 +46,22 @@
 <div class="full rule">
 </div>
 
-<div class="full">
-    <div class="row stats">
+<div class="full stats">
+    <div class="row">
         <div class="four columns">
+            <img src="images/icons/person.png" alt="person">
             <h3 class="orange">970,516 Children</h3>
             <p>Have received holiday gifts or back-to-school supplies through
                 Family Giving Tree since 1990</p>
         </div>
         <div class="four columns">
+            <img src="images/icons/gift.png" alt="gift">
             <h3 class="green">1,123,228 Gifts</h3>
             <p>Delivered to needy children. We provide gifts during the holidays, 
                 and back-to-school supplies during the school year.</p>
         </div>
         <div class="four columns">
+            <img src="images/icons/money.png" alt="money">
             <h3 class="pink">89%</h3>
             <p>of every donation we raise goes straight to participating charities</p>
         </div>
