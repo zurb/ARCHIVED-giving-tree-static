@@ -30,7 +30,7 @@
       <p>Become an elf! The Family Giving Tree depends almost entirely on our volunteers to perform the tasks necessary to ensure all wishes are fulfilled. If you'd like to help, check out what we have to offer:</p>
       <h3> Year-Round Volunteer Opportunities</h3>
       <ul>
-        <li> General Office Help & Drive Preparation: Help us organize materials and prep for our Back to School Drive and/or Holiday Wish Drive. Great for students! </li>
+        <li> General Office Help &amp; Drive Preparation: Help us organize materials and prep for our Back to School Drive and/or Holiday Wish Drive. Great for students! </li>
         <li> *Please, no drop-ins. Email volunteers@familygivingtree.org or call
           
           (408) 946-3111 first. </li>
@@ -47,7 +47,7 @@
         <li> Wish Card sorting (October)</li>
         <li> Gift pickup and delivery (December)</li>
         <li> HWD warehouse duties (December): Help us set-up warehouse, receive gifts, sort, wrap, quality check, clean-up warehouse and distribute gifts to low-income children.</li>
-        <li> Gift distributions (December & January)</li>
+        <li> Gift distributions (December &amp; January)</li>
       </ul>
       <p> To learn about our needs as soon as they're posted, Sign up for our newsletter <a href="https://www.facebook.com/familygivingtree" target="_blank">become a friend on Facebook</a></p>
       <div class="panel" id="register">
@@ -77,6 +77,10 @@
             <option value="december">December</option>
           </select>
         </div>
+        <!--
+        If a task is available in a specific month, add that month as a class on the li
+        For warehouse tasks, add class="warehousetask" in order to show the warehouse task dropdown
+        -->
         <ul id="tasklist">
           <li class="january february march april may june july august september october november december"><a href="#" data-reveal-id="volEmailModal">General Office Duties</a> &nbsp;<a href="#" data-reveal-id="task1Modal" class="helpicon">?</a></li>
           <li class="may june"><a href="#" data-reveal-id="volEmailModal">Back to School Drive Prep</a> &nbsp;<a href="#" data-reveal-id="task2Modal" class="helpicon">?</a></li>
@@ -103,26 +107,16 @@
               <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
               <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
             </select>
+            
             <select class="volunteerday august">
-              <!--
-        POPULATE OPTION ATTRIBUTES
-        value: Task ID
-        disabled: Include if volunteer slot is full
-        Text: Day and date
-        -->
               <option value="" selected>Select a day and task</option>
               <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
               <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
               <option value="678" disabled>Wed, 8/1/2012 - Unloading backpacks/Sorting by grade level</option>
               <option value="901" disabled>Thursday, Aug 2, 2012 - QA on Backpack content</option>
             </select>
+            
             <select class="volunteerday december">
-              <!--
-        POPULATE OPTION ATTRIBUTES
-        value: Task ID
-        disabled: Include if volunteer slot is full
-        Text: Day and date
-        -->
               <option value="" selected>Select a day and task</option>
               <option value="123">Wed, 7/25/2012 - Warehouse Set UP</option>
               <option value="456">Tues, 7/31/2012 - Warehouse Set UP</option>
@@ -141,18 +135,18 @@
           <h3> HWD Warehouse</h3>
           <!--MAP WILL GO HERE-->
           <p> This year the Holiday Wish Drive Warehouse will be located in Cupertino, CA. More information coming soon! </p>
-          <p> <strong>HWD Warehouse Wishlist: </strong>We need batteries! If you come to the warehouse or office to volunteer, would you consider bringing batteries (AA, C or D size)? For a complete list of things we need to help keep our programs running, check out our <a href="#">Wish List</a>.</p>
+          <p> <strong>HWD Warehouse Wishlist: </strong>We need batteries! If you come to the warehouse or office to volunteer, would you consider bringing batteries (AA, C or D size)? For a complete list of things we need to help keep our programs running, check out our <a href="donate.php#wishlist">Wish List</a>.</p>
         </div>
         <div class="six column">
           <h3> BTS Warehouse</h3>
-          
+          <!--GOOGLE MAP-->
           <iframe width="338" height="236" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=560+Cottonwood+Drive+,+Milpitas,+CA&amp;ie=UTF8&amp;hq=&amp;hnear=560+Cottonwood+Dr,+Milpitas,+California+95035&amp;gl=us&amp;t=m&amp;ll=37.403778,-121.913395&amp;spn=0.016091,0.028925&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=560+Cottonwood+Drive+,+Milpitas,+CA&amp;ie=UTF8&amp;hq=&amp;hnear=560+Cottonwood+Dr,+Milpitas,+California+95035&amp;gl=us&amp;t=m&amp;ll=37.403778,-121.913395&amp;spn=0.016091,0.028925&amp;z=14&amp;iwloc=A&amp;source=embed">View Larger Map</a></small>
-          
+          <!--END GOOGLE MAP-->
           <p>Thank you iStar Financial!</p>
           <p> 560 Cottonwood Drive <br>
             Milpitas, CA 95035 <br>
+          <!--Update hoursCalendar at bottom of page-->
             <a href="#" data-reveal-id="hoursCalendar">Warehouse Hours</a></p>
-          <link>
           BTS Warehouse Wishlist Coming Soon!
           </p>
         </div>
@@ -168,29 +162,8 @@
       <h2>Events</h2>
       <table>
         <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
-        </tr>
-        <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
-        </tr>
-        <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
-        </tr>
-        <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
-        </tr>
-        <tr>
-          <td>XX/XX/XXXX</td>
-          <td>Lorem ipsum lorem ipsum lorem ipsum</td>
-          <td><a href="#">More Info &raquo;</a></td>
+          <td>October 2012</td>
+          <td>Details coming soon</td>
         </tr>
       </table>
     </section>

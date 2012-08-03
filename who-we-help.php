@@ -10,7 +10,7 @@
       <div class="row">
         <div class="seven columns">
           <h1>Who we help</h1>
-          <p>Family Giving Tree has cultivated deep roots in the community. We work with more than 300 social service agencies and schools around the Bay Area. Among the folks we work with are homeless shelters, community centers, rehabilitation houses, schools and various nonprofit organizations. Each year, these folks help us fulfill the needs of children in low-income neighborhoods. They supply us with the names and wishes of the children they serve year-round. These are kids who would go without anything during the holidays and back-to-school season.</p>
+          <p class="lead">Family Giving Tree has cultivated deep roots in the community. We work with more than 300 social service agencies and schools around the Bay Area. Among the folks we work with are homeless shelters, community centers, rehabilitation houses, schools and various nonprofit organizations. Each year, these folks help us fulfill the needs of children in low-income neighborhoods. They supply us with the names and wishes of the children they serve year-round. These are kids who would go without anything during the holidays and back-to-school season.</p>
         </div>
     
         <div class="five columns">
@@ -117,24 +117,50 @@
         <h5>Become Part of Our Community of Elves</h5>
         <p>We’re always looking for Elves who want to help us meet the wishes of underserved children and ensure that they get the school supplies they need to succeed. Here’s what we need to know if you’re interested in joining our community as an agency partner:</p>
         
-        <h6><strong>1. Tell us who you are</strong></h6>
-        <p>Send the following information to us at 606 Valley Way, Milpitas CA 95035 or email agencies@familygivingtree.org:</p>
-        <div style="padding-left:50px;">
-          <ul>
-            <li>A copy of your organization’s 501c(3)</li>
-            <li>A brochure or literature about your program and the specific needs of your clients</li>
-            <li>Complete contact information (Name, Title, Phone #, Email Address)</li>
-          </ul>
-        </div>  
+        <div class="row">
+            <div class="two columns">
+                <span class="circle-icon">1</span>
+            </div>
+            <div class="ten columns">
+                <h6><strong> Tell us who you are</strong></h6>
+                <p>Send the following information to us at 606 Valley Way, Milpitas CA 95035 or email agencies@familygivingtree.org:</p>
+                <ul style="margin-left: 25px;">
+                    <li>A copy of your organization’s 501c(3)</li>
+                    <li>A brochure or literature about your program and the specific needs of your clients</li>
+                    <li>Complete contact information (Name, Title, Phone #, Email Address)</li>
+                </ul>
+            </div>
+        </div>
         
-        <h6><strong>2. Show us what you do</strong></h6>
-        <p>We may arrange for a volunteer to visit your organization to conduct an “Agency Interview”. We will use this time to get further details about your organization, learn about how our gifts will benefit your clients and speak with you about the services we provide.  This interview has been deemed by our Board of Directors as a mandatory requirement for all agencies once approved.</p>
+        <div class="row">
+            <div class="two columns">
+                <span class="circle-icon">2</span>
+            </div>
+            <div class="ten columns">
+                <h6><strong>Show us what you do</strong></h6>
+                <p>We may arrange for a volunteer to visit your organization to conduct an “Agency Interview”. We will use this time to get further details about your organization, learn about how our gifts will benefit your clients and speak with you about the services we provide.  This interview has been deemed by our Board of Directors as a mandatory requirement for all agencies once approved.</p>
+            </div>
+        </div>
         
-        <h6><strong>3. Make it official</strong></h6>
-        <p>Once we review your application information (step 1), we will make a decision based on available space in our program. If approved, you will be asked to submit a registration form online.  A link to this online form will be emailed to you and should be submitted by May (for the Back to School Drive) or August (for the Holiday Wish Drive). You must read and agree to our Terms and Conditions before submitting this document, so please read over the application materials thoroughly.</p>
+        <div class="row">
+            <div class="two columns">
+                <span class="circle-icon">3</span>
+            </div>
+            <div class="ten columns">
+                <h6><strong>Make it official</strong></h6>
+                <p>Once we review your application information (step 1), we will make a decision based on available space in our program. If approved, you will be asked to submit a registration form online.  A link to this online form will be emailed to you and should be submitted by May (for the Back to School Drive) or August (for the Holiday Wish Drive). You must read and agree to our Terms and Conditions before submitting this document, so please read over the application materials thoroughly.</p>
+            </div>
+        </div>
         
-        <h6><strong>4. Submit your wishes</strong></h6>
-        <p>Once your organization has been approved and entered into our database as a partnering agency or school, we will send you detailed instructions about how to collect and submit appropriate wishes for your clients. For agencies registered to receive gifts through our Holiday Wish Drive, entered wishes will then be printed on cards with the name, age, gender and wish of the children you serve. Host companies display these cards, donors take the card and fulfill the wish and we collect them at our warehouse. Any agency NOT on the waiting list can expect the pick up date assignment to fall between August 10th and August 20th for the Back to School Drive or December 19th and December 21st for the Holiday Wish Drive.</p>
+        <div class="row">
+            <div class="two columns">
+                <span class="circle-icon">4</span>
+            </div>
+            <div class="ten columns">
+                <h6><strong>Submit your wishes</strong></h6>
+                <p>Once your organization has been approved and entered into our database as a partnering agency or school, we will send you detailed instructions about how to collect and submit appropriate wishes for your clients. For agencies registered to receive gifts through our Holiday Wish Drive, entered wishes will then be printed on cards with the name, age, gender and wish of the children you serve. Host companies display these cards, donors take the card and fulfill the wish and we collect them at our warehouse. Any agency NOT on the waiting list can expect the pick up date assignment to fall between August 10th and August 20th for the Back to School Drive or December 19th and December 21st for the Holiday Wish Drive.</p>
+            </div>
+        </div>
         
       </section>
       
@@ -246,19 +272,36 @@
       
       <section id="interview">
         <h5>Agency Interviews</h5>
-        <p>Family Giving Tree needs passionate people who want to make a difference in our community. As a volunteer, you can help us stay in touch with the agencies and children we serve. Year round, we need fellow Elves that can make site visits to the agencies and schools  in our community. The only thing we ask is that you have the time, compassion and follow through to get the job done. The rewards? When you sit down with an agency representative, you will learn one-on-one where the real needs are and how together, all of us, can make a difference. This is where it all begins.</p>
+        <div class="row">
+            <div class="eight columns">
+                <p>Family Giving Tree needs passionate people who want to make a difference in our community. As a volunteer, you can help us stay in touch with the agencies and children we serve. Year round, we need fellow Elves that can make site visits to the agencies and schools  in our community. The only thing we ask is that you have the time, compassion and follow through to get the job done. The rewards? When you sit down with an agency representative, you will learn one-on-one where the real needs are and how together, all of us, can make a difference. This is where it all begins.</p>
+            </div>
+            <div class="four columns">
+                <ul style="list-style:none;">
+                  <li><a href=""><span class="glyph [general]">9</span> Interview Form</a></li>
+                  <li><a href=""><span class="glyph [general]">9</span> 5 Minute Overview</a></li>
+                  <li><a href=""><span class="glyph [general]">.</span> Printable Pictures</a></li>
+                </ul>
+            </div>
+            
+        </div>
         
-        <p style="font-style:italic;">For more information about this special volunteering opportunity contact Celeste, Agency Coordinator at <a href="mailto:agencies@familygivingtree.org">agencies@familygivingtree.org</a>.</p>
+        <div class="contact panel">
+            <div class="row">
+                <div class="eight columns">
+                    <p>For more information about this special volunteering opportunity contact Celeste, Agency Coordinator</p>
+                </div>
+                <div class="four columns">
+                    <a class="small purple banner button" href="mailto:agencies@familygivingtree.org">Contact Celeste</a>
+                </div>
+            </div>
+        </div>
         
         <!-- ------------------------------ -->
         <!-- ----- PDF File Downloads ----- -->
         
         
-        <ul style="list-style:none;">
-          <li style=" display:inline;margin-right:25px;"><a href=""><span class="glyph [general]">9</span> Interview Form</a></li>
-          <li style=" display:inline;margin-right:25px;"><a href=""><span class="glyph [general]">9</span> 5 Minute Overview</a></li>
-          <li style=" display:inline;"><a href=""><span class="glyph [general]">.</span> Printable Pictures</a></li>
-        </ul>
+        
         
       </section>
       
