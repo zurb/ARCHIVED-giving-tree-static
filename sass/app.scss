@@ -209,11 +209,22 @@ a:hover, a:active, a.selected { color: darken($darkPurple, 10%); }
 }
 header {
     background: image-url("bg/bg-header.png") bottom center repeat-x;
-    height: 110px;
+    height: 115px;
     overflow: visible;
     position: relative;
     z-index: 10;
+    .button.donate {
+        text-indent: -9999px;
+        display:block;
+        width: 174px;
+        height: 70px;
+        background: image-url("buttons/donate.png") no-repeat;
+        border:0;
+        box-shadow: 0 0 0;
+        
+    }
     .link-list {
+        margin-top: 25px;
          a {
             font-weight: bold;
             font-size: 14px;
@@ -222,18 +233,23 @@ header {
     }
     img {
         position: absolute;
-        top: -60px;
+        top: -25px;
         z-index: 10;
     }
 }
 .footer-columns {
     background: image-url("footer-bg.png") repeat-x;
+    padding-bottom: 15px;
     .elf img {
         margin-top:-80px;
+    }
+    p {
+        font-size: 14px;
     }
 }
 .footer-nav {
     background: #523219;
+    padding-top: 15px;
     .link-list a {
         font-size:15px;
     }
@@ -267,10 +283,16 @@ h1, h2, h3 {
     font-family: 'FoundationIconsSocial';
     font-size: 24px;
     li a {
-        border-radius: 20px;
+        border-radius: 50%;
         color: $darkPurple;
         background: $white;
-        width:30px;
+        width:25px;
+        height:25px;
+        text-align: center;
+        opacity: .5;
+        &:hover {
+            opacity:1;
+        }
     }
   }
 }
