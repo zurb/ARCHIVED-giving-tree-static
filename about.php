@@ -18,10 +18,7 @@
       <li><a href="#staff">Staff</a></li>
       <li><a href="#board">Board</a></li>
       <li><a href="#programStats">Stats</a></li>
-      <li><a href="#">Green Tree</a></li>
       <li><a href="#news">News</a></li>
-      <li><a href="#">Download</a></li>
- <li><a href="#">Download</a></li>
     </ul>
   </div>
   <div class="nine columns">
