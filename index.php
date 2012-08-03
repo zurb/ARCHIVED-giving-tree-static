@@ -11,14 +11,14 @@
                 <div class="content">
                     <h1>You Can Help Our Millionth Child</h1>
                     <p>This year, we’ll reach our goal of helping one million children locally. You could be the person who fulfils the unique holiday wish of our millionth child.</p>
-                    <a href="donate.php" class="button radius">Millionth Child &raquo;</a>
+                    <a href="who-we-help.php" class="button radius">Donate Today &raquo;</a>
                 </div>
                 <img src="http://placehold.it/980x367">
             </div>
             <div>
                 <div class="content">
                     <h1>Plant a Seed </h1>
-                    <p>Putting a smile on a kid’s face doesn’t just happen. It takes the kindness of those who become part of our community of Elves. People who plant seeds by donating their time, a backpack or even a few dollars to fulfill the needs of children in low-income communities.</p>
+                    <p>Putting a smile on a kid’s face doesn’t just happen. It takes the kindness of those who become part of our community of Elves. People plant seeds by donating their time, a backpack or even a few dollars to fulfill the needs of children in low-income communities.</p>
                     <a href="donate.php" class="button radius">Donate Today &raquo;</a>
                 </div>
                 <img src="http://placehold.it/980x367">
@@ -42,7 +42,7 @@
         </div>
         <ul class="button-group radius orbit-buttons">
           <li data-orbit-index="0"><a href="#" class="button radius">Millionth Child</a></li>
-          <li data-orbit-index="1"><a href="#" class="button radius">Donate Today</a></li>
+          <li data-orbit-index="1"><a href="#" class="button radius">Plant a Seed</a></li>
           <li data-orbit-index="2"><a href="#" class="button radius">Lead a Drive</a></li>
           <li data-orbit-index="3"><a href="#" class="button radius">Volunteer</a></li>
         </ul>
@@ -86,7 +86,7 @@
         <h3>News</h3>
         <div class="row">
             <div class="four columns">
-                <h4>We're Heading Into our Holiday Wish Drive</h4>
+                <h4>We're Heading Into Our Holiday Wish Drive</h4>
                 <p>As we wrap up our Back to School Drive, we’re heading right into our Holiday Wish Drive where you could help fulfill the unique holiday wish of an underserved child with a donation. Your company or organization can lead a drive or you can join our community of Elves. &hellip; <a href="">more &raquo;</a></p>
             </div>
             <div class="four columns">

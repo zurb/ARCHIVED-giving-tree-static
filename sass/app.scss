@@ -74,44 +74,44 @@
 
 @font-face {
     font-family: 'Museo700Regular';
-    src: url('../fonts/museo/Museo700-Regular-webfont.eot');
-    src: url('../fonts/museo/Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/museo/Museo700-Regular-webfont.woff') format('woff'),
-         url('../fonts/museo/Museo700-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/museo/Museo700-Regular-webfont.svg#Museo700Regular') format('svg');
+    src: font-url('museo/Museo700-Regular-webfont.eot');
+    src: font-url('museo/Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('museo/Museo700-Regular-webfont.woff') format('woff'),
+         font-url('museo/Museo700-Regular-webfont.ttf') format('truetype'),
+         font-url('museo/Museo700-Regular-webfont.svg#Museo700Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'Museo500Regular';
-    src: url('../fonts/museo/Museo500-Regular-webfont.eot');
-    src: url('../fonts/museo/Museo500-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/museo/Museo500-Regular-webfont.woff') format('woff'),
-         url('../fonts/museo/Museo500-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/museo/Museo500-Regular-webfont.svg#Museo500Regular') format('svg');
+    src: font-url('museo/Museo500-Regular-webfont.eot');
+    src: font-url('museo/Museo500-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('museo/Museo500-Regular-webfont.woff') format('woff'),
+         font-url('museo/Museo500-Regular-webfont.ttf') format('truetype'),
+         font-url('museo/Museo500-Regular-webfont.svg#Museo500Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'Museo300Regular';
-    src: url('../fonts/museo/Museo300-Regular-webfont.eot');
-    src: url('../fonts/museo/Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/museo/Museo300-Regular-webfont.woff') format('woff'),
-         url('../fonts/museo/Museo300-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/museo/Museo300-Regular-webfont.svg#Museo300Regular') format('svg');
+    src: font-url('museo/Museo300-Regular-webfont.eot');
+    src: font-url('museo/Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('museo/Museo300-Regular-webfont.woff') format('woff'),
+         font-url('museo/Museo300-Regular-webfont.ttf') format('truetype'),
+         font-url('museo/Museo300-Regular-webfont.svg#Museo300Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'HandOfSeanRegular';
-    src: url('../fonts/hand/hand_of_sean_regular-webfont.eot');
-    src: url('../fonts/hand/hand_of_sean_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/hand/hand_of_sean_regular-webfont.woff') format('woff'),
-         url('../fonts/hand/hand_of_sean_regular-webfont.ttf') format('truetype'),
-         url('../fonts/hand/hand_of_sean_regular-webfont.svg#HandOfSeanRegular') format('svg');
+    src: font-url('hand/hand_of_sean_regular-webfont.eot');
+    src: font-url('hand/hand_of_sean_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('hand/hand_of_sean_regular-webfont.woff') format('woff'),
+         font-url('hand/hand_of_sean_regular-webfont.ttf') format('truetype'),
+         font-url('hand/hand_of_sean_regular-webfont.svg#HandOfSeanRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -140,7 +140,7 @@
 
 /*Hompepage*/
 .featured { position: relative; margin-bottom: 20px; }
-.featured ul { position: absolute; top: 340px; left: 280px; z-index: 1000; }
+.featured ul { position: absolute; top: 340px; left: 254px; z-index: 1000; }
 .featured .orbit-wrapper .content { position: absolute; top: 50px; left: 80px; width: 425px }
 .featured .timer { display: none }
 #featured { background: #f4f4f4; height: 364px; margin-bottom: 20px; }
@@ -187,7 +187,7 @@ footer {
     }
 }
 header {
-    background: url(../images/puple-bg.png);
+    background: image-url("puple-bg.png");
 }
 .footer-columns {
     background: url(../images/footer-bg.png) repeat-x;
