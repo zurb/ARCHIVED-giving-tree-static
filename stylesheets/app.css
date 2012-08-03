@@ -4337,9 +4337,9 @@ p.vevent abbr {
 /* line 76, ../sass/app.scss */
 .featured .orbit-wrapper .content {
   position: absolute;
-  top: 80px;
+  top: 50px;
   left: 80px;
-  width: 200px;
+  width: 425px;
 }
 
 /* line 77, ../sass/app.scss */
@@ -4412,36 +4412,63 @@ footer {
 }
 
 /* line 118, ../sass/app.scss */
+.side-nav {
+  background: white;
+}
+
+/* line 121, ../sass/app.scss */
 .right {
   float: right;
 }
 
-/* line 121, ../sass/app.scss */
+/* line 124, ../sass/app.scss */
 .left {
   float: left;
 }
 
-/* line 125, ../sass/app.scss */
+/* line 128, ../sass/app.scss */
 .next-season {
   display: none;
 }
 
 /* Progress Bar */
-/* line 130, ../sass/app.scss */
+/* line 133, ../sass/app.scss */
 .progress-bar {
   width: 100%;
   height: 30px;
   border: solid 1px #888;
 }
-/* line 134, ../sass/app.scss */
+/* line 137, ../sass/app.scss */
 .progress-bar .progress-status {
   width: 40%;
   height: 100%;
   background: #ddd;
 }
 
-/* line 140, ../sass/app.scss */
+/* line 143, ../sass/app.scss */
 .sticky {
   position: fixed;
   top: 10px;
+}
+
+/*Holiday Slider*/
+/* line 146, ../sass/app.scss */
+#holidaySlider {
+  height: auto;
+}
+
+/* line 149, ../sass/app.scss */
+img.right {
+  width: 200px;
+  margin-left: 30px;
+}
+
+/* line 153, ../sass/app.scss */
+#holidaySlider .columns {
+  background: white;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  padding: 15px !important;
+  border: 1px solid #ddd;
+  margin-left: 50px;
 }
