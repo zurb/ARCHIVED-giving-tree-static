@@ -4,14 +4,14 @@
 ?>
 <?php include("includes/_header.php"); ?>
 
-<div class="row featured hide-for-small">
+<div class="row featured">
     <div class="twelve columns">
         <div class="orbit-wrapper" id="featured">
             <div>
                 <div class="content">
                     <h1>You Can Help Our Millionth Child</h1>
                     <p class="lead">This year, we’ll reach our goal of helping one million children locally. You could be the person who fulfils the unique holiday wish of our millionth child.</p>
-                    <a href="who-we-help.php" class="button radius">Donate Today &raquo;</a>
+                    <a href="who-we-help.php" class="button banner purple">Donate Today &raquo;</a>
                 </div>
                 <img src="http://placehold.it/2000x800">
             </div>
@@ -19,7 +19,7 @@
                 <div class="content">
                     <h1>Plant a Seed </h1>
                     <p>Putting a smile on a kid’s face doesn’t just happen. It takes the kindness of those who become part of our community of Elves. People plant seeds by donating their time, a backpack or even a few dollars to fulfill the needs of children in low-income communities.</p>
-                    <a href="donate.php" class="button radius">Donate Today &raquo;</a>
+                    <a href="donate.php" class="button banner purple">Donate Today &raquo;</a>
                 </div>
                 <img src="http://placehold.it/2000x800">
             </div>
@@ -27,7 +27,7 @@
                 <div class="content">
                     <h1>Lead a Holiday Wish Drive</h1>
                     <p>As the holidays get closer, your company or organization can help lead a drive by displaying wish cards for fellow workers, customers, members or friends. </p>
-                    <a href="lead-a-drive.php" class="button radius">Lead a Drive &raquo;</a>
+                    <a href="lead-a-drive.php" class="button banner purple">Lead a Drive &raquo;</a>
                 </div>
                 <img src="http://placehold.it/2000x800">
             </div>
@@ -35,13 +35,17 @@
                 <div class="content">
                     <h1>Volunteer for Your Community</h1>
                     <p>Our roots in the communities we serve go deep thanks to our volunteers. Without them, we wouldn’t be able to put smiles on the faces of the kids we help. </p>
-                    <a href="volunteer.php" class="button radius">Volunteer &raquo;</a>
+                    <a href="volunteer.php" class="button banner purple">Volunteer &raquo;</a>
                 </div>
                 <img src="http://placehold.it/2000x800">
             </div>
         </div>
     </div>
 </div>
+
+<div class="full rule">
+</div>
+
 <div class="full">
     <div class="row stats">
         <div class="four columns">
@@ -86,18 +90,18 @@
         <h2>News</h2>
         <div class="row">
             <div class="four columns">
-                <h3>We're Heading Into Our Holiday Wish Drive</h3>
+                <h4>We're Heading Into Our Holiday Wish Drive</h4>
                 <p>As we wrap up our Back to School Drive, we’re heading right into our Holiday Wish Drive where you could help fulfill the unique holiday wish of an underserved child with a donation. Your company or organization can lead a drive or you can join our community of Elves. &hellip; <a href="">more &raquo;</a></p>
             </div>
             <div class="four columns">
-                <h3>FGT on eBay</h3>
+                <h4>FGT on eBay</h4>
                 <p>Looking for another way to support the Family Giving Tree?
                     Check out eBay&#8217;s Facebook page to see how you can help
                     without spending a penny. Simply complete the form and eBay will
                     donate a supply-filled&hellip; <a href="">more &raquo;</a></p>
             </div>
             <div class="four columns">
-                <h3>ZurbWIRED</h3>
+                <h4>ZurbWIRED</h4>
                 <p>After three attempts to submit a winning application to the zany
                     folks at ZURB, and among so many excellent proposals from local
                     nonprofits at that, we&#8217;ve finally been chosen as this year&#8217;s&hellip;
