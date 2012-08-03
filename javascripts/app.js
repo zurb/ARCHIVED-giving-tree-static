@@ -25,6 +25,7 @@
   });
   
   
+  
   $("[data-sticky]").each(function(idx,el){
     $(el).data("offset-top", $(el).offset().top);
   });
@@ -42,5 +43,10 @@
   };
   
   $(window).scroll(updateStickyNav);
-  
+  $('#holidaySlider').orbit({
+    directionalNav: true,
+    timer:false,
+    fluid: true
+    
+  });
 })(jQuery);

@@ -9,7 +9,7 @@
     <div class="row">
         <div class="seven columns">
             <h1>Help Holidays Shine Brighter</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus lacus, cursus sed placerat quis, scelerisque id erat. Praesent at sapien eu ligula dignissim varius.</p>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus lacus, cursus sed placerat quis, scelerisque id erat. Praesent at sapien eu ligula dignissim varius.</p>
             <a href="#" class="large primary button" data-reveal-id="register">Register &raquo;</a>
         </div>
         <div class="five columns">

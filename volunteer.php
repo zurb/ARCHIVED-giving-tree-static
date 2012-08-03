@@ -12,7 +12,7 @@
 </div>
 <div class="row">
   <div class="three column">
-    <ul class="side-nav">
+    <ul class="side-nav" data-sticky>
       <li><a href="#joinus">Join Us</a></li>
       <li><a href="#angelelf">Angel Elf</a></li>
       <li><a href="#warehouse">The Warehouse</a></li>
