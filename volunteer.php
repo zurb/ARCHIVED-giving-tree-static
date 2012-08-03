@@ -626,18 +626,18 @@ function registerSelect(){
     $('#registerlink').hide();
     var taskId = $(this).val();
     var desc = $(this).find('option:selected').text();
-	if(taskId!==''){
+  if(taskId!==''){
       $('#registerlink').show();
       $('#warehouseform').append('<input type="hidden" name="TaskId" value="'+taskId+'">');
       $('#daytask').text(desc);
-	}
+  }
   });
 }
 <!--Image popup-->
 function imagePopup(){
-	$('.imgthumb').click(function(){
-		$('#largeimage').attr('src',$(this).attr('src'));
-	});
+  $('.imgthumb').click(function(){
+    $('#largeimage').attr('src',$(this).attr('src'));
+  });
 }
 <!--FOR THE READ MORE TOGGLE-->
 function readMoreToggle(){
