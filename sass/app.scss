@@ -74,7 +74,7 @@
 .featured { position: relative; margin-bottom: 20px; }
 .featured ul { position: absolute; bottom: 0; left: 280px; z-index: 1000; }
 .featured .orbit-wrapper .content { position: absolute; top: 80px; left: 80px; width: 200px }
-#featured { background: url(spinner.gif) center center #f4f4f4; height: 300px; }
+#featured { background: image-url("spinner.gif") center center #f4f4f4; height: 300px; }
 #featured div { display: none; }
 #featured.orbit { background: none; }
 #featured.orbit div { display: block; }
