@@ -171,14 +171,37 @@
 header,
 footer {
     background:#fafafa;
+    ul.link-list {
+        margin-bottom:0;
+    }
+    dt {
+        font-weight: bold;
+    }
+    label {
+        color: $white;
+    }
+}
+.footer-nav {
+    ul.link-list a, p {
+        color: $white;
+    }
 }
 header {
     background: url(../images/puple-bg.png);
 }
-h1, h2, h3 {
+.footer-columns {
+    background: url(../images/footer-bg.png) repeat-x;
+}
+.footer-nav {
+    background: #523219;
+}
+footer {
+    color: $white;
+}
+h1, h2, h3, {
     font-family: 'Museo300Regular';
 }
-h4, h5, h6 {
+.handwritten {
     font-family: 'HandOfSeanRegular';
 }
 .side-nav a {
