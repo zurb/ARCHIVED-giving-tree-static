@@ -2850,14 +2850,14 @@ div.orbit-wrapper div.slider-nav span {
 
 /* line 134, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.0.7/stylesheets/foundation/components/modules/_orbit.scss */
 div.orbit-wrapper div.slider-nav span.right {
-  background: url('../images/foundation/orbit/right-arrow.png?1343945003');
+  background: url('../images/foundation/orbit/right-arrow.png?1343980081');
   background-size: 100%;
   right: 0;
 }
 
 /* line 139, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.0.7/stylesheets/foundation/components/modules/_orbit.scss */
 div.orbit-wrapper div.slider-nav span.left {
-  background: url('../images/foundation/orbit/left-arrow.png?1343945003');
+  background: url('../images/foundation/orbit/left-arrow.png?1343980081');
   background-size: 100%;
   left: 0;
 }
@@ -4379,17 +4379,10 @@ p.vevent abbr {
 .featured {
   position: relative;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 /* line 143, ../sass/app.scss */
-.featured ul {
-  position: absolute;
-  top: 340px;
-  left: 254px;
-  z-index: 1000;
-}
-
-/* line 144, ../sass/app.scss */
 .featured .orbit-wrapper .content {
   position: absolute;
   top: 50px;
@@ -4397,153 +4390,236 @@ p.vevent abbr {
   width: 425px;
 }
 
-/* line 145, ../sass/app.scss */
+/* line 144, ../sass/app.scss */
 .featured .timer {
   display: none;
 }
 
-/* line 146, ../sass/app.scss */
-#featured {
-  background: #f4f4f4;
-  height: 460px;
-  width: 100%;
-  margin-bottom: 20px;
+/* line 145, ../sass/app.scss */
+.featured > .twelve {
+  padding: 0;
 }
 
 /* line 147, ../sass/app.scss */
-#featured div {
-  display: none;
-}
-
-/* line 148, ../sass/app.scss */
-#featured.orbit {
-  background: none;
-  height: 460px;
-}
-
-/* line 149, ../sass/app.scss */
-#featured.orbit div {
-  display: block;
-}
-
-/*Lead a Drive*/
-/* line 152, ../sass/app.scss */
 .featured h1 {
   color: #8c316d;
+  font-size: 42px;
+}
+/* line 148, ../sass/app.scss */
+.featured p.lead {
+  font-size: 15px;
+}
+
+/* line 150, ../sass/app.scss */
+ul.orbit-bullets {
+  bottom: 20px;
+}
+
+/* line 151, ../sass/app.scss */
+.stats {
+  text-align: center;
 }
 
 /* line 153, ../sass/app.scss */
+.orange {
+  color: #f7bd5b;
+}
+
+/* line 154, ../sass/app.scss */
+.green {
+  color: #bac464;
+}
+
+/* line 155, ../sass/app.scss */
+.pink {
+  color: #d57a72;
+}
+
+/*Global*/
+/* line 158, ../sass/app.scss */
+h1 {
+  color: #8c316d;
+}
+
+/* line 159, ../sass/app.scss */
+h2 {
+  color: #555555;
+  font-size: 27px;
+  font-size: 2.7rem;
+}
+
+/*Lead a Drive*/
+/* line 162, ../sass/app.scss */
 .featured p {
   font-size: 18px;
 }
 
-/* line 154, ../sass/app.scss */
+/* line 163, ../sass/app.scss */
 .feature_wrapper {
   background-color: #e0f0b2;
 }
 
-/* line 155, ../sass/app.scss */
-h2 {
-  color: #555555;
-}
-
 /*Events*/
-/* line 158, ../sass/app.scss */
+/* line 166, ../sass/app.scss */
 .date {
   border: 1px solid #8c316d;
 }
-/* line 160, ../sass/app.scss */
+/* line 168, ../sass/app.scss */
 .date li {
   list-style: none;
   text-align: center;
 }
-/* line 164, ../sass/app.scss */
+/* line 172, ../sass/app.scss */
 .date .month {
   background: #8c316d;
   text-transform: uppercase;
   color: #fff;
   font-size: 10px;
 }
-/* line 170, ../sass/app.scss */
+/* line 178, ../sass/app.scss */
 .date .day {
   font-size: 27px;
   color: #8c316d;
 }
 
-/*General Styles*/
-/* line 178, ../sass/app.scss */
-header,
-footer {
-  background: #fafafa;
+/* line 184, ../sass/app.scss */
+.upcoming-events a {
+  font-weight: bold;
 }
-/* line 180, ../sass/app.scss */
+/* line 187, ../sass/app.scss */
+.upcoming-events p {
+  font-size: 14px;
+}
+
+/*General Styles*/
+/* line 194, ../sass/app.scss */
 header ul.link-list,
 footer ul.link-list {
   margin-bottom: 0;
 }
-/* line 183, ../sass/app.scss */
+/* line 197, ../sass/app.scss */
 header dt,
 footer dt {
   font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 15px;
 }
-/* line 186, ../sass/app.scss */
+/* line 202, ../sass/app.scss */
+header dd,
+footer dd {
+  line-height: 21px;
+}
+/* line 205, ../sass/app.scss */
 header label,
 footer label {
   color: white;
 }
-
-/* line 191, ../sass/app.scss */
-.footer-nav ul.link-list a, .footer-nav p {
-  color: white;
+/* line 208, ../sass/app.scss */
+header ul li,
+footer ul li {
+  list-style: none;
+}
+/* line 211, ../sass/app.scss */
+header .row,
+footer .row {
+  overflow: visible;
 }
 
-/* line 195, ../sass/app.scss */
+/* line 216, ../sass/app.scss */
+.footer-nav ul.link-list a, .footer-nav p {
+  color: #E2D8D0;
+}
+
+/* line 220, ../sass/app.scss */
 header {
   background: url('../images/puple-bg.png?1343973136');
+  height: 90px;
+  overflow: visible;
+}
+/* line 225, ../sass/app.scss */
+header .link-list a {
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+/* line 231, ../sass/app.scss */
+header img {
+  position: absolute;
+  top: -60px;
+  z-index: 10;
 }
 
-/* line 198, ../sass/app.scss */
+/* line 237, ../sass/app.scss */
 .footer-columns {
-  background: url(../images/footer-bg.png) repeat-x;
+  background: url('../images/footer-bg.png?1343975687') repeat-x;
+}
+/* line 239, ../sass/app.scss */
+.footer-columns .elf img {
+  margin-top: -80px;
 }
 
-/* line 201, ../sass/app.scss */
+/* line 243, ../sass/app.scss */
 .footer-nav {
   background: #523219;
 }
+/* line 245, ../sass/app.scss */
+.footer-nav .link-list a {
+  font-size: 15px;
+}
 
-/* line 204, ../sass/app.scss */
+/* line 249, ../sass/app.scss */
 footer {
+  color: #E2D8D0;
+}
+/* line 251, ../sass/app.scss */
+footer h5 {
+  margin-top: 25px;
+}
+/* line 253, ../sass/app.scss */
+footer h5 a {
+  color: #E2D8D0;
+}
+/* line 255, ../sass/app.scss */
+footer h5 a:hover {
   color: white;
 }
 
-/* line 207, ../sass/app.scss */
+/* line 261, ../sass/app.scss */
 h1, h2, h3 {
   font-family: 'Museo300Regular';
+  font-weight: normal;
 }
 
-/* line 210, ../sass/app.scss */
+/* line 265, ../sass/app.scss */
 .handwritten {
   font-family: 'HandOfSeanRegular';
+  font-weight: normal;
 }
 
-/* line 213, ../sass/app.scss */
+/* line 269, ../sass/app.scss */
 .side-nav a {
   color: #d57a72;
   font-weight: bold;
 }
 
-/* line 217, ../sass/app.scss */
+/* line 273, ../sass/app.scss */
 .glyph {
   font-family: 'FoundationIconsGeneral';
 }
-/* line 219, ../sass/app.scss */
+/* line 275, ../sass/app.scss */
 .glyph.social {
   font-family: 'FoundationIconsSocial';
   font-size: 24px;
 }
+/* line 278, ../sass/app.scss */
+.glyph.social li a {
+  border-radius: 20px;
+  color: #8c316d;
+  background: white;
+  width: 30px;
+}
 
-/* line 224, ../sass/app.scss */
+/* line 286, ../sass/app.scss */
 .reveal-modal .row {
   width: auto !important;
   max-width: 106% !important;
@@ -4551,59 +4627,59 @@ h1, h2, h3 {
   margin-right: -15px;
 }
 
-/* line 230, ../sass/app.scss */
+/* line 292, ../sass/app.scss */
 .side-nav {
   background: white;
 }
 
-/* line 233, ../sass/app.scss */
+/* line 295, ../sass/app.scss */
 .right {
   float: right;
 }
 
-/* line 236, ../sass/app.scss */
+/* line 298, ../sass/app.scss */
 .left {
   float: left;
 }
 
-/* line 240, ../sass/app.scss */
+/* line 302, ../sass/app.scss */
 .next-season {
   display: none;
 }
 
 /* Progress Bar */
-/* line 245, ../sass/app.scss */
+/* line 307, ../sass/app.scss */
 .progress-bar {
   width: 100%;
   height: 30px;
   border: solid 1px #888;
 }
-/* line 249, ../sass/app.scss */
+/* line 311, ../sass/app.scss */
 .progress-bar .progress-status {
   width: 40%;
   height: 100%;
   background: #ddd;
 }
 
-/* line 255, ../sass/app.scss */
+/* line 317, ../sass/app.scss */
 .sticky {
   position: fixed;
   top: 10px;
 }
 
 /*Holiday Slider*/
-/* line 258, ../sass/app.scss */
+/* line 320, ../sass/app.scss */
 #holidaySlider {
   min-height: 450px !important;
 }
 
-/* line 261, ../sass/app.scss */
+/* line 323, ../sass/app.scss */
 img.right {
   width: 200px;
   margin-left: 30px;
 }
 
-/* line 265, ../sass/app.scss */
+/* line 327, ../sass/app.scss */
 #holidaySlider .columns {
   background: white;
   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
