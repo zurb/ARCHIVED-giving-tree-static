@@ -1,6 +1,6 @@
 <?
   $page_title = "Volunteer or Host";
-    $page_template = "main";  ?>
+    $page_template = "volunteer";  ?>
 <?php include("includes/_header.php"); ?>
 
 <!-- WHO-WE-HELP-PAGE CONTENT -->

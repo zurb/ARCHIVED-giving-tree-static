@@ -2,7 +2,7 @@
     <div class="footer-columns">
         <div class="row">
             <div class="eight columns">
-                <h5><a href="index.php">Family Giving Tree  <span class="handwritten">fulfilling children’s wishes</span></a></h5>
+                <h5><a href="index.php">Family Giving Tree  &nbsp;&nbsp;&nbsp;<span class="handwritten">fulfilling children’s wishes</span></a></h5>
             </div>
         </div>
         <div class="row">
@@ -80,7 +80,6 @@
 <script src="javascripts/jquery.min.js"></script>
 <script src="javascripts/foundation.min.js"></script>
 <script src="javascripts/spin.min.js"></script>
-<script src="javascripts/jquery.raptorize.js"></script>
 
 <!-- Application Javascript, safe to override -->
 <script src="javascripts/app.js"></script>

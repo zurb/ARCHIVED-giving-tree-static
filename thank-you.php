@@ -8,11 +8,17 @@
 <!-- SPONSORPAGE CONTENT -->
 <div id="mainContent">
   
-  <div class="row">
-    <div class="twelve columns">
-      <img src="http://www.placehold.it/1000x300">
+  <div class="feature_wrapper">
+      <div class="row">
+        <div class="nine columns">
+         <h1>From Everybody Here at Family Giving Tree.. Thank You!</h1>
+                  
+        </div>
+        <div class="three columns">
+          <img src="images/people/c-photo8.png">
+        </div>
+      </div>
     </div>
-  </div>
   
   <div class="row">
     <div class="twelve columns">
@@ -25,9 +31,8 @@
       <? if (isset($logo)): ?>
       <img src="<?= $logo ?>">
       <? endif; ?>
-      <h5>Your donation has been received</h5>
-
-      <p>Thank you for helping a child get the school supplies to succeed!</p>
+      <h1>Your donation has been received</h1>
+      <h5>Thank you for helping a child get the school supplies to succeed!</h5>
       
       <ul class="block-grid three-up">
       <li><div class="fb-like" data-href="http://familygivingtree.org" data-send="false" data-width="450" data-show-faces="false" data-action="recommend"></div></li>
