@@ -76,15 +76,15 @@
           </select>
         </p>
         <ul id="tasklist">
-          <li class="january february may june august november december"><a href="#" data-reveal-id="volEmailModal">General Office Duties</a> &nbsp; <a href="#" data-reveal-id="task1Modal">?</a></li>
-          <li class="march april july september october december"><a href="#" data-reveal-id="volEmailModal">Back to School Drive Prep</a> &nbsp; <a href="#" data-reveal-id="task2Modal">?</a></li>
-          <li class="january march june july september november december"><a href="#" data-reveal-id="volEmailModal">Holiday Wish Drive Prep</a> &nbsp; <a href="#" data-reveal-id="task3Modal">?</a></li>
-          <li class="january february may june august november december"><a href="#" data-reveal-id="volEmailModal">Back to School Warehouse</a> &nbsp; <a href="#" data-reveal-id="task4Modal">?</a></li>
-          <li class="january february may june august november december"><a href="#" class="warehousetask">Holiday Wish Drive Warehouse</a> &nbsp; <a href="#" data-reveal-id="task5Modal">?</a></li>
+          <li class="january february march april may june july august september october november december"><a href="#" data-reveal-id="volEmailModal">General Office Duties</a> &nbsp; <a href="#" data-reveal-id="task1Modal">?</a></li>
+          <li class="may june"><a href="#" data-reveal-id="volEmailModal">Back to School Drive Prep</a> &nbsp; <a href="#" data-reveal-id="task2Modal">?</a></li>
+          <li class="september october november december"><a href="#" data-reveal-id="volEmailModal">Holiday Wish Drive Prep</a> &nbsp; <a href="#" data-reveal-id="task3Modal">?</a></li>
+          <li class="august"><a href="#" data-reveal-id="volEmailModal">Back to School Warehouse</a> &nbsp; <a href="#" data-reveal-id="task4Modal">?</a></li>
+          <li class="january december"><a href="#" class="warehousetask">Holiday Wish Drive Warehouse</a> &nbsp; <a href="#" data-reveal-id="task5Modal">?</a></li>
           
-          <li class="january february may june august november december"><a href="#" class="warehousetask">Holiday Wish Drive Warehouse</a> &nbsp; <a href="#" data-reveal-id="task5Modal">?</a></li>
-          <li class="january february may june august november december"><a href="#" class="warehousetask">Holiday Wish Drive Warehouse</a> &nbsp; <a href="#" data-reveal-id="task5Modal">?</a></li>
-          <li class="january february may june august november december"><a href="#" class="warehousetask">Holiday Wish Drive Warehouse</a> &nbsp; <a href="#" data-reveal-id="task5Modal">?</a></li>
+          <li class="august december"><a href="#" class="warehousetask">Donation Pick-ups</a> &nbsp; <a href="#" data-reveal-id="task6Modal">?</a></li>
+          <li class="february march april may june july september november"><a href="#" class="warehousetask">Agency Interviews</a> &nbsp; <a href="#" data-reveal-id="task7Modal">?</a></li>
+          <li class="october november"><a href="#" class="warehousetask">Wish Editing</a> &nbsp; <a href="#" data-reveal-id="task8Modal">?</a></li>
         </ul>
         <div id="warehousetaskform">
           <p>
@@ -307,11 +307,55 @@
 <div id="task6Modal" class="reveal-modal">
   <h2>Donation Pick-ups</h2>
   <p> Help bring backpacks or gifts from our public host companies to our warehouse for preparation and distribution.</p>
-  </div>
+  <a class="close-reveal-modal">&#215;</a> </div>
+<div id="task7Modal" class="reveal-modal">
+  <h2>Agency Interviews</h2>
+  <p> Make site visits to our agency partners in an effort to evaluate their needs and ensure we stay connected. </p>
+  <a class="close-reveal-modal">&#215;</a> </div>
+<div id="task8Modal" class="reveal-modal">
+  <h2>Wish Editing</h2>
+  <p> Help us sort through our database of wishes to ensure each child receives exactly what they want!</p>
+  <a class="close-reveal-modal">&#215;</a> </div>
+  
 <div id="volEmailModal" class="reveal-modal">
   <h2>Register to Volunteer</h2>
-  <p class="lead">Your couch. I it's mine.</p>
-  <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+  <p><label for="name">*Name</label>
+<input type="text" id="name">
+<label for="email">Email Address</label>
+<input type="text" id="email">
+
+<label for="phone">*Phone Number</label>
+<input type="text" id="phone">
+
+<label for="org">Company or School Name</label>
+<input type="text" id="org">
+
+<label for="under18">*Are you under 18?</label>   <label><input type="radio" name="under18" id="under18yes"> Yes</label>  <label><input type="radio" name="under18" id="under18no"> No</label>
+<label for="grade">If so, grade level</label>
+<input type="text" id="grade">
+
+<label for="weekday">*Availability (check all that apply)</label>
+Days  <label><input type="checkbox" name="weekday" id="weekdaym"> M</label>  <label><input type="checkbox" name="weekday" id="weekdaytu"> Tu</label>  <label><input type="checkbox" name="weekday" id="weekdayw"> W</label>  <label><input type="checkbox" name="weekday" id="weekdayth"> Th</label>  <label><input type="checkbox" name="weekday" id="weekdaym"> F</label>  <label><input type="checkbox" name="weekday" id="weekdaysat"> Sat</label>     <label><input type="checkbox" name="weekday" id="weekdaysun"> Sun</label> 
+<label for="time">Times</label>    <label><input type="checkbox" name="time" id="timemornings"> Mornings</label>      <label><input type="checkbox" name="time" id="timeafternoons"> Afternoons</label>    <label><input type="checkbox" name="time" id="timeevenings"> Evenings</label>    <label><input type="checkbox" name="time" id="timeanytime"> Anytime</label>
+
+<label for="purpose">*I am volunteering:</label>
+<label><input type="radio" name="purpose" id="purpose_school"> School requirement</label> (# of hours <input type="text" id="schoolhrs">)
+<label><input type="radio" name="purpose" id="purpose_company"> Company volunteer opportunity</label> (Matching program?    <label><input type="radio" name="matching" id="matchingyes"> Yes</label>  <label><input type="radio" name="matching" id="matchingno"> No</label>)
+<label><input type="radio" name="purpose" id="purpose_fun"> For fun</label>
+<label><input type="radio" name="purpose" id="purpose_court"> Court Order</label>
+<label><input type="radio" name="purpose" id="purpose_fun"> Other</label> <input type="text" id="purpose_other">
+
+
+<label for="skills">Special Skills (i.e. Computer systems, programs, programming, event coordination, etc.)</label>
+<textarea id="skills"></textarea>
+<label for="info">Any additional information?</label>
+<textarea id="info"></textarea>
+*Required Fields
+<!--Submit sends email to volunteer@familygivingtree.org-->
+<input type="submit" value="Submit" class="button"> 
+
+<!--Confirmation below-->
+<p style="display:none">Thank you for your interest in volunteering for  Family Giving Tree. You will be contacted when and if a volunteer match becomes available.</p>
   <a class="close-reveal-modal">&#215;</a> </div>
 <div id="shiftDetailsModal" class="reveal-modal">
   <h2>Shift Details</h2>
