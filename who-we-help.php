@@ -50,6 +50,8 @@
         
         <div class="row">
           <div class="twelve columns">
+            <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=201967506944688961163.0004c6570f45ceb532d3e&amp;hl=en&amp;ie=UTF8&amp;t=h&amp;ll=37.662081,-122.187195&amp;spn=0.869705,1.919861&amp;z=9&amp;output=embed"></iframe><br />
+            <p><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=201967506944688961163.0004c6570f45ceb532d3e&amp;hl=en&amp;ie=UTF8&amp;t=h&amp;ll=37.662081,-122.187195&amp;spn=0.869705,1.919861&amp;z=9&amp;source=embed" style="color:#0000FF;text-align:left">Family Giving Tree Agencies</a> in a larger map</small></p>
             <ul class="block-grid three-up">
               <li>Achieve Academy</li>
               <li>Adelante Dual Language Academy</li>
